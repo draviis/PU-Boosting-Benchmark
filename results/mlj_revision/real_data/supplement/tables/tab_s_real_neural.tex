@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\centering
+\caption{Matched neural-minus-linear real-data ranking differences, in percentage points. For each dataset, 20 paired split differences are averaged within each condition, then the four design-budget conditions are weighted equally. The final row weights the eight datasets equally.}
+\label{tab:s-real-neural}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrrr}
+\toprule
+\multicolumn{5}{l}{\textbf{uPU}}\\
+& \multicolumn{2}{c}{AUROC difference} & \multicolumn{2}{c}{AP difference}\\
+Dataset & Label-AUC & PU-risk & Label-AUC & PU-risk\\
+\midrule
+Credit Default & +0.956 & +0.212 & +0.781 & +0.092 \\
+Dry Bean & -0.388 & -0.313 & -1.095 & -0.912 \\
+HTRU2 & -0.638 & -1.699 & +0.089 & -1.610 \\
+Online Shoppers & +0.303 & +0.723 & +0.394 & +0.770 \\
+Optical Digits & +3.613 & +3.414 & +4.091 & +4.067 \\
+Phishing Websites & +0.801 & +2.197 & +0.573 & +1.930 \\
+Rice & -0.332 & -0.837 & -0.596 & -0.919 \\
+Spambase & +0.930 & +1.047 & +1.563 & +2.191 \\
+Equal-dataset mean & +0.656 & +0.593 & +0.725 & +0.701 \\
+\midrule
+\multicolumn{5}{l}{\textbf{nnPU}}\\
+& \multicolumn{2}{c}{AUROC difference} & \multicolumn{2}{c}{AP difference}\\
+Dataset & Label-AUC & PU-risk & Label-AUC & PU-risk\\
+\midrule
+Credit Default & +0.837 & +0.240 & +0.476 & +0.126 \\
+Dry Bean & -0.243 & -0.016 & -0.727 & -0.089 \\
+HTRU2 & -0.243 & -0.108 & +0.566 & +0.228 \\
+Online Shoppers & +0.600 & +0.840 & +0.602 & +0.832 \\
+Optical Digits & +3.970 & +2.697 & +4.672 & +3.316 \\
+Phishing Websites & +0.966 & +1.525 & +0.771 & +1.257 \\
+Rice & -0.122 & -0.143 & -0.399 & -0.271 \\
+Spambase & +0.552 & +1.604 & +1.003 & +2.488 \\
+Equal-dataset mean & +0.790 & +0.830 & +0.871 & +0.986 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Label-AUC selects on observed validation P/U labels, not hidden true Y. PU-risk selects on the empirical PU risk. These are matched extension linear baselines, not substitutions for the core catalog. Repeated splits overlap; no population-inference interval is shown. This is the preserved fixed-budget study: 522/5,120 selections reached 3,000 epochs, and the original numerical cap gate was not passed; execution/metric checks passed. No convergence claim is made.
+\end{minipage}
+\end{table*}

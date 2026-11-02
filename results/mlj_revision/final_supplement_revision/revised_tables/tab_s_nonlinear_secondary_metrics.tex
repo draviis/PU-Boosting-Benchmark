@@ -1,0 +1,250 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\caption{Secondary threshold-based performance in the nonlinear simulation extension. Values are means over 100 repetitions under the common same-model prevalence-quantile decision rule. Balanced accuracy, F1, and Matthews correlation coefficient (MCC) are secondary threshold-dependent measures. In the one-sample design the threshold is estimated from the full validation population; in the two-sample design it is estimated from validation U only. The selected training-sample model is used both to determine the validation threshold and to score the test sample.}\label{tab:s-nonlinear-secondary-metrics}\\
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Additive sinusoidal}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Additive sinusoidal}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.6147 & 0.3838 & 0.2297 & 100 \\
+nnPU logistic & 0.6150 & 0.3843 & 0.2303 & 100 \\
+Naive CatBoost & 0.6464 & 0.4345 & 0.2930 & 100 \\
+RN-CatBoost & 0.6287 & 0.4062 & 0.2575 & 100 \\
+CS-CatBoost & 0.6498 & 0.4401 & 0.3000 & 100 \\
+PU gradient boosting & 0.6454 & 0.4322 & 0.2882 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Radial / concentric}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Radial / concentric}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5289 & 0.2462 & 0.0579 & 100 \\
+nnPU logistic & 0.5291 & 0.2465 & 0.0583 & 100 \\
+Naive CatBoost & 0.7230 & 0.5568 & 0.4461 & 100 \\
+RN-CatBoost & 0.5015 & 0.2018 & 0.0029 & 100 \\
+CS-CatBoost & 0.7233 & 0.5573 & 0.4467 & 100 \\
+PU gradient boosting & 0.7066 & 0.5296 & 0.4093 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Pure XOR interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Pure XOR interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5174 & 0.2276 & 0.0348 & 100 \\
+nnPU logistic & 0.5173 & 0.2274 & 0.0346 & 100 \\
+Naive CatBoost & 0.7172 & 0.5474 & 0.4345 & 100 \\
+RN-CatBoost & 0.5361 & 0.2577 & 0.0722 & 100 \\
+CS-CatBoost & 0.7179 & 0.5486 & 0.4359 & 100 \\
+PU gradient boosting & 0.5698 & 0.3160 & 0.1376 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Threshold interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Threshold interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5008 & 0.2011 & 0.0017 & 100 \\
+nnPU logistic & 0.5008 & 0.2011 & 0.0016 & 100 \\
+Naive CatBoost & 0.5659 & 0.3049 & 0.1320 & 100 \\
+RN-CatBoost & 0.5026 & 0.2040 & 0.0052 & 100 \\
+CS-CatBoost & 0.5771 & 0.3230 & 0.1543 & 100 \\
+PU gradient boosting & 0.5003 & 0.2358 & 0.0005 & 100 \\
+\end{longtable}
+\clearpage
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Sinusoidal + 497 noise predictors ($p=500$)}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Sinusoidal + 497 noise predictors ($p=500$)}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5419 & 0.2674 & 0.0838 & 100 \\
+nnPU logistic & 0.5509 & 0.2816 & 0.1017 & 100 \\
+Naive CatBoost & 0.6257 & 0.4012 & 0.2516 & 100 \\
+RN-CatBoost & 0.6237 & 0.3979 & 0.2478 & 100 \\
+CS-CatBoost & 0.6260 & 0.4017 & 0.2521 & 100 \\
+PU gradient boosting & 0.6361 & 0.4135 & 0.2583 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Nonlinear heterogeneous covariance}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - Nonlinear heterogeneous covariance}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5086 & 0.2140 & 0.0172 & 100 \\
+nnPU logistic & 0.5084 & 0.2137 & 0.0167 & 100 \\
+Naive CatBoost & 0.6895 & 0.5030 & 0.3789 & 100 \\
+RN-CatBoost & 0.5172 & 0.2275 & 0.0345 & 100 \\
+CS-CatBoost & 0.6926 & 0.5079 & 0.3849 & 100 \\
+PU gradient boosting & 0.5559 & 0.2950 & 0.1093 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Additive sinusoidal}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Additive sinusoidal}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.6161 & 0.3853 & 0.2317 & 100 \\
+nnPU logistic & 0.6164 & 0.3858 & 0.2322 & 100 \\
+Naive CatBoost & 0.6461 & 0.4333 & 0.2917 & 100 \\
+RN-CatBoost & 0.6284 & 0.4051 & 0.2566 & 100 \\
+CS-CatBoost & 0.6493 & 0.4383 & 0.2980 & 100 \\
+PU gradient boosting & 0.6471 & 0.4341 & 0.2906 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Radial / concentric}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Radial / concentric}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5228 & 0.2364 & 0.0455 & 100 \\
+nnPU logistic & 0.5251 & 0.2401 & 0.0501 & 100 \\
+Naive CatBoost & 0.7231 & 0.5567 & 0.4453 & 100 \\
+RN-CatBoost & 0.5030 & 0.2051 & 0.0060 & 100 \\
+CS-CatBoost & 0.7230 & 0.5566 & 0.4453 & 100 \\
+PU gradient boosting & 0.7062 & 0.5319 & 0.4024 & 100 \\
+\end{longtable}
+\clearpage
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Pure XOR interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Pure XOR interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5175 & 0.2276 & 0.0349 & 100 \\
+nnPU logistic & 0.5192 & 0.2304 & 0.0384 & 100 \\
+Naive CatBoost & 0.7148 & 0.5431 & 0.4290 & 100 \\
+RN-CatBoost & 0.5349 & 0.2557 & 0.0697 & 100 \\
+CS-CatBoost & 0.7154 & 0.5441 & 0.4302 & 100 \\
+PU gradient boosting & 0.5628 & 0.3080 & 0.1243 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Threshold interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Threshold interaction}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5014 & 0.2025 & 0.0027 & 100 \\
+nnPU logistic & 0.5014 & 0.2026 & 0.0027 & 100 \\
+Naive CatBoost & 0.5597 & 0.2961 & 0.1191 & 100 \\
+RN-CatBoost & 0.5021 & 0.2041 & 0.0041 & 100 \\
+CS-CatBoost & 0.5710 & 0.3140 & 0.1417 & 100 \\
+PU gradient boosting & 0.5010 & 0.2313 & 0.0021 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Sinusoidal + 497 noise predictors ($p=500$)}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Sinusoidal + 497 noise predictors ($p=500$)}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5407 & 0.2650 & 0.0812 & 100 \\
+nnPU logistic & 0.5472 & 0.2755 & 0.0942 & 100 \\
+Naive CatBoost & 0.6222 & 0.3952 & 0.2439 & 100 \\
+RN-CatBoost & 0.6199 & 0.3915 & 0.2389 & 100 \\
+CS-CatBoost & 0.6226 & 0.3958 & 0.2444 & 100 \\
+PU gradient boosting & 0.6366 & 0.4141 & 0.2586 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Nonlinear heterogeneous covariance}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - Nonlinear heterogeneous covariance}}\\
+Method & Balanced accuracy & F1 & MCC & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.5060 & 0.2091 & 0.0121 & 100 \\
+nnPU logistic & 0.5067 & 0.2104 & 0.0135 & 100 \\
+Naive CatBoost & 0.6806 & 0.4892 & 0.3617 & 100 \\
+RN-CatBoost & 0.5193 & 0.2313 & 0.0387 & 100 \\
+CS-CatBoost & 0.6846 & 0.4956 & 0.3699 & 100 \\
+PU gradient boosting & 0.5524 & 0.2908 & 0.1026 & 100 \\
+\end{longtable}
+\noindent\textit{Note.} The six methods are prespecified fixed representatives. Corrected methods use raw source-membership scores. No numerical threshold is transferred to a refitted model. All 7,200 displayed method/repetition records are available; unavailable RN final refits do not affect these selected-model hard metrics.
+\par\endgroup

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "datasets": 8,
+  "conditions": 32,
+  "cases": 640,
+  "method_rows": 17280,
+  "ranking_missing": 0,
+  "alias_pairs": 3200,
+  "secondary_verified": 802,
+  "secondary_expected": 16000,
+  "neural_rows": 5120,
+  "rn_cases": 640,
+  "no_model_fits": true
+}

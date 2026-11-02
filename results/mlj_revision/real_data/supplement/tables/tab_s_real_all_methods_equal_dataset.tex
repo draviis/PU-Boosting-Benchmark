@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\centering
+\caption{All 25 PU configurations: equal-dataset mean ranking performance. Repetitions are averaged within each condition, the two budgets are averaged within each dataset, and the eight datasets are weighted equally.}
+\label{tab:s-real-all-methods-equal-dataset}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrrr}
+\toprule
+Method & AUROC OS & AUROC TS & AP OS & AP TS \\
+\midrule
+Logistic probability correction & 0.8843 & 0.8840 & 0.7801 & 0.7803 \\
+uPU logistic & 0.8804 & 0.8787 & 0.7804 & 0.7788 \\
+nnPU logistic & 0.8885 & 0.8869 & 0.7884 & 0.7864 \\
+Naive AdaBoost & 0.8955 & 0.8960 & 0.7816 & 0.7823 \\
+Naive GBM & 0.8924 & 0.8919 & 0.7758 & 0.7729 \\
+Naive XGBoost & 0.9013 & 0.9020 & 0.7907 & 0.7903 \\
+Naive LightGBM & 0.8925 & 0.8911 & 0.7746 & 0.7681 \\
+Naive CatBoost & 0.9072 & 0.9071 & 0.8023 & 0.8018 \\
+Corrected AdaBoost & 0.8955 & 0.8960 & 0.7816 & 0.7823 \\
+Corrected GBM & 0.8924 & 0.8919 & 0.7758 & 0.7729 \\
+Corrected XGBoost & 0.9013 & 0.9020 & 0.7907 & 0.7903 \\
+Corrected LightGBM & 0.8925 & 0.8911 & 0.7746 & 0.7681 \\
+Corrected CatBoost & 0.9072 & 0.9071 & 0.8023 & 0.8018 \\
+RN AdaBoost & 0.8985 & 0.8996 & 0.7937 & 0.7939 \\
+RN GBM & 0.8977 & 0.8974 & 0.7907 & 0.7895 \\
+RN XGBoost & 0.9018 & 0.9021 & 0.7998 & 0.7987 \\
+RN LightGBM & 0.8951 & 0.8954 & 0.7871 & 0.7880 \\
+RN CatBoost & 0.9047 & 0.9047 & 0.8057 & 0.8060 \\
+CS AdaBoost & 0.8963 & 0.8970 & 0.7835 & 0.7840 \\
+CS GBM & 0.8922 & 0.8927 & 0.7783 & 0.7765 \\
+CS XGBoost & 0.9017 & 0.9029 & 0.7919 & 0.7921 \\
+CS LightGBM & 0.8929 & 0.8914 & 0.7778 & 0.7724 \\
+CS CatBoost & 0.9029 & 0.9041 & 0.7953 & 0.7972 \\
+AdaPU & 0.8892 & 0.8921 & 0.7906 & 0.7934 \\
+PU gradient boosting & 0.8669 & 0.8834 & 0.7509 & 0.7700 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Naive/corrected same-engine ranking aliases are retained as separate original configurations for audit; their differences are at machine precision and do not represent independent evidence. No method average or group envelope is computed. Supervised references are excluded and supplied separately.
+\end{minipage}
+\end{table*}

@@ -1,0 +1,9 @@
+method,old_at_cap,at_cap
+linear_nnpu_auc,101,37
+linear_nnpu_risk,100,99
+linear_upu_auc,101,37
+linear_upu_risk,100,99
+mlp_nnpu_auc,28,11
+mlp_nnpu_risk,37,12
+mlp_upu_auc,33,12
+mlp_upu_risk,37,12

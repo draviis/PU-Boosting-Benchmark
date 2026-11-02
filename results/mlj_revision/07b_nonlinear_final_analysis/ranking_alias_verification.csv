@@ -1,0 +1,921 @@
+task,design,scenario_id,engine,metric,naive_id,corrected_id,paired_repetitions,exact_metric_matches,max_abs_metric_difference,within_roundoff,raw_score_hash_identity_verified,collapsed_in_rank_catalog,verification
+Task7,one_sample,NL01,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL01,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL02,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL03,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL04,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL05,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,one_sample,NL06,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL01,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL02,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL03,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL04,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL05,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,AdaBoost,AUROC,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,AdaBoost,AP,M006,M011,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,GBM,AUROC,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,GBM,AP,M007,M012,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,XGBoost,AUROC,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,XGBoost,AP,M008,M013,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,LightGBM,AUROC,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,LightGBM,AP,M009,M014,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,CatBoost,AUROC,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task7,two_sample,NL06,CatBoost,AP,M010,M015,100,100,0,true,true,true,All four saved score hashes identical; exact repetition metrics
+Task2,one_sample,S001,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S001,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S002,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S003,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S004,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S005,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S006,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S007,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S008,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S009,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S010,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S011,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S012,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S013,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S014,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S015,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S016,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S017,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S018,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S019,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S020,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S021,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S022,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S023,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S024,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S025,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S026,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S027,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S028,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S029,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S030,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S031,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S032,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S033,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S034,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S035,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S036,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S037,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S038,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S039,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,AdaBoost,AP,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,GBM,AP,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,XGBoost,AP,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,LightGBM,AP,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,CatBoost,AP,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,AdaBoost,AUROC,M006,M011,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,GBM,AUROC,M007,M012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,XGBoost,AUROC,M008,M013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,LightGBM,AUROC,M009,M014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,one_sample,S040,CatBoost,AUROC,M010,M015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,AdaBoost,AP,TM006,TM011,100,48,1.3332536574761633e-7,false,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,GBM,AP,TM007,TM012,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,XGBoost,AP,TM008,TM013,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,LightGBM,AP,TM009,TM014,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,CatBoost,AP,TM010,TM015,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,AdaBoost,AUROC,TM006,TM011,100,99,4.2704685387917607e-7,false,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS001,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,AdaBoost,AP,TM006,TM011,100,8,9.71445146547012e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,GBM,AP,TM007,TM012,100,7,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,XGBoost,AP,TM008,TM013,100,6,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,LightGBM,AP,TM009,TM014,100,5,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,CatBoost,AP,TM010,TM015,100,4,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS002,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,AdaBoost,AP,TM006,TM011,100,22,8.326672684688674e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,GBM,AP,TM007,TM012,100,23,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,XGBoost,AP,TM008,TM013,100,25,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,LightGBM,AP,TM009,TM014,100,21,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,CatBoost,AP,TM010,TM015,100,18,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS003,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,AdaBoost,AP,TM006,TM011,100,27,8.326672684688674e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,GBM,AP,TM007,TM012,100,29,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,XGBoost,AP,TM008,TM013,100,36,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,LightGBM,AP,TM009,TM014,100,24,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,CatBoost,AP,TM010,TM015,100,42,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS004,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,GBM,AP,TM007,TM012,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,XGBoost,AP,TM008,TM013,100,62,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,LightGBM,AP,TM009,TM014,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,CatBoost,AP,TM010,TM015,100,43,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS005,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,AdaBoost,AP,TM006,TM011,100,60,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,GBM,AP,TM007,TM012,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,XGBoost,AP,TM008,TM013,100,48,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,LightGBM,AP,TM009,TM014,100,63,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,CatBoost,AP,TM010,TM015,100,49,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS006,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,AdaBoost,AP,TM006,TM011,100,93,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,GBM,AP,TM007,TM012,100,90,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,XGBoost,AP,TM008,TM013,100,97,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,LightGBM,AP,TM009,TM014,100,69,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,CatBoost,AP,TM010,TM015,100,97,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS007,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,LightGBM,AP,TM009,TM014,100,99,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS008,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,LightGBM,AP,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS009,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,LightGBM,AP,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS010,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,LightGBM,AP,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS011,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,AdaBoost,AP,TM006,TM011,100,61,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,GBM,AP,TM007,TM012,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,XGBoost,AP,TM008,TM013,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,LightGBM,AP,TM009,TM014,100,45,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,CatBoost,AP,TM010,TM015,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS012,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,GBM,AP,TM007,TM012,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,XGBoost,AP,TM008,TM013,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,LightGBM,AP,TM009,TM014,100,57,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,CatBoost,AP,TM010,TM015,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS013,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,AdaBoost,AP,TM006,TM011,100,60,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,GBM,AP,TM007,TM012,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,XGBoost,AP,TM008,TM013,100,50,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,LightGBM,AP,TM009,TM014,100,62,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,CatBoost,AP,TM010,TM015,100,47,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS014,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,AdaBoost,AP,TM006,TM011,100,56,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,GBM,AP,TM007,TM012,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,XGBoost,AP,TM008,TM013,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,LightGBM,AP,TM009,TM014,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,CatBoost,AP,TM010,TM015,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS015,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,AdaBoost,AP,TM006,TM011,100,53,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,GBM,AP,TM007,TM012,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,XGBoost,AP,TM008,TM013,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,LightGBM,AP,TM009,TM014,100,45,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,CatBoost,AP,TM010,TM015,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS016,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,GBM,AP,TM007,TM012,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,XGBoost,AP,TM008,TM013,100,50,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,LightGBM,AP,TM009,TM014,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,CatBoost,AP,TM010,TM015,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS017,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,AdaBoost,AP,TM006,TM011,100,61,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,GBM,AP,TM007,TM012,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,XGBoost,AP,TM008,TM013,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,LightGBM,AP,TM009,TM014,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,CatBoost,AP,TM010,TM015,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS018,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,AdaBoost,AP,TM006,TM011,100,60,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,GBM,AP,TM007,TM012,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,XGBoost,AP,TM008,TM013,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,LightGBM,AP,TM009,TM014,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,CatBoost,AP,TM010,TM015,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS019,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,GBM,AP,TM007,TM012,100,48,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,XGBoost,AP,TM008,TM013,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,LightGBM,AP,TM009,TM014,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,CatBoost,AP,TM010,TM015,100,46,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS020,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,AdaBoost,AP,TM006,TM011,100,62,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,GBM,AP,TM007,TM012,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,XGBoost,AP,TM008,TM013,100,52,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,LightGBM,AP,TM009,TM014,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,CatBoost,AP,TM010,TM015,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS021,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,AdaBoost,AP,TM006,TM011,100,56,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,GBM,AP,TM007,TM012,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,XGBoost,AP,TM008,TM013,100,62,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,LightGBM,AP,TM009,TM014,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,CatBoost,AP,TM010,TM015,100,48,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS022,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,AdaBoost,AP,TM006,TM011,100,74,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,GBM,AP,TM007,TM012,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,XGBoost,AP,TM008,TM013,100,83,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,LightGBM,AP,TM009,TM014,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,CatBoost,AP,TM010,TM015,100,80,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS023,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,AdaBoost,AP,TM006,TM011,100,66,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,GBM,AP,TM007,TM012,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,XGBoost,AP,TM008,TM013,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,LightGBM,AP,TM009,TM014,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,CatBoost,AP,TM010,TM015,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS024,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,AdaBoost,AP,TM006,TM011,100,67,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,GBM,AP,TM007,TM012,100,56,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,XGBoost,AP,TM008,TM013,100,44,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,LightGBM,AP,TM009,TM014,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,CatBoost,AP,TM010,TM015,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS025,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,AdaBoost,AP,TM006,TM011,100,59,4.4972057583470004e-7,false,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,GBM,AP,TM007,TM012,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,XGBoost,AP,TM008,TM013,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,LightGBM,AP,TM009,TM014,100,67,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,CatBoost,AP,TM010,TM015,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,AdaBoost,AUROC,TM006,TM011,100,99,0.000002399965145172267,false,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS026,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,AdaBoost,AP,TM006,TM011,100,58,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,GBM,AP,TM007,TM012,100,69,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,XGBoost,AP,TM008,TM013,100,57,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,LightGBM,AP,TM009,TM014,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,CatBoost,AP,TM010,TM015,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS027,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,GBM,AP,TM007,TM012,100,55,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,XGBoost,AP,TM008,TM013,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,LightGBM,AP,TM009,TM014,100,44,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,CatBoost,AP,TM010,TM015,100,52,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS028,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,AdaBoost,AP,TM006,TM011,100,2,9.71445146547012e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,GBM,AP,TM007,TM012,100,3,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,XGBoost,AP,TM008,TM013,100,4,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,LightGBM,AP,TM009,TM014,100,4,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,CatBoost,AP,TM010,TM015,100,2,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS029,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,AdaBoost,AP,TM006,TM011,100,4,9.71445146547012e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,GBM,AP,TM007,TM012,100,3,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,XGBoost,AP,TM008,TM013,100,5,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,LightGBM,AP,TM009,TM014,100,4,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,CatBoost,AP,TM010,TM015,100,7,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS030,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,AdaBoost,AP,TM006,TM011,100,5,9.71445146547012e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,GBM,AP,TM007,TM012,100,6,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,XGBoost,AP,TM008,TM013,100,2,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,LightGBM,AP,TM009,TM014,100,7,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,CatBoost,AP,TM010,TM015,100,4,9.71445146547012e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS031,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,AdaBoost,AP,TM006,TM011,100,25,8.326672684688674e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,GBM,AP,TM007,TM012,100,20,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,XGBoost,AP,TM008,TM013,100,21,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,LightGBM,AP,TM009,TM014,100,27,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,CatBoost,AP,TM010,TM015,100,25,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS032,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,AdaBoost,AP,TM006,TM011,100,18,8.326672684688674e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,GBM,AP,TM007,TM012,100,29,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,XGBoost,AP,TM008,TM013,100,27,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,LightGBM,AP,TM009,TM014,100,30,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,CatBoost,AP,TM010,TM015,100,25,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS033,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,AdaBoost,AP,TM006,TM011,100,32,8.326672684688674e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,GBM,AP,TM007,TM012,100,30,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,XGBoost,AP,TM008,TM013,100,49,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,LightGBM,AP,TM009,TM014,100,32,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,CatBoost,AP,TM010,TM015,100,41,8.326672684688674e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS034,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,AdaBoost,AP,TM006,TM011,100,98,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,LightGBM,AP,TM009,TM014,100,99,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,GBM,AUROC,TM007,TM012,100,99,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS035,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,LightGBM,AP,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS036,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,AdaBoost,AP,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,GBM,AP,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,XGBoost,AP,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,LightGBM,AP,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,CatBoost,AP,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS037,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,GBM,AP,TM007,TM012,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,XGBoost,AP,TM008,TM013,100,54,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,LightGBM,AP,TM009,TM014,100,52,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,CatBoost,AP,TM010,TM015,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS038,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,AdaBoost,AP,TM006,TM011,100,59,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,GBM,AP,TM007,TM012,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,XGBoost,AP,TM008,TM013,100,51,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,LightGBM,AP,TM009,TM014,100,42,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,CatBoost,AP,TM010,TM015,100,53,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS039,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,AdaBoost,AP,TM006,TM011,100,60,5.551115123125783e-17,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,GBM,AP,TM007,TM012,100,60,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,XGBoost,AP,TM008,TM013,100,61,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,LightGBM,AP,TM009,TM014,100,58,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,CatBoost,AP,TM010,TM015,100,59,5.551115123125783e-17,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,AdaBoost,AUROC,TM006,TM011,100,100,0,true,,false,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,GBM,AUROC,TM007,TM012,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,XGBoost,AUROC,TM008,TM013,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,LightGBM,AUROC,TM009,TM014,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs
+Task2,two_sample,TS040,CatBoost,AUROC,TM010,TM015,100,100,0,true,,true,Archived repetition metrics only; tolerance 1e-14; raw scores not present in Task2 outputs

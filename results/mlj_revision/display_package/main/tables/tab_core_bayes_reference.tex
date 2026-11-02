@@ -1,0 +1,60 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.020in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}@{}}
+\caption{Bayes reference and fixed-method AUROC in five representative original simulations.}\label{tab:tab-core-bayes-reference}\\
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Panel A: One-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Panel A: One-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.738 & \shortstack{0.733\\(0.004)} & \shortstack{0.733\\(0.004)} & \shortstack{0.723\\(0.014)} & \shortstack{0.724\\(0.014)} & \shortstack{0.726\\(0.012)} & \shortstack{0.707\\(0.031)} \\
+\addlinespace[2pt]
+500 predictors & 0.738 & \shortstack{0.643\\(0.095)} & \shortstack{0.632\\(0.105)} & \shortstack{0.713\\(0.025)} & \shortstack{0.713\\(0.025)} & \shortstack{0.719\\(0.019)} & \shortstack{0.694\\(0.043)} \\
+\addlinespace[2pt]
+Curved & 0.738 & \shortstack{0.702\\(0.036)} & \shortstack{0.702\\(0.036)} & \shortstack{0.706\\(0.032)} & \shortstack{0.707\\(0.031)} & \shortstack{0.695\\(0.043)} & \shortstack{0.688\\(0.050)} \\
+\addlinespace[2pt]
+Interaction & 0.739 & \shortstack{0.659\\(0.080)} & \shortstack{0.659\\(0.080)} & \shortstack{0.714\\(0.026)} & \shortstack{0.714\\(0.025)} & \shortstack{0.614\\(0.126)} & \shortstack{0.652\\(0.087)} \\
+\addlinespace[2pt]
+Unequal covariance & 0.739 & \shortstack{0.712\\(0.027)} & \shortstack{0.712\\(0.027)} & \shortstack{0.731\\(0.008)} & \shortstack{0.731\\(0.009)} & \shortstack{0.688\\(0.052)} & \shortstack{0.714\\(0.026)} \\
+\addlinespace[2pt]
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.020in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}>{\centering\arraybackslash}p{0.764in}@{}}
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Panel B: Two-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Panel B: Two-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.738 & \shortstack{0.734\\(0.004)} & \shortstack{0.734\\(0.004)} & \shortstack{0.724\\(0.014)} & \shortstack{0.724\\(0.013)} & \shortstack{0.726\\(0.012)} & \shortstack{0.715\\(0.023)} \\
+\addlinespace[2pt]
+500 predictors & 0.738 & \shortstack{0.634\\(0.104)} & \shortstack{0.631\\(0.107)} & \shortstack{0.708\\(0.030)} & \shortstack{0.708\\(0.030)} & \shortstack{0.716\\(0.022)} & \shortstack{0.702\\(0.035)} \\
+\addlinespace[2pt]
+Curved & 0.738 & \shortstack{0.703\\(0.035)} & \shortstack{0.702\\(0.035)} & \shortstack{0.705\\(0.033)} & \shortstack{0.706\\(0.032)} & \shortstack{0.696\\(0.042)} & \shortstack{0.694\\(0.043)} \\
+\addlinespace[2pt]
+Interaction & 0.739 & \shortstack{0.659\\(0.080)} & \shortstack{0.659\\(0.080)} & \shortstack{0.710\\(0.029)} & \shortstack{0.712\\(0.027)} & \shortstack{0.614\\(0.125)} & \shortstack{0.654\\(0.085)} \\
+\addlinespace[2pt]
+Unequal covariance & 0.739 & \shortstack{0.711\\(0.028)} & \shortstack{0.711\\(0.028)} & \shortstack{0.730\\(0.010)} & \shortstack{0.729\\(0.010)} & \shortstack{0.687\\(0.052)} & \shortstack{0.720\\(0.019)} \\
+\addlinespace[2pt]
+\end{longtable}
+\noindent\textit{Note.} Cells show AUROC (Bayes minus AUROC regret). Bayes references are the existing Task-2 analytic or exact-likelihood-ratio Monte Carlo values; Monte Carlo reference uncertainty is retained in Task 2. All means use 100 repetitions. Sxxx identifies the corresponding original setting (TSxxx in two-sample). No new Bayes approximation is introduced.
+\par\endgroup

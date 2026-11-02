@@ -1,0 +1,34 @@
+[
+  {
+    "key": "NL01_one_sample_smoke10000",
+    "design": "one_sample",
+    "sn": 1,
+    "rep": 10000,
+    "threads": 8,
+    "model_seed": 170820000
+  },
+  {
+    "key": "NL05_one_sample_smoke10000",
+    "design": "one_sample",
+    "sn": 5,
+    "rep": 10000,
+    "threads": 8,
+    "model_seed": 171220000
+  },
+  {
+    "key": "NL01_two_sample_smoke10000",
+    "design": "two_sample",
+    "sn": 1,
+    "rep": 10000,
+    "threads": 8,
+    "model_seed": 170830000
+  },
+  {
+    "key": "NL05_two_sample_smoke10000",
+    "design": "two_sample",
+    "sn": 5,
+    "rep": 10000,
+    "threads": 8,
+    "model_seed": 171230000
+  }
+]

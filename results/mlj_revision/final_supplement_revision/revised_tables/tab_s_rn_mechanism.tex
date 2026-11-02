@@ -1,0 +1,116 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}@{}}
+\caption{RN masks were reconstructed from exact archived data/code because selected indices were not originally stored. CatBoost results use the final train+validation RN selection stage. RN purity is true negatives / selected U; true-negative recall is selected true negatives / available true negatives (also the fraction of available true negatives retained). U retention is selected U / available U and is shown separately. The figure averages settings within each of ten families; the table retains all 40 settings per design. Interaction is explicitly labelled. AUROC/AP changes are RN CatBoost minus naive CatBoost; no broad BA comparison is made.}\label{tab:s-rn-mechanism}\\
+\toprule
+\multicolumn{7}{@{}p{7in}}{\textbf{One-sample}}\\
+Scenario & RN purity & TN retained / available & U retention & AUROC change (pp) & AP change (pp) & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}p{7in}}{\textbf{One-sample}}\\
+Scenario & RN purity & TN retained / available & U retention & AUROC change (pp) & AP change (pp) & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.964 & 0.212 & 0.188 & +0.23 & -1.02 & 100 \\
+Prevalence $\pi=0.01$ & 0.997 & 0.354 & 0.352 & +4.09 & +0.42 & 100 \\
+Prevalence $\pi=0.05$ & 0.992 & 0.209 & 0.204 & +1.20 & -0.58 & 100 \\
+Prevalence $\pi=0.10$ & 0.983 & 0.208 & 0.197 & +0.40 & -1.44 & 100 \\
+Prevalence $\pi=0.15$ & 0.974 & 0.212 & 0.194 & +0.29 & -1.45 & 100 \\
+Prevalence $\pi=0.25$ & 0.952 & 0.211 & 0.179 & +0.17 & -1.05 & 100 \\
+Prevalence $\pi=0.30$ & 0.939 & 0.212 & 0.173 & +0.11 & -0.77 & 100 \\
+Prevalence $\pi=0.35$ & 0.925 & 0.207 & 0.163 & +0.13 & -0.67 & 100 \\
+Prevalence $\pi=0.40$ & 0.908 & 0.208 & 0.157 & +0.10 & -0.49 & 100 \\
+Prevalence $\pi=0.45$ & 0.892 & 0.206 & 0.147 & +0.11 & -0.37 & 100 \\
+Prevalence $\pi=0.50$ & 0.868 & 0.210 & 0.143 & +0.19 & -0.20 & 100 \\
+Labeling probability $c=0.05$ & 0.942 & 0.227 & 0.195 & +2.47 & +1.48 & 100 \\
+Labeling probability $c=0.10$ & 0.953 & 0.195 & 0.168 & +1.21 & -0.30 & 100 \\
+Labeling probability $c=0.15$ & 0.955 & 0.207 & 0.179 & +0.61 & -0.92 & 100 \\
+Labeling probability $c=0.20$ & 0.958 & 0.204 & 0.178 & +0.38 & -1.45 & 100 \\
+Labeling probability $c=0.25$ & 0.961 & 0.211 & 0.185 & +0.33 & -1.07 & 100 \\
+Labeling probability $c=0.35$ & 0.966 & 0.210 & 0.187 & +0.11 & -1.19 & 100 \\
+Labeling probability $c=0.40$ & 0.968 & 0.217 & 0.195 & +0.03 & -1.30 & 100 \\
+Labeling probability $c=0.45$ & 0.970 & 0.221 & 0.200 & +0.04 & -1.18 & 100 \\
+Labeling probability $c=0.50$ & 0.974 & 0.213 & 0.194 & -0.03 & -1.11 & 100 \\
+Class separation $\delta=0.50$ & 0.935 & 0.107 & 0.097 & +0.41 & -0.42 & 100 \\
+Class separation $\delta=0.70$ & 0.952 & 0.150 & 0.134 & +0.25 & -0.86 & 100 \\
+Class separation $\delta=1.20$ & 0.974 & 0.310 & 0.271 & +0.19 & -1.52 & 100 \\
+High dimension ($p=50$) & 0.962 & 0.178 & 0.158 & +0.54 & -0.34 & 100 \\
+High dimension ($p=100$) & 0.961 & 0.146 & 0.130 & +0.59 & -0.27 & 100 \\
+High dimension ($p=500$) & 0.942 & 0.080 & 0.072 & +0.60 & -0.14 & 100 \\
+Correlation $\rho=0.30$ & 0.964 & 0.206 & 0.182 & -0.21 & -2.44 & 100 \\
+Correlation $\rho=0.60$ & 0.965 & 0.208 & 0.184 & +0.31 & -1.46 & 100 \\
+Prevalence $\pi=0.01$, $c=0.50$ & 0.998 & 0.295 & 0.294 & +3.38 & +0.11 & 100 \\
+Prevalence $\pi=0.05$, $c=0.10$ & 0.986 & 0.293 & 0.284 & +3.55 & +1.35 & 100 \\
+Prevalence $\pi=0.05$, $c=0.50$ & 0.994 & 0.215 & 0.211 & +0.63 & -0.91 & 100 \\
+Prevalence $\pi=0.10$, $c=0.05$ & 0.970 & 0.256 & 0.239 & +4.11 & +2.63 & 100 \\
+Prevalence $\pi=0.10$, $c=0.10$ & 0.975 & 0.234 & 0.219 & +2.02 & +0.35 & 100 \\
+Prevalence $\pi=0.10$, $c=0.50$ & 0.988 & 0.213 & 0.205 & +0.13 & -1.65 & 100 \\
+Prevalence $\pi=0.50$, $c=0.05$ & 0.830 & 0.153 & 0.096 & +1.99 & +1.07 & 100 \\
+Prevalence $\pi=0.50$, $c=0.10$ & 0.838 & 0.178 & 0.113 & +0.88 & +0.12 & 100 \\
+Prevalence $\pi=0.50$, $c=0.50$ & 0.905 & 0.214 & 0.157 & -0.09 & -0.46 & 100 \\
+Curved boundary & 0.957 & 0.172 & 0.153 & -1.06 & -2.86 & 100 \\
+Feature interaction Interaction & 0.944 & 0.135 & 0.122 & -10.00 & -13.16 & 100 \\
+Unequal class covariance & 0.938 & 0.129 & 0.117 & -4.34 & -9.24 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}>{\raggedright\arraybackslash}p{0.750in}@{}}
+\toprule
+\multicolumn{7}{@{}p{7in}}{\textbf{Two-sample}}\\
+Scenario & RN purity & TN retained / available & U retention & AUROC change (pp) & AP change (pp) & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}p{7in}}{\textbf{Two-sample}}\\
+Scenario & RN purity & TN retained / available & U retention & AUROC change (pp) & AP change (pp) & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.950 & 0.205 & 0.174 & +0.21 & -1.14 & 100 \\
+Prevalence $\pi=0.01$ & 0.998 & 0.210 & 0.208 & +0.01 & -0.38 & 100 \\
+Prevalence $\pi=0.05$ & 0.988 & 0.217 & 0.209 & +0.02 & -1.10 & 100 \\
+Prevalence $\pi=0.10$ & 0.976 & 0.217 & 0.201 & +0.14 & -1.31 & 100 \\
+Prevalence $\pi=0.15$ & 0.963 & 0.213 & 0.188 & +0.24 & -0.99 & 100 \\
+Prevalence $\pi=0.25$ & 0.934 & 0.198 & 0.160 & +0.17 & -1.19 & 100 \\
+Prevalence $\pi=0.30$ & 0.914 & 0.203 & 0.156 & +0.25 & -0.93 & 100 \\
+Prevalence $\pi=0.35$ & 0.897 & 0.197 & 0.144 & +0.30 & -0.90 & 100 \\
+Prevalence $\pi=0.40$ & 0.875 & 0.194 & 0.134 & +0.39 & -0.62 & 100 \\
+Prevalence $\pi=0.45$ & 0.850 & 0.190 & 0.124 & +0.58 & -0.35 & 100 \\
+Prevalence $\pi=0.50$ & 0.826 & 0.173 & 0.106 & +0.68 & -0.04 & 100 \\
+Labeled positives $n_P=50$ & 0.942 & 0.206 & 0.176 & +2.76 & +1.93 & 100 \\
+Labeled positives $n_P=100$ & 0.948 & 0.189 & 0.160 & +1.11 & -0.49 & 100 \\
+Labeled positives $n_P=150$ & 0.947 & 0.205 & 0.174 & +0.69 & -0.97 & 100 \\
+Labeled positives $n_P=200$ & 0.947 & 0.209 & 0.177 & +0.49 & -0.88 & 100 \\
+Labeled positives $n_P=250$ & 0.948 & 0.209 & 0.176 & +0.32 & -1.15 & 100 \\
+Labeled positives $n_P=350$ & 0.950 & 0.198 & 0.167 & +0.19 & -1.18 & 100 \\
+Labeled positives $n_P=400$ & 0.952 & 0.198 & 0.166 & +0.07 & -1.13 & 100 \\
+Labeled positives $n_P=450$ & 0.949 & 0.208 & 0.176 & +0.10 & -0.94 & 100 \\
+Labeled positives $n_P=500$ & 0.948 & 0.217 & 0.183 & +0.09 & -0.98 & 100 \\
+Class separation $\delta=0.50$ & 0.913 & 0.096 & 0.084 & +0.43 & -0.33 & 100 \\
+Class separation $\delta=0.70$ & 0.932 & 0.154 & 0.132 & +0.33 & -0.73 & 100 \\
+Class separation $\delta=1.20$ & 0.964 & 0.306 & 0.254 & +0.20 & -1.17 & 100 \\
+High dimension ($p=50$) & 0.946 & 0.172 & 0.146 & +0.63 & -0.02 & 100 \\
+High dimension ($p=100$) & 0.944 & 0.144 & 0.122 & +0.71 & -0.03 & 100 \\
+High dimension ($p=500$) & 0.916 & 0.083 & 0.073 & +0.75 & +0.16 & 100 \\
+Correlation $\rho=0.30$ & 0.948 & 0.208 & 0.176 & -0.14 & -2.08 & 100 \\
+Correlation $\rho=0.60$ & 0.949 & 0.218 & 0.184 & +0.42 & -0.94 & 100 \\
+Prevalence $\pi=0.01$, $n_P=25$ & 0.997 & 0.281 & 0.279 & +3.38 & +0.21 & 100 \\
+Prevalence $\pi=0.01$, $n_P=100$ & 0.998 & 0.204 & 0.202 & +0.87 & -0.45 & 100 \\
+Prevalence $\pi=0.01$, $n_P=500$ & 0.998 & 0.221 & 0.219 & -0.16 & -0.52 & 100 \\
+Prevalence $\pi=0.10$, $n_P=25$ & 0.966 & 0.287 & 0.268 & +3.87 & +2.55 & 100 \\
+Prevalence $\pi=0.10$, $n_P=100$ & 0.976 & 0.209 & 0.193 & +1.04 & -0.57 & 100 \\
+Prevalence $\pi=0.10$, $n_P=500$ & 0.977 & 0.212 & 0.196 & -0.04 & -1.16 & 100 \\
+Prevalence $\pi=0.50$, $n_P=25$ & 0.730 & 0.185 & 0.129 & +5.33 & +4.83 & 100 \\
+Prevalence $\pi=0.50$, $n_P=100$ & 0.810 & 0.160 & 0.100 & +2.38 & +1.59 & 100 \\
+Prevalence $\pi=0.50$, $n_P=500$ & 0.828 & 0.189 & 0.115 & +0.46 & -0.03 & 100 \\
+Curved boundary & 0.940 & 0.167 & 0.142 & -0.94 & -2.45 & 100 \\
+Feature interaction Interaction & 0.921 & 0.127 & 0.110 & -9.65 & -12.51 & 100 \\
+Unequal class covariance & 0.912 & 0.132 & 0.116 & -4.22 & -9.02 & 100 \\
+\end{longtable}
+\noindent\textit{Note.} TN retained / available is both true-negative recall and the fraction of available true negatives retained. U retention includes hidden positives. Means over 100 repetitions. Scenario identifiers correspond to original benchmark. RN masks were reconstructed from exact archived data/code because selected indices were not originally stored.
+\par\endgroup

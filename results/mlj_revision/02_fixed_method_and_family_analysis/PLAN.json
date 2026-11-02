@@ -1,0 +1,23 @@
+{
+  "primary_BA": "original_Task1_A_raw_quantile_refit_transfer",
+  "Task1C": "separate_pilot",
+  "model_fits_permitted": false,
+  "model_fits": 0,
+  "method_selection": "all 3 fixed nonboosting baselines contrasted with 17 fixed non-duplicate boosting configurations; one global best nonboosting named only descriptively by equal-family AUROC pooled equally across designs",
+  "paired_contrasts": "RN-naive and CS-naive for 5 engines; every fixed nonboosting 003-005 versus each fixed naive/RN/CS/AdaPU/PU-GB comparator",
+  "n_expected_reps": 100,
+  "rank_ties": "average ranks after rounding scenario means to 12 decimals solely for numerical ties",
+  "families": [
+    "reference",
+    "prevalence",
+    "positive-label availability",
+    "class separation",
+    "dimensionality",
+    "predictor correlation",
+    "joint prevalence-label availability",
+    "curved boundary",
+    "feature interaction",
+    "unequal class covariance"
+  ],
+  "scope": "40 simulation settings per design; supervised references separate; no real or prior-misspecification pooling"
+}

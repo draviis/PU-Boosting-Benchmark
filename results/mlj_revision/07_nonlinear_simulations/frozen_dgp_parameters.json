@@ -1,0 +1,55 @@
+{
+  "parameters": {
+    "NL01": {
+      "value": 0.577880859375,
+      "name": "theta",
+      "selection_method": "fixed_seed_12_step_bisection",
+      "target": 0.78,
+      "p": 10,
+      "q": 3
+    },
+    "NL02": {
+      "value": 2.0,
+      "name": "r",
+      "selection_method": "analytic_inverse",
+      "target": 0.8,
+      "p": 10,
+      "q": 2
+    },
+    "NL03": {
+      "value": 1.0612719726562498,
+      "name": "a",
+      "selection_method": "fixed_seed_12_step_bisection",
+      "target": 0.84,
+      "p": 10,
+      "q": 2
+    },
+    "NL04": {
+      "value": 0.4994313317536634,
+      "name": "theta",
+      "selection_method": "analytic_inverse",
+      "target": 0.76,
+      "p": 10,
+      "q": 3
+    },
+    "NL05": {
+      "value": 0.577880859375,
+      "name": "theta",
+      "selection_method": "same_signal_as_NL01",
+      "target": 0.78,
+      "p": 500,
+      "q": 3
+    },
+    "NL06": {
+      "value": 0.721435546875,
+      "name": "theta",
+      "selection_method": "fixed_seed_12_step_bisection",
+      "target": 0.86,
+      "p": 10,
+      "q": 4
+    }
+  },
+  "utc": "2026-10-17T12:10:15.085016+00:00",
+  "frozen_before_confirmation": true,
+  "main_run_approval": "pending_plan_review"
+}

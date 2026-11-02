@@ -1,0 +1,35 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.400in}>{\raggedright\arraybackslash}p{0.850in}>{\centering\arraybackslash}p{1.071in}>{\centering\arraybackslash}p{1.071in}>{\centering\arraybackslash}p{1.071in}>{\centering\arraybackslash}p{1.071in}@{}}
+\caption{Family-balanced same-engine differences relative to naive training. Positive values favour the PU strategy. The learner family is held fixed, although strategy-specific tuning can select different hyperparameter settings.}\label{tab:tab-same-engine-family-balanced}\\
+\toprule
+Strategy & Engine & AUROC OS & AUROC TS & AP OS & AP TS \\
+\midrule
+\endfirsthead
+\toprule
+Strategy & Engine & AUROC OS & AUROC TS & AP OS & AP TS \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Probability correction & AdaBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & GBM & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & XGBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & LightGBM & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & CatBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+RN & AdaBoost & -0.46 & -0.35 & -1.19 & -0.91 \\
+RN & GBM & -0.90 & -0.81 & -2.74 & -2.33 \\
+RN & XGBoost & -1.00 & -0.93 & -2.59 & -2.31 \\
+RN & LightGBM & -0.37 & -0.22 & -1.96 & -1.42 \\
+RN & CatBoost & -1.12 & -1.06 & -3.06 & -2.81 \\
+CS & AdaBoost & +0.04 & +0.03 & +0.09 & +0.05 \\
+CS & GBM & +0.06 & +0.01 & +0.41 & +0.42 \\
+CS & XGBoost & +0.02 & +0.02 & +0.00 & +0.01 \\
+CS & LightGBM & +0.03 & +0.03 & +0.21 & +0.27 \\
+CS & CatBoost & +0.03 & +0.02 & +0.01 & -0.01 \\
+\end{longtable}
+\noindent\textit{Note.} Entries are signed percentage-point differences. OS: one-sample; TS: two-sample. No BA comparison is included.
+\par\endgroup

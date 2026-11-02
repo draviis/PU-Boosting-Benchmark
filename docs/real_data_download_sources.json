@@ -1,0 +1,85 @@
+{
+  "rice": {
+    "uci_id": 545,
+    "doi": "10.24432/C5MW4Z",
+    "recipe": "real_data_batch3/build_bundle.py",
+    "prepared_parent": "real_data_batch3/batch3_math_20260914/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/545/data.csv",
+        "path": "real_data_batch3/data/545.csv",
+        "sha256": "a0d9b19693f0bde9a59a6a6e886df0456008fab1c3a406178a76e7c4440e95b3"
+      }
+    ]
+  },
+  "phishing": {
+    "uci_id": 327,
+    "doi": "10.24432/C51W2X",
+    "recipe": "real_data_batch3/build_bundle.py",
+    "prepared_parent": "real_data_batch3/batch3_math_20260914/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/327/data.csv",
+        "path": "real_data_batch3/data/327.csv",
+        "sha256": "35dd9aa6870643c292d68343d926869095292a7406d198305cae7435069b59c2"
+      }
+    ]
+  },
+  "credit_default": {
+    "uci_id": 350,
+    "doi": "10.24432/C55S3H",
+    "recipe": "real_data_batch3/build_bundle.py",
+    "prepared_parent": "real_data_batch3/batch3_math_20260914/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/350/data.csv",
+        "path": "real_data_batch3/data/350.csv",
+        "sha256": "45bcf4df62ff2e237a74eb155cabfb4bbbc171219a0637daef44fdad07503dd0"
+      }
+    ]
+  },
+  "dry_bean": {
+    "uci_id": 602,
+    "doi": "10.24432/C50S4B",
+    "recipe": "real_data_batch4/build_bundle.py",
+    "prepared_parent": "real_data_batch4/batch4_math_20260916_constantfix/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/602/data.csv",
+        "path": "real_data_batch4/data/602.csv",
+        "sha256": "c91a086bb4357e69409d23287ec22be1be9512145cead1d8ca988c918be38fcb"
+      }
+    ]
+  },
+  "optical_digits": {
+    "uci_id": 80,
+    "doi": "10.24432/C50P49",
+    "recipe": "real_data_batch4/build_bundle.py",
+    "prepared_parent": "real_data_batch4/batch4_math_20260916_constantfix/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/80/data.csv",
+        "path": "real_data_batch4/data/80.csv",
+        "sha256": "75fc37d1cb6590c84f567c6bd65c73051cdede2568f148a7b23ddd5ecbfdda2b"
+      },
+      {
+        "url": "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip",
+        "path": "real_data_batch4/data/optdigits.zip",
+        "sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0"
+      }
+    ]
+  },
+  "online_shoppers": {
+    "uci_id": 468,
+    "doi": "10.24432/C5F88Q",
+    "recipe": "real_data_batch4/build_bundle.py",
+    "prepared_parent": "real_data_batch4/batch4_math_20260916_constantfix/benchmark",
+    "downloads": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/468/data.csv",
+        "path": "real_data_batch4/data/468.csv",
+        "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+      }
+    ]
+  }
+}

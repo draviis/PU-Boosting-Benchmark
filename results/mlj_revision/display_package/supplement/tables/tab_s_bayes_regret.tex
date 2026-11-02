@@ -1,0 +1,120 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.580in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}@{}}
+\caption{Bayes AUROC minus fixed-method AUROC for the six conceptual representatives in all 40 original settings with validated Bayes references. Lower regret is better.}\label{tab:tab-s-bayes-regret}\\
+\toprule
+\multicolumn{8}{@{}l}{\textbf{One-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}l}{\textbf{One-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+S001 & 0.738 & 0.004 & 0.004 & 0.014 & 0.014 & 0.012 & 0.031 \\
+S002 & 0.738 & 0.035 & 0.035 & 0.087 & 0.084 & 0.046 & 0.172 \\
+S003 & 0.738 & 0.011 & 0.011 & 0.032 & 0.032 & 0.020 & 0.097 \\
+S004 & 0.738 & 0.005 & 0.005 & 0.018 & 0.018 & 0.014 & 0.063 \\
+S005 & 0.738 & 0.003 & 0.003 & 0.014 & 0.013 & 0.011 & 0.043 \\
+S006 & 0.738 & 0.003 & 0.003 & 0.012 & 0.012 & 0.011 & 0.024 \\
+S007 & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.021 \\
+S008 & 0.738 & 0.004 & 0.004 & 0.012 & 0.012 & 0.011 & 0.020 \\
+S009 & 0.738 & 0.002 & 0.002 & 0.010 & 0.010 & 0.009 & 0.017 \\
+S010 & 0.738 & 0.003 & 0.004 & 0.011 & 0.011 & 0.010 & 0.017 \\
+S011 & 0.738 & 0.004 & 0.005 & 0.012 & 0.013 & 0.010 & 0.018 \\
+S012 & 0.738 & 0.020 & 0.021 & 0.052 & 0.050 & 0.027 & 0.122 \\
+S013 & 0.738 & 0.012 & 0.012 & 0.032 & 0.031 & 0.020 & 0.090 \\
+S014 & 0.738 & 0.008 & 0.008 & 0.022 & 0.022 & 0.016 & 0.066 \\
+S015 & 0.738 & 0.005 & 0.005 & 0.017 & 0.017 & 0.014 & 0.052 \\
+S016 & 0.738 & 0.005 & 0.005 & 0.016 & 0.015 & 0.012 & 0.038 \\
+S017 & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.023 \\
+S018 & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.011 & 0.020 \\
+S019 & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.011 & 0.019 \\
+S020 & 0.738 & 0.003 & 0.003 & 0.010 & 0.009 & 0.010 & 0.016 \\
+S021 & 0.638 & 0.007 & 0.007 & 0.017 & 0.018 & 0.013 & 0.034 \\
+S022 & 0.690 & 0.003 & 0.003 & 0.014 & 0.014 & 0.011 & 0.031 \\
+S023 & 0.802 & 0.003 & 0.003 & 0.012 & 0.011 & 0.010 & 0.025 \\
+S024 & 0.738 & 0.016 & 0.016 & 0.016 & 0.017 & 0.011 & 0.036 \\
+S025 & 0.738 & 0.033 & 0.034 & 0.021 & 0.021 & 0.015 & 0.039 \\
+S026 & 0.738 & 0.095 & 0.105 & 0.025 & 0.025 & 0.019 & 0.043 \\
+S027 & 0.738 & 0.003 & 0.003 & 0.012 & 0.012 & 0.014 & 0.026 \\
+S028 & 0.738 & 0.003 & 0.003 & 0.018 & 0.017 & 0.015 & 0.036 \\
+S029 & 0.738 & 0.023 & 0.023 & 0.065 & 0.067 & 0.031 & 0.146 \\
+S030 & 0.738 & 0.025 & 0.025 & 0.070 & 0.070 & 0.034 & 0.150 \\
+S031 & 0.738 & 0.006 & 0.006 & 0.020 & 0.019 & 0.014 & 0.068 \\
+S032 & 0.738 & 0.031 & 0.032 & 0.080 & 0.085 & 0.039 & 0.151 \\
+S033 & 0.738 & 0.015 & 0.015 & 0.043 & 0.040 & 0.022 & 0.113 \\
+S034 & 0.738 & 0.003 & 0.003 & 0.013 & 0.012 & 0.011 & 0.033 \\
+S035 & 0.738 & 0.022 & 0.030 & 0.051 & 0.052 & 0.031 & 0.088 \\
+S036 & 0.738 & 0.010 & 0.012 & 0.028 & 0.028 & 0.019 & 0.055 \\
+S037 & 0.738 & 0.002 & 0.002 & 0.008 & 0.008 & 0.008 & 0.011 \\
+S038 & 0.738 & 0.036 & 0.036 & 0.032 & 0.031 & 0.043 & 0.050 \\
+S039 & 0.739 & 0.080 & 0.080 & 0.026 & 0.025 & 0.126 & 0.087 \\
+S040 & 0.739 & 0.027 & 0.027 & 0.008 & 0.009 & 0.052 & 0.026 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.580in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}>{\centering\arraybackslash}p{0.827in}@{}}
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Two-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}l}{\textbf{Two-sample}}\\
+\addlinespace[3pt]
+Scenario & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+S001 & 0.738 & 0.004 & 0.004 & 0.014 & 0.013 & 0.012 & 0.023 \\
+S002 & 0.738 & 0.004 & 0.004 & 0.011 & 0.011 & 0.011 & 0.078 \\
+S003 & 0.738 & 0.002 & 0.002 & 0.010 & 0.010 & 0.010 & 0.038 \\
+S004 & 0.738 & 0.003 & 0.003 & 0.012 & 0.011 & 0.010 & 0.028 \\
+S005 & 0.738 & 0.003 & 0.003 & 0.013 & 0.013 & 0.011 & 0.025 \\
+S006 & 0.738 & 0.005 & 0.005 & 0.015 & 0.016 & 0.013 & 0.024 \\
+S007 & 0.738 & 0.006 & 0.006 & 0.016 & 0.017 & 0.014 & 0.025 \\
+S008 & 0.738 & 0.006 & 0.007 & 0.018 & 0.018 & 0.015 & 0.028 \\
+S009 & 0.738 & 0.009 & 0.009 & 0.021 & 0.022 & 0.017 & 0.031 \\
+S010 & 0.738 & 0.009 & 0.011 & 0.023 & 0.024 & 0.017 & 0.033 \\
+S011 & 0.738 & 0.012 & 0.015 & 0.028 & 0.029 & 0.021 & 0.038 \\
+S012 & 0.738 & 0.019 & 0.020 & 0.054 & 0.052 & 0.026 & 0.064 \\
+S013 & 0.738 & 0.011 & 0.011 & 0.032 & 0.032 & 0.021 & 0.045 \\
+S014 & 0.738 & 0.008 & 0.008 & 0.023 & 0.023 & 0.017 & 0.034 \\
+S015 & 0.738 & 0.006 & 0.006 & 0.019 & 0.018 & 0.014 & 0.029 \\
+S016 & 0.738 & 0.006 & 0.006 & 0.017 & 0.017 & 0.014 & 0.026 \\
+S017 & 0.738 & 0.004 & 0.004 & 0.013 & 0.013 & 0.011 & 0.023 \\
+S018 & 0.738 & 0.001 & 0.002 & 0.010 & 0.010 & 0.009 & 0.020 \\
+S019 & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.020 \\
+S020 & 0.738 & 0.002 & 0.003 & 0.010 & 0.010 & 0.009 & 0.020 \\
+S021 & 0.638 & 0.005 & 0.005 & 0.018 & 0.019 & 0.014 & 0.025 \\
+S022 & 0.690 & 0.004 & 0.005 & 0.015 & 0.015 & 0.012 & 0.023 \\
+S023 & 0.802 & 0.004 & 0.004 & 0.013 & 0.012 & 0.011 & 0.024 \\
+S024 & 0.738 & 0.019 & 0.020 & 0.019 & 0.020 & 0.013 & 0.025 \\
+S025 & 0.738 & 0.036 & 0.038 & 0.023 & 0.023 & 0.016 & 0.028 \\
+S026 & 0.738 & 0.104 & 0.107 & 0.030 & 0.030 & 0.022 & 0.035 \\
+S027 & 0.738 & 0.005 & 0.005 & 0.013 & 0.012 & 0.014 & 0.021 \\
+S028 & 0.738 & 0.004 & 0.004 & 0.020 & 0.019 & 0.016 & 0.030 \\
+S029 & 0.738 & 0.019 & 0.020 & 0.063 & 0.062 & 0.029 & 0.145 \\
+S030 & 0.738 & 0.004 & 0.004 & 0.022 & 0.021 & 0.013 & 0.103 \\
+S031 & 0.738 & 0.000 & 0.001 & 0.005 & 0.005 & 0.007 & 0.066 \\
+S032 & 0.738 & 0.032 & 0.033 & 0.078 & 0.083 & 0.040 & 0.091 \\
+S033 & 0.738 & 0.008 & 0.008 & 0.027 & 0.026 & 0.017 & 0.043 \\
+S034 & 0.738 & 0.003 & 0.003 & 0.009 & 0.009 & 0.010 & 0.026 \\
+S035 & 0.738 & 0.078 & 0.110 & 0.139 & 0.141 & 0.086 & 0.166 \\
+S036 & 0.738 & 0.028 & 0.038 & 0.060 & 0.070 & 0.037 & 0.068 \\
+S037 & 0.738 & 0.007 & 0.008 & 0.018 & 0.019 & 0.014 & 0.030 \\
+S038 & 0.738 & 0.035 & 0.035 & 0.033 & 0.032 & 0.042 & 0.043 \\
+S039 & 0.739 & 0.080 & 0.080 & 0.029 & 0.027 & 0.125 & 0.085 \\
+S040 & 0.739 & 0.028 & 0.028 & 0.010 & 0.010 & 0.052 & 0.019 \\
+\end{longtable}
+\noindent\textit{Note.} Method cells show Bayes AUROC minus observed AUROC; lower regret is better. Bayes references are the existing Task-2 analytic or exact-likelihood-ratio Monte Carlo values; Monte Carlo reference uncertainty is retained in Task 2. All means use 100 repetitions. Sxxx identifies the corresponding original setting (TSxxx in two-sample). No new Bayes approximation is introduced.
+\par\endgroup

@@ -1,0 +1,28 @@
+{
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.5.1+cpu",
+    "catboost": "1.2.10",
+    "xgboost-cpu": "3.2.0",
+    "lightgbm": "4.7.0"
+  },
+  "threads_per_case": 8,
+  "expected_parallel_cases": 56,
+  "worker_sha256": "743f49b6c2f67b32f4a9d46b3fa031a121618c8ef8f5d0065b0bb07c2b66b6fd",
+  "execution_manifest_sha256": "c51ed1389f8618e747b3cc3a3a02bc7fd1f3d091364f9f819f08761e83f72e78",
+  "main_script_hashes": {
+    "case_runner.py": "ae9adc50f68d01351c74f044b42b81cfde217ccac4be12e3381b238c8e6cef5c",
+    "dispatch_main.py": "0a063828577f3528a46f23fdbba70b0a94e45011d72039b5fbee7f1b6c382847",
+    "collect_main.py": "72ccb8f14bce5151b9fb07db57eb2c3dadb970fa926b68b0519c863e0fc927e1",
+    "validate_execution.py": "ab039ee907637d6da82cefbb105e46290ff7c30a687121aeb8d42dfa19acb84c",
+    "analyse_results.py": "6c61d86e56f0f5422e56b4a56ed4b4eb586588882da446242f675e284c7988e1",
+    "validate_execution_parallel.py": "16e519d9842213da6ff3e1ebd93cf7aa56f3c7cc845262db2d7e009bcbd4323f"
+  },
+  "dispatch_repair": "2026-10-18: byte-preserving upload; archived preflight manifest validation; persistent scheduler receipts",
+  "rn_recovery_protocol_sha256": "dd9d46ccfbf4da1bdfe66e9fda9e9e08ca49c94574aebbbd1801d6b7f091307d",
+  "rn_empty_refit_protocol_sha256": "0c26da6ff2f989c36fbbe4c6b3938b84aad0afe892f2677652f537f64b1d8feb",
+  "validation_execution": "One parallel pass validates all available metrics and hashes every existing score/metadata against the preservation inventory."
+}

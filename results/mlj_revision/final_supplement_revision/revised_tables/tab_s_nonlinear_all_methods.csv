@@ -1,0 +1,307 @@
+Panel,Method,AUROC,n AUROC,AP,n AP
+One-sample - Additive sinusoidal,Logistic probability correction,0.701,100,0.348,100
+One-sample - Additive sinusoidal,uPU logistic,0.702,100,0.348,100
+One-sample - Additive sinusoidal,nnPU logistic,0.702,100,0.348,100
+One-sample - Additive sinusoidal,Naive AdaBoost,0.752,100,0.432,100
+One-sample - Additive sinusoidal,Naive GBM,0.754,100,0.426,100
+One-sample - Additive sinusoidal,Naive XGBoost,0.758,100,0.442,100
+One-sample - Additive sinusoidal,Naive LightGBM,0.752,100,0.428,100
+One-sample - Additive sinusoidal,Naive CatBoost,0.751,100,0.431,100
+One-sample - Additive sinusoidal,Corrected AdaBoost,0.752,100,0.432,100
+One-sample - Additive sinusoidal,Corrected GBM,0.754,100,0.426,100
+One-sample - Additive sinusoidal,Corrected XGBoost,0.758,100,0.442,100
+One-sample - Additive sinusoidal,Corrected LightGBM,0.752,100,0.428,100
+One-sample - Additive sinusoidal,Corrected CatBoost,0.751,100,0.431,100
+One-sample - Additive sinusoidal,RN AdaBoost,0.718,100,0.372,100
+One-sample - Additive sinusoidal,RN GBM,0.708,100,0.359,100
+One-sample - Additive sinusoidal,RN XGBoost,0.715,100,0.375,100
+One-sample - Additive sinusoidal,RN LightGBM,0.701,100,0.344,100
+One-sample - Additive sinusoidal,RN CatBoost,0.711,100,0.358,100
+One-sample - Additive sinusoidal,CS AdaBoost,0.752,100,0.432,100
+One-sample - Additive sinusoidal,CS GBM,0.756,100,0.439,100
+One-sample - Additive sinusoidal,CS XGBoost,0.759,100,0.444,100
+One-sample - Additive sinusoidal,CS LightGBM,0.752,100,0.432,100
+One-sample - Additive sinusoidal,CS CatBoost,0.754,100,0.438,100
+One-sample - Additive sinusoidal,AdaPU,0.723,100,0.381,100
+One-sample - Additive sinusoidal,PU gradient boosting,0.739,100,0.412,100
+One-sample - Radial / concentric,Logistic probability correction,0.501,100,0.246,100
+One-sample - Radial / concentric,uPU logistic,0.501,100,0.247,100
+One-sample - Radial / concentric,nnPU logistic,0.501,100,0.247,100
+One-sample - Radial / concentric,Naive AdaBoost,0.783,100,0.586,100
+One-sample - Radial / concentric,Naive GBM,0.784,100,0.601,100
+One-sample - Radial / concentric,Naive XGBoost,0.787,100,0.608,100
+One-sample - Radial / concentric,Naive LightGBM,0.784,100,0.597,100
+One-sample - Radial / concentric,Naive CatBoost,0.789,100,0.617,100
+One-sample - Radial / concentric,Corrected AdaBoost,0.783,100,0.586,100
+One-sample - Radial / concentric,Corrected GBM,0.784,100,0.601,100
+One-sample - Radial / concentric,Corrected XGBoost,0.787,100,0.608,100
+One-sample - Radial / concentric,Corrected LightGBM,0.784,100,0.597,100
+One-sample - Radial / concentric,Corrected CatBoost,0.789,100,0.617,100
+One-sample - Radial / concentric,RN AdaBoost,0.485,100,0.205,100
+One-sample - Radial / concentric,RN GBM,0.465,99,0.192,99
+One-sample - Radial / concentric,RN XGBoost,0.473,100,0.198,100
+One-sample - Radial / concentric,RN LightGBM,0.481,100,0.203,100
+One-sample - Radial / concentric,RN CatBoost,0.474,100,0.200,100
+One-sample - Radial / concentric,CS AdaBoost,0.784,100,0.589,100
+One-sample - Radial / concentric,CS GBM,0.786,100,0.606,100
+One-sample - Radial / concentric,CS XGBoost,0.788,100,0.607,100
+One-sample - Radial / concentric,CS LightGBM,0.783,100,0.598,100
+One-sample - Radial / concentric,CS CatBoost,0.789,100,0.616,100
+One-sample - Radial / concentric,AdaPU,0.789,100,0.612,100
+One-sample - Radial / concentric,PU gradient boosting,0.768,100,0.582,100
+One-sample - Pure XOR interaction,Logistic probability correction,0.500,100,0.220,100
+One-sample - Pure XOR interaction,uPU logistic,0.500,100,0.220,100
+One-sample - Pure XOR interaction,nnPU logistic,0.500,100,0.220,100
+One-sample - Pure XOR interaction,Naive AdaBoost,0.540,100,0.238,100
+One-sample - Pure XOR interaction,Naive GBM,0.753,100,0.444,100
+One-sample - Pure XOR interaction,Naive XGBoost,0.787,100,0.499,100
+One-sample - Pure XOR interaction,Naive LightGBM,0.772,100,0.477,100
+One-sample - Pure XOR interaction,Naive CatBoost,0.829,100,0.580,100
+One-sample - Pure XOR interaction,Corrected AdaBoost,0.540,100,0.238,100
+One-sample - Pure XOR interaction,Corrected GBM,0.753,100,0.444,100
+One-sample - Pure XOR interaction,Corrected XGBoost,0.787,100,0.499,100
+One-sample - Pure XOR interaction,Corrected LightGBM,0.772,100,0.477,100
+One-sample - Pure XOR interaction,Corrected CatBoost,0.829,100,0.580,100
+One-sample - Pure XOR interaction,RN AdaBoost,0.524,100,0.221,100
+One-sample - Pure XOR interaction,RN GBM,0.525,100,0.215,100
+One-sample - Pure XOR interaction,RN XGBoost,0.529,100,0.221,100
+One-sample - Pure XOR interaction,RN LightGBM,0.537,100,0.226,100
+One-sample - Pure XOR interaction,RN CatBoost,0.543,100,0.235,100
+One-sample - Pure XOR interaction,CS AdaBoost,0.544,100,0.242,100
+One-sample - Pure XOR interaction,CS GBM,0.763,100,0.466,100
+One-sample - Pure XOR interaction,CS XGBoost,0.789,100,0.496,100
+One-sample - Pure XOR interaction,CS LightGBM,0.776,100,0.481,100
+One-sample - Pure XOR interaction,CS CatBoost,0.829,100,0.578,100
+One-sample - Pure XOR interaction,AdaPU,0.500,100,0.202,100
+One-sample - Pure XOR interaction,PU gradient boosting,0.580,100,0.290,100
+One-sample - Threshold interaction,Logistic probability correction,0.501,100,0.201,100
+One-sample - Threshold interaction,uPU logistic,0.501,100,0.201,100
+One-sample - Threshold interaction,nnPU logistic,0.501,100,0.201,100
+One-sample - Threshold interaction,Naive AdaBoost,0.499,100,0.200,100
+One-sample - Threshold interaction,Naive GBM,0.537,100,0.221,100
+One-sample - Threshold interaction,Naive XGBoost,0.548,100,0.233,100
+One-sample - Threshold interaction,Naive LightGBM,0.583,100,0.260,100
+One-sample - Threshold interaction,Naive CatBoost,0.669,100,0.334,100
+One-sample - Threshold interaction,Corrected AdaBoost,0.499,100,0.200,100
+One-sample - Threshold interaction,Corrected GBM,0.537,100,0.221,100
+One-sample - Threshold interaction,Corrected XGBoost,0.548,100,0.233,100
+One-sample - Threshold interaction,Corrected LightGBM,0.583,100,0.260,100
+One-sample - Threshold interaction,Corrected CatBoost,0.669,100,0.334,100
+One-sample - Threshold interaction,RN AdaBoost,0.500,100,0.200,100
+One-sample - Threshold interaction,RN GBM,0.502,100,0.201,100
+One-sample - Threshold interaction,RN XGBoost,0.501,100,0.201,100
+One-sample - Threshold interaction,RN LightGBM,0.503,100,0.201,100
+One-sample - Threshold interaction,RN CatBoost,0.503,100,0.202,100
+One-sample - Threshold interaction,CS AdaBoost,0.499,100,0.200,100
+One-sample - Threshold interaction,CS GBM,0.545,100,0.229,100
+One-sample - Threshold interaction,CS XGBoost,0.550,100,0.233,100
+One-sample - Threshold interaction,CS LightGBM,0.583,100,0.261,100
+One-sample - Threshold interaction,CS CatBoost,0.679,100,0.341,100
+One-sample - Threshold interaction,AdaPU,0.500,100,0.201,100
+One-sample - Threshold interaction,PU gradient boosting,0.500,100,0.202,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Logistic probability correction,0.609,100,0.272,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),uPU logistic,0.622,100,0.282,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),nnPU logistic,0.622,100,0.282,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive AdaBoost,0.737,100,0.399,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive GBM,0.736,100,0.390,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive XGBoost,0.740,100,0.410,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive LightGBM,0.734,100,0.397,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive CatBoost,0.734,100,0.400,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected AdaBoost,0.737,100,0.399,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected GBM,0.736,100,0.390,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected XGBoost,0.740,100,0.410,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected LightGBM,0.734,100,0.397,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected CatBoost,0.734,100,0.400,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),RN AdaBoost,0.730,100,0.390,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),RN GBM,0.725,100,0.380,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),RN XGBoost,0.725,100,0.381,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),RN LightGBM,0.718,100,0.370,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),RN CatBoost,0.726,100,0.387,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),CS AdaBoost,0.738,100,0.402,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),CS GBM,0.740,100,0.407,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),CS XGBoost,0.741,100,0.413,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),CS LightGBM,0.735,100,0.403,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),CS CatBoost,0.735,100,0.403,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),AdaPU,0.722,100,0.379,100
+One-sample - Sinusoidal + 497 noise predictors ($p=500$),PU gradient boosting,0.721,100,0.374,100
+One-sample - Nonlinear heterogeneous covariance,Logistic probability correction,0.499,100,0.210,100
+One-sample - Nonlinear heterogeneous covariance,uPU logistic,0.499,100,0.210,100
+One-sample - Nonlinear heterogeneous covariance,nnPU logistic,0.499,100,0.210,100
+One-sample - Nonlinear heterogeneous covariance,Naive AdaBoost,0.564,100,0.250,100
+One-sample - Nonlinear heterogeneous covariance,Naive GBM,0.736,100,0.415,100
+One-sample - Nonlinear heterogeneous covariance,Naive XGBoost,0.779,100,0.501,100
+One-sample - Nonlinear heterogeneous covariance,Naive LightGBM,0.763,100,0.479,100
+One-sample - Nonlinear heterogeneous covariance,Naive CatBoost,0.819,100,0.574,100
+One-sample - Nonlinear heterogeneous covariance,Corrected AdaBoost,0.564,100,0.250,100
+One-sample - Nonlinear heterogeneous covariance,Corrected GBM,0.736,100,0.415,100
+One-sample - Nonlinear heterogeneous covariance,Corrected XGBoost,0.779,100,0.501,100
+One-sample - Nonlinear heterogeneous covariance,Corrected LightGBM,0.763,100,0.479,100
+One-sample - Nonlinear heterogeneous covariance,Corrected CatBoost,0.819,100,0.574,100
+One-sample - Nonlinear heterogeneous covariance,RN AdaBoost,0.513,100,0.209,100
+One-sample - Nonlinear heterogeneous covariance,RN GBM,0.519,100,0.209,100
+One-sample - Nonlinear heterogeneous covariance,RN XGBoost,0.521,100,0.210,100
+One-sample - Nonlinear heterogeneous covariance,RN LightGBM,0.526,100,0.214,100
+One-sample - Nonlinear heterogeneous covariance,RN CatBoost,0.527,100,0.219,100
+One-sample - Nonlinear heterogeneous covariance,CS AdaBoost,0.561,100,0.248,100
+One-sample - Nonlinear heterogeneous covariance,CS GBM,0.749,100,0.452,100
+One-sample - Nonlinear heterogeneous covariance,CS XGBoost,0.782,100,0.505,100
+One-sample - Nonlinear heterogeneous covariance,CS LightGBM,0.764,100,0.483,100
+One-sample - Nonlinear heterogeneous covariance,CS CatBoost,0.820,100,0.573,100
+One-sample - Nonlinear heterogeneous covariance,AdaPU,0.510,100,0.210,100
+One-sample - Nonlinear heterogeneous covariance,PU gradient boosting,0.560,100,0.275,100
+Two-sample - Additive sinusoidal,Logistic probability correction,0.703,100,0.347,100
+Two-sample - Additive sinusoidal,uPU logistic,0.703,100,0.348,100
+Two-sample - Additive sinusoidal,nnPU logistic,0.703,100,0.348,100
+Two-sample - Additive sinusoidal,Naive AdaBoost,0.751,100,0.428,100
+Two-sample - Additive sinusoidal,Naive GBM,0.753,100,0.422,100
+Two-sample - Additive sinusoidal,Naive XGBoost,0.757,100,0.438,100
+Two-sample - Additive sinusoidal,Naive LightGBM,0.750,100,0.422,100
+Two-sample - Additive sinusoidal,Naive CatBoost,0.749,100,0.426,100
+Two-sample - Additive sinusoidal,Corrected AdaBoost,0.751,100,0.428,100
+Two-sample - Additive sinusoidal,Corrected GBM,0.753,100,0.422,100
+Two-sample - Additive sinusoidal,Corrected XGBoost,0.757,100,0.438,100
+Two-sample - Additive sinusoidal,Corrected LightGBM,0.750,100,0.422,100
+Two-sample - Additive sinusoidal,Corrected CatBoost,0.749,100,0.426,100
+Two-sample - Additive sinusoidal,RN AdaBoost,0.718,100,0.367,100
+Two-sample - Additive sinusoidal,RN GBM,0.710,100,0.358,100
+Two-sample - Additive sinusoidal,RN XGBoost,0.717,100,0.374,100
+Two-sample - Additive sinusoidal,RN LightGBM,0.705,100,0.348,100
+Two-sample - Additive sinusoidal,RN CatBoost,0.712,100,0.357,100
+Two-sample - Additive sinusoidal,CS AdaBoost,0.751,100,0.428,100
+Two-sample - Additive sinusoidal,CS GBM,0.755,100,0.433,100
+Two-sample - Additive sinusoidal,CS XGBoost,0.757,100,0.439,100
+Two-sample - Additive sinusoidal,CS LightGBM,0.750,100,0.426,100
+Two-sample - Additive sinusoidal,CS CatBoost,0.753,100,0.433,100
+Two-sample - Additive sinusoidal,AdaPU,0.726,100,0.382,100
+Two-sample - Additive sinusoidal,PU gradient boosting,0.743,100,0.414,100
+Two-sample - Radial / concentric,Logistic probability correction,0.499,100,0.241,100
+Two-sample - Radial / concentric,uPU logistic,0.499,100,0.246,100
+Two-sample - Radial / concentric,nnPU logistic,0.499,100,0.246,100
+Two-sample - Radial / concentric,Naive AdaBoost,0.782,100,0.584,100
+Two-sample - Radial / concentric,Naive GBM,0.785,100,0.598,100
+Two-sample - Radial / concentric,Naive XGBoost,0.786,100,0.604,100
+Two-sample - Radial / concentric,Naive LightGBM,0.782,100,0.587,100
+Two-sample - Radial / concentric,Naive CatBoost,0.789,100,0.616,100
+Two-sample - Radial / concentric,Corrected AdaBoost,0.782,100,0.584,100
+Two-sample - Radial / concentric,Corrected GBM,0.785,100,0.598,100
+Two-sample - Radial / concentric,Corrected XGBoost,0.786,100,0.604,100
+Two-sample - Radial / concentric,Corrected LightGBM,0.782,100,0.587,100
+Two-sample - Radial / concentric,Corrected CatBoost,0.789,100,0.616,100
+Two-sample - Radial / concentric,RN AdaBoost,0.480,99,0.201,99
+Two-sample - Radial / concentric,RN GBM,0.467,99,0.193,99
+Two-sample - Radial / concentric,RN XGBoost,0.472,100,0.197,100
+Two-sample - Radial / concentric,RN LightGBM,0.477,100,0.200,100
+Two-sample - Radial / concentric,RN CatBoost,0.473,99,0.200,99
+Two-sample - Radial / concentric,CS AdaBoost,0.784,100,0.587,100
+Two-sample - Radial / concentric,CS GBM,0.785,100,0.601,100
+Two-sample - Radial / concentric,CS XGBoost,0.786,100,0.602,100
+Two-sample - Radial / concentric,CS LightGBM,0.782,100,0.589,100
+Two-sample - Radial / concentric,CS CatBoost,0.789,100,0.614,100
+Two-sample - Radial / concentric,AdaPU,0.788,100,0.609,100
+Two-sample - Radial / concentric,PU gradient boosting,0.764,100,0.563,100
+Two-sample - Pure XOR interaction,Logistic probability correction,0.501,100,0.218,100
+Two-sample - Pure XOR interaction,uPU logistic,0.501,100,0.220,100
+Two-sample - Pure XOR interaction,nnPU logistic,0.501,100,0.220,100
+Two-sample - Pure XOR interaction,Naive AdaBoost,0.534,100,0.230,100
+Two-sample - Pure XOR interaction,Naive GBM,0.735,100,0.413,100
+Two-sample - Pure XOR interaction,Naive XGBoost,0.781,100,0.482,100
+Two-sample - Pure XOR interaction,Naive LightGBM,0.768,100,0.465,100
+Two-sample - Pure XOR interaction,Naive CatBoost,0.829,100,0.576,100
+Two-sample - Pure XOR interaction,Corrected AdaBoost,0.534,100,0.230,100
+Two-sample - Pure XOR interaction,Corrected GBM,0.735,100,0.413,100
+Two-sample - Pure XOR interaction,Corrected XGBoost,0.781,100,0.482,100
+Two-sample - Pure XOR interaction,Corrected LightGBM,0.768,100,0.465,100
+Two-sample - Pure XOR interaction,Corrected CatBoost,0.829,100,0.576,100
+Two-sample - Pure XOR interaction,RN AdaBoost,0.522,99,0.219,99
+Two-sample - Pure XOR interaction,RN GBM,0.527,99,0.219,99
+Two-sample - Pure XOR interaction,RN XGBoost,0.528,100,0.220,100
+Two-sample - Pure XOR interaction,RN LightGBM,0.534,100,0.224,100
+Two-sample - Pure XOR interaction,RN CatBoost,0.541,100,0.233,100
+Two-sample - Pure XOR interaction,CS AdaBoost,0.542,100,0.238,100
+Two-sample - Pure XOR interaction,CS GBM,0.744,100,0.432,100
+Two-sample - Pure XOR interaction,CS XGBoost,0.784,100,0.481,100
+Two-sample - Pure XOR interaction,CS LightGBM,0.769,100,0.467,100
+Two-sample - Pure XOR interaction,CS CatBoost,0.829,100,0.574,100
+Two-sample - Pure XOR interaction,AdaPU,0.499,100,0.201,100
+Two-sample - Pure XOR interaction,PU gradient boosting,0.581,100,0.272,100
+Two-sample - Threshold interaction,Logistic probability correction,0.501,100,0.202,100
+Two-sample - Threshold interaction,uPU logistic,0.501,100,0.202,100
+Two-sample - Threshold interaction,nnPU logistic,0.501,100,0.202,100
+Two-sample - Threshold interaction,Naive AdaBoost,0.500,100,0.201,100
+Two-sample - Threshold interaction,Naive GBM,0.530,100,0.218,100
+Two-sample - Threshold interaction,Naive XGBoost,0.547,100,0.232,100
+Two-sample - Threshold interaction,Naive LightGBM,0.571,100,0.251,100
+Two-sample - Threshold interaction,Naive CatBoost,0.656,100,0.320,100
+Two-sample - Threshold interaction,Corrected AdaBoost,0.500,100,0.201,100
+Two-sample - Threshold interaction,Corrected GBM,0.530,100,0.218,100
+Two-sample - Threshold interaction,Corrected XGBoost,0.547,100,0.232,100
+Two-sample - Threshold interaction,Corrected LightGBM,0.571,100,0.251,100
+Two-sample - Threshold interaction,Corrected CatBoost,0.656,100,0.320,100
+Two-sample - Threshold interaction,RN AdaBoost,0.500,100,0.201,100
+Two-sample - Threshold interaction,RN GBM,0.502,100,0.202,100
+Two-sample - Threshold interaction,RN XGBoost,0.501,100,0.202,100
+Two-sample - Threshold interaction,RN LightGBM,0.503,100,0.202,100
+Two-sample - Threshold interaction,RN CatBoost,0.505,100,0.204,100
+Two-sample - Threshold interaction,CS AdaBoost,0.500,100,0.201,100
+Two-sample - Threshold interaction,CS GBM,0.537,100,0.224,100
+Two-sample - Threshold interaction,CS XGBoost,0.547,100,0.231,100
+Two-sample - Threshold interaction,CS LightGBM,0.574,100,0.253,100
+Two-sample - Threshold interaction,CS CatBoost,0.669,100,0.331,100
+Two-sample - Threshold interaction,AdaPU,0.500,100,0.201,100
+Two-sample - Threshold interaction,PU gradient boosting,0.503,100,0.202,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Logistic probability correction,0.604,100,0.267,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),uPU logistic,0.591,100,0.258,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),nnPU logistic,0.609,100,0.271,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive AdaBoost,0.735,100,0.395,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive GBM,0.731,100,0.377,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive XGBoost,0.735,100,0.398,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive LightGBM,0.728,100,0.384,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Naive CatBoost,0.729,100,0.391,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected AdaBoost,0.735,100,0.395,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected GBM,0.731,100,0.377,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected XGBoost,0.735,100,0.398,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected LightGBM,0.728,100,0.384,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),Corrected CatBoost,0.729,100,0.391,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),RN AdaBoost,0.729,100,0.387,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),RN GBM,0.721,100,0.372,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),RN XGBoost,0.724,100,0.376,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),RN LightGBM,0.715,100,0.364,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),RN CatBoost,0.723,100,0.380,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),CS AdaBoost,0.736,100,0.397,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),CS GBM,0.735,100,0.393,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),CS XGBoost,0.737,100,0.403,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),CS LightGBM,0.730,100,0.391,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),CS CatBoost,0.730,100,0.392,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),AdaPU,0.721,100,0.377,100
+Two-sample - Sinusoidal + 497 noise predictors ($p=500$),PU gradient boosting,0.724,100,0.373,100
+Two-sample - Nonlinear heterogeneous covariance,Logistic probability correction,0.501,100,0.209,100
+Two-sample - Nonlinear heterogeneous covariance,uPU logistic,0.501,100,0.209,100
+Two-sample - Nonlinear heterogeneous covariance,nnPU logistic,0.501,100,0.209,100
+Two-sample - Nonlinear heterogeneous covariance,Naive AdaBoost,0.563,100,0.250,100
+Two-sample - Nonlinear heterogeneous covariance,Naive GBM,0.727,100,0.396,100
+Two-sample - Nonlinear heterogeneous covariance,Naive XGBoost,0.768,100,0.481,100
+Two-sample - Nonlinear heterogeneous covariance,Naive LightGBM,0.750,100,0.456,100
+Two-sample - Nonlinear heterogeneous covariance,Naive CatBoost,0.814,100,0.562,100
+Two-sample - Nonlinear heterogeneous covariance,Corrected AdaBoost,0.563,100,0.250,100
+Two-sample - Nonlinear heterogeneous covariance,Corrected GBM,0.727,100,0.396,100
+Two-sample - Nonlinear heterogeneous covariance,Corrected XGBoost,0.768,100,0.481,100
+Two-sample - Nonlinear heterogeneous covariance,Corrected LightGBM,0.750,100,0.456,100
+Two-sample - Nonlinear heterogeneous covariance,Corrected CatBoost,0.814,100,0.562,100
+Two-sample - Nonlinear heterogeneous covariance,RN AdaBoost,0.511,100,0.207,100
+Two-sample - Nonlinear heterogeneous covariance,RN GBM,0.519,100,0.209,100
+Two-sample - Nonlinear heterogeneous covariance,RN XGBoost,0.518,100,0.210,100
+Two-sample - Nonlinear heterogeneous covariance,RN LightGBM,0.523,100,0.214,100
+Two-sample - Nonlinear heterogeneous covariance,RN CatBoost,0.526,100,0.220,100
+Two-sample - Nonlinear heterogeneous covariance,CS AdaBoost,0.564,100,0.250,100
+Two-sample - Nonlinear heterogeneous covariance,CS GBM,0.736,100,0.430,100
+Two-sample - Nonlinear heterogeneous covariance,CS XGBoost,0.770,100,0.484,100
+Two-sample - Nonlinear heterogeneous covariance,CS LightGBM,0.753,100,0.461,100
+Two-sample - Nonlinear heterogeneous covariance,CS CatBoost,0.816,100,0.563,100
+Two-sample - Nonlinear heterogeneous covariance,AdaPU,0.511,100,0.210,100
+Two-sample - Nonlinear heterogeneous covariance,PU gradient boosting,0.595,100,0.291,100
+Unavailable final refits (zero-based repetition index),"Radial / concentric One-sample, r004: RN GBM",--,0,--,0
+Unavailable final refits (zero-based repetition index),"Radial / concentric Two-sample, r086: RN AdaBoost",--,0,--,0
+Unavailable final refits (zero-based repetition index),"Radial / concentric Two-sample, r086: RN GBM",--,0,--,0
+Unavailable final refits (zero-based repetition index),"Radial / concentric Two-sample, r086: RN CatBoost",--,0,--,0
+Unavailable final refits (zero-based repetition index),"Pure XOR interaction Two-sample, r012: RN AdaBoost",--,0,--,0
+Unavailable final refits (zero-based repetition index),"Pure XOR interaction Two-sample, r083: RN GBM",--,0,--,0

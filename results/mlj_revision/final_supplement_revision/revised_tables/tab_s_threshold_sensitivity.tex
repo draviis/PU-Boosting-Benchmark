@@ -1,0 +1,1881 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\caption{Threshold pilot only: eight simulation settings x one repetition per design, plus eight real datasets x two label budgets x one split per design in the table. All three rules apply to the same selected train-only model. Same-model quantile uses the population-representative validation quantile (all validation observations for one-sample; validation U only for two-sample). PU-estimated BA is a pilot rule; oracle BA uses true validation labels and is diagnostic only. Test labels never select thresholds. No historical mixed or refit-transfer rule is presented. The figure shows the six conceptual representatives on simulation cases; the table retains all 25 methods and real pilot cases. Six real-data method/case replays failed validation verification and are marked unavailable, leaving 1,194 verified method/case results per rule.}\label{tab:s-threshold-sensitivity}\\
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Credit Default, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Credit Default, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.671 & 0.658 & 0.671 & yes \\
+uPU logistic & 0.674 & 0.661 & 0.672 & yes \\
+nnPU logistic & 0.674 & 0.661 & 0.672 & yes \\
+Naive AdaBoost & 0.691 & 0.649 & 0.691 & yes \\
+Naive GBM & 0.676 & 0.654 & 0.676 & yes \\
+Naive XGBoost & 0.675 & 0.671 & 0.681 & yes \\
+Naive LightGBM & 0.669 & 0.680 & 0.684 & yes \\
+Naive CatBoost & 0.682 & 0.661 & 0.683 & yes \\
+Corrected AdaBoost & 0.691 & 0.649 & 0.691 & yes \\
+Corrected GBM & 0.676 & 0.654 & 0.676 & yes \\
+Corrected XGBoost & 0.675 & 0.671 & 0.681 & yes \\
+Corrected LightGBM & 0.669 & 0.680 & 0.684 & yes \\
+Corrected CatBoost & 0.682 & 0.661 & 0.683 & yes \\
+RN AdaBoost & 0.642 & 0.682 & 0.682 & yes \\
+RN GBM & 0.674 & 0.661 & 0.670 & yes \\
+RN XGBoost & 0.673 & 0.672 & 0.669 & yes \\
+RN LightGBM & 0.636 & 0.621 & 0.656 & yes \\
+RN CatBoost & 0.667 & 0.645 & 0.667 & yes \\
+CS AdaBoost & 0.691 & 0.649 & 0.691 & yes \\
+CS GBM & 0.679 & 0.668 & 0.693 & yes \\
+CS XGBoost & 0.678 & 0.675 & 0.677 & yes \\
+CS LightGBM & 0.670 & 0.651 & 0.682 & yes \\
+CS CatBoost & 0.681 & 0.669 & 0.691 & yes \\
+AdaPU & 0.691 & 0.691 & 0.692 & yes \\
+PU gradient boosting & 0.500 & 0.684 & 0.684 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Credit Default, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Credit Default, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.672 & 0.671 & 0.674 & yes \\
+uPU logistic & 0.673 & 0.673 & 0.671 & yes \\
+nnPU logistic & 0.673 & 0.673 & 0.671 & yes \\
+Naive AdaBoost & 0.699 & 0.676 & 0.705 & yes \\
+Naive GBM & 0.697 & 0.680 & 0.701 & yes \\
+Naive XGBoost & 0.699 & 0.678 & 0.710 & yes \\
+Naive LightGBM & 0.689 & 0.692 & 0.698 & yes \\
+Naive CatBoost & 0.676 & 0.694 & 0.693 & yes \\
+Corrected AdaBoost & 0.699 & 0.676 & 0.705 & yes \\
+Corrected GBM & 0.697 & 0.680 & 0.701 & yes \\
+Corrected XGBoost & 0.699 & 0.678 & 0.710 & yes \\
+Corrected LightGBM & 0.689 & 0.692 & 0.698 & yes \\
+Corrected CatBoost & 0.676 & 0.694 & 0.693 & yes \\
+RN AdaBoost & 0.678 & 0.682 & 0.682 & yes \\
+RN GBM & 0.636 & 0.650 & 0.650 & yes \\
+RN XGBoost & 0.673 & 0.668 & 0.672 & yes \\
+RN LightGBM & 0.672 & 0.641 & 0.672 & yes \\
+RN CatBoost & 0.675 & 0.674 & 0.675 & yes \\
+CS AdaBoost & 0.699 & 0.676 & 0.705 & yes \\
+CS GBM & 0.691 & 0.704 & 0.707 & yes \\
+CS XGBoost & 0.699 & 0.678 & 0.710 & yes \\
+CS LightGBM & 0.693 & 0.705 & 0.705 & yes \\
+CS CatBoost & 0.701 & 0.707 & 0.709 & yes \\
+AdaPU & 0.700 & 0.704 & 0.705 & yes \\
+PU gradient boosting & 0.702 & 0.672 & 0.702 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Dry Bean, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Dry Bean, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.940 & 0.946 & 0.953 & yes \\
+uPU logistic & 0.934 & 0.942 & 0.942 & yes \\
+nnPU logistic & 0.934 & 0.942 & 0.942 & yes \\
+Naive AdaBoost & 0.939 & 0.944 & 0.944 & yes \\
+Naive GBM & 0.935 & 0.920 & 0.935 & yes \\
+Naive XGBoost & 0.941 & 0.941 & 0.940 & yes \\
+Naive LightGBM & 0.938 & 0.937 & 0.945 & yes \\
+Naive CatBoost & 0.937 & 0.944 & 0.949 & yes \\
+Corrected AdaBoost & 0.939 & 0.944 & 0.944 & yes \\
+Corrected GBM & 0.935 & 0.920 & 0.935 & yes \\
+Corrected XGBoost & 0.941 & 0.941 & 0.940 & yes \\
+Corrected LightGBM & 0.938 & 0.937 & 0.945 & yes \\
+Corrected CatBoost & 0.937 & 0.944 & 0.949 & yes \\
+RN AdaBoost & 0.947 & 0.947 & 0.947 & yes \\
+RN GBM & 0.944 & 0.947 & 0.947 & yes \\
+RN XGBoost & 0.944 & 0.940 & 0.951 & yes \\
+RN LightGBM & 0.946 & 0.939 & 0.951 & yes \\
+RN CatBoost & 0.945 & 0.945 & 0.950 & yes \\
+CS AdaBoost & 0.941 & 0.902 & 0.942 & yes \\
+CS GBM & 0.937 & 0.860 & 0.939 & yes \\
+CS XGBoost & 0.941 & 0.941 & 0.940 & yes \\
+CS LightGBM & 0.940 & 0.934 & 0.943 & yes \\
+CS CatBoost & 0.937 & 0.944 & 0.949 & yes \\
+AdaPU & 0.910 & 0.889 & 0.920 & yes \\
+PU gradient boosting & 0.891 & 0.910 & 0.915 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Dry Bean, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Dry Bean, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.945 & 0.947 & 0.947 & yes \\
+uPU logistic & 0.936 & 0.944 & 0.941 & yes \\
+nnPU logistic & 0.936 & 0.944 & 0.941 & yes \\
+Naive AdaBoost & 0.948 & 0.924 & 0.952 & yes \\
+Naive GBM & 0.934 & 0.945 & 0.950 & yes \\
+Naive XGBoost & 0.945 & 0.954 & 0.954 & yes \\
+Naive LightGBM & 0.933 & 0.949 & 0.949 & yes \\
+Naive CatBoost & 0.934 & 0.947 & 0.947 & yes \\
+Corrected AdaBoost & 0.948 & 0.924 & 0.952 & yes \\
+Corrected GBM & 0.934 & 0.945 & 0.950 & yes \\
+Corrected XGBoost & 0.945 & 0.954 & 0.954 & yes \\
+Corrected LightGBM & 0.933 & 0.949 & 0.949 & yes \\
+Corrected CatBoost & 0.934 & 0.947 & 0.947 & yes \\
+RN AdaBoost & 0.946 & 0.957 & 0.957 & yes \\
+RN GBM & 0.948 & 0.952 & 0.951 & yes \\
+RN XGBoost & 0.945 & 0.955 & 0.957 & yes \\
+RN LightGBM & 0.947 & 0.956 & 0.957 & yes \\
+RN CatBoost & 0.945 & 0.950 & 0.951 & yes \\
+CS AdaBoost & 0.948 & 0.916 & 0.950 & yes \\
+CS GBM & 0.940 & 0.924 & 0.949 & yes \\
+CS XGBoost & 0.945 & 0.953 & 0.952 & yes \\
+CS LightGBM & 0.932 & 0.950 & 0.951 & yes \\
+CS CatBoost & 0.943 & 0.951 & 0.954 & yes \\
+AdaPU & 0.888 & 0.902 & 0.905 & yes \\
+PU gradient boosting & 0.944 & 0.939 & 0.946 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: HTRU2, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: HTRU2, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.916 & 0.905 & 0.927 & yes \\
+uPU logistic & 0.925 & 0.936 & 0.933 & yes \\
+nnPU logistic & 0.925 & 0.936 & 0.933 & yes \\
+Naive AdaBoost & 0.913 & 0.887 & 0.921 & yes \\
+Naive GBM & 0.916 & 0.894 & 0.909 & yes \\
+Naive XGBoost & 0.916 & 0.919 & 0.919 & yes \\
+Naive LightGBM & 0.901 & 0.885 & 0.917 & yes \\
+Naive CatBoost & 0.917 & 0.897 & 0.929 & yes \\
+Corrected AdaBoost & 0.913 & 0.887 & 0.921 & yes \\
+Corrected GBM & 0.916 & 0.894 & 0.909 & yes \\
+Corrected XGBoost & 0.916 & 0.919 & 0.919 & yes \\
+Corrected LightGBM & 0.901 & 0.885 & 0.917 & yes \\
+Corrected CatBoost & 0.917 & 0.897 & 0.929 & yes \\
+RN AdaBoost & 0.922 & 0.898 & 0.922 & yes \\
+RN GBM & 0.906 & 0.894 & 0.906 & yes \\
+RN XGBoost & 0.912 & 0.900 & 0.914 & yes \\
+RN LightGBM & 0.894 & 0.908 & 0.910 & yes \\
+RN CatBoost & 0.916 & 0.900 & 0.928 & yes \\
+CS AdaBoost & 0.910 & 0.899 & 0.910 & yes \\
+CS GBM & 0.916 & 0.894 & 0.909 & yes \\
+CS XGBoost & 0.898 & 0.894 & 0.906 & yes \\
+CS LightGBM & 0.873 & 0.899 & 0.895 & yes \\
+CS CatBoost & 0.919 & 0.884 & 0.920 & yes \\
+AdaPU & 0.889 & 0.884 & 0.889 & yes \\
+PU gradient boosting & 0.912 & 0.915 & 0.915 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: HTRU2, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: HTRU2, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.905 & 0.918 & 0.917 & yes \\
+uPU logistic & 0.915 & 0.925 & 0.925 & yes \\
+nnPU logistic & 0.915 & 0.925 & 0.925 & yes \\
+Naive AdaBoost & 0.917 & 0.914 & 0.922 & yes \\
+Naive GBM & 0.918 & 0.927 & 0.930 & yes \\
+Naive XGBoost & 0.921 & 0.924 & 0.922 & yes \\
+Naive LightGBM & 0.908 & 0.922 & 0.922 & yes \\
+Naive CatBoost & 0.918 & 0.931 & 0.930 & yes \\
+Corrected AdaBoost & 0.917 & 0.914 & 0.922 & yes \\
+Corrected GBM & 0.918 & 0.927 & 0.930 & yes \\
+Corrected XGBoost & 0.921 & 0.924 & 0.922 & yes \\
+Corrected LightGBM & 0.908 & 0.922 & 0.922 & yes \\
+Corrected CatBoost & 0.918 & 0.931 & 0.930 & yes \\
+RN AdaBoost & 0.922 & 0.919 & 0.922 & yes \\
+RN GBM & 0.917 & 0.925 & 0.930 & yes \\
+RN XGBoost & 0.919 & 0.923 & 0.931 & yes \\
+RN LightGBM & 0.906 & 0.925 & 0.927 & yes \\
+RN CatBoost & 0.902 & 0.929 & 0.928 & yes \\
+CS AdaBoost & 0.917 & 0.914 & 0.922 & yes \\
+CS GBM & 0.916 & 0.926 & 0.929 & yes \\
+CS XGBoost & 0.921 & 0.924 & 0.922 & yes \\
+CS LightGBM & 0.913 & 0.914 & 0.914 & yes \\
+CS CatBoost & 0.922 & 0.924 & 0.921 & yes \\
+AdaPU & 0.904 & 0.910 & 0.917 & yes \\
+PU gradient boosting & 0.919 & 0.911 & 0.921 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Online Shoppers, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Online Shoppers, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.551 & 0.577 & 0.578 & yes \\
+uPU logistic & 0.542 & 0.582 & 0.573 & yes \\
+nnPU logistic & 0.550 & 0.580 & 0.568 & yes \\
+Naive AdaBoost & 0.644 & 0.644 & 0.645 & yes \\
+Naive GBM & 0.564 & 0.612 & 0.620 & yes \\
+Naive XGBoost & 0.563 & 0.599 & 0.599 & yes \\
+Naive LightGBM & 0.559 & 0.613 & 0.631 & yes \\
+Naive CatBoost & 0.576 & 0.541 & 0.616 & yes \\
+Corrected AdaBoost & 0.644 & 0.644 & 0.645 & yes \\
+Corrected GBM & 0.564 & 0.612 & 0.620 & yes \\
+Corrected XGBoost & 0.563 & 0.599 & 0.599 & yes \\
+Corrected LightGBM & 0.559 & 0.613 & 0.631 & yes \\
+Corrected CatBoost & 0.576 & 0.541 & 0.616 & yes \\
+RN AdaBoost & 0.583 & 0.609 & 0.646 & yes \\
+RN GBM & 0.551 & 0.568 & 0.618 & yes \\
+RN XGBoost & 0.594 & 0.587 & 0.641 & yes \\
+RN LightGBM & 0.557 & 0.617 & 0.613 & yes \\
+RN CatBoost & 0.582 & 0.594 & 0.658 & yes \\
+CS AdaBoost & 0.644 & 0.644 & 0.645 & yes \\
+CS GBM & 0.539 & 0.559 & 0.592 & yes \\
+CS XGBoost & 0.564 & 0.627 & 0.636 & yes \\
+CS LightGBM & 0.567 & 0.598 & 0.635 & yes \\
+CS CatBoost & 0.558 & 0.613 & 0.611 & yes \\
+AdaPU & 0.597 & 0.634 & 0.629 & yes \\
+PU gradient boosting & 0.515 & 0.629 & 0.629 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Online Shoppers, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Online Shoppers, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.580 & 0.637 & 0.637 & yes \\
+uPU logistic & 0.583 & 0.630 & 0.630 & yes \\
+nnPU logistic & 0.583 & 0.630 & 0.630 & yes \\
+Naive AdaBoost & 0.628 & 0.656 & 0.657 & yes \\
+Naive GBM & 0.616 & 0.661 & 0.670 & yes \\
+Naive XGBoost & 0.590 & 0.645 & 0.659 & yes \\
+Naive LightGBM & 0.592 & 0.639 & 0.636 & yes \\
+Naive CatBoost & 0.596 & 0.658 & 0.664 & yes \\
+Corrected AdaBoost & 0.628 & 0.656 & 0.657 & yes \\
+Corrected GBM & 0.616 & 0.661 & 0.670 & yes \\
+Corrected XGBoost & 0.590 & 0.645 & 0.659 & yes \\
+Corrected LightGBM & 0.592 & 0.639 & 0.636 & yes \\
+Corrected CatBoost & 0.596 & 0.658 & 0.664 & yes \\
+RN AdaBoost & 0.624 & 0.644 & 0.640 & yes \\
+RN GBM & 0.597 & 0.651 & 0.645 & yes \\
+RN XGBoost & 0.611 & 0.652 & 0.647 & yes \\
+RN LightGBM & 0.588 & 0.623 & 0.643 & yes \\
+RN CatBoost & 0.588 & 0.653 & 0.653 & yes \\
+CS AdaBoost & 0.604 & 0.653 & 0.653 & yes \\
+CS GBM & 0.614 & 0.632 & 0.641 & yes \\
+CS XGBoost & 0.590 & 0.645 & 0.659 & yes \\
+CS LightGBM & 0.573 & 0.615 & 0.628 & yes \\
+CS CatBoost & 0.588 & 0.643 & 0.651 & yes \\
+AdaPU & 0.589 & 0.645 & 0.650 & yes \\
+PU gradient boosting & 0.631 & 0.655 & 0.655 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Optical Digits, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Optical Digits, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.770 & 0.777 & 0.776 & yes \\
+uPU logistic & 0.761 & 0.741 & 0.761 & yes \\
+nnPU logistic & 0.838 & 0.841 & 0.836 & yes \\
+Naive AdaBoost & 0.816 & 0.755 & 0.812 & yes \\
+Naive GBM & 0.732 & 0.721 & 0.732 & yes \\
+Naive XGBoost & 0.762 & 0.721 & 0.764 & yes \\
+Naive LightGBM & 0.788 & 0.773 & 0.788 & yes \\
+Naive CatBoost & 0.840 & 0.834 & 0.837 & yes \\
+Corrected AdaBoost & 0.816 & 0.755 & 0.812 & yes \\
+Corrected GBM & 0.732 & 0.721 & 0.732 & yes \\
+Corrected XGBoost & 0.762 & 0.721 & 0.764 & yes \\
+Corrected LightGBM & 0.788 & 0.773 & 0.788 & yes \\
+Corrected CatBoost & 0.840 & 0.834 & 0.837 & yes \\
+RN AdaBoost & -- & -- & -- & no \\
+RN GBM & 0.827 & 0.811 & 0.820 & yes \\
+RN XGBoost & 0.823 & 0.823 & 0.825 & yes \\
+RN LightGBM & 0.819 & 0.738 & 0.826 & yes \\
+RN CatBoost & 0.838 & 0.838 & 0.836 & yes \\
+CS AdaBoost & 0.831 & 0.795 & 0.833 & yes \\
+CS GBM & 0.744 & 0.744 & 0.740 & yes \\
+CS XGBoost & 0.736 & 0.727 & 0.735 & yes \\
+CS LightGBM & 0.793 & 0.770 & 0.794 & yes \\
+CS CatBoost & 0.841 & 0.828 & 0.831 & yes \\
+AdaPU & 0.802 & 0.782 & 0.802 & yes \\
+PU gradient boosting & 0.774 & 0.778 & 0.780 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Optical Digits, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Optical Digits, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.857 & 0.841 & 0.857 & yes \\
+uPU logistic & 0.866 & 0.857 & 0.863 & yes \\
+nnPU logistic & 0.866 & 0.855 & 0.859 & yes \\
+Naive AdaBoost & 0.872 & 0.874 & 0.861 & yes \\
+Naive GBM & 0.871 & 0.873 & 0.871 & yes \\
+Naive XGBoost & 0.898 & 0.885 & 0.898 & yes \\
+Naive LightGBM & 0.902 & 0.901 & 0.903 & yes \\
+Naive CatBoost & 0.911 & 0.910 & 0.913 & yes \\
+Corrected AdaBoost & 0.872 & 0.874 & 0.861 & yes \\
+Corrected GBM & 0.871 & 0.873 & 0.871 & yes \\
+Corrected XGBoost & 0.898 & 0.885 & 0.898 & yes \\
+Corrected LightGBM & 0.902 & 0.901 & 0.903 & yes \\
+Corrected CatBoost & 0.911 & 0.910 & 0.913 & yes \\
+RN AdaBoost & 0.886 & 0.877 & 0.883 & yes \\
+RN GBM & 0.864 & 0.859 & 0.867 & yes \\
+RN XGBoost & 0.876 & 0.873 & 0.870 & yes \\
+RN LightGBM & 0.898 & 0.888 & 0.889 & yes \\
+RN CatBoost & 0.893 & 0.902 & 0.893 & yes \\
+CS AdaBoost & 0.874 & 0.870 & 0.867 & yes \\
+CS GBM & 0.890 & 0.890 & 0.890 & yes \\
+CS XGBoost & 0.904 & 0.899 & 0.902 & yes \\
+CS LightGBM & 0.902 & 0.895 & 0.903 & yes \\
+CS CatBoost & 0.911 & 0.910 & 0.913 & yes \\
+AdaPU & 0.849 & 0.862 & 0.833 & yes \\
+PU gradient boosting & 0.875 & 0.868 & 0.870 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Phishing Websites, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Phishing Websites, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.875 & 0.867 & 0.876 & yes \\
+uPU logistic & 0.818 & 0.753 & 0.818 & yes \\
+nnPU logistic & 0.877 & 0.865 & 0.874 & yes \\
+Naive AdaBoost & 0.896 & 0.896 & 0.900 & yes \\
+Naive GBM & 0.875 & 0.883 & 0.881 & yes \\
+Naive XGBoost & 0.867 & 0.819 & 0.849 & yes \\
+Naive LightGBM & 0.866 & 0.854 & 0.867 & yes \\
+Naive CatBoost & 0.858 & 0.852 & 0.846 & yes \\
+Corrected AdaBoost & 0.896 & 0.896 & 0.900 & yes \\
+Corrected GBM & 0.875 & 0.883 & 0.881 & yes \\
+Corrected XGBoost & 0.867 & 0.819 & 0.849 & yes \\
+Corrected LightGBM & 0.866 & 0.854 & 0.867 & yes \\
+Corrected CatBoost & 0.858 & 0.852 & 0.846 & yes \\
+RN AdaBoost & 0.888 & 0.888 & 0.925 & yes \\
+RN GBM & 0.923 & 0.918 & 0.920 & yes \\
+RN XGBoost & 0.914 & 0.903 & 0.910 & yes \\
+RN LightGBM & 0.907 & 0.905 & 0.905 & yes \\
+RN CatBoost & 0.911 & 0.908 & 0.904 & yes \\
+CS AdaBoost & 0.898 & 0.851 & 0.915 & yes \\
+CS GBM & 0.878 & 0.879 & 0.879 & yes \\
+CS XGBoost & 0.835 & 0.827 & 0.828 & yes \\
+CS LightGBM & 0.866 & 0.854 & 0.867 & yes \\
+CS CatBoost & 0.858 & 0.852 & 0.846 & yes \\
+AdaPU & 0.914 & 0.898 & 0.907 & yes \\
+PU gradient boosting & 0.897 & 0.900 & 0.904 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Phishing Websites, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Phishing Websites, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.909 & 0.910 & 0.910 & yes \\
+uPU logistic & 0.885 & 0.880 & 0.875 & yes \\
+nnPU logistic & 0.889 & 0.887 & 0.883 & yes \\
+Naive AdaBoost & 0.929 & 0.929 & 0.929 & yes \\
+Naive GBM & 0.899 & 0.901 & 0.899 & yes \\
+Naive XGBoost & 0.911 & 0.917 & 0.909 & yes \\
+Naive LightGBM & 0.903 & 0.899 & 0.899 & yes \\
+Naive CatBoost & 0.898 & 0.769 & 0.894 & yes \\
+Corrected AdaBoost & 0.929 & 0.929 & 0.929 & yes \\
+Corrected GBM & 0.899 & 0.901 & 0.899 & yes \\
+Corrected XGBoost & 0.911 & 0.917 & 0.909 & yes \\
+Corrected LightGBM & 0.903 & 0.899 & 0.899 & yes \\
+Corrected CatBoost & 0.898 & 0.769 & 0.894 & yes \\
+RN AdaBoost & 0.924 & 0.919 & 0.919 & yes \\
+RN GBM & 0.921 & 0.886 & 0.926 & yes \\
+RN XGBoost & 0.928 & 0.927 & 0.928 & yes \\
+RN LightGBM & 0.924 & 0.900 & 0.922 & yes \\
+RN CatBoost & 0.935 & 0.916 & 0.934 & yes \\
+CS AdaBoost & 0.928 & 0.928 & 0.928 & yes \\
+CS GBM & 0.899 & 0.901 & 0.899 & yes \\
+CS XGBoost & 0.907 & 0.915 & 0.916 & yes \\
+CS LightGBM & 0.891 & 0.898 & 0.891 & yes \\
+CS CatBoost & 0.883 & 0.791 & 0.882 & yes \\
+AdaPU & 0.916 & 0.914 & 0.914 & yes \\
+PU gradient boosting & 0.915 & 0.896 & 0.920 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Rice, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Rice, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.904 & 0.880 & 0.902 & yes \\
+uPU logistic & 0.892 & 0.855 & 0.901 & yes \\
+nnPU logistic & 0.903 & 0.860 & 0.902 & yes \\
+Naive AdaBoost & 0.887 & 0.811 & 0.878 & yes \\
+Naive GBM & 0.864 & 0.690 & 0.861 & yes \\
+Naive XGBoost & 0.869 & 0.801 & 0.885 & yes \\
+Naive LightGBM & 0.844 & 0.667 & 0.889 & yes \\
+Naive CatBoost & 0.846 & 0.706 & 0.847 & yes \\
+Corrected AdaBoost & 0.887 & 0.811 & 0.878 & yes \\
+Corrected GBM & 0.864 & 0.690 & 0.861 & yes \\
+Corrected XGBoost & 0.869 & 0.801 & 0.885 & yes \\
+Corrected LightGBM & 0.844 & 0.667 & 0.889 & yes \\
+Corrected CatBoost & 0.846 & 0.706 & 0.847 & yes \\
+RN AdaBoost & 0.918 & 0.827 & 0.910 & yes \\
+RN GBM & 0.909 & 0.803 & 0.918 & yes \\
+RN XGBoost & 0.889 & 0.649 & 0.919 & yes \\
+RN LightGBM & 0.905 & 0.778 & 0.905 & yes \\
+RN CatBoost & 0.912 & 0.829 & 0.921 & yes \\
+CS AdaBoost & 0.886 & 0.810 & 0.875 & yes \\
+CS GBM & 0.864 & 0.611 & 0.876 & yes \\
+CS XGBoost & 0.807 & 0.642 & 0.823 & yes \\
+CS LightGBM & 0.844 & 0.667 & 0.889 & yes \\
+CS CatBoost & 0.846 & 0.706 & 0.847 & yes \\
+AdaPU & 0.920 & 0.859 & 0.919 & yes \\
+PU gradient boosting & 0.917 & 0.917 & 0.917 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Rice, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Rice, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.919 & 0.917 & 0.920 & yes \\
+uPU logistic & 0.924 & 0.923 & 0.924 & yes \\
+nnPU logistic & 0.924 & 0.923 & 0.924 & yes \\
+Naive AdaBoost & 0.906 & 0.884 & 0.912 & yes \\
+Naive GBM & 0.897 & 0.915 & 0.891 & yes \\
+Naive XGBoost & 0.902 & 0.926 & 0.902 & yes \\
+Naive LightGBM & 0.880 & 0.899 & 0.904 & yes \\
+Naive CatBoost & 0.905 & 0.897 & 0.905 & yes \\
+Corrected AdaBoost & 0.906 & 0.884 & 0.912 & yes \\
+Corrected GBM & 0.897 & 0.915 & 0.891 & yes \\
+Corrected XGBoost & 0.902 & 0.926 & 0.902 & yes \\
+Corrected LightGBM & 0.880 & 0.899 & 0.904 & yes \\
+Corrected CatBoost & 0.905 & 0.897 & 0.905 & yes \\
+RN AdaBoost & 0.901 & 0.895 & 0.922 & yes \\
+RN GBM & 0.898 & 0.887 & 0.925 & yes \\
+RN XGBoost & 0.885 & 0.900 & 0.907 & yes \\
+RN LightGBM & 0.921 & 0.912 & 0.913 & yes \\
+RN CatBoost & 0.921 & 0.891 & 0.925 & yes \\
+CS AdaBoost & 0.906 & 0.884 & 0.912 & yes \\
+CS GBM & 0.906 & 0.904 & 0.906 & yes \\
+CS XGBoost & 0.891 & 0.881 & 0.906 & yes \\
+CS LightGBM & 0.874 & 0.896 & 0.894 & yes \\
+CS CatBoost & 0.905 & 0.897 & 0.905 & yes \\
+AdaPU & 0.913 & 0.912 & 0.912 & yes \\
+PU gradient boosting & 0.920 & 0.921 & 0.920 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Spambase, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Spambase, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.793 & 0.774 & 0.794 & yes \\
+uPU logistic & 0.775 & 0.689 & 0.768 & yes \\
+nnPU logistic & 0.790 & 0.724 & 0.793 & yes \\
+Naive AdaBoost & 0.813 & 0.656 & 0.821 & yes \\
+Naive GBM & 0.807 & 0.721 & 0.807 & yes \\
+Naive XGBoost & 0.802 & 0.661 & 0.794 & yes \\
+Naive LightGBM & 0.701 & 0.696 & 0.690 & yes \\
+Naive CatBoost & 0.867 & 0.651 & 0.872 & yes \\
+Corrected AdaBoost & 0.813 & 0.656 & 0.821 & yes \\
+Corrected GBM & 0.807 & 0.721 & 0.807 & yes \\
+Corrected XGBoost & 0.802 & 0.661 & 0.794 & yes \\
+Corrected LightGBM & 0.701 & 0.696 & 0.690 & yes \\
+Corrected CatBoost & 0.867 & 0.651 & 0.872 & yes \\
+RN AdaBoost & -- & -- & -- & no \\
+RN GBM & 0.824 & 0.769 & 0.840 & yes \\
+RN XGBoost & 0.839 & 0.775 & 0.845 & yes \\
+RN LightGBM & 0.827 & 0.660 & 0.830 & yes \\
+RN CatBoost & 0.868 & 0.722 & 0.868 & yes \\
+CS AdaBoost & 0.834 & 0.716 & 0.830 & yes \\
+CS GBM & 0.795 & 0.731 & 0.787 & yes \\
+CS XGBoost & 0.766 & 0.689 & 0.761 & yes \\
+CS LightGBM & 0.759 & 0.757 & 0.751 & yes \\
+CS CatBoost & 0.848 & 0.704 & 0.848 & yes \\
+AdaPU & 0.835 & 0.698 & 0.842 & yes \\
+PU gradient boosting & 0.795 & 0.744 & 0.789 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Spambase, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - real: Spambase, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.842 & 0.839 & 0.841 & yes \\
+uPU logistic & 0.854 & 0.758 & 0.858 & yes \\
+nnPU logistic & 0.864 & 0.783 & 0.871 & yes \\
+Naive AdaBoost & -- & -- & -- & no \\
+Naive GBM & 0.882 & 0.888 & 0.876 & yes \\
+Naive XGBoost & 0.891 & 0.857 & 0.897 & yes \\
+Naive LightGBM & 0.881 & 0.866 & 0.883 & yes \\
+Naive CatBoost & 0.912 & 0.897 & 0.908 & yes \\
+Corrected AdaBoost & -- & -- & -- & no \\
+Corrected GBM & 0.882 & 0.888 & 0.876 & yes \\
+Corrected XGBoost & 0.891 & 0.857 & 0.897 & yes \\
+Corrected LightGBM & 0.881 & 0.866 & 0.883 & yes \\
+Corrected CatBoost & 0.912 & 0.897 & 0.908 & yes \\
+RN AdaBoost & 0.906 & 0.882 & 0.909 & yes \\
+RN GBM & 0.917 & 0.917 & 0.910 & yes \\
+RN XGBoost & 0.910 & 0.881 & 0.906 & yes \\
+RN LightGBM & 0.909 & 0.888 & 0.908 & yes \\
+RN CatBoost & 0.924 & 0.925 & 0.924 & yes \\
+CS AdaBoost & -- & -- & -- & no \\
+CS GBM & 0.870 & 0.853 & 0.868 & yes \\
+CS XGBoost & 0.869 & 0.841 & 0.871 & yes \\
+CS LightGBM & 0.883 & 0.883 & 0.885 & yes \\
+CS CatBoost & 0.912 & 0.897 & 0.908 & yes \\
+AdaPU & 0.856 & 0.851 & 0.857 & yes \\
+PU gradient boosting & 0.878 & 0.862 & 0.880 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Credit Default, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Credit Default, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.655 & 0.657 & 0.662 & yes \\
+uPU logistic & 0.661 & 0.650 & 0.666 & yes \\
+nnPU logistic & 0.661 & 0.650 & 0.666 & yes \\
+Naive AdaBoost & 0.637 & 0.675 & 0.674 & yes \\
+Naive GBM & 0.676 & 0.685 & 0.682 & yes \\
+Naive XGBoost & 0.672 & 0.671 & 0.674 & yes \\
+Naive LightGBM & 0.654 & 0.658 & 0.669 & yes \\
+Naive CatBoost & 0.686 & 0.695 & 0.689 & yes \\
+Corrected AdaBoost & 0.637 & 0.675 & 0.674 & yes \\
+Corrected GBM & 0.676 & 0.685 & 0.682 & yes \\
+Corrected XGBoost & 0.672 & 0.671 & 0.674 & yes \\
+Corrected LightGBM & 0.654 & 0.658 & 0.669 & yes \\
+Corrected CatBoost & 0.686 & 0.695 & 0.689 & yes \\
+RN AdaBoost & 0.661 & 0.659 & 0.662 & yes \\
+RN GBM & 0.670 & 0.670 & 0.660 & yes \\
+RN XGBoost & 0.661 & 0.621 & 0.661 & yes \\
+RN LightGBM & 0.594 & 0.594 & 0.627 & yes \\
+RN CatBoost & 0.657 & 0.653 & 0.659 & yes \\
+CS AdaBoost & 0.637 & 0.675 & 0.674 & yes \\
+CS GBM & 0.676 & 0.685 & 0.682 & yes \\
+CS XGBoost & 0.674 & 0.673 & 0.675 & yes \\
+CS LightGBM & 0.654 & 0.658 & 0.669 & yes \\
+CS CatBoost & 0.686 & 0.695 & 0.689 & yes \\
+AdaPU & 0.693 & 0.684 & 0.689 & yes \\
+PU gradient boosting & 0.680 & 0.684 & 0.689 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Credit Default, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Credit Default, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.673 & 0.677 & 0.674 & yes \\
+uPU logistic & 0.679 & 0.675 & 0.678 & yes \\
+nnPU logistic & 0.679 & 0.675 & 0.678 & yes \\
+Naive AdaBoost & 0.697 & 0.688 & 0.695 & yes \\
+Naive GBM & 0.685 & 0.696 & 0.697 & yes \\
+Naive XGBoost & 0.687 & 0.689 & 0.694 & yes \\
+Naive LightGBM & 0.681 & 0.694 & 0.692 & yes \\
+Naive CatBoost & 0.691 & 0.711 & 0.705 & yes \\
+Corrected AdaBoost & 0.697 & 0.688 & 0.695 & yes \\
+Corrected GBM & 0.685 & 0.696 & 0.697 & yes \\
+Corrected XGBoost & 0.687 & 0.689 & 0.694 & yes \\
+Corrected LightGBM & 0.681 & 0.694 & 0.692 & yes \\
+Corrected CatBoost & 0.691 & 0.711 & 0.705 & yes \\
+RN AdaBoost & 0.673 & 0.671 & 0.683 & yes \\
+RN GBM & 0.673 & 0.667 & 0.676 & yes \\
+RN XGBoost & 0.677 & 0.675 & 0.679 & yes \\
+RN LightGBM & 0.645 & 0.651 & 0.652 & yes \\
+RN CatBoost & 0.675 & 0.671 & 0.676 & yes \\
+CS AdaBoost & 0.680 & 0.686 & 0.693 & yes \\
+CS GBM & 0.685 & 0.697 & 0.696 & yes \\
+CS XGBoost & 0.688 & 0.691 & 0.693 & yes \\
+CS LightGBM & 0.681 & 0.694 & 0.692 & yes \\
+CS CatBoost & 0.691 & 0.711 & 0.705 & yes \\
+AdaPU & 0.691 & 0.696 & 0.694 & yes \\
+PU gradient boosting & 0.689 & 0.685 & 0.689 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Dry Bean, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Dry Bean, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.946 & 0.947 & 0.948 & yes \\
+uPU logistic & 0.944 & 0.939 & 0.944 & yes \\
+nnPU logistic & 0.944 & 0.939 & 0.944 & yes \\
+Naive AdaBoost & 0.935 & 0.944 & 0.945 & yes \\
+Naive GBM & 0.908 & 0.919 & 0.921 & yes \\
+Naive XGBoost & 0.923 & 0.924 & 0.933 & yes \\
+Naive LightGBM & 0.875 & 0.890 & 0.888 & yes \\
+Naive CatBoost & 0.886 & 0.912 & 0.913 & yes \\
+Corrected AdaBoost & 0.935 & 0.944 & 0.945 & yes \\
+Corrected GBM & 0.908 & 0.919 & 0.921 & yes \\
+Corrected XGBoost & 0.923 & 0.924 & 0.933 & yes \\
+Corrected LightGBM & 0.875 & 0.890 & 0.888 & yes \\
+Corrected CatBoost & 0.886 & 0.912 & 0.913 & yes \\
+RN AdaBoost & 0.952 & 0.952 & 0.956 & yes \\
+RN GBM & 0.951 & 0.917 & 0.950 & yes \\
+RN XGBoost & 0.954 & 0.939 & 0.949 & yes \\
+RN LightGBM & 0.948 & 0.955 & 0.955 & yes \\
+RN CatBoost & 0.948 & 0.950 & 0.954 & yes \\
+CS AdaBoost & 0.935 & 0.944 & 0.946 & yes \\
+CS GBM & 0.889 & 0.900 & 0.900 & yes \\
+CS XGBoost & 0.892 & 0.917 & 0.924 & yes \\
+CS LightGBM & 0.875 & 0.890 & 0.888 & yes \\
+CS CatBoost & 0.887 & 0.914 & 0.920 & yes \\
+AdaPU & 0.898 & 0.901 & 0.909 & yes \\
+PU gradient boosting & 0.942 & 0.926 & 0.944 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Dry Bean, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Dry Bean, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.942 & 0.944 & 0.946 & yes \\
+uPU logistic & 0.934 & 0.937 & 0.938 & yes \\
+nnPU logistic & 0.934 & 0.937 & 0.938 & yes \\
+Naive AdaBoost & 0.942 & 0.948 & 0.947 & yes \\
+Naive GBM & 0.934 & 0.946 & 0.944 & yes \\
+Naive XGBoost & 0.935 & 0.947 & 0.946 & yes \\
+Naive LightGBM & 0.921 & 0.951 & 0.950 & yes \\
+Naive CatBoost & 0.951 & 0.949 & 0.949 & yes \\
+Corrected AdaBoost & 0.942 & 0.948 & 0.947 & yes \\
+Corrected GBM & 0.934 & 0.946 & 0.944 & yes \\
+Corrected XGBoost & 0.935 & 0.947 & 0.946 & yes \\
+Corrected LightGBM & 0.921 & 0.951 & 0.950 & yes \\
+Corrected CatBoost & 0.951 & 0.949 & 0.949 & yes \\
+RN AdaBoost & 0.946 & 0.945 & 0.952 & yes \\
+RN GBM & 0.948 & 0.945 & 0.947 & yes \\
+RN XGBoost & 0.943 & 0.949 & 0.948 & yes \\
+RN LightGBM & 0.945 & 0.948 & 0.949 & yes \\
+RN CatBoost & 0.940 & 0.943 & 0.951 & yes \\
+CS AdaBoost & 0.937 & 0.948 & 0.947 & yes \\
+CS GBM & 0.934 & 0.946 & 0.944 & yes \\
+CS XGBoost & 0.938 & 0.945 & 0.946 & yes \\
+CS LightGBM & 0.921 & 0.951 & 0.950 & yes \\
+CS CatBoost & 0.943 & 0.951 & 0.948 & yes \\
+AdaPU & 0.892 & 0.908 & 0.911 & yes \\
+PU gradient boosting & 0.940 & 0.943 & 0.948 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: HTRU2, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: HTRU2, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.866 & 0.855 & 0.881 & yes \\
+uPU logistic & 0.886 & 0.892 & 0.890 & yes \\
+nnPU logistic & 0.886 & 0.892 & 0.890 & yes \\
+Naive AdaBoost & 0.899 & 0.824 & 0.910 & yes \\
+Naive GBM & 0.903 & 0.903 & 0.904 & yes \\
+Naive XGBoost & 0.814 & 0.768 & 0.848 & yes \\
+Naive LightGBM & 0.861 & 0.874 & 0.876 & yes \\
+Naive CatBoost & 0.913 & 0.923 & 0.926 & yes \\
+Corrected AdaBoost & 0.899 & 0.824 & 0.910 & yes \\
+Corrected GBM & 0.903 & 0.903 & 0.904 & yes \\
+Corrected XGBoost & 0.814 & 0.768 & 0.848 & yes \\
+Corrected LightGBM & 0.861 & 0.874 & 0.876 & yes \\
+Corrected CatBoost & 0.913 & 0.923 & 0.926 & yes \\
+RN AdaBoost & 0.903 & 0.818 & 0.908 & yes \\
+RN GBM & 0.907 & 0.807 & 0.908 & yes \\
+RN XGBoost & 0.882 & 0.808 & 0.892 & yes \\
+RN LightGBM & 0.849 & 0.850 & 0.879 & yes \\
+RN CatBoost & 0.879 & 0.845 & 0.908 & yes \\
+CS AdaBoost & 0.899 & 0.824 & 0.910 & yes \\
+CS GBM & 0.908 & 0.781 & 0.907 & yes \\
+CS XGBoost & 0.852 & 0.829 & 0.876 & yes \\
+CS LightGBM & 0.866 & 0.889 & 0.891 & yes \\
+CS CatBoost & 0.913 & 0.923 & 0.926 & yes \\
+AdaPU & 0.899 & 0.887 & 0.907 & yes \\
+PU gradient boosting & 0.897 & 0.904 & 0.912 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: HTRU2, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: HTRU2, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.918 & 0.920 & 0.922 & yes \\
+uPU logistic & 0.922 & 0.894 & 0.933 & yes \\
+nnPU logistic & 0.922 & 0.894 & 0.933 & yes \\
+Naive AdaBoost & 0.915 & 0.893 & 0.923 & yes \\
+Naive GBM & 0.916 & 0.928 & 0.917 & yes \\
+Naive XGBoost & 0.919 & 0.910 & 0.930 & yes \\
+Naive LightGBM & 0.919 & 0.930 & 0.930 & yes \\
+Naive CatBoost & 0.888 & 0.918 & 0.925 & yes \\
+Corrected AdaBoost & 0.915 & 0.893 & 0.923 & yes \\
+Corrected GBM & 0.916 & 0.928 & 0.917 & yes \\
+Corrected XGBoost & 0.919 & 0.910 & 0.930 & yes \\
+Corrected LightGBM & 0.919 & 0.930 & 0.930 & yes \\
+Corrected CatBoost & 0.888 & 0.918 & 0.925 & yes \\
+RN AdaBoost & 0.914 & 0.897 & 0.922 & yes \\
+RN GBM & 0.922 & 0.888 & 0.933 & yes \\
+RN XGBoost & 0.922 & 0.912 & 0.927 & yes \\
+RN LightGBM & 0.919 & 0.910 & 0.925 & yes \\
+RN CatBoost & 0.919 & 0.913 & 0.929 & yes \\
+CS AdaBoost & 0.915 & 0.893 & 0.924 & yes \\
+CS GBM & 0.914 & 0.926 & 0.924 & yes \\
+CS XGBoost & 0.919 & 0.910 & 0.930 & yes \\
+CS LightGBM & 0.919 & 0.928 & 0.928 & yes \\
+CS CatBoost & 0.888 & 0.918 & 0.925 & yes \\
+AdaPU & 0.899 & 0.922 & 0.918 & yes \\
+PU gradient boosting & 0.918 & 0.920 & 0.907 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Online Shoppers, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Online Shoppers, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.539 & 0.523 & 0.551 & yes \\
+uPU logistic & 0.538 & 0.524 & 0.560 & yes \\
+nnPU logistic & 0.538 & 0.524 & 0.560 & yes \\
+Naive AdaBoost & 0.581 & 0.652 & 0.610 & yes \\
+Naive GBM & 0.563 & 0.601 & 0.599 & yes \\
+Naive XGBoost & 0.559 & 0.631 & 0.617 & yes \\
+Naive LightGBM & 0.556 & 0.633 & 0.611 & yes \\
+Naive CatBoost & 0.569 & 0.607 & 0.657 & yes \\
+Corrected AdaBoost & 0.581 & 0.652 & 0.610 & yes \\
+Corrected GBM & 0.563 & 0.601 & 0.599 & yes \\
+Corrected XGBoost & 0.559 & 0.631 & 0.617 & yes \\
+Corrected LightGBM & 0.556 & 0.633 & 0.611 & yes \\
+Corrected CatBoost & 0.569 & 0.607 & 0.657 & yes \\
+RN AdaBoost & 0.593 & 0.632 & 0.663 & yes \\
+RN GBM & 0.564 & 0.645 & 0.628 & yes \\
+RN XGBoost & 0.583 & 0.642 & 0.627 & yes \\
+RN LightGBM & 0.558 & 0.624 & 0.618 & yes \\
+RN CatBoost & 0.561 & 0.643 & 0.645 & yes \\
+CS AdaBoost & 0.581 & 0.652 & 0.610 & yes \\
+CS GBM & 0.565 & 0.610 & 0.617 & yes \\
+CS XGBoost & 0.559 & 0.631 & 0.617 & yes \\
+CS LightGBM & 0.552 & 0.622 & 0.610 & yes \\
+CS CatBoost & 0.569 & 0.607 & 0.657 & yes \\
+AdaPU & 0.581 & 0.607 & 0.628 & yes \\
+PU gradient boosting & 0.573 & 0.649 & 0.649 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Online Shoppers, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Online Shoppers, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.581 & 0.621 & 0.654 & yes \\
+uPU logistic & 0.585 & 0.633 & 0.615 & yes \\
+nnPU logistic & 0.585 & 0.633 & 0.615 & yes \\
+Naive AdaBoost & 0.595 & 0.667 & 0.669 & yes \\
+Naive GBM & 0.587 & 0.615 & 0.660 & yes \\
+Naive XGBoost & 0.590 & 0.647 & 0.655 & yes \\
+Naive LightGBM & 0.572 & 0.618 & 0.666 & yes \\
+Naive CatBoost & 0.615 & 0.678 & 0.683 & yes \\
+Corrected AdaBoost & 0.595 & 0.667 & 0.669 & yes \\
+Corrected GBM & 0.587 & 0.615 & 0.660 & yes \\
+Corrected XGBoost & 0.590 & 0.647 & 0.655 & yes \\
+Corrected LightGBM & 0.572 & 0.618 & 0.666 & yes \\
+Corrected CatBoost & 0.615 & 0.678 & 0.683 & yes \\
+RN AdaBoost & 0.617 & 0.640 & 0.637 & yes \\
+RN GBM & 0.584 & 0.658 & 0.646 & yes \\
+RN XGBoost & 0.597 & 0.643 & 0.642 & yes \\
+RN LightGBM & 0.577 & 0.621 & 0.640 & yes \\
+RN CatBoost & 0.579 & 0.653 & 0.640 & yes \\
+CS AdaBoost & 0.596 & 0.667 & 0.669 & yes \\
+CS GBM & 0.595 & 0.640 & 0.667 & yes \\
+CS XGBoost & 0.590 & 0.647 & 0.655 & yes \\
+CS LightGBM & 0.572 & 0.618 & 0.666 & yes \\
+CS CatBoost & 0.615 & 0.678 & 0.683 & yes \\
+AdaPU & 0.587 & 0.618 & 0.659 & yes \\
+PU gradient boosting & 0.600 & 0.674 & 0.670 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Optical Digits, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Optical Digits, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.764 & 0.759 & 0.761 & yes \\
+uPU logistic & 0.778 & 0.737 & 0.775 & yes \\
+nnPU logistic & 0.849 & 0.855 & 0.847 & yes \\
+Naive AdaBoost & 0.761 & 0.760 & 0.738 & yes \\
+Naive GBM & 0.720 & 0.716 & 0.714 & yes \\
+Naive XGBoost & 0.731 & 0.667 & 0.733 & yes \\
+Naive LightGBM & 0.782 & 0.746 & 0.783 & yes \\
+Naive CatBoost & 0.820 & 0.786 & 0.816 & yes \\
+Corrected AdaBoost & 0.761 & 0.760 & 0.738 & yes \\
+Corrected GBM & 0.720 & 0.716 & 0.714 & yes \\
+Corrected XGBoost & 0.731 & 0.667 & 0.733 & yes \\
+Corrected LightGBM & 0.782 & 0.746 & 0.783 & yes \\
+Corrected CatBoost & 0.820 & 0.786 & 0.816 & yes \\
+RN AdaBoost & -- & -- & -- & no \\
+RN GBM & 0.799 & 0.714 & 0.797 & yes \\
+RN XGBoost & 0.823 & 0.781 & 0.825 & yes \\
+RN LightGBM & 0.805 & 0.726 & 0.797 & yes \\
+RN CatBoost & 0.879 & 0.838 & 0.878 & yes \\
+CS AdaBoost & 0.761 & 0.760 & 0.738 & yes \\
+CS GBM & 0.720 & 0.716 & 0.714 & yes \\
+CS XGBoost & 0.770 & 0.768 & 0.771 & yes \\
+CS LightGBM & 0.768 & 0.758 & 0.771 & yes \\
+CS CatBoost & 0.818 & 0.749 & 0.819 & yes \\
+AdaPU & 0.722 & 0.706 & 0.719 & yes \\
+PU gradient boosting & 0.647 & 0.677 & 0.680 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Optical Digits, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Optical Digits, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.855 & 0.854 & 0.854 & yes \\
+uPU logistic & 0.810 & 0.810 & 0.812 & yes \\
+nnPU logistic & 0.874 & 0.870 & 0.874 & yes \\
+Naive AdaBoost & 0.875 & 0.838 & 0.872 & yes \\
+Naive GBM & 0.875 & 0.794 & 0.873 & yes \\
+Naive XGBoost & 0.904 & 0.853 & 0.901 & yes \\
+Naive LightGBM & 0.896 & 0.843 & 0.896 & yes \\
+Naive CatBoost & 0.899 & 0.867 & 0.901 & yes \\
+Corrected AdaBoost & 0.875 & 0.838 & 0.872 & yes \\
+Corrected GBM & 0.875 & 0.794 & 0.873 & yes \\
+Corrected XGBoost & 0.904 & 0.853 & 0.901 & yes \\
+Corrected LightGBM & 0.896 & 0.843 & 0.896 & yes \\
+Corrected CatBoost & 0.899 & 0.867 & 0.901 & yes \\
+RN AdaBoost & 0.885 & 0.867 & 0.887 & yes \\
+RN GBM & 0.903 & 0.864 & 0.895 & yes \\
+RN XGBoost & 0.908 & 0.882 & 0.907 & yes \\
+RN LightGBM & 0.908 & 0.892 & 0.907 & yes \\
+RN CatBoost & 0.908 & 0.874 & 0.901 & yes \\
+CS AdaBoost & 0.872 & 0.832 & 0.866 & yes \\
+CS GBM & 0.894 & 0.886 & 0.890 & yes \\
+CS XGBoost & 0.903 & 0.881 & 0.898 & yes \\
+CS LightGBM & 0.899 & 0.828 & 0.899 & yes \\
+CS CatBoost & 0.915 & 0.840 & 0.913 & yes \\
+AdaPU & 0.850 & 0.848 & 0.849 & yes \\
+PU gradient boosting & 0.838 & 0.789 & 0.851 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Phishing Websites, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Phishing Websites, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.793 & 0.792 & 0.792 & yes \\
+uPU logistic & 0.767 & 0.754 & 0.771 & yes \\
+nnPU logistic & 0.811 & 0.804 & 0.814 & yes \\
+Naive AdaBoost & 0.864 & 0.864 & 0.864 & yes \\
+Naive GBM & 0.832 & 0.793 & 0.830 & yes \\
+Naive XGBoost & 0.832 & 0.799 & 0.830 & yes \\
+Naive LightGBM & 0.818 & 0.818 & 0.826 & yes \\
+Naive CatBoost & 0.850 & 0.846 & 0.851 & yes \\
+Corrected AdaBoost & 0.864 & 0.864 & 0.864 & yes \\
+Corrected GBM & 0.832 & 0.793 & 0.830 & yes \\
+Corrected XGBoost & 0.832 & 0.799 & 0.830 & yes \\
+Corrected LightGBM & 0.818 & 0.818 & 0.826 & yes \\
+Corrected CatBoost & 0.850 & 0.846 & 0.851 & yes \\
+RN AdaBoost & 0.853 & 0.884 & 0.887 & yes \\
+RN GBM & 0.836 & 0.840 & 0.832 & yes \\
+RN XGBoost & 0.831 & 0.832 & 0.827 & yes \\
+RN LightGBM & 0.823 & 0.827 & 0.825 & yes \\
+RN CatBoost & 0.854 & 0.847 & 0.846 & yes \\
+CS AdaBoost & 0.866 & 0.866 & 0.866 & yes \\
+CS GBM & 0.818 & 0.794 & 0.818 & yes \\
+CS XGBoost & 0.830 & 0.818 & 0.827 & yes \\
+CS LightGBM & 0.826 & 0.819 & 0.829 & yes \\
+CS CatBoost & 0.851 & 0.850 & 0.854 & yes \\
+AdaPU & 0.899 & 0.893 & 0.899 & yes \\
+PU gradient boosting & 0.500 & 0.887 & 0.887 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Phishing Websites, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Phishing Websites, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.918 & 0.918 & 0.919 & yes \\
+uPU logistic & 0.879 & 0.878 & 0.875 & yes \\
+nnPU logistic & 0.924 & 0.899 & 0.921 & yes \\
+Naive AdaBoost & 0.923 & 0.930 & 0.930 & yes \\
+Naive GBM & 0.933 & 0.933 & 0.932 & yes \\
+Naive XGBoost & 0.926 & 0.922 & 0.924 & yes \\
+Naive LightGBM & 0.926 & 0.926 & 0.921 & yes \\
+Naive CatBoost & 0.921 & 0.923 & 0.928 & yes \\
+Corrected AdaBoost & 0.923 & 0.930 & 0.930 & yes \\
+Corrected GBM & 0.933 & 0.933 & 0.932 & yes \\
+Corrected XGBoost & 0.926 & 0.922 & 0.924 & yes \\
+Corrected LightGBM & 0.926 & 0.926 & 0.921 & yes \\
+Corrected CatBoost & 0.921 & 0.923 & 0.928 & yes \\
+RN AdaBoost & 0.927 & 0.869 & 0.921 & yes \\
+RN GBM & 0.926 & 0.787 & 0.929 & yes \\
+RN XGBoost & 0.931 & 0.932 & 0.921 & yes \\
+RN LightGBM & 0.927 & 0.890 & 0.929 & yes \\
+RN CatBoost & 0.929 & 0.928 & 0.931 & yes \\
+CS AdaBoost & 0.923 & 0.930 & 0.930 & yes \\
+CS GBM & 0.929 & 0.929 & 0.931 & yes \\
+CS XGBoost & 0.930 & 0.927 & 0.931 & yes \\
+CS LightGBM & 0.926 & 0.926 & 0.921 & yes \\
+CS CatBoost & 0.923 & 0.926 & 0.926 & yes \\
+AdaPU & 0.916 & 0.838 & 0.912 & yes \\
+PU gradient boosting & 0.902 & 0.908 & 0.908 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Rice, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Rice, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.926 & 0.785 & 0.925 & yes \\
+uPU logistic & 0.898 & 0.833 & 0.902 & yes \\
+nnPU logistic & 0.903 & 0.829 & 0.901 & yes \\
+Naive AdaBoost & 0.874 & 0.902 & 0.874 & yes \\
+Naive GBM & 0.864 & 0.834 & 0.904 & yes \\
+Naive XGBoost & 0.861 & 0.860 & 0.861 & yes \\
+Naive LightGBM & 0.847 & 0.756 & 0.836 & yes \\
+Naive CatBoost & 0.898 & 0.790 & 0.897 & yes \\
+Corrected AdaBoost & 0.874 & 0.902 & 0.874 & yes \\
+Corrected GBM & 0.864 & 0.834 & 0.904 & yes \\
+Corrected XGBoost & 0.861 & 0.860 & 0.861 & yes \\
+Corrected LightGBM & 0.847 & 0.756 & 0.836 & yes \\
+Corrected CatBoost & 0.898 & 0.790 & 0.897 & yes \\
+RN AdaBoost & 0.855 & 0.783 & 0.898 & yes \\
+RN GBM & 0.860 & 0.728 & 0.896 & yes \\
+RN XGBoost & 0.875 & 0.797 & 0.890 & yes \\
+RN LightGBM & 0.872 & 0.785 & 0.880 & yes \\
+RN CatBoost & 0.895 & 0.798 & 0.908 & yes \\
+CS AdaBoost & 0.874 & 0.902 & 0.874 & yes \\
+CS GBM & 0.869 & 0.848 & 0.854 & yes \\
+CS XGBoost & 0.861 & 0.860 & 0.861 & yes \\
+CS LightGBM & 0.856 & 0.855 & 0.847 & yes \\
+CS CatBoost & 0.903 & 0.799 & 0.902 & yes \\
+AdaPU & 0.876 & 0.806 & 0.901 & yes \\
+PU gradient boosting & 0.861 & 0.810 & 0.906 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Rice, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Rice, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.920 & 0.931 & 0.921 & yes \\
+uPU logistic & 0.924 & 0.873 & 0.926 & yes \\
+nnPU logistic & 0.924 & 0.873 & 0.926 & yes \\
+Naive AdaBoost & 0.907 & 0.918 & 0.923 & yes \\
+Naive GBM & 0.891 & 0.892 & 0.887 & yes \\
+Naive XGBoost & 0.877 & 0.894 & 0.892 & yes \\
+Naive LightGBM & 0.870 & 0.877 & 0.897 & yes \\
+Naive CatBoost & 0.839 & 0.878 & 0.836 & yes \\
+Corrected AdaBoost & 0.907 & 0.918 & 0.923 & yes \\
+Corrected GBM & 0.891 & 0.892 & 0.887 & yes \\
+Corrected XGBoost & 0.877 & 0.894 & 0.892 & yes \\
+Corrected LightGBM & 0.870 & 0.877 & 0.897 & yes \\
+Corrected CatBoost & 0.839 & 0.878 & 0.836 & yes \\
+RN AdaBoost & 0.921 & 0.907 & 0.923 & yes \\
+RN GBM & 0.923 & 0.894 & 0.922 & yes \\
+RN XGBoost & 0.908 & 0.901 & 0.924 & yes \\
+RN LightGBM & 0.898 & 0.863 & 0.918 & yes \\
+RN CatBoost & 0.910 & 0.920 & 0.912 & yes \\
+CS AdaBoost & 0.907 & 0.918 & 0.923 & yes \\
+CS GBM & 0.868 & 0.865 & 0.877 & yes \\
+CS XGBoost & 0.877 & 0.894 & 0.892 & yes \\
+CS LightGBM & 0.870 & 0.877 & 0.897 & yes \\
+CS CatBoost & 0.839 & 0.878 & 0.836 & yes \\
+AdaPU & 0.900 & 0.900 & 0.897 & yes \\
+PU gradient boosting & 0.926 & 0.904 & 0.925 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Spambase, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Spambase, budget 0.05}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.803 & 0.702 & 0.803 & yes \\
+uPU logistic & 0.847 & 0.845 & 0.848 & yes \\
+nnPU logistic & 0.847 & 0.845 & 0.848 & yes \\
+Naive AdaBoost & 0.817 & 0.806 & 0.838 & yes \\
+Naive GBM & 0.796 & 0.801 & 0.809 & yes \\
+Naive XGBoost & 0.807 & 0.802 & 0.804 & yes \\
+Naive LightGBM & 0.785 & 0.796 & 0.775 & yes \\
+Naive CatBoost & 0.842 & 0.862 & 0.860 & yes \\
+Corrected AdaBoost & 0.817 & 0.806 & 0.838 & yes \\
+Corrected GBM & 0.796 & 0.801 & 0.809 & yes \\
+Corrected XGBoost & 0.807 & 0.802 & 0.804 & yes \\
+Corrected LightGBM & 0.785 & 0.796 & 0.775 & yes \\
+Corrected CatBoost & 0.842 & 0.862 & 0.860 & yes \\
+RN AdaBoost & 0.870 & 0.770 & 0.855 & yes \\
+RN GBM & 0.869 & 0.892 & 0.890 & yes \\
+RN XGBoost & 0.880 & 0.825 & 0.869 & yes \\
+RN LightGBM & 0.862 & 0.792 & 0.855 & yes \\
+RN CatBoost & 0.892 & 0.844 & 0.898 & yes \\
+CS AdaBoost & 0.823 & 0.767 & 0.825 & yes \\
+CS GBM & 0.806 & 0.772 & 0.803 & yes \\
+CS XGBoost & 0.833 & 0.813 & 0.833 & yes \\
+CS LightGBM & 0.785 & 0.796 & 0.775 & yes \\
+CS CatBoost & 0.847 & 0.855 & 0.862 & yes \\
+AdaPU & 0.864 & 0.866 & 0.870 & yes \\
+PU gradient boosting & 0.791 & 0.816 & 0.778 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Spambase, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - real: Spambase, budget 0.20}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.844 & 0.847 & 0.848 & yes \\
+uPU logistic & 0.869 & 0.879 & 0.882 & yes \\
+nnPU logistic & 0.869 & 0.879 & 0.882 & yes \\
+Naive AdaBoost & 0.886 & 0.883 & 0.885 & yes \\
+Naive GBM & 0.844 & 0.792 & 0.851 & yes \\
+Naive XGBoost & 0.841 & 0.795 & 0.840 & yes \\
+Naive LightGBM & 0.854 & 0.822 & 0.859 & yes \\
+Naive CatBoost & 0.853 & 0.871 & 0.854 & yes \\
+Corrected AdaBoost & 0.886 & 0.883 & 0.885 & yes \\
+Corrected GBM & 0.844 & 0.792 & 0.851 & yes \\
+Corrected XGBoost & 0.841 & 0.795 & 0.840 & yes \\
+Corrected LightGBM & 0.854 & 0.822 & 0.859 & yes \\
+Corrected CatBoost & 0.853 & 0.871 & 0.854 & yes \\
+RN AdaBoost & 0.914 & 0.903 & 0.908 & yes \\
+RN GBM & 0.927 & 0.927 & 0.927 & yes \\
+RN XGBoost & 0.914 & 0.903 & 0.909 & yes \\
+RN LightGBM & 0.909 & 0.903 & 0.907 & yes \\
+RN CatBoost & 0.931 & 0.921 & 0.920 & yes \\
+CS AdaBoost & 0.886 & 0.869 & 0.892 & yes \\
+CS GBM & 0.832 & 0.835 & 0.830 & yes \\
+CS XGBoost & 0.841 & 0.795 & 0.840 & yes \\
+CS LightGBM & 0.823 & 0.808 & 0.821 & yes \\
+CS CatBoost & 0.853 & 0.871 & 0.854 & yes \\
+AdaPU & 0.881 & 0.884 & 0.884 & yes \\
+PU gradient boosting & 0.896 & 0.894 & 0.893 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Reference}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Reference}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.630 & 0.657 & 0.657 & yes \\
+uPU logistic & 0.630 & 0.657 & 0.656 & yes \\
+nnPU logistic & 0.630 & 0.657 & 0.656 & yes \\
+Naive AdaBoost & 0.622 & 0.639 & 0.640 & yes \\
+Naive GBM & 0.620 & 0.648 & 0.647 & yes \\
+Naive XGBoost & 0.621 & 0.643 & 0.643 & yes \\
+Naive LightGBM & 0.609 & 0.630 & 0.634 & yes \\
+Naive CatBoost & 0.625 & 0.655 & 0.652 & yes \\
+Corrected AdaBoost & 0.622 & 0.639 & 0.640 & yes \\
+Corrected GBM & 0.620 & 0.648 & 0.647 & yes \\
+Corrected XGBoost & 0.621 & 0.643 & 0.643 & yes \\
+Corrected LightGBM & 0.609 & 0.630 & 0.634 & yes \\
+Corrected CatBoost & 0.625 & 0.655 & 0.652 & yes \\
+RN AdaBoost & 0.615 & 0.644 & 0.644 & yes \\
+RN GBM & 0.614 & 0.651 & 0.653 & yes \\
+RN XGBoost & 0.603 & 0.646 & 0.648 & yes \\
+RN LightGBM & 0.613 & 0.648 & 0.647 & yes \\
+RN CatBoost & 0.615 & 0.652 & 0.649 & yes \\
+CS AdaBoost & 0.620 & 0.637 & 0.639 & yes \\
+CS GBM & 0.622 & 0.632 & 0.633 & yes \\
+CS XGBoost & 0.619 & 0.649 & 0.649 & yes \\
+CS LightGBM & 0.605 & 0.627 & 0.626 & yes \\
+CS CatBoost & 0.614 & 0.639 & 0.640 & yes \\
+AdaPU & 0.628 & 0.649 & 0.649 & yes \\
+PU gradient boosting & 0.601 & 0.638 & 0.639 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.01$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.01$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.503 & 0.553 & 0.561 & yes \\
+uPU logistic & 0.503 & 0.565 & 0.562 & yes \\
+nnPU logistic & 0.503 & 0.565 & 0.562 & yes \\
+Naive AdaBoost & 0.507 & 0.577 & 0.577 & yes \\
+Naive GBM & 0.506 & 0.505 & 0.512 & yes \\
+Naive XGBoost & 0.507 & 0.543 & 0.571 & yes \\
+Naive LightGBM & 0.499 & 0.552 & 0.597 & yes \\
+Naive CatBoost & 0.512 & 0.586 & 0.580 & yes \\
+Corrected AdaBoost & 0.507 & 0.577 & 0.577 & yes \\
+Corrected GBM & 0.506 & 0.505 & 0.512 & yes \\
+Corrected XGBoost & 0.507 & 0.543 & 0.571 & yes \\
+Corrected LightGBM & 0.499 & 0.552 & 0.597 & yes \\
+Corrected CatBoost & 0.512 & 0.586 & 0.580 & yes \\
+RN AdaBoost & 0.493 & 0.545 & 0.545 & yes \\
+RN GBM & 0.497 & 0.594 & 0.558 & yes \\
+RN XGBoost & 0.512 & 0.578 & 0.618 & yes \\
+RN LightGBM & 0.512 & 0.590 & 0.552 & yes \\
+RN CatBoost & 0.503 & 0.549 & 0.607 & yes \\
+CS AdaBoost & 0.526 & 0.568 & 0.553 & yes \\
+CS GBM & 0.503 & 0.545 & 0.549 & yes \\
+CS XGBoost & 0.507 & 0.590 & 0.543 & yes \\
+CS LightGBM & 0.511 & 0.579 & 0.530 & yes \\
+CS CatBoost & 0.512 & 0.586 & 0.580 & yes \\
+AdaPU & 0.495 & 0.526 & 0.599 & yes \\
+PU gradient boosting & 0.496 & 0.498 & 0.498 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.05$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.05$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.564 & 0.641 & 0.634 & yes \\
+uPU logistic & 0.564 & 0.637 & 0.636 & yes \\
+nnPU logistic & 0.564 & 0.637 & 0.636 & yes \\
+Naive AdaBoost & 0.540 & 0.634 & 0.627 & yes \\
+Naive GBM & 0.538 & 0.611 & 0.640 & yes \\
+Naive XGBoost & 0.550 & 0.604 & 0.643 & yes \\
+Naive LightGBM & 0.540 & 0.629 & 0.630 & yes \\
+Naive CatBoost & 0.548 & 0.645 & 0.645 & yes \\
+Corrected AdaBoost & 0.540 & 0.634 & 0.627 & yes \\
+Corrected GBM & 0.538 & 0.611 & 0.640 & yes \\
+Corrected XGBoost & 0.550 & 0.604 & 0.643 & yes \\
+Corrected LightGBM & 0.540 & 0.629 & 0.630 & yes \\
+Corrected CatBoost & 0.548 & 0.645 & 0.645 & yes \\
+RN AdaBoost & 0.546 & 0.633 & 0.636 & yes \\
+RN GBM & 0.551 & 0.650 & 0.650 & yes \\
+RN XGBoost & 0.544 & 0.644 & 0.641 & yes \\
+RN LightGBM & 0.549 & 0.621 & 0.622 & yes \\
+RN CatBoost & 0.550 & 0.650 & 0.646 & yes \\
+CS AdaBoost & 0.543 & 0.629 & 0.629 & yes \\
+CS GBM & 0.531 & 0.633 & 0.627 & yes \\
+CS XGBoost & 0.546 & 0.633 & 0.628 & yes \\
+CS LightGBM & 0.545 & 0.616 & 0.623 & yes \\
+CS CatBoost & 0.548 & 0.645 & 0.645 & yes \\
+AdaPU & 0.531 & 0.619 & 0.627 & yes \\
+PU gradient boosting & 0.518 & 0.574 & 0.591 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.50$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Prevalence $\pi=0.50$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.674 & 0.673 & 0.672 & yes \\
+uPU logistic & 0.673 & 0.673 & 0.673 & yes \\
+nnPU logistic & 0.673 & 0.673 & 0.673 & yes \\
+Naive AdaBoost & 0.655 & 0.648 & 0.655 & yes \\
+Naive GBM & 0.660 & 0.651 & 0.659 & yes \\
+Naive XGBoost & 0.659 & 0.657 & 0.661 & yes \\
+Naive LightGBM & 0.655 & 0.657 & 0.658 & yes \\
+Naive CatBoost & 0.663 & 0.660 & 0.664 & yes \\
+Corrected AdaBoost & 0.655 & 0.648 & 0.655 & yes \\
+Corrected GBM & 0.660 & 0.651 & 0.659 & yes \\
+Corrected XGBoost & 0.659 & 0.657 & 0.661 & yes \\
+Corrected LightGBM & 0.655 & 0.657 & 0.658 & yes \\
+Corrected CatBoost & 0.663 & 0.660 & 0.664 & yes \\
+RN AdaBoost & 0.665 & 0.667 & 0.666 & yes \\
+RN GBM & 0.661 & 0.659 & 0.661 & yes \\
+RN XGBoost & 0.667 & 0.665 & 0.665 & yes \\
+RN LightGBM & 0.668 & 0.665 & 0.666 & yes \\
+RN CatBoost & 0.670 & 0.663 & 0.670 & yes \\
+CS AdaBoost & 0.661 & 0.648 & 0.659 & yes \\
+CS GBM & 0.659 & 0.642 & 0.661 & yes \\
+CS XGBoost & 0.661 & 0.661 & 0.657 & yes \\
+CS LightGBM & 0.655 & 0.657 & 0.658 & yes \\
+CS CatBoost & 0.663 & 0.660 & 0.664 & yes \\
+AdaPU & 0.663 & 0.655 & 0.661 & yes \\
+PU gradient boosting & 0.654 & 0.638 & 0.655 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: High dimension ($p=500$)}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: High dimension ($p=500$)}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.574 & 0.589 & 0.590 & yes \\
+uPU logistic & 0.566 & 0.577 & 0.577 & yes \\
+nnPU logistic & 0.566 & 0.577 & 0.577 & yes \\
+Naive AdaBoost & 0.636 & 0.659 & 0.657 & yes \\
+Naive GBM & 0.625 & 0.644 & 0.647 & yes \\
+Naive XGBoost & 0.624 & 0.649 & 0.652 & yes \\
+Naive LightGBM & 0.618 & 0.640 & 0.643 & yes \\
+Naive CatBoost & 0.630 & 0.652 & 0.652 & yes \\
+Corrected AdaBoost & 0.636 & 0.659 & 0.657 & yes \\
+Corrected GBM & 0.625 & 0.644 & 0.647 & yes \\
+Corrected XGBoost & 0.624 & 0.649 & 0.652 & yes \\
+Corrected LightGBM & 0.618 & 0.640 & 0.643 & yes \\
+Corrected CatBoost & 0.630 & 0.652 & 0.652 & yes \\
+RN AdaBoost & 0.642 & 0.662 & 0.668 & yes \\
+RN GBM & 0.636 & 0.660 & 0.661 & yes \\
+RN XGBoost & 0.633 & 0.661 & 0.663 & yes \\
+RN LightGBM & 0.632 & 0.660 & 0.660 & yes \\
+RN CatBoost & 0.632 & 0.647 & 0.649 & yes \\
+CS AdaBoost & 0.638 & 0.658 & 0.662 & yes \\
+CS GBM & 0.631 & 0.639 & 0.649 & yes \\
+CS XGBoost & 0.632 & 0.652 & 0.656 & yes \\
+CS LightGBM & 0.620 & 0.640 & 0.640 & yes \\
+CS CatBoost & 0.630 & 0.652 & 0.652 & yes \\
+AdaPU & 0.631 & 0.659 & 0.651 & yes \\
+PU gradient boosting & 0.618 & 0.644 & 0.649 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Curved boundary}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Curved boundary}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.609 & 0.628 & 0.627 & yes \\
+uPU logistic & 0.609 & 0.628 & 0.628 & yes \\
+nnPU logistic & 0.609 & 0.628 & 0.628 & yes \\
+Naive AdaBoost & 0.606 & 0.637 & 0.636 & yes \\
+Naive GBM & 0.601 & 0.633 & 0.631 & yes \\
+Naive XGBoost & 0.610 & 0.639 & 0.635 & yes \\
+Naive LightGBM & 0.605 & 0.619 & 0.624 & yes \\
+Naive CatBoost & 0.606 & 0.635 & 0.633 & yes \\
+Corrected AdaBoost & 0.606 & 0.637 & 0.636 & yes \\
+Corrected GBM & 0.601 & 0.633 & 0.631 & yes \\
+Corrected XGBoost & 0.610 & 0.639 & 0.635 & yes \\
+Corrected LightGBM & 0.605 & 0.619 & 0.624 & yes \\
+Corrected CatBoost & 0.606 & 0.635 & 0.633 & yes \\
+RN AdaBoost & 0.599 & 0.632 & 0.631 & yes \\
+RN GBM & 0.593 & 0.632 & 0.632 & yes \\
+RN XGBoost & 0.602 & 0.630 & 0.630 & yes \\
+RN LightGBM & 0.597 & 0.627 & 0.627 & yes \\
+RN CatBoost & 0.602 & 0.621 & 0.625 & yes \\
+CS AdaBoost & 0.609 & 0.639 & 0.639 & yes \\
+CS GBM & 0.604 & 0.633 & 0.635 & yes \\
+CS XGBoost & 0.607 & 0.636 & 0.636 & yes \\
+CS LightGBM & 0.604 & 0.628 & 0.628 & yes \\
+CS CatBoost & 0.601 & 0.632 & 0.638 & yes \\
+AdaPU & 0.601 & 0.613 & 0.623 & yes \\
+PU gradient boosting & 0.607 & 0.626 & 0.620 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Feature interaction}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Feature interaction}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.582 & 0.606 & 0.605 & yes \\
+uPU logistic & 0.582 & 0.606 & 0.605 & yes \\
+nnPU logistic & 0.582 & 0.606 & 0.605 & yes \\
+Naive AdaBoost & 0.618 & 0.619 & 0.619 & yes \\
+Naive GBM & 0.589 & 0.615 & 0.614 & yes \\
+Naive XGBoost & 0.592 & 0.613 & 0.614 & yes \\
+Naive LightGBM & 0.594 & 0.625 & 0.626 & yes \\
+Naive CatBoost & 0.616 & 0.640 & 0.640 & yes \\
+Corrected AdaBoost & 0.618 & 0.619 & 0.619 & yes \\
+Corrected GBM & 0.589 & 0.615 & 0.614 & yes \\
+Corrected XGBoost & 0.592 & 0.613 & 0.614 & yes \\
+Corrected LightGBM & 0.594 & 0.625 & 0.626 & yes \\
+Corrected CatBoost & 0.616 & 0.640 & 0.640 & yes \\
+RN AdaBoost & 0.537 & 0.607 & 0.612 & yes \\
+RN GBM & 0.548 & 0.602 & 0.600 & yes \\
+RN XGBoost & 0.554 & 0.604 & 0.606 & yes \\
+RN LightGBM & 0.551 & 0.615 & 0.615 & yes \\
+RN CatBoost & 0.552 & 0.598 & 0.597 & yes \\
+CS AdaBoost & 0.618 & 0.619 & 0.619 & yes \\
+CS GBM & 0.592 & 0.622 & 0.622 & yes \\
+CS XGBoost & 0.598 & 0.623 & 0.619 & yes \\
+CS LightGBM & 0.595 & 0.606 & 0.622 & yes \\
+CS CatBoost & 0.628 & 0.626 & 0.651 & yes \\
+AdaPU & 0.580 & 0.605 & 0.608 & yes \\
+PU gradient boosting & 0.591 & 0.628 & 0.626 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Unequal class covariance}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{One-sample - simulation: Unequal class covariance}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.637 & 0.646 & 0.646 & yes \\
+uPU logistic & 0.637 & 0.646 & 0.644 & yes \\
+nnPU logistic & 0.637 & 0.646 & 0.644 & yes \\
+Naive AdaBoost & 0.653 & 0.663 & 0.669 & yes \\
+Naive GBM & 0.654 & 0.659 & 0.663 & yes \\
+Naive XGBoost & 0.648 & 0.657 & 0.658 & yes \\
+Naive LightGBM & 0.638 & 0.642 & 0.650 & yes \\
+Naive CatBoost & 0.659 & 0.674 & 0.670 & yes \\
+Corrected AdaBoost & 0.653 & 0.663 & 0.669 & yes \\
+Corrected GBM & 0.654 & 0.659 & 0.663 & yes \\
+Corrected XGBoost & 0.648 & 0.657 & 0.658 & yes \\
+Corrected LightGBM & 0.638 & 0.642 & 0.650 & yes \\
+Corrected CatBoost & 0.659 & 0.674 & 0.670 & yes \\
+RN AdaBoost & 0.640 & 0.641 & 0.645 & yes \\
+RN GBM & 0.629 & 0.629 & 0.638 & yes \\
+RN XGBoost & 0.623 & 0.634 & 0.634 & yes \\
+RN LightGBM & 0.609 & 0.626 & 0.625 & yes \\
+RN CatBoost & 0.627 & 0.630 & 0.631 & yes \\
+CS AdaBoost & 0.651 & 0.667 & 0.668 & yes \\
+CS GBM & 0.652 & 0.666 & 0.666 & yes \\
+CS XGBoost & 0.649 & 0.656 & 0.654 & yes \\
+CS LightGBM & 0.638 & 0.642 & 0.650 & yes \\
+CS CatBoost & 0.659 & 0.666 & 0.666 & yes \\
+AdaPU & 0.667 & 0.677 & 0.676 & yes \\
+PU gradient boosting & 0.642 & 0.658 & 0.658 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Reference}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Reference}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.643 & 0.660 & 0.670 & yes \\
+uPU logistic & 0.642 & 0.663 & 0.669 & yes \\
+nnPU logistic & 0.642 & 0.663 & 0.669 & yes \\
+Naive AdaBoost & 0.637 & 0.658 & 0.652 & yes \\
+Naive GBM & 0.632 & 0.659 & 0.660 & yes \\
+Naive XGBoost & 0.632 & 0.647 & 0.660 & yes \\
+Naive LightGBM & 0.629 & 0.648 & 0.654 & yes \\
+Naive CatBoost & 0.634 & 0.658 & 0.659 & yes \\
+Corrected AdaBoost & 0.637 & 0.658 & 0.652 & yes \\
+Corrected GBM & 0.632 & 0.659 & 0.660 & yes \\
+Corrected XGBoost & 0.632 & 0.647 & 0.660 & yes \\
+Corrected LightGBM & 0.629 & 0.648 & 0.654 & yes \\
+Corrected CatBoost & 0.634 & 0.658 & 0.659 & yes \\
+RN AdaBoost & 0.634 & 0.667 & 0.666 & yes \\
+RN GBM & 0.635 & 0.669 & 0.669 & yes \\
+RN XGBoost & 0.634 & 0.667 & 0.669 & yes \\
+RN LightGBM & 0.631 & 0.670 & 0.668 & yes \\
+RN CatBoost & 0.636 & 0.669 & 0.671 & yes \\
+CS AdaBoost & 0.637 & 0.652 & 0.658 & yes \\
+CS GBM & 0.632 & 0.659 & 0.660 & yes \\
+CS XGBoost & 0.632 & 0.647 & 0.660 & yes \\
+CS LightGBM & 0.629 & 0.648 & 0.654 & yes \\
+CS CatBoost & 0.634 & 0.658 & 0.659 & yes \\
+AdaPU & 0.631 & 0.644 & 0.648 & yes \\
+PU gradient boosting & 0.635 & 0.651 & 0.651 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.01$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.01$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.556 & 0.681 & 0.683 & yes \\
+uPU logistic & 0.557 & 0.670 & 0.670 & yes \\
+nnPU logistic & 0.557 & 0.670 & 0.670 & yes \\
+Naive AdaBoost & 0.556 & 0.688 & 0.688 & yes \\
+Naive GBM & 0.568 & 0.671 & 0.690 & yes \\
+Naive XGBoost & 0.557 & 0.667 & 0.690 & yes \\
+Naive LightGBM & 0.545 & 0.648 & 0.639 & yes \\
+Naive CatBoost & 0.551 & 0.677 & 0.694 & yes \\
+Corrected AdaBoost & 0.556 & 0.688 & 0.688 & yes \\
+Corrected GBM & 0.568 & 0.671 & 0.690 & yes \\
+Corrected XGBoost & 0.557 & 0.667 & 0.690 & yes \\
+Corrected LightGBM & 0.545 & 0.648 & 0.639 & yes \\
+Corrected CatBoost & 0.551 & 0.677 & 0.694 & yes \\
+RN AdaBoost & 0.538 & 0.686 & 0.667 & yes \\
+RN GBM & 0.533 & 0.669 & 0.663 & yes \\
+RN XGBoost & 0.528 & 0.678 & 0.674 & yes \\
+RN LightGBM & 0.556 & 0.677 & 0.663 & yes \\
+RN CatBoost & 0.527 & 0.669 & 0.670 & yes \\
+CS AdaBoost & 0.561 & 0.690 & 0.688 & yes \\
+CS GBM & 0.568 & 0.671 & 0.690 & yes \\
+CS XGBoost & 0.574 & 0.672 & 0.686 & yes \\
+CS LightGBM & 0.545 & 0.648 & 0.639 & yes \\
+CS CatBoost & 0.551 & 0.677 & 0.694 & yes \\
+AdaPU & 0.545 & 0.666 & 0.641 & yes \\
+PU gradient boosting & 0.550 & 0.654 & 0.654 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.05$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.05$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.569 & 0.674 & 0.678 & yes \\
+uPU logistic & 0.570 & 0.675 & 0.673 & yes \\
+nnPU logistic & 0.570 & 0.675 & 0.673 & yes \\
+Naive AdaBoost & 0.566 & 0.651 & 0.649 & yes \\
+Naive GBM & 0.563 & 0.657 & 0.659 & yes \\
+Naive XGBoost & 0.571 & 0.655 & 0.660 & yes \\
+Naive LightGBM & 0.576 & 0.658 & 0.654 & yes \\
+Naive CatBoost & 0.564 & 0.651 & 0.658 & yes \\
+Corrected AdaBoost & 0.566 & 0.651 & 0.649 & yes \\
+Corrected GBM & 0.563 & 0.657 & 0.659 & yes \\
+Corrected XGBoost & 0.571 & 0.655 & 0.660 & yes \\
+Corrected LightGBM & 0.576 & 0.658 & 0.654 & yes \\
+Corrected CatBoost & 0.564 & 0.651 & 0.658 & yes \\
+RN AdaBoost & 0.569 & 0.668 & 0.659 & yes \\
+RN GBM & 0.569 & 0.660 & 0.663 & yes \\
+RN XGBoost & 0.564 & 0.673 & 0.669 & yes \\
+RN LightGBM & 0.572 & 0.676 & 0.665 & yes \\
+RN CatBoost & 0.571 & 0.677 & 0.667 & yes \\
+CS AdaBoost & 0.566 & 0.651 & 0.649 & yes \\
+CS GBM & 0.563 & 0.657 & 0.659 & yes \\
+CS XGBoost & 0.569 & 0.661 & 0.660 & yes \\
+CS LightGBM & 0.576 & 0.658 & 0.654 & yes \\
+CS CatBoost & 0.564 & 0.651 & 0.658 & yes \\
+AdaPU & 0.566 & 0.650 & 0.649 & yes \\
+PU gradient boosting & 0.558 & 0.633 & 0.633 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.50$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Prevalence $\pi=0.50$}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.647 & 0.645 & 0.648 & yes \\
+uPU logistic & 0.646 & 0.644 & 0.644 & yes \\
+nnPU logistic & 0.646 & 0.644 & 0.644 & yes \\
+Naive AdaBoost & 0.636 & 0.641 & 0.644 & yes \\
+Naive GBM & 0.648 & 0.646 & 0.648 & yes \\
+Naive XGBoost & 0.648 & 0.640 & 0.647 & yes \\
+Naive LightGBM & 0.618 & 0.622 & 0.623 & yes \\
+Naive CatBoost & 0.647 & 0.625 & 0.646 & yes \\
+Corrected AdaBoost & 0.636 & 0.641 & 0.644 & yes \\
+Corrected GBM & 0.648 & 0.646 & 0.648 & yes \\
+Corrected XGBoost & 0.648 & 0.640 & 0.647 & yes \\
+Corrected LightGBM & 0.618 & 0.622 & 0.623 & yes \\
+Corrected CatBoost & 0.647 & 0.625 & 0.646 & yes \\
+RN AdaBoost & 0.647 & 0.645 & 0.645 & yes \\
+RN GBM & 0.647 & 0.645 & 0.645 & yes \\
+RN XGBoost & 0.644 & 0.639 & 0.642 & yes \\
+RN LightGBM & 0.647 & 0.647 & 0.641 & yes \\
+RN CatBoost & 0.645 & 0.641 & 0.646 & yes \\
+CS AdaBoost & 0.647 & 0.639 & 0.647 & yes \\
+CS GBM & 0.633 & 0.634 & 0.633 & yes \\
+CS XGBoost & 0.648 & 0.640 & 0.647 & yes \\
+CS LightGBM & 0.621 & 0.625 & 0.619 & yes \\
+CS CatBoost & 0.647 & 0.625 & 0.646 & yes \\
+AdaPU & 0.645 & 0.627 & 0.642 & yes \\
+PU gradient boosting & 0.636 & 0.648 & 0.649 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: High dimension ($p=500$)}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: High dimension ($p=500$)}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.563 & 0.576 & 0.587 & yes \\
+uPU logistic & 0.526 & 0.533 & 0.539 & yes \\
+nnPU logistic & 0.561 & 0.587 & 0.589 & yes \\
+Naive AdaBoost & 0.615 & 0.643 & 0.642 & yes \\
+Naive GBM & 0.615 & 0.638 & 0.641 & yes \\
+Naive XGBoost & 0.620 & 0.641 & 0.643 & yes \\
+Naive LightGBM & 0.603 & 0.640 & 0.638 & yes \\
+Naive CatBoost & 0.614 & 0.637 & 0.638 & yes \\
+Corrected AdaBoost & 0.615 & 0.643 & 0.642 & yes \\
+Corrected GBM & 0.615 & 0.638 & 0.641 & yes \\
+Corrected XGBoost & 0.620 & 0.641 & 0.643 & yes \\
+Corrected LightGBM & 0.603 & 0.640 & 0.638 & yes \\
+Corrected CatBoost & 0.614 & 0.637 & 0.638 & yes \\
+RN AdaBoost & 0.620 & 0.645 & 0.646 & yes \\
+RN GBM & 0.616 & 0.643 & 0.651 & yes \\
+RN XGBoost & 0.619 & 0.657 & 0.644 & yes \\
+RN LightGBM & 0.606 & 0.640 & 0.638 & yes \\
+RN CatBoost & 0.617 & 0.656 & 0.657 & yes \\
+CS AdaBoost & 0.615 & 0.645 & 0.641 & yes \\
+CS GBM & 0.607 & 0.644 & 0.645 & yes \\
+CS XGBoost & 0.617 & 0.646 & 0.653 & yes \\
+CS LightGBM & 0.607 & 0.642 & 0.640 & yes \\
+CS CatBoost & 0.614 & 0.637 & 0.638 & yes \\
+AdaPU & 0.625 & 0.640 & 0.642 & yes \\
+PU gradient boosting & 0.618 & 0.647 & 0.648 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Curved boundary}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Curved boundary}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.622 & 0.642 & 0.642 & yes \\
+uPU logistic & 0.620 & 0.641 & 0.641 & yes \\
+nnPU logistic & 0.620 & 0.641 & 0.641 & yes \\
+Naive AdaBoost & 0.614 & 0.644 & 0.643 & yes \\
+Naive GBM & 0.615 & 0.642 & 0.642 & yes \\
+Naive XGBoost & 0.614 & 0.635 & 0.645 & yes \\
+Naive LightGBM & 0.599 & 0.628 & 0.631 & yes \\
+Naive CatBoost & 0.623 & 0.639 & 0.638 & yes \\
+Corrected AdaBoost & 0.614 & 0.644 & 0.643 & yes \\
+Corrected GBM & 0.615 & 0.642 & 0.642 & yes \\
+Corrected XGBoost & 0.614 & 0.635 & 0.645 & yes \\
+Corrected LightGBM & 0.599 & 0.628 & 0.631 & yes \\
+Corrected CatBoost & 0.623 & 0.639 & 0.638 & yes \\
+RN AdaBoost & 0.625 & 0.628 & 0.636 & yes \\
+RN GBM & 0.616 & 0.640 & 0.639 & yes \\
+RN XGBoost & 0.614 & 0.635 & 0.641 & yes \\
+RN LightGBM & 0.608 & 0.632 & 0.632 & yes \\
+RN CatBoost & 0.622 & 0.642 & 0.643 & yes \\
+CS AdaBoost & 0.615 & 0.644 & 0.643 & yes \\
+CS GBM & 0.617 & 0.639 & 0.636 & yes \\
+CS XGBoost & 0.616 & 0.644 & 0.642 & yes \\
+CS LightGBM & 0.604 & 0.631 & 0.638 & yes \\
+CS CatBoost & 0.623 & 0.639 & 0.638 & yes \\
+AdaPU & 0.602 & 0.633 & 0.636 & yes \\
+PU gradient boosting & 0.619 & 0.636 & 0.639 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Feature interaction}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Feature interaction}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.588 & 0.600 & 0.605 & yes \\
+uPU logistic & 0.589 & 0.599 & 0.604 & yes \\
+nnPU logistic & 0.589 & 0.599 & 0.604 & yes \\
+Naive AdaBoost & 0.608 & 0.590 & 0.608 & yes \\
+Naive GBM & 0.579 & 0.611 & 0.611 & yes \\
+Naive XGBoost & 0.593 & 0.614 & 0.615 & yes \\
+Naive LightGBM & 0.590 & 0.607 & 0.611 & yes \\
+Naive CatBoost & 0.620 & 0.646 & 0.643 & yes \\
+Corrected AdaBoost & 0.608 & 0.590 & 0.608 & yes \\
+Corrected GBM & 0.579 & 0.611 & 0.611 & yes \\
+Corrected XGBoost & 0.593 & 0.614 & 0.615 & yes \\
+Corrected LightGBM & 0.590 & 0.607 & 0.611 & yes \\
+Corrected CatBoost & 0.620 & 0.646 & 0.643 & yes \\
+RN AdaBoost & 0.553 & 0.603 & 0.601 & yes \\
+RN GBM & 0.558 & 0.599 & 0.598 & yes \\
+RN XGBoost & 0.546 & 0.589 & 0.595 & yes \\
+RN LightGBM & 0.543 & 0.594 & 0.584 & yes \\
+RN CatBoost & 0.555 & 0.597 & 0.596 & yes \\
+CS AdaBoost & 0.608 & 0.590 & 0.608 & yes \\
+CS GBM & 0.579 & 0.611 & 0.611 & yes \\
+CS XGBoost & 0.597 & 0.614 & 0.619 & yes \\
+CS LightGBM & 0.590 & 0.607 & 0.611 & yes \\
+CS CatBoost & 0.620 & 0.643 & 0.643 & yes \\
+AdaPU & 0.582 & 0.580 & 0.599 & yes \\
+PU gradient boosting & 0.579 & 0.588 & 0.606 & yes \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}>{\raggedright\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Unequal class covariance}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}p{7in}}{\textbf{Two-sample - simulation: Unequal class covariance}}\\
+Method & Same-model quantile & PU-estimated BA & Oracle BA & Verified \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic probability correction & 0.646 & 0.655 & 0.657 & yes \\
+uPU logistic & 0.646 & 0.657 & 0.657 & yes \\
+nnPU logistic & 0.646 & 0.657 & 0.657 & yes \\
+Naive AdaBoost & 0.633 & 0.641 & 0.658 & yes \\
+Naive GBM & 0.634 & 0.657 & 0.658 & yes \\
+Naive XGBoost & 0.635 & 0.659 & 0.652 & yes \\
+Naive LightGBM & 0.621 & 0.641 & 0.640 & yes \\
+Naive CatBoost & 0.639 & 0.661 & 0.665 & yes \\
+Corrected AdaBoost & 0.633 & 0.641 & 0.658 & yes \\
+Corrected GBM & 0.634 & 0.657 & 0.658 & yes \\
+Corrected XGBoost & 0.635 & 0.659 & 0.652 & yes \\
+Corrected LightGBM & 0.621 & 0.641 & 0.640 & yes \\
+Corrected CatBoost & 0.639 & 0.661 & 0.665 & yes \\
+RN AdaBoost & 0.613 & 0.632 & 0.639 & yes \\
+RN GBM & 0.614 & 0.634 & 0.636 & yes \\
+RN XGBoost & 0.603 & 0.622 & 0.634 & yes \\
+RN LightGBM & 0.606 & 0.626 & 0.626 & yes \\
+RN CatBoost & 0.616 & 0.639 & 0.641 & yes \\
+CS AdaBoost & 0.633 & 0.641 & 0.658 & yes \\
+CS GBM & 0.634 & 0.657 & 0.658 & yes \\
+CS XGBoost & 0.638 & 0.653 & 0.654 & yes \\
+CS LightGBM & 0.620 & 0.624 & 0.638 & yes \\
+CS CatBoost & 0.639 & 0.661 & 0.665 & yes \\
+AdaPU & 0.664 & 0.676 & 0.676 & yes \\
+PU gradient boosting & 0.638 & 0.647 & 0.658 & yes \\
+\end{longtable}
+\noindent\textit{Note.} Balanced accuracy from one saved split/repetition per setting. -- indicates an unverified replay, not a zero. Six real method/case replays are unverified; 1,194/1,200 method/case results are verified for each rule. Same-model quantile is the common prevalence quantile; oracle BA uses true validation labels only. PU-estimated BA remains a limited pilot.
+
+\par\endgroup

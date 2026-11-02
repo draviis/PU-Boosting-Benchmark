@@ -1,0 +1,516 @@
+{
+  "status": "approved_for_execution_2026-10-17",
+  "methods": [
+    {
+      "design": "one_sample",
+      "method_id": "M001",
+      "source_label": "Block0 | Oracle logistic regression",
+      "supervised_reference": true,
+      "practical_PU": false,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M001"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M002",
+      "source_label": "Block0 | Oracle CatBoost",
+      "supervised_reference": true,
+      "practical_PU": false,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M002"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M003",
+      "source_label": "Block1 | Elkan-Noto known-c",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M003"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M004",
+      "source_label": "Block1 | uPU logistic",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M004"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M005",
+      "source_label": "Block1 | nnPU logistic",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M005"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M006",
+      "source_label": "Block2 | Naive + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M006"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M007",
+      "source_label": "Block2 | Naive + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M007"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M008",
+      "source_label": "Block2 | Naive + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M008"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M009",
+      "source_label": "Block2 | Naive + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M009"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M010",
+      "source_label": "Block2 | Naive + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M010"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M011",
+      "source_label": "Block2 | ProbCorrection + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M011"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M012",
+      "source_label": "Block2 | ProbCorrection + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M012"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M013",
+      "source_label": "Block2 | ProbCorrection + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M013"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M014",
+      "source_label": "Block2 | ProbCorrection + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M014"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M015",
+      "source_label": "Block2 | ProbCorrection + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M015"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M016",
+      "source_label": "Block2 | RN + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M016"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M017",
+      "source_label": "Block2 | RN + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M017"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M018",
+      "source_label": "Block2 | RN + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M018"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M019",
+      "source_label": "Block2 | RN + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M019"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M020",
+      "source_label": "Block2 | RN + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M020"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M021",
+      "source_label": "Block2 | CostSensitive + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M021"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M022",
+      "source_label": "Block2 | CostSensitive + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M022"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M023",
+      "source_label": "Block2 | CostSensitive + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M023"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M024",
+      "source_label": "Block2 | CostSensitive + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M024"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M025",
+      "source_label": "Block2 | CostSensitive + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M025"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M026",
+      "source_label": "Block3 | AdaPU",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M026"
+    },
+    {
+      "design": "one_sample",
+      "method_id": "M027",
+      "source_label": "Block3 | PU Gradient Boosting",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py",
+      "canonical_method_id": "M027"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM001",
+      "source_label": "Block0 | Oracle logistic regression",
+      "supervised_reference": true,
+      "practical_PU": false,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M001"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM002",
+      "source_label": "Block0 | Oracle CatBoost",
+      "supervised_reference": true,
+      "practical_PU": false,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M002"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM003",
+      "source_label": "Block1 | CaseControl density-ratio known-pi",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M003"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM004",
+      "source_label": "Block1 | uPU logistic",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M004"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM005",
+      "source_label": "Block1 | nnPU logistic",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M005"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM006",
+      "source_label": "Block2 | Naive + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M006"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM007",
+      "source_label": "Block2 | Naive + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M007"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM008",
+      "source_label": "Block2 | Naive + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M008"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM009",
+      "source_label": "Block2 | Naive + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M009"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM010",
+      "source_label": "Block2 | Naive + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M010"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM011",
+      "source_label": "Block2 | ProbCorrection + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M011"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM012",
+      "source_label": "Block2 | ProbCorrection + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M012"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM013",
+      "source_label": "Block2 | ProbCorrection + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M013"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM014",
+      "source_label": "Block2 | ProbCorrection + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M014"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM015",
+      "source_label": "Block2 | ProbCorrection + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M015"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM016",
+      "source_label": "Block2 | RN + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M016"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM017",
+      "source_label": "Block2 | RN + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M017"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM018",
+      "source_label": "Block2 | RN + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M018"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM019",
+      "source_label": "Block2 | RN + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M019"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM020",
+      "source_label": "Block2 | RN + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M020"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM021",
+      "source_label": "Block2 | CostSensitive + AdaBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M021"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM022",
+      "source_label": "Block2 | CostSensitive + GBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M022"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM023",
+      "source_label": "Block2 | CostSensitive + XGBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M023"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM024",
+      "source_label": "Block2 | CostSensitive + LightGBM",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M024"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM025",
+      "source_label": "Block2 | CostSensitive + CatBoost",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M025"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM026",
+      "source_label": "Block3 | AdaPU repaired",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M026"
+    },
+    {
+      "design": "two_sample",
+      "method_id": "TM027",
+      "source_label": "Block3 | PU Gradient Boosting repaired",
+      "supervised_reference": false,
+      "practical_PU": true,
+      "catalog_source": "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py",
+      "canonical_method_id": "M027"
+    }
+  ],
+  "practical_PU_per_design": 25,
+  "supervised_references_per_design": 2,
+  "source_hashes": {
+    "publication_preparation/scoring_harmonization_20261012/frozen/main/base_phase1_benchmark.py": "42234e876ee118e4c5e486063331968fbf2b729a38fc4e5c387e713dc4aafb68",
+    "publication_preparation/eta_scoring_20261013/frozen/main/two_sample_benchmark.py": "ce2a156a2cbc3ff07414ace2e47cd395a9fa28ef7abda40e61283c2509091722",
+    "publication_preparation/eta_scoring_20261013/frozen/main/repaired_method_library.py": "bf5c9fae89a1940d67da7de927aba27ecd4c20489383a6a641ac03a81fafdb91"
+  },
+  "BaggingPU": {
+    "status": "explicitly_excluded_by_user_2026-10-17"
+  },
+  "RN_selector": "original logistic spy; Task4 nonlinear-spy sensitivity not promoted to main catalog",
+  "PU_methods_per_design": 25,
+  "excluded": [
+    "T9_upu_fg_xgboost",
+    "T9_kiryo_fg_xgboost",
+    "T9_naive_fg_xgboost",
+    "T9_upu_fg_lightgbm",
+    "T9_kiryo_fg_lightgbm",
+    "T9_naive_fg_lightgbm",
+    "BaggingPU",
+    "Task4_nonlinear_spy_RN"
+  ],
+  "expected_PU_method_results": 30000,
+  "expected_supervised_results": 2400,
+  "expected_total_results": 32400
+}

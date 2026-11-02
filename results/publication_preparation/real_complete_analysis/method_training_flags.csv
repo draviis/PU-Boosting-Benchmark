@@ -1,0 +1,9 @@
+method,at_cap,negative_selected_risk
+linear_nnpu_auc,8,0
+linear_nnpu_risk,151,0
+linear_upu_auc,9,0
+linear_upu_risk,215,84
+mlp_nnpu_auc,1,0
+mlp_nnpu_risk,7,0
+mlp_upu_auc,1,0
+mlp_upu_risk,130,140

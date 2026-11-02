@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "model_fits": 0,
+  "core_ranking_metric_rows": 432000,
+  "core_family_and_setting_means_verified": 216,
+  "nonlinear_method_rows": 32400,
+  "nonlinear_missing_refits": 6,
+  "real_data_method_rows": 17280,
+  "nonlinear_tables_verified": [
+    "nonlinear_unique_score_model_ranks.csv",
+    "original_unique_score_model_ranks.csv",
+    "nonlinear_learner_strategy_decomposition.csv",
+    "original_vs_nonlinear_comparison.csv",
+    "nonlinear_headline_results.csv",
+    "unavailable_RN_refits.csv",
+    "ranking_alias_verification.csv",
+    "ranking_alias_exceptions.csv"
+  ],
+  "original_two_sample_AdaBoost_alias_exceptions_retained": true,
+  "release_date": "2026-11-02",
+  "figure_pdfs": 14,
+  "table_pdfs": 20,
+  "final_table_overflow_warnings": 0,
+  "portability_changes": [
+    {
+      "path": "code/mlj_revision/02_fixed_method_and_family_analysis/plot_heatmaps.py",
+      "change": "Locate pdftoppm on PATH instead of an author-specific Windows path."
+    },
+    {
+      "path": "code/mlj_revision/03_rn_mechanism/analyse.py",
+      "change": "Use a relative provenance path for reconstructed RN arrays."
+    },
+    {
+      "path": "code/mlj_revision/final_supplement_revision/source_code/build_timing.py",
+      "change": "Strip any cluster project prefix without embedding an account name."
+    }
+  ],
+  "archived_files": 570,
+  "archived_compressed_bytes": 213990258,
+  "full_experiment_refitting_performed": false,
+  "python_source_syntax_checked": true,
+  "credential_scan": "no matches in release text/CSV/JSON payloads",
+  "author_private_path_scan": "no matches after removal of cluster execution note",
+  "rice_source_download_checksum_and_preparation_verified": true,
+  "rice_prepared_shape": [
+    3810,
+    7
+  ],
+  "analysis_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.6"
+  }
+}

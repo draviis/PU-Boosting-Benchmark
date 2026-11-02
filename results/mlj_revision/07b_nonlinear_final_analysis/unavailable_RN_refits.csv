@@ -1,0 +1,7 @@
+scenario,design,repetition,repetition_indexing,method_id,method,reason,AUROC_available,AP_available,selected_BA_F1_MCC_available,imputed
+NL02,one_sample,4,Task7 saved zero-based index,M017,RN GBM,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false
+NL02,two_sample,86,Task7 saved zero-based index,M016,RN AdaBoost,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false
+NL02,two_sample,86,Task7 saved zero-based index,M017,RN GBM,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false
+NL02,two_sample,86,Task7 saved zero-based index,M020,RN CatBoost,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false
+NL03,two_sample,12,Task7 saved zero-based index,M016,RN AdaBoost,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false
+NL03,two_sample,83,Task7 saved zero-based index,M017,RN GBM,Selected RN settings yielded zero reliable negatives in final train+validation refit,false,false,true,false

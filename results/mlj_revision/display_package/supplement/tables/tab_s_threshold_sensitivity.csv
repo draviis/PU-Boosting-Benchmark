@@ -1,0 +1,1201 @@
+Panel,Method,A_same_model,PU-estimated BA,Oracle BA,Verified
+"One-sample - real: credit_default, c=0.05",Logistic probability correction,0.671,0.658,0.671,yes
+"One-sample - real: credit_default, c=0.05",uPU logistic,0.674,0.661,0.672,yes
+"One-sample - real: credit_default, c=0.05",nnPU logistic,0.674,0.661,0.672,yes
+"One-sample - real: credit_default, c=0.05",Naive AdaBoost,0.691,0.649,0.691,yes
+"One-sample - real: credit_default, c=0.05",Naive GBM,0.676,0.654,0.676,yes
+"One-sample - real: credit_default, c=0.05",Naive XGBoost,0.675,0.671,0.681,yes
+"One-sample - real: credit_default, c=0.05",Naive LightGBM,0.669,0.680,0.684,yes
+"One-sample - real: credit_default, c=0.05",Naive CatBoost,0.682,0.661,0.683,yes
+"One-sample - real: credit_default, c=0.05",Corrected AdaBoost,0.691,0.649,0.691,yes
+"One-sample - real: credit_default, c=0.05",Corrected GBM,0.676,0.654,0.676,yes
+"One-sample - real: credit_default, c=0.05",Corrected XGBoost,0.675,0.671,0.681,yes
+"One-sample - real: credit_default, c=0.05",Corrected LightGBM,0.669,0.680,0.684,yes
+"One-sample - real: credit_default, c=0.05",Corrected CatBoost,0.682,0.661,0.683,yes
+"One-sample - real: credit_default, c=0.05",RN AdaBoost,0.642,0.682,0.682,yes
+"One-sample - real: credit_default, c=0.05",RN GBM,0.674,0.661,0.670,yes
+"One-sample - real: credit_default, c=0.05",RN XGBoost,0.673,0.672,0.669,yes
+"One-sample - real: credit_default, c=0.05",RN LightGBM,0.636,0.621,0.656,yes
+"One-sample - real: credit_default, c=0.05",RN CatBoost,0.667,0.645,0.667,yes
+"One-sample - real: credit_default, c=0.05",CS AdaBoost,0.691,0.649,0.691,yes
+"One-sample - real: credit_default, c=0.05",CS GBM,0.679,0.668,0.693,yes
+"One-sample - real: credit_default, c=0.05",CS XGBoost,0.678,0.675,0.677,yes
+"One-sample - real: credit_default, c=0.05",CS LightGBM,0.670,0.651,0.682,yes
+"One-sample - real: credit_default, c=0.05",CS CatBoost,0.681,0.669,0.691,yes
+"One-sample - real: credit_default, c=0.05",AdaPU,0.691,0.691,0.692,yes
+"One-sample - real: credit_default, c=0.05",PU gradient boosting,0.500,0.684,0.684,yes
+"One-sample - real: credit_default, c=0.20",Logistic probability correction,0.672,0.671,0.674,yes
+"One-sample - real: credit_default, c=0.20",uPU logistic,0.673,0.673,0.671,yes
+"One-sample - real: credit_default, c=0.20",nnPU logistic,0.673,0.673,0.671,yes
+"One-sample - real: credit_default, c=0.20",Naive AdaBoost,0.699,0.676,0.705,yes
+"One-sample - real: credit_default, c=0.20",Naive GBM,0.697,0.680,0.701,yes
+"One-sample - real: credit_default, c=0.20",Naive XGBoost,0.699,0.678,0.710,yes
+"One-sample - real: credit_default, c=0.20",Naive LightGBM,0.689,0.692,0.698,yes
+"One-sample - real: credit_default, c=0.20",Naive CatBoost,0.676,0.694,0.693,yes
+"One-sample - real: credit_default, c=0.20",Corrected AdaBoost,0.699,0.676,0.705,yes
+"One-sample - real: credit_default, c=0.20",Corrected GBM,0.697,0.680,0.701,yes
+"One-sample - real: credit_default, c=0.20",Corrected XGBoost,0.699,0.678,0.710,yes
+"One-sample - real: credit_default, c=0.20",Corrected LightGBM,0.689,0.692,0.698,yes
+"One-sample - real: credit_default, c=0.20",Corrected CatBoost,0.676,0.694,0.693,yes
+"One-sample - real: credit_default, c=0.20",RN AdaBoost,0.678,0.682,0.682,yes
+"One-sample - real: credit_default, c=0.20",RN GBM,0.636,0.650,0.650,yes
+"One-sample - real: credit_default, c=0.20",RN XGBoost,0.673,0.668,0.672,yes
+"One-sample - real: credit_default, c=0.20",RN LightGBM,0.672,0.641,0.672,yes
+"One-sample - real: credit_default, c=0.20",RN CatBoost,0.675,0.674,0.675,yes
+"One-sample - real: credit_default, c=0.20",CS AdaBoost,0.699,0.676,0.705,yes
+"One-sample - real: credit_default, c=0.20",CS GBM,0.691,0.704,0.707,yes
+"One-sample - real: credit_default, c=0.20",CS XGBoost,0.699,0.678,0.710,yes
+"One-sample - real: credit_default, c=0.20",CS LightGBM,0.693,0.705,0.705,yes
+"One-sample - real: credit_default, c=0.20",CS CatBoost,0.701,0.707,0.709,yes
+"One-sample - real: credit_default, c=0.20",AdaPU,0.700,0.704,0.705,yes
+"One-sample - real: credit_default, c=0.20",PU gradient boosting,0.702,0.672,0.702,yes
+"One-sample - real: dry_bean, c=0.05",Logistic probability correction,0.940,0.946,0.953,yes
+"One-sample - real: dry_bean, c=0.05",uPU logistic,0.934,0.942,0.942,yes
+"One-sample - real: dry_bean, c=0.05",nnPU logistic,0.934,0.942,0.942,yes
+"One-sample - real: dry_bean, c=0.05",Naive AdaBoost,0.939,0.944,0.944,yes
+"One-sample - real: dry_bean, c=0.05",Naive GBM,0.935,0.920,0.935,yes
+"One-sample - real: dry_bean, c=0.05",Naive XGBoost,0.941,0.941,0.940,yes
+"One-sample - real: dry_bean, c=0.05",Naive LightGBM,0.938,0.937,0.945,yes
+"One-sample - real: dry_bean, c=0.05",Naive CatBoost,0.937,0.944,0.949,yes
+"One-sample - real: dry_bean, c=0.05",Corrected AdaBoost,0.939,0.944,0.944,yes
+"One-sample - real: dry_bean, c=0.05",Corrected GBM,0.935,0.920,0.935,yes
+"One-sample - real: dry_bean, c=0.05",Corrected XGBoost,0.941,0.941,0.940,yes
+"One-sample - real: dry_bean, c=0.05",Corrected LightGBM,0.938,0.937,0.945,yes
+"One-sample - real: dry_bean, c=0.05",Corrected CatBoost,0.937,0.944,0.949,yes
+"One-sample - real: dry_bean, c=0.05",RN AdaBoost,0.947,0.947,0.947,yes
+"One-sample - real: dry_bean, c=0.05",RN GBM,0.944,0.947,0.947,yes
+"One-sample - real: dry_bean, c=0.05",RN XGBoost,0.944,0.940,0.951,yes
+"One-sample - real: dry_bean, c=0.05",RN LightGBM,0.946,0.939,0.951,yes
+"One-sample - real: dry_bean, c=0.05",RN CatBoost,0.945,0.945,0.950,yes
+"One-sample - real: dry_bean, c=0.05",CS AdaBoost,0.941,0.902,0.942,yes
+"One-sample - real: dry_bean, c=0.05",CS GBM,0.937,0.860,0.939,yes
+"One-sample - real: dry_bean, c=0.05",CS XGBoost,0.941,0.941,0.940,yes
+"One-sample - real: dry_bean, c=0.05",CS LightGBM,0.940,0.934,0.943,yes
+"One-sample - real: dry_bean, c=0.05",CS CatBoost,0.937,0.944,0.949,yes
+"One-sample - real: dry_bean, c=0.05",AdaPU,0.910,0.889,0.920,yes
+"One-sample - real: dry_bean, c=0.05",PU gradient boosting,0.891,0.910,0.915,yes
+"One-sample - real: dry_bean, c=0.20",Logistic probability correction,0.945,0.947,0.947,yes
+"One-sample - real: dry_bean, c=0.20",uPU logistic,0.936,0.944,0.941,yes
+"One-sample - real: dry_bean, c=0.20",nnPU logistic,0.936,0.944,0.941,yes
+"One-sample - real: dry_bean, c=0.20",Naive AdaBoost,0.948,0.924,0.952,yes
+"One-sample - real: dry_bean, c=0.20",Naive GBM,0.934,0.945,0.950,yes
+"One-sample - real: dry_bean, c=0.20",Naive XGBoost,0.945,0.954,0.954,yes
+"One-sample - real: dry_bean, c=0.20",Naive LightGBM,0.933,0.949,0.949,yes
+"One-sample - real: dry_bean, c=0.20",Naive CatBoost,0.934,0.947,0.947,yes
+"One-sample - real: dry_bean, c=0.20",Corrected AdaBoost,0.948,0.924,0.952,yes
+"One-sample - real: dry_bean, c=0.20",Corrected GBM,0.934,0.945,0.950,yes
+"One-sample - real: dry_bean, c=0.20",Corrected XGBoost,0.945,0.954,0.954,yes
+"One-sample - real: dry_bean, c=0.20",Corrected LightGBM,0.933,0.949,0.949,yes
+"One-sample - real: dry_bean, c=0.20",Corrected CatBoost,0.934,0.947,0.947,yes
+"One-sample - real: dry_bean, c=0.20",RN AdaBoost,0.946,0.957,0.957,yes
+"One-sample - real: dry_bean, c=0.20",RN GBM,0.948,0.952,0.951,yes
+"One-sample - real: dry_bean, c=0.20",RN XGBoost,0.945,0.955,0.957,yes
+"One-sample - real: dry_bean, c=0.20",RN LightGBM,0.947,0.956,0.957,yes
+"One-sample - real: dry_bean, c=0.20",RN CatBoost,0.945,0.950,0.951,yes
+"One-sample - real: dry_bean, c=0.20",CS AdaBoost,0.948,0.916,0.950,yes
+"One-sample - real: dry_bean, c=0.20",CS GBM,0.940,0.924,0.949,yes
+"One-sample - real: dry_bean, c=0.20",CS XGBoost,0.945,0.953,0.952,yes
+"One-sample - real: dry_bean, c=0.20",CS LightGBM,0.932,0.950,0.951,yes
+"One-sample - real: dry_bean, c=0.20",CS CatBoost,0.943,0.951,0.954,yes
+"One-sample - real: dry_bean, c=0.20",AdaPU,0.888,0.902,0.905,yes
+"One-sample - real: dry_bean, c=0.20",PU gradient boosting,0.944,0.939,0.946,yes
+"One-sample - real: htru2, c=0.05",Logistic probability correction,0.916,0.905,0.927,yes
+"One-sample - real: htru2, c=0.05",uPU logistic,0.925,0.936,0.933,yes
+"One-sample - real: htru2, c=0.05",nnPU logistic,0.925,0.936,0.933,yes
+"One-sample - real: htru2, c=0.05",Naive AdaBoost,0.913,0.887,0.921,yes
+"One-sample - real: htru2, c=0.05",Naive GBM,0.916,0.894,0.909,yes
+"One-sample - real: htru2, c=0.05",Naive XGBoost,0.916,0.919,0.919,yes
+"One-sample - real: htru2, c=0.05",Naive LightGBM,0.901,0.885,0.917,yes
+"One-sample - real: htru2, c=0.05",Naive CatBoost,0.917,0.897,0.929,yes
+"One-sample - real: htru2, c=0.05",Corrected AdaBoost,0.913,0.887,0.921,yes
+"One-sample - real: htru2, c=0.05",Corrected GBM,0.916,0.894,0.909,yes
+"One-sample - real: htru2, c=0.05",Corrected XGBoost,0.916,0.919,0.919,yes
+"One-sample - real: htru2, c=0.05",Corrected LightGBM,0.901,0.885,0.917,yes
+"One-sample - real: htru2, c=0.05",Corrected CatBoost,0.917,0.897,0.929,yes
+"One-sample - real: htru2, c=0.05",RN AdaBoost,0.922,0.898,0.922,yes
+"One-sample - real: htru2, c=0.05",RN GBM,0.906,0.894,0.906,yes
+"One-sample - real: htru2, c=0.05",RN XGBoost,0.912,0.900,0.914,yes
+"One-sample - real: htru2, c=0.05",RN LightGBM,0.894,0.908,0.910,yes
+"One-sample - real: htru2, c=0.05",RN CatBoost,0.916,0.900,0.928,yes
+"One-sample - real: htru2, c=0.05",CS AdaBoost,0.910,0.899,0.910,yes
+"One-sample - real: htru2, c=0.05",CS GBM,0.916,0.894,0.909,yes
+"One-sample - real: htru2, c=0.05",CS XGBoost,0.898,0.894,0.906,yes
+"One-sample - real: htru2, c=0.05",CS LightGBM,0.873,0.899,0.895,yes
+"One-sample - real: htru2, c=0.05",CS CatBoost,0.919,0.884,0.920,yes
+"One-sample - real: htru2, c=0.05",AdaPU,0.889,0.884,0.889,yes
+"One-sample - real: htru2, c=0.05",PU gradient boosting,0.912,0.915,0.915,yes
+"One-sample - real: htru2, c=0.20",Logistic probability correction,0.905,0.918,0.917,yes
+"One-sample - real: htru2, c=0.20",uPU logistic,0.915,0.925,0.925,yes
+"One-sample - real: htru2, c=0.20",nnPU logistic,0.915,0.925,0.925,yes
+"One-sample - real: htru2, c=0.20",Naive AdaBoost,0.917,0.914,0.922,yes
+"One-sample - real: htru2, c=0.20",Naive GBM,0.918,0.927,0.930,yes
+"One-sample - real: htru2, c=0.20",Naive XGBoost,0.921,0.924,0.922,yes
+"One-sample - real: htru2, c=0.20",Naive LightGBM,0.908,0.922,0.922,yes
+"One-sample - real: htru2, c=0.20",Naive CatBoost,0.918,0.931,0.930,yes
+"One-sample - real: htru2, c=0.20",Corrected AdaBoost,0.917,0.914,0.922,yes
+"One-sample - real: htru2, c=0.20",Corrected GBM,0.918,0.927,0.930,yes
+"One-sample - real: htru2, c=0.20",Corrected XGBoost,0.921,0.924,0.922,yes
+"One-sample - real: htru2, c=0.20",Corrected LightGBM,0.908,0.922,0.922,yes
+"One-sample - real: htru2, c=0.20",Corrected CatBoost,0.918,0.931,0.930,yes
+"One-sample - real: htru2, c=0.20",RN AdaBoost,0.922,0.919,0.922,yes
+"One-sample - real: htru2, c=0.20",RN GBM,0.917,0.925,0.930,yes
+"One-sample - real: htru2, c=0.20",RN XGBoost,0.919,0.923,0.931,yes
+"One-sample - real: htru2, c=0.20",RN LightGBM,0.906,0.925,0.927,yes
+"One-sample - real: htru2, c=0.20",RN CatBoost,0.902,0.929,0.928,yes
+"One-sample - real: htru2, c=0.20",CS AdaBoost,0.917,0.914,0.922,yes
+"One-sample - real: htru2, c=0.20",CS GBM,0.916,0.926,0.929,yes
+"One-sample - real: htru2, c=0.20",CS XGBoost,0.921,0.924,0.922,yes
+"One-sample - real: htru2, c=0.20",CS LightGBM,0.913,0.914,0.914,yes
+"One-sample - real: htru2, c=0.20",CS CatBoost,0.922,0.924,0.921,yes
+"One-sample - real: htru2, c=0.20",AdaPU,0.904,0.910,0.917,yes
+"One-sample - real: htru2, c=0.20",PU gradient boosting,0.919,0.911,0.921,yes
+"One-sample - real: online_shoppers, c=0.05",Logistic probability correction,0.551,0.577,0.578,yes
+"One-sample - real: online_shoppers, c=0.05",uPU logistic,0.542,0.582,0.573,yes
+"One-sample - real: online_shoppers, c=0.05",nnPU logistic,0.550,0.580,0.568,yes
+"One-sample - real: online_shoppers, c=0.05",Naive AdaBoost,0.644,0.644,0.645,yes
+"One-sample - real: online_shoppers, c=0.05",Naive GBM,0.564,0.612,0.620,yes
+"One-sample - real: online_shoppers, c=0.05",Naive XGBoost,0.563,0.599,0.599,yes
+"One-sample - real: online_shoppers, c=0.05",Naive LightGBM,0.559,0.613,0.631,yes
+"One-sample - real: online_shoppers, c=0.05",Naive CatBoost,0.576,0.541,0.616,yes
+"One-sample - real: online_shoppers, c=0.05",Corrected AdaBoost,0.644,0.644,0.645,yes
+"One-sample - real: online_shoppers, c=0.05",Corrected GBM,0.564,0.612,0.620,yes
+"One-sample - real: online_shoppers, c=0.05",Corrected XGBoost,0.563,0.599,0.599,yes
+"One-sample - real: online_shoppers, c=0.05",Corrected LightGBM,0.559,0.613,0.631,yes
+"One-sample - real: online_shoppers, c=0.05",Corrected CatBoost,0.576,0.541,0.616,yes
+"One-sample - real: online_shoppers, c=0.05",RN AdaBoost,0.583,0.609,0.646,yes
+"One-sample - real: online_shoppers, c=0.05",RN GBM,0.551,0.568,0.618,yes
+"One-sample - real: online_shoppers, c=0.05",RN XGBoost,0.594,0.587,0.641,yes
+"One-sample - real: online_shoppers, c=0.05",RN LightGBM,0.557,0.617,0.613,yes
+"One-sample - real: online_shoppers, c=0.05",RN CatBoost,0.582,0.594,0.658,yes
+"One-sample - real: online_shoppers, c=0.05",CS AdaBoost,0.644,0.644,0.645,yes
+"One-sample - real: online_shoppers, c=0.05",CS GBM,0.539,0.559,0.592,yes
+"One-sample - real: online_shoppers, c=0.05",CS XGBoost,0.564,0.627,0.636,yes
+"One-sample - real: online_shoppers, c=0.05",CS LightGBM,0.567,0.598,0.635,yes
+"One-sample - real: online_shoppers, c=0.05",CS CatBoost,0.558,0.613,0.611,yes
+"One-sample - real: online_shoppers, c=0.05",AdaPU,0.597,0.634,0.629,yes
+"One-sample - real: online_shoppers, c=0.05",PU gradient boosting,0.515,0.629,0.629,yes
+"One-sample - real: online_shoppers, c=0.20",Logistic probability correction,0.580,0.637,0.637,yes
+"One-sample - real: online_shoppers, c=0.20",uPU logistic,0.583,0.630,0.630,yes
+"One-sample - real: online_shoppers, c=0.20",nnPU logistic,0.583,0.630,0.630,yes
+"One-sample - real: online_shoppers, c=0.20",Naive AdaBoost,0.628,0.656,0.657,yes
+"One-sample - real: online_shoppers, c=0.20",Naive GBM,0.616,0.661,0.670,yes
+"One-sample - real: online_shoppers, c=0.20",Naive XGBoost,0.590,0.645,0.659,yes
+"One-sample - real: online_shoppers, c=0.20",Naive LightGBM,0.592,0.639,0.636,yes
+"One-sample - real: online_shoppers, c=0.20",Naive CatBoost,0.596,0.658,0.664,yes
+"One-sample - real: online_shoppers, c=0.20",Corrected AdaBoost,0.628,0.656,0.657,yes
+"One-sample - real: online_shoppers, c=0.20",Corrected GBM,0.616,0.661,0.670,yes
+"One-sample - real: online_shoppers, c=0.20",Corrected XGBoost,0.590,0.645,0.659,yes
+"One-sample - real: online_shoppers, c=0.20",Corrected LightGBM,0.592,0.639,0.636,yes
+"One-sample - real: online_shoppers, c=0.20",Corrected CatBoost,0.596,0.658,0.664,yes
+"One-sample - real: online_shoppers, c=0.20",RN AdaBoost,0.624,0.644,0.640,yes
+"One-sample - real: online_shoppers, c=0.20",RN GBM,0.597,0.651,0.645,yes
+"One-sample - real: online_shoppers, c=0.20",RN XGBoost,0.611,0.652,0.647,yes
+"One-sample - real: online_shoppers, c=0.20",RN LightGBM,0.588,0.623,0.643,yes
+"One-sample - real: online_shoppers, c=0.20",RN CatBoost,0.588,0.653,0.653,yes
+"One-sample - real: online_shoppers, c=0.20",CS AdaBoost,0.604,0.653,0.653,yes
+"One-sample - real: online_shoppers, c=0.20",CS GBM,0.614,0.632,0.641,yes
+"One-sample - real: online_shoppers, c=0.20",CS XGBoost,0.590,0.645,0.659,yes
+"One-sample - real: online_shoppers, c=0.20",CS LightGBM,0.573,0.615,0.628,yes
+"One-sample - real: online_shoppers, c=0.20",CS CatBoost,0.588,0.643,0.651,yes
+"One-sample - real: online_shoppers, c=0.20",AdaPU,0.589,0.645,0.650,yes
+"One-sample - real: online_shoppers, c=0.20",PU gradient boosting,0.631,0.655,0.655,yes
+"One-sample - real: optical_digits, c=0.05",Logistic probability correction,0.770,0.777,0.776,yes
+"One-sample - real: optical_digits, c=0.05",uPU logistic,0.761,0.741,0.761,yes
+"One-sample - real: optical_digits, c=0.05",nnPU logistic,0.838,0.841,0.836,yes
+"One-sample - real: optical_digits, c=0.05",Naive AdaBoost,0.816,0.755,0.812,yes
+"One-sample - real: optical_digits, c=0.05",Naive GBM,0.732,0.721,0.732,yes
+"One-sample - real: optical_digits, c=0.05",Naive XGBoost,0.762,0.721,0.764,yes
+"One-sample - real: optical_digits, c=0.05",Naive LightGBM,0.788,0.773,0.788,yes
+"One-sample - real: optical_digits, c=0.05",Naive CatBoost,0.840,0.834,0.837,yes
+"One-sample - real: optical_digits, c=0.05",Corrected AdaBoost,0.816,0.755,0.812,yes
+"One-sample - real: optical_digits, c=0.05",Corrected GBM,0.732,0.721,0.732,yes
+"One-sample - real: optical_digits, c=0.05",Corrected XGBoost,0.762,0.721,0.764,yes
+"One-sample - real: optical_digits, c=0.05",Corrected LightGBM,0.788,0.773,0.788,yes
+"One-sample - real: optical_digits, c=0.05",Corrected CatBoost,0.840,0.834,0.837,yes
+"One-sample - real: optical_digits, c=0.05",RN AdaBoost,--,--,--,no
+"One-sample - real: optical_digits, c=0.05",RN GBM,0.827,0.811,0.820,yes
+"One-sample - real: optical_digits, c=0.05",RN XGBoost,0.823,0.823,0.825,yes
+"One-sample - real: optical_digits, c=0.05",RN LightGBM,0.819,0.738,0.826,yes
+"One-sample - real: optical_digits, c=0.05",RN CatBoost,0.838,0.838,0.836,yes
+"One-sample - real: optical_digits, c=0.05",CS AdaBoost,0.831,0.795,0.833,yes
+"One-sample - real: optical_digits, c=0.05",CS GBM,0.744,0.744,0.740,yes
+"One-sample - real: optical_digits, c=0.05",CS XGBoost,0.736,0.727,0.735,yes
+"One-sample - real: optical_digits, c=0.05",CS LightGBM,0.793,0.770,0.794,yes
+"One-sample - real: optical_digits, c=0.05",CS CatBoost,0.841,0.828,0.831,yes
+"One-sample - real: optical_digits, c=0.05",AdaPU,0.802,0.782,0.802,yes
+"One-sample - real: optical_digits, c=0.05",PU gradient boosting,0.774,0.778,0.780,yes
+"One-sample - real: optical_digits, c=0.20",Logistic probability correction,0.857,0.841,0.857,yes
+"One-sample - real: optical_digits, c=0.20",uPU logistic,0.866,0.857,0.863,yes
+"One-sample - real: optical_digits, c=0.20",nnPU logistic,0.866,0.855,0.859,yes
+"One-sample - real: optical_digits, c=0.20",Naive AdaBoost,0.872,0.874,0.861,yes
+"One-sample - real: optical_digits, c=0.20",Naive GBM,0.871,0.873,0.871,yes
+"One-sample - real: optical_digits, c=0.20",Naive XGBoost,0.898,0.885,0.898,yes
+"One-sample - real: optical_digits, c=0.20",Naive LightGBM,0.902,0.901,0.903,yes
+"One-sample - real: optical_digits, c=0.20",Naive CatBoost,0.911,0.910,0.913,yes
+"One-sample - real: optical_digits, c=0.20",Corrected AdaBoost,0.872,0.874,0.861,yes
+"One-sample - real: optical_digits, c=0.20",Corrected GBM,0.871,0.873,0.871,yes
+"One-sample - real: optical_digits, c=0.20",Corrected XGBoost,0.898,0.885,0.898,yes
+"One-sample - real: optical_digits, c=0.20",Corrected LightGBM,0.902,0.901,0.903,yes
+"One-sample - real: optical_digits, c=0.20",Corrected CatBoost,0.911,0.910,0.913,yes
+"One-sample - real: optical_digits, c=0.20",RN AdaBoost,0.886,0.877,0.883,yes
+"One-sample - real: optical_digits, c=0.20",RN GBM,0.864,0.859,0.867,yes
+"One-sample - real: optical_digits, c=0.20",RN XGBoost,0.876,0.873,0.870,yes
+"One-sample - real: optical_digits, c=0.20",RN LightGBM,0.898,0.888,0.889,yes
+"One-sample - real: optical_digits, c=0.20",RN CatBoost,0.893,0.902,0.893,yes
+"One-sample - real: optical_digits, c=0.20",CS AdaBoost,0.874,0.870,0.867,yes
+"One-sample - real: optical_digits, c=0.20",CS GBM,0.890,0.890,0.890,yes
+"One-sample - real: optical_digits, c=0.20",CS XGBoost,0.904,0.899,0.902,yes
+"One-sample - real: optical_digits, c=0.20",CS LightGBM,0.902,0.895,0.903,yes
+"One-sample - real: optical_digits, c=0.20",CS CatBoost,0.911,0.910,0.913,yes
+"One-sample - real: optical_digits, c=0.20",AdaPU,0.849,0.862,0.833,yes
+"One-sample - real: optical_digits, c=0.20",PU gradient boosting,0.875,0.868,0.870,yes
+"One-sample - real: phishing, c=0.05",Logistic probability correction,0.875,0.867,0.876,yes
+"One-sample - real: phishing, c=0.05",uPU logistic,0.818,0.753,0.818,yes
+"One-sample - real: phishing, c=0.05",nnPU logistic,0.877,0.865,0.874,yes
+"One-sample - real: phishing, c=0.05",Naive AdaBoost,0.896,0.896,0.900,yes
+"One-sample - real: phishing, c=0.05",Naive GBM,0.875,0.883,0.881,yes
+"One-sample - real: phishing, c=0.05",Naive XGBoost,0.867,0.819,0.849,yes
+"One-sample - real: phishing, c=0.05",Naive LightGBM,0.866,0.854,0.867,yes
+"One-sample - real: phishing, c=0.05",Naive CatBoost,0.858,0.852,0.846,yes
+"One-sample - real: phishing, c=0.05",Corrected AdaBoost,0.896,0.896,0.900,yes
+"One-sample - real: phishing, c=0.05",Corrected GBM,0.875,0.883,0.881,yes
+"One-sample - real: phishing, c=0.05",Corrected XGBoost,0.867,0.819,0.849,yes
+"One-sample - real: phishing, c=0.05",Corrected LightGBM,0.866,0.854,0.867,yes
+"One-sample - real: phishing, c=0.05",Corrected CatBoost,0.858,0.852,0.846,yes
+"One-sample - real: phishing, c=0.05",RN AdaBoost,0.888,0.888,0.925,yes
+"One-sample - real: phishing, c=0.05",RN GBM,0.923,0.918,0.920,yes
+"One-sample - real: phishing, c=0.05",RN XGBoost,0.914,0.903,0.910,yes
+"One-sample - real: phishing, c=0.05",RN LightGBM,0.907,0.905,0.905,yes
+"One-sample - real: phishing, c=0.05",RN CatBoost,0.911,0.908,0.904,yes
+"One-sample - real: phishing, c=0.05",CS AdaBoost,0.898,0.851,0.915,yes
+"One-sample - real: phishing, c=0.05",CS GBM,0.878,0.879,0.879,yes
+"One-sample - real: phishing, c=0.05",CS XGBoost,0.835,0.827,0.828,yes
+"One-sample - real: phishing, c=0.05",CS LightGBM,0.866,0.854,0.867,yes
+"One-sample - real: phishing, c=0.05",CS CatBoost,0.858,0.852,0.846,yes
+"One-sample - real: phishing, c=0.05",AdaPU,0.914,0.898,0.907,yes
+"One-sample - real: phishing, c=0.05",PU gradient boosting,0.897,0.900,0.904,yes
+"One-sample - real: phishing, c=0.20",Logistic probability correction,0.909,0.910,0.910,yes
+"One-sample - real: phishing, c=0.20",uPU logistic,0.885,0.880,0.875,yes
+"One-sample - real: phishing, c=0.20",nnPU logistic,0.889,0.887,0.883,yes
+"One-sample - real: phishing, c=0.20",Naive AdaBoost,0.929,0.929,0.929,yes
+"One-sample - real: phishing, c=0.20",Naive GBM,0.899,0.901,0.899,yes
+"One-sample - real: phishing, c=0.20",Naive XGBoost,0.911,0.917,0.909,yes
+"One-sample - real: phishing, c=0.20",Naive LightGBM,0.903,0.899,0.899,yes
+"One-sample - real: phishing, c=0.20",Naive CatBoost,0.898,0.769,0.894,yes
+"One-sample - real: phishing, c=0.20",Corrected AdaBoost,0.929,0.929,0.929,yes
+"One-sample - real: phishing, c=0.20",Corrected GBM,0.899,0.901,0.899,yes
+"One-sample - real: phishing, c=0.20",Corrected XGBoost,0.911,0.917,0.909,yes
+"One-sample - real: phishing, c=0.20",Corrected LightGBM,0.903,0.899,0.899,yes
+"One-sample - real: phishing, c=0.20",Corrected CatBoost,0.898,0.769,0.894,yes
+"One-sample - real: phishing, c=0.20",RN AdaBoost,0.924,0.919,0.919,yes
+"One-sample - real: phishing, c=0.20",RN GBM,0.921,0.886,0.926,yes
+"One-sample - real: phishing, c=0.20",RN XGBoost,0.928,0.927,0.928,yes
+"One-sample - real: phishing, c=0.20",RN LightGBM,0.924,0.900,0.922,yes
+"One-sample - real: phishing, c=0.20",RN CatBoost,0.935,0.916,0.934,yes
+"One-sample - real: phishing, c=0.20",CS AdaBoost,0.928,0.928,0.928,yes
+"One-sample - real: phishing, c=0.20",CS GBM,0.899,0.901,0.899,yes
+"One-sample - real: phishing, c=0.20",CS XGBoost,0.907,0.915,0.916,yes
+"One-sample - real: phishing, c=0.20",CS LightGBM,0.891,0.898,0.891,yes
+"One-sample - real: phishing, c=0.20",CS CatBoost,0.883,0.791,0.882,yes
+"One-sample - real: phishing, c=0.20",AdaPU,0.916,0.914,0.914,yes
+"One-sample - real: phishing, c=0.20",PU gradient boosting,0.915,0.896,0.920,yes
+"One-sample - real: rice, c=0.05",Logistic probability correction,0.904,0.880,0.902,yes
+"One-sample - real: rice, c=0.05",uPU logistic,0.892,0.855,0.901,yes
+"One-sample - real: rice, c=0.05",nnPU logistic,0.903,0.860,0.902,yes
+"One-sample - real: rice, c=0.05",Naive AdaBoost,0.887,0.811,0.878,yes
+"One-sample - real: rice, c=0.05",Naive GBM,0.864,0.690,0.861,yes
+"One-sample - real: rice, c=0.05",Naive XGBoost,0.869,0.801,0.885,yes
+"One-sample - real: rice, c=0.05",Naive LightGBM,0.844,0.667,0.889,yes
+"One-sample - real: rice, c=0.05",Naive CatBoost,0.846,0.706,0.847,yes
+"One-sample - real: rice, c=0.05",Corrected AdaBoost,0.887,0.811,0.878,yes
+"One-sample - real: rice, c=0.05",Corrected GBM,0.864,0.690,0.861,yes
+"One-sample - real: rice, c=0.05",Corrected XGBoost,0.869,0.801,0.885,yes
+"One-sample - real: rice, c=0.05",Corrected LightGBM,0.844,0.667,0.889,yes
+"One-sample - real: rice, c=0.05",Corrected CatBoost,0.846,0.706,0.847,yes
+"One-sample - real: rice, c=0.05",RN AdaBoost,0.918,0.827,0.910,yes
+"One-sample - real: rice, c=0.05",RN GBM,0.909,0.803,0.918,yes
+"One-sample - real: rice, c=0.05",RN XGBoost,0.889,0.649,0.919,yes
+"One-sample - real: rice, c=0.05",RN LightGBM,0.905,0.778,0.905,yes
+"One-sample - real: rice, c=0.05",RN CatBoost,0.912,0.829,0.921,yes
+"One-sample - real: rice, c=0.05",CS AdaBoost,0.886,0.810,0.875,yes
+"One-sample - real: rice, c=0.05",CS GBM,0.864,0.611,0.876,yes
+"One-sample - real: rice, c=0.05",CS XGBoost,0.807,0.642,0.823,yes
+"One-sample - real: rice, c=0.05",CS LightGBM,0.844,0.667,0.889,yes
+"One-sample - real: rice, c=0.05",CS CatBoost,0.846,0.706,0.847,yes
+"One-sample - real: rice, c=0.05",AdaPU,0.920,0.859,0.919,yes
+"One-sample - real: rice, c=0.05",PU gradient boosting,0.917,0.917,0.917,yes
+"One-sample - real: rice, c=0.20",Logistic probability correction,0.919,0.917,0.920,yes
+"One-sample - real: rice, c=0.20",uPU logistic,0.924,0.923,0.924,yes
+"One-sample - real: rice, c=0.20",nnPU logistic,0.924,0.923,0.924,yes
+"One-sample - real: rice, c=0.20",Naive AdaBoost,0.906,0.884,0.912,yes
+"One-sample - real: rice, c=0.20",Naive GBM,0.897,0.915,0.891,yes
+"One-sample - real: rice, c=0.20",Naive XGBoost,0.902,0.926,0.902,yes
+"One-sample - real: rice, c=0.20",Naive LightGBM,0.880,0.899,0.904,yes
+"One-sample - real: rice, c=0.20",Naive CatBoost,0.905,0.897,0.905,yes
+"One-sample - real: rice, c=0.20",Corrected AdaBoost,0.906,0.884,0.912,yes
+"One-sample - real: rice, c=0.20",Corrected GBM,0.897,0.915,0.891,yes
+"One-sample - real: rice, c=0.20",Corrected XGBoost,0.902,0.926,0.902,yes
+"One-sample - real: rice, c=0.20",Corrected LightGBM,0.880,0.899,0.904,yes
+"One-sample - real: rice, c=0.20",Corrected CatBoost,0.905,0.897,0.905,yes
+"One-sample - real: rice, c=0.20",RN AdaBoost,0.901,0.895,0.922,yes
+"One-sample - real: rice, c=0.20",RN GBM,0.898,0.887,0.925,yes
+"One-sample - real: rice, c=0.20",RN XGBoost,0.885,0.900,0.907,yes
+"One-sample - real: rice, c=0.20",RN LightGBM,0.921,0.912,0.913,yes
+"One-sample - real: rice, c=0.20",RN CatBoost,0.921,0.891,0.925,yes
+"One-sample - real: rice, c=0.20",CS AdaBoost,0.906,0.884,0.912,yes
+"One-sample - real: rice, c=0.20",CS GBM,0.906,0.904,0.906,yes
+"One-sample - real: rice, c=0.20",CS XGBoost,0.891,0.881,0.906,yes
+"One-sample - real: rice, c=0.20",CS LightGBM,0.874,0.896,0.894,yes
+"One-sample - real: rice, c=0.20",CS CatBoost,0.905,0.897,0.905,yes
+"One-sample - real: rice, c=0.20",AdaPU,0.913,0.912,0.912,yes
+"One-sample - real: rice, c=0.20",PU gradient boosting,0.920,0.921,0.920,yes
+"One-sample - real: spambase, c=0.05",Logistic probability correction,0.793,0.774,0.794,yes
+"One-sample - real: spambase, c=0.05",uPU logistic,0.775,0.689,0.768,yes
+"One-sample - real: spambase, c=0.05",nnPU logistic,0.790,0.724,0.793,yes
+"One-sample - real: spambase, c=0.05",Naive AdaBoost,0.813,0.656,0.821,yes
+"One-sample - real: spambase, c=0.05",Naive GBM,0.807,0.721,0.807,yes
+"One-sample - real: spambase, c=0.05",Naive XGBoost,0.802,0.661,0.794,yes
+"One-sample - real: spambase, c=0.05",Naive LightGBM,0.701,0.696,0.690,yes
+"One-sample - real: spambase, c=0.05",Naive CatBoost,0.867,0.651,0.872,yes
+"One-sample - real: spambase, c=0.05",Corrected AdaBoost,0.813,0.656,0.821,yes
+"One-sample - real: spambase, c=0.05",Corrected GBM,0.807,0.721,0.807,yes
+"One-sample - real: spambase, c=0.05",Corrected XGBoost,0.802,0.661,0.794,yes
+"One-sample - real: spambase, c=0.05",Corrected LightGBM,0.701,0.696,0.690,yes
+"One-sample - real: spambase, c=0.05",Corrected CatBoost,0.867,0.651,0.872,yes
+"One-sample - real: spambase, c=0.05",RN AdaBoost,--,--,--,no
+"One-sample - real: spambase, c=0.05",RN GBM,0.824,0.769,0.840,yes
+"One-sample - real: spambase, c=0.05",RN XGBoost,0.839,0.775,0.845,yes
+"One-sample - real: spambase, c=0.05",RN LightGBM,0.827,0.660,0.830,yes
+"One-sample - real: spambase, c=0.05",RN CatBoost,0.868,0.722,0.868,yes
+"One-sample - real: spambase, c=0.05",CS AdaBoost,0.834,0.716,0.830,yes
+"One-sample - real: spambase, c=0.05",CS GBM,0.795,0.731,0.787,yes
+"One-sample - real: spambase, c=0.05",CS XGBoost,0.766,0.689,0.761,yes
+"One-sample - real: spambase, c=0.05",CS LightGBM,0.759,0.757,0.751,yes
+"One-sample - real: spambase, c=0.05",CS CatBoost,0.848,0.704,0.848,yes
+"One-sample - real: spambase, c=0.05",AdaPU,0.835,0.698,0.842,yes
+"One-sample - real: spambase, c=0.05",PU gradient boosting,0.795,0.744,0.789,yes
+"One-sample - real: spambase, c=0.20",Logistic probability correction,0.842,0.839,0.841,yes
+"One-sample - real: spambase, c=0.20",uPU logistic,0.854,0.758,0.858,yes
+"One-sample - real: spambase, c=0.20",nnPU logistic,0.864,0.783,0.871,yes
+"One-sample - real: spambase, c=0.20",Naive AdaBoost,--,--,--,no
+"One-sample - real: spambase, c=0.20",Naive GBM,0.882,0.888,0.876,yes
+"One-sample - real: spambase, c=0.20",Naive XGBoost,0.891,0.857,0.897,yes
+"One-sample - real: spambase, c=0.20",Naive LightGBM,0.881,0.866,0.883,yes
+"One-sample - real: spambase, c=0.20",Naive CatBoost,0.912,0.897,0.908,yes
+"One-sample - real: spambase, c=0.20",Corrected AdaBoost,--,--,--,no
+"One-sample - real: spambase, c=0.20",Corrected GBM,0.882,0.888,0.876,yes
+"One-sample - real: spambase, c=0.20",Corrected XGBoost,0.891,0.857,0.897,yes
+"One-sample - real: spambase, c=0.20",Corrected LightGBM,0.881,0.866,0.883,yes
+"One-sample - real: spambase, c=0.20",Corrected CatBoost,0.912,0.897,0.908,yes
+"One-sample - real: spambase, c=0.20",RN AdaBoost,0.906,0.882,0.909,yes
+"One-sample - real: spambase, c=0.20",RN GBM,0.917,0.917,0.910,yes
+"One-sample - real: spambase, c=0.20",RN XGBoost,0.910,0.881,0.906,yes
+"One-sample - real: spambase, c=0.20",RN LightGBM,0.909,0.888,0.908,yes
+"One-sample - real: spambase, c=0.20",RN CatBoost,0.924,0.925,0.924,yes
+"One-sample - real: spambase, c=0.20",CS AdaBoost,--,--,--,no
+"One-sample - real: spambase, c=0.20",CS GBM,0.870,0.853,0.868,yes
+"One-sample - real: spambase, c=0.20",CS XGBoost,0.869,0.841,0.871,yes
+"One-sample - real: spambase, c=0.20",CS LightGBM,0.883,0.883,0.885,yes
+"One-sample - real: spambase, c=0.20",CS CatBoost,0.912,0.897,0.908,yes
+"One-sample - real: spambase, c=0.20",AdaPU,0.856,0.851,0.857,yes
+"One-sample - real: spambase, c=0.20",PU gradient boosting,0.878,0.862,0.880,yes
+"Two-sample - real: credit_default, c=0.05",Logistic probability correction,0.655,0.657,0.662,yes
+"Two-sample - real: credit_default, c=0.05",uPU logistic,0.661,0.650,0.666,yes
+"Two-sample - real: credit_default, c=0.05",nnPU logistic,0.661,0.650,0.666,yes
+"Two-sample - real: credit_default, c=0.05",Naive AdaBoost,0.637,0.675,0.674,yes
+"Two-sample - real: credit_default, c=0.05",Naive GBM,0.676,0.685,0.682,yes
+"Two-sample - real: credit_default, c=0.05",Naive XGBoost,0.672,0.671,0.674,yes
+"Two-sample - real: credit_default, c=0.05",Naive LightGBM,0.654,0.658,0.669,yes
+"Two-sample - real: credit_default, c=0.05",Naive CatBoost,0.686,0.695,0.689,yes
+"Two-sample - real: credit_default, c=0.05",Corrected AdaBoost,0.637,0.675,0.674,yes
+"Two-sample - real: credit_default, c=0.05",Corrected GBM,0.676,0.685,0.682,yes
+"Two-sample - real: credit_default, c=0.05",Corrected XGBoost,0.672,0.671,0.674,yes
+"Two-sample - real: credit_default, c=0.05",Corrected LightGBM,0.654,0.658,0.669,yes
+"Two-sample - real: credit_default, c=0.05",Corrected CatBoost,0.686,0.695,0.689,yes
+"Two-sample - real: credit_default, c=0.05",RN AdaBoost,0.661,0.659,0.662,yes
+"Two-sample - real: credit_default, c=0.05",RN GBM,0.670,0.670,0.660,yes
+"Two-sample - real: credit_default, c=0.05",RN XGBoost,0.661,0.621,0.661,yes
+"Two-sample - real: credit_default, c=0.05",RN LightGBM,0.594,0.594,0.627,yes
+"Two-sample - real: credit_default, c=0.05",RN CatBoost,0.657,0.653,0.659,yes
+"Two-sample - real: credit_default, c=0.05",CS AdaBoost,0.637,0.675,0.674,yes
+"Two-sample - real: credit_default, c=0.05",CS GBM,0.676,0.685,0.682,yes
+"Two-sample - real: credit_default, c=0.05",CS XGBoost,0.674,0.673,0.675,yes
+"Two-sample - real: credit_default, c=0.05",CS LightGBM,0.654,0.658,0.669,yes
+"Two-sample - real: credit_default, c=0.05",CS CatBoost,0.686,0.695,0.689,yes
+"Two-sample - real: credit_default, c=0.05",AdaPU,0.693,0.684,0.689,yes
+"Two-sample - real: credit_default, c=0.05",PU gradient boosting,0.680,0.684,0.689,yes
+"Two-sample - real: credit_default, c=0.20",Logistic probability correction,0.673,0.677,0.674,yes
+"Two-sample - real: credit_default, c=0.20",uPU logistic,0.679,0.675,0.678,yes
+"Two-sample - real: credit_default, c=0.20",nnPU logistic,0.679,0.675,0.678,yes
+"Two-sample - real: credit_default, c=0.20",Naive AdaBoost,0.697,0.688,0.695,yes
+"Two-sample - real: credit_default, c=0.20",Naive GBM,0.685,0.696,0.697,yes
+"Two-sample - real: credit_default, c=0.20",Naive XGBoost,0.687,0.689,0.694,yes
+"Two-sample - real: credit_default, c=0.20",Naive LightGBM,0.681,0.694,0.692,yes
+"Two-sample - real: credit_default, c=0.20",Naive CatBoost,0.691,0.711,0.705,yes
+"Two-sample - real: credit_default, c=0.20",Corrected AdaBoost,0.697,0.688,0.695,yes
+"Two-sample - real: credit_default, c=0.20",Corrected GBM,0.685,0.696,0.697,yes
+"Two-sample - real: credit_default, c=0.20",Corrected XGBoost,0.687,0.689,0.694,yes
+"Two-sample - real: credit_default, c=0.20",Corrected LightGBM,0.681,0.694,0.692,yes
+"Two-sample - real: credit_default, c=0.20",Corrected CatBoost,0.691,0.711,0.705,yes
+"Two-sample - real: credit_default, c=0.20",RN AdaBoost,0.673,0.671,0.683,yes
+"Two-sample - real: credit_default, c=0.20",RN GBM,0.673,0.667,0.676,yes
+"Two-sample - real: credit_default, c=0.20",RN XGBoost,0.677,0.675,0.679,yes
+"Two-sample - real: credit_default, c=0.20",RN LightGBM,0.645,0.651,0.652,yes
+"Two-sample - real: credit_default, c=0.20",RN CatBoost,0.675,0.671,0.676,yes
+"Two-sample - real: credit_default, c=0.20",CS AdaBoost,0.680,0.686,0.693,yes
+"Two-sample - real: credit_default, c=0.20",CS GBM,0.685,0.697,0.696,yes
+"Two-sample - real: credit_default, c=0.20",CS XGBoost,0.688,0.691,0.693,yes
+"Two-sample - real: credit_default, c=0.20",CS LightGBM,0.681,0.694,0.692,yes
+"Two-sample - real: credit_default, c=0.20",CS CatBoost,0.691,0.711,0.705,yes
+"Two-sample - real: credit_default, c=0.20",AdaPU,0.691,0.696,0.694,yes
+"Two-sample - real: credit_default, c=0.20",PU gradient boosting,0.689,0.685,0.689,yes
+"Two-sample - real: dry_bean, c=0.05",Logistic probability correction,0.946,0.947,0.948,yes
+"Two-sample - real: dry_bean, c=0.05",uPU logistic,0.944,0.939,0.944,yes
+"Two-sample - real: dry_bean, c=0.05",nnPU logistic,0.944,0.939,0.944,yes
+"Two-sample - real: dry_bean, c=0.05",Naive AdaBoost,0.935,0.944,0.945,yes
+"Two-sample - real: dry_bean, c=0.05",Naive GBM,0.908,0.919,0.921,yes
+"Two-sample - real: dry_bean, c=0.05",Naive XGBoost,0.923,0.924,0.933,yes
+"Two-sample - real: dry_bean, c=0.05",Naive LightGBM,0.875,0.890,0.888,yes
+"Two-sample - real: dry_bean, c=0.05",Naive CatBoost,0.886,0.912,0.913,yes
+"Two-sample - real: dry_bean, c=0.05",Corrected AdaBoost,0.935,0.944,0.945,yes
+"Two-sample - real: dry_bean, c=0.05",Corrected GBM,0.908,0.919,0.921,yes
+"Two-sample - real: dry_bean, c=0.05",Corrected XGBoost,0.923,0.924,0.933,yes
+"Two-sample - real: dry_bean, c=0.05",Corrected LightGBM,0.875,0.890,0.888,yes
+"Two-sample - real: dry_bean, c=0.05",Corrected CatBoost,0.886,0.912,0.913,yes
+"Two-sample - real: dry_bean, c=0.05",RN AdaBoost,0.952,0.952,0.956,yes
+"Two-sample - real: dry_bean, c=0.05",RN GBM,0.951,0.917,0.950,yes
+"Two-sample - real: dry_bean, c=0.05",RN XGBoost,0.954,0.939,0.949,yes
+"Two-sample - real: dry_bean, c=0.05",RN LightGBM,0.948,0.955,0.955,yes
+"Two-sample - real: dry_bean, c=0.05",RN CatBoost,0.948,0.950,0.954,yes
+"Two-sample - real: dry_bean, c=0.05",CS AdaBoost,0.935,0.944,0.946,yes
+"Two-sample - real: dry_bean, c=0.05",CS GBM,0.889,0.900,0.900,yes
+"Two-sample - real: dry_bean, c=0.05",CS XGBoost,0.892,0.917,0.924,yes
+"Two-sample - real: dry_bean, c=0.05",CS LightGBM,0.875,0.890,0.888,yes
+"Two-sample - real: dry_bean, c=0.05",CS CatBoost,0.887,0.914,0.920,yes
+"Two-sample - real: dry_bean, c=0.05",AdaPU,0.898,0.901,0.909,yes
+"Two-sample - real: dry_bean, c=0.05",PU gradient boosting,0.942,0.926,0.944,yes
+"Two-sample - real: dry_bean, c=0.20",Logistic probability correction,0.942,0.944,0.946,yes
+"Two-sample - real: dry_bean, c=0.20",uPU logistic,0.934,0.937,0.938,yes
+"Two-sample - real: dry_bean, c=0.20",nnPU logistic,0.934,0.937,0.938,yes
+"Two-sample - real: dry_bean, c=0.20",Naive AdaBoost,0.942,0.948,0.947,yes
+"Two-sample - real: dry_bean, c=0.20",Naive GBM,0.934,0.946,0.944,yes
+"Two-sample - real: dry_bean, c=0.20",Naive XGBoost,0.935,0.947,0.946,yes
+"Two-sample - real: dry_bean, c=0.20",Naive LightGBM,0.921,0.951,0.950,yes
+"Two-sample - real: dry_bean, c=0.20",Naive CatBoost,0.951,0.949,0.949,yes
+"Two-sample - real: dry_bean, c=0.20",Corrected AdaBoost,0.942,0.948,0.947,yes
+"Two-sample - real: dry_bean, c=0.20",Corrected GBM,0.934,0.946,0.944,yes
+"Two-sample - real: dry_bean, c=0.20",Corrected XGBoost,0.935,0.947,0.946,yes
+"Two-sample - real: dry_bean, c=0.20",Corrected LightGBM,0.921,0.951,0.950,yes
+"Two-sample - real: dry_bean, c=0.20",Corrected CatBoost,0.951,0.949,0.949,yes
+"Two-sample - real: dry_bean, c=0.20",RN AdaBoost,0.946,0.945,0.952,yes
+"Two-sample - real: dry_bean, c=0.20",RN GBM,0.948,0.945,0.947,yes
+"Two-sample - real: dry_bean, c=0.20",RN XGBoost,0.943,0.949,0.948,yes
+"Two-sample - real: dry_bean, c=0.20",RN LightGBM,0.945,0.948,0.949,yes
+"Two-sample - real: dry_bean, c=0.20",RN CatBoost,0.940,0.943,0.951,yes
+"Two-sample - real: dry_bean, c=0.20",CS AdaBoost,0.937,0.948,0.947,yes
+"Two-sample - real: dry_bean, c=0.20",CS GBM,0.934,0.946,0.944,yes
+"Two-sample - real: dry_bean, c=0.20",CS XGBoost,0.938,0.945,0.946,yes
+"Two-sample - real: dry_bean, c=0.20",CS LightGBM,0.921,0.951,0.950,yes
+"Two-sample - real: dry_bean, c=0.20",CS CatBoost,0.943,0.951,0.948,yes
+"Two-sample - real: dry_bean, c=0.20",AdaPU,0.892,0.908,0.911,yes
+"Two-sample - real: dry_bean, c=0.20",PU gradient boosting,0.940,0.943,0.948,yes
+"Two-sample - real: htru2, c=0.05",Logistic probability correction,0.866,0.855,0.881,yes
+"Two-sample - real: htru2, c=0.05",uPU logistic,0.886,0.892,0.890,yes
+"Two-sample - real: htru2, c=0.05",nnPU logistic,0.886,0.892,0.890,yes
+"Two-sample - real: htru2, c=0.05",Naive AdaBoost,0.899,0.824,0.910,yes
+"Two-sample - real: htru2, c=0.05",Naive GBM,0.903,0.903,0.904,yes
+"Two-sample - real: htru2, c=0.05",Naive XGBoost,0.814,0.768,0.848,yes
+"Two-sample - real: htru2, c=0.05",Naive LightGBM,0.861,0.874,0.876,yes
+"Two-sample - real: htru2, c=0.05",Naive CatBoost,0.913,0.923,0.926,yes
+"Two-sample - real: htru2, c=0.05",Corrected AdaBoost,0.899,0.824,0.910,yes
+"Two-sample - real: htru2, c=0.05",Corrected GBM,0.903,0.903,0.904,yes
+"Two-sample - real: htru2, c=0.05",Corrected XGBoost,0.814,0.768,0.848,yes
+"Two-sample - real: htru2, c=0.05",Corrected LightGBM,0.861,0.874,0.876,yes
+"Two-sample - real: htru2, c=0.05",Corrected CatBoost,0.913,0.923,0.926,yes
+"Two-sample - real: htru2, c=0.05",RN AdaBoost,0.903,0.818,0.908,yes
+"Two-sample - real: htru2, c=0.05",RN GBM,0.907,0.807,0.908,yes
+"Two-sample - real: htru2, c=0.05",RN XGBoost,0.882,0.808,0.892,yes
+"Two-sample - real: htru2, c=0.05",RN LightGBM,0.849,0.850,0.879,yes
+"Two-sample - real: htru2, c=0.05",RN CatBoost,0.879,0.845,0.908,yes
+"Two-sample - real: htru2, c=0.05",CS AdaBoost,0.899,0.824,0.910,yes
+"Two-sample - real: htru2, c=0.05",CS GBM,0.908,0.781,0.907,yes
+"Two-sample - real: htru2, c=0.05",CS XGBoost,0.852,0.829,0.876,yes
+"Two-sample - real: htru2, c=0.05",CS LightGBM,0.866,0.889,0.891,yes
+"Two-sample - real: htru2, c=0.05",CS CatBoost,0.913,0.923,0.926,yes
+"Two-sample - real: htru2, c=0.05",AdaPU,0.899,0.887,0.907,yes
+"Two-sample - real: htru2, c=0.05",PU gradient boosting,0.897,0.904,0.912,yes
+"Two-sample - real: htru2, c=0.20",Logistic probability correction,0.918,0.920,0.922,yes
+"Two-sample - real: htru2, c=0.20",uPU logistic,0.922,0.894,0.933,yes
+"Two-sample - real: htru2, c=0.20",nnPU logistic,0.922,0.894,0.933,yes
+"Two-sample - real: htru2, c=0.20",Naive AdaBoost,0.915,0.893,0.923,yes
+"Two-sample - real: htru2, c=0.20",Naive GBM,0.916,0.928,0.917,yes
+"Two-sample - real: htru2, c=0.20",Naive XGBoost,0.919,0.910,0.930,yes
+"Two-sample - real: htru2, c=0.20",Naive LightGBM,0.919,0.930,0.930,yes
+"Two-sample - real: htru2, c=0.20",Naive CatBoost,0.888,0.918,0.925,yes
+"Two-sample - real: htru2, c=0.20",Corrected AdaBoost,0.915,0.893,0.923,yes
+"Two-sample - real: htru2, c=0.20",Corrected GBM,0.916,0.928,0.917,yes
+"Two-sample - real: htru2, c=0.20",Corrected XGBoost,0.919,0.910,0.930,yes
+"Two-sample - real: htru2, c=0.20",Corrected LightGBM,0.919,0.930,0.930,yes
+"Two-sample - real: htru2, c=0.20",Corrected CatBoost,0.888,0.918,0.925,yes
+"Two-sample - real: htru2, c=0.20",RN AdaBoost,0.914,0.897,0.922,yes
+"Two-sample - real: htru2, c=0.20",RN GBM,0.922,0.888,0.933,yes
+"Two-sample - real: htru2, c=0.20",RN XGBoost,0.922,0.912,0.927,yes
+"Two-sample - real: htru2, c=0.20",RN LightGBM,0.919,0.910,0.925,yes
+"Two-sample - real: htru2, c=0.20",RN CatBoost,0.919,0.913,0.929,yes
+"Two-sample - real: htru2, c=0.20",CS AdaBoost,0.915,0.893,0.924,yes
+"Two-sample - real: htru2, c=0.20",CS GBM,0.914,0.926,0.924,yes
+"Two-sample - real: htru2, c=0.20",CS XGBoost,0.919,0.910,0.930,yes
+"Two-sample - real: htru2, c=0.20",CS LightGBM,0.919,0.928,0.928,yes
+"Two-sample - real: htru2, c=0.20",CS CatBoost,0.888,0.918,0.925,yes
+"Two-sample - real: htru2, c=0.20",AdaPU,0.899,0.922,0.918,yes
+"Two-sample - real: htru2, c=0.20",PU gradient boosting,0.918,0.920,0.907,yes
+"Two-sample - real: online_shoppers, c=0.05",Logistic probability correction,0.539,0.523,0.551,yes
+"Two-sample - real: online_shoppers, c=0.05",uPU logistic,0.538,0.524,0.560,yes
+"Two-sample - real: online_shoppers, c=0.05",nnPU logistic,0.538,0.524,0.560,yes
+"Two-sample - real: online_shoppers, c=0.05",Naive AdaBoost,0.581,0.652,0.610,yes
+"Two-sample - real: online_shoppers, c=0.05",Naive GBM,0.563,0.601,0.599,yes
+"Two-sample - real: online_shoppers, c=0.05",Naive XGBoost,0.559,0.631,0.617,yes
+"Two-sample - real: online_shoppers, c=0.05",Naive LightGBM,0.556,0.633,0.611,yes
+"Two-sample - real: online_shoppers, c=0.05",Naive CatBoost,0.569,0.607,0.657,yes
+"Two-sample - real: online_shoppers, c=0.05",Corrected AdaBoost,0.581,0.652,0.610,yes
+"Two-sample - real: online_shoppers, c=0.05",Corrected GBM,0.563,0.601,0.599,yes
+"Two-sample - real: online_shoppers, c=0.05",Corrected XGBoost,0.559,0.631,0.617,yes
+"Two-sample - real: online_shoppers, c=0.05",Corrected LightGBM,0.556,0.633,0.611,yes
+"Two-sample - real: online_shoppers, c=0.05",Corrected CatBoost,0.569,0.607,0.657,yes
+"Two-sample - real: online_shoppers, c=0.05",RN AdaBoost,0.593,0.632,0.663,yes
+"Two-sample - real: online_shoppers, c=0.05",RN GBM,0.564,0.645,0.628,yes
+"Two-sample - real: online_shoppers, c=0.05",RN XGBoost,0.583,0.642,0.627,yes
+"Two-sample - real: online_shoppers, c=0.05",RN LightGBM,0.558,0.624,0.618,yes
+"Two-sample - real: online_shoppers, c=0.05",RN CatBoost,0.561,0.643,0.645,yes
+"Two-sample - real: online_shoppers, c=0.05",CS AdaBoost,0.581,0.652,0.610,yes
+"Two-sample - real: online_shoppers, c=0.05",CS GBM,0.565,0.610,0.617,yes
+"Two-sample - real: online_shoppers, c=0.05",CS XGBoost,0.559,0.631,0.617,yes
+"Two-sample - real: online_shoppers, c=0.05",CS LightGBM,0.552,0.622,0.610,yes
+"Two-sample - real: online_shoppers, c=0.05",CS CatBoost,0.569,0.607,0.657,yes
+"Two-sample - real: online_shoppers, c=0.05",AdaPU,0.581,0.607,0.628,yes
+"Two-sample - real: online_shoppers, c=0.05",PU gradient boosting,0.573,0.649,0.649,yes
+"Two-sample - real: online_shoppers, c=0.20",Logistic probability correction,0.581,0.621,0.654,yes
+"Two-sample - real: online_shoppers, c=0.20",uPU logistic,0.585,0.633,0.615,yes
+"Two-sample - real: online_shoppers, c=0.20",nnPU logistic,0.585,0.633,0.615,yes
+"Two-sample - real: online_shoppers, c=0.20",Naive AdaBoost,0.595,0.667,0.669,yes
+"Two-sample - real: online_shoppers, c=0.20",Naive GBM,0.587,0.615,0.660,yes
+"Two-sample - real: online_shoppers, c=0.20",Naive XGBoost,0.590,0.647,0.655,yes
+"Two-sample - real: online_shoppers, c=0.20",Naive LightGBM,0.572,0.618,0.666,yes
+"Two-sample - real: online_shoppers, c=0.20",Naive CatBoost,0.615,0.678,0.683,yes
+"Two-sample - real: online_shoppers, c=0.20",Corrected AdaBoost,0.595,0.667,0.669,yes
+"Two-sample - real: online_shoppers, c=0.20",Corrected GBM,0.587,0.615,0.660,yes
+"Two-sample - real: online_shoppers, c=0.20",Corrected XGBoost,0.590,0.647,0.655,yes
+"Two-sample - real: online_shoppers, c=0.20",Corrected LightGBM,0.572,0.618,0.666,yes
+"Two-sample - real: online_shoppers, c=0.20",Corrected CatBoost,0.615,0.678,0.683,yes
+"Two-sample - real: online_shoppers, c=0.20",RN AdaBoost,0.617,0.640,0.637,yes
+"Two-sample - real: online_shoppers, c=0.20",RN GBM,0.584,0.658,0.646,yes
+"Two-sample - real: online_shoppers, c=0.20",RN XGBoost,0.597,0.643,0.642,yes
+"Two-sample - real: online_shoppers, c=0.20",RN LightGBM,0.577,0.621,0.640,yes
+"Two-sample - real: online_shoppers, c=0.20",RN CatBoost,0.579,0.653,0.640,yes
+"Two-sample - real: online_shoppers, c=0.20",CS AdaBoost,0.596,0.667,0.669,yes
+"Two-sample - real: online_shoppers, c=0.20",CS GBM,0.595,0.640,0.667,yes
+"Two-sample - real: online_shoppers, c=0.20",CS XGBoost,0.590,0.647,0.655,yes
+"Two-sample - real: online_shoppers, c=0.20",CS LightGBM,0.572,0.618,0.666,yes
+"Two-sample - real: online_shoppers, c=0.20",CS CatBoost,0.615,0.678,0.683,yes
+"Two-sample - real: online_shoppers, c=0.20",AdaPU,0.587,0.618,0.659,yes
+"Two-sample - real: online_shoppers, c=0.20",PU gradient boosting,0.600,0.674,0.670,yes
+"Two-sample - real: optical_digits, c=0.05",Logistic probability correction,0.764,0.759,0.761,yes
+"Two-sample - real: optical_digits, c=0.05",uPU logistic,0.778,0.737,0.775,yes
+"Two-sample - real: optical_digits, c=0.05",nnPU logistic,0.849,0.855,0.847,yes
+"Two-sample - real: optical_digits, c=0.05",Naive AdaBoost,0.761,0.760,0.738,yes
+"Two-sample - real: optical_digits, c=0.05",Naive GBM,0.720,0.716,0.714,yes
+"Two-sample - real: optical_digits, c=0.05",Naive XGBoost,0.731,0.667,0.733,yes
+"Two-sample - real: optical_digits, c=0.05",Naive LightGBM,0.782,0.746,0.783,yes
+"Two-sample - real: optical_digits, c=0.05",Naive CatBoost,0.820,0.786,0.816,yes
+"Two-sample - real: optical_digits, c=0.05",Corrected AdaBoost,0.761,0.760,0.738,yes
+"Two-sample - real: optical_digits, c=0.05",Corrected GBM,0.720,0.716,0.714,yes
+"Two-sample - real: optical_digits, c=0.05",Corrected XGBoost,0.731,0.667,0.733,yes
+"Two-sample - real: optical_digits, c=0.05",Corrected LightGBM,0.782,0.746,0.783,yes
+"Two-sample - real: optical_digits, c=0.05",Corrected CatBoost,0.820,0.786,0.816,yes
+"Two-sample - real: optical_digits, c=0.05",RN AdaBoost,--,--,--,no
+"Two-sample - real: optical_digits, c=0.05",RN GBM,0.799,0.714,0.797,yes
+"Two-sample - real: optical_digits, c=0.05",RN XGBoost,0.823,0.781,0.825,yes
+"Two-sample - real: optical_digits, c=0.05",RN LightGBM,0.805,0.726,0.797,yes
+"Two-sample - real: optical_digits, c=0.05",RN CatBoost,0.879,0.838,0.878,yes
+"Two-sample - real: optical_digits, c=0.05",CS AdaBoost,0.761,0.760,0.738,yes
+"Two-sample - real: optical_digits, c=0.05",CS GBM,0.720,0.716,0.714,yes
+"Two-sample - real: optical_digits, c=0.05",CS XGBoost,0.770,0.768,0.771,yes
+"Two-sample - real: optical_digits, c=0.05",CS LightGBM,0.768,0.758,0.771,yes
+"Two-sample - real: optical_digits, c=0.05",CS CatBoost,0.818,0.749,0.819,yes
+"Two-sample - real: optical_digits, c=0.05",AdaPU,0.722,0.706,0.719,yes
+"Two-sample - real: optical_digits, c=0.05",PU gradient boosting,0.647,0.677,0.680,yes
+"Two-sample - real: optical_digits, c=0.20",Logistic probability correction,0.855,0.854,0.854,yes
+"Two-sample - real: optical_digits, c=0.20",uPU logistic,0.810,0.810,0.812,yes
+"Two-sample - real: optical_digits, c=0.20",nnPU logistic,0.874,0.870,0.874,yes
+"Two-sample - real: optical_digits, c=0.20",Naive AdaBoost,0.875,0.838,0.872,yes
+"Two-sample - real: optical_digits, c=0.20",Naive GBM,0.875,0.794,0.873,yes
+"Two-sample - real: optical_digits, c=0.20",Naive XGBoost,0.904,0.853,0.901,yes
+"Two-sample - real: optical_digits, c=0.20",Naive LightGBM,0.896,0.843,0.896,yes
+"Two-sample - real: optical_digits, c=0.20",Naive CatBoost,0.899,0.867,0.901,yes
+"Two-sample - real: optical_digits, c=0.20",Corrected AdaBoost,0.875,0.838,0.872,yes
+"Two-sample - real: optical_digits, c=0.20",Corrected GBM,0.875,0.794,0.873,yes
+"Two-sample - real: optical_digits, c=0.20",Corrected XGBoost,0.904,0.853,0.901,yes
+"Two-sample - real: optical_digits, c=0.20",Corrected LightGBM,0.896,0.843,0.896,yes
+"Two-sample - real: optical_digits, c=0.20",Corrected CatBoost,0.899,0.867,0.901,yes
+"Two-sample - real: optical_digits, c=0.20",RN AdaBoost,0.885,0.867,0.887,yes
+"Two-sample - real: optical_digits, c=0.20",RN GBM,0.903,0.864,0.895,yes
+"Two-sample - real: optical_digits, c=0.20",RN XGBoost,0.908,0.882,0.907,yes
+"Two-sample - real: optical_digits, c=0.20",RN LightGBM,0.908,0.892,0.907,yes
+"Two-sample - real: optical_digits, c=0.20",RN CatBoost,0.908,0.874,0.901,yes
+"Two-sample - real: optical_digits, c=0.20",CS AdaBoost,0.872,0.832,0.866,yes
+"Two-sample - real: optical_digits, c=0.20",CS GBM,0.894,0.886,0.890,yes
+"Two-sample - real: optical_digits, c=0.20",CS XGBoost,0.903,0.881,0.898,yes
+"Two-sample - real: optical_digits, c=0.20",CS LightGBM,0.899,0.828,0.899,yes
+"Two-sample - real: optical_digits, c=0.20",CS CatBoost,0.915,0.840,0.913,yes
+"Two-sample - real: optical_digits, c=0.20",AdaPU,0.850,0.848,0.849,yes
+"Two-sample - real: optical_digits, c=0.20",PU gradient boosting,0.838,0.789,0.851,yes
+"Two-sample - real: phishing, c=0.05",Logistic probability correction,0.793,0.792,0.792,yes
+"Two-sample - real: phishing, c=0.05",uPU logistic,0.767,0.754,0.771,yes
+"Two-sample - real: phishing, c=0.05",nnPU logistic,0.811,0.804,0.814,yes
+"Two-sample - real: phishing, c=0.05",Naive AdaBoost,0.864,0.864,0.864,yes
+"Two-sample - real: phishing, c=0.05",Naive GBM,0.832,0.793,0.830,yes
+"Two-sample - real: phishing, c=0.05",Naive XGBoost,0.832,0.799,0.830,yes
+"Two-sample - real: phishing, c=0.05",Naive LightGBM,0.818,0.818,0.826,yes
+"Two-sample - real: phishing, c=0.05",Naive CatBoost,0.850,0.846,0.851,yes
+"Two-sample - real: phishing, c=0.05",Corrected AdaBoost,0.864,0.864,0.864,yes
+"Two-sample - real: phishing, c=0.05",Corrected GBM,0.832,0.793,0.830,yes
+"Two-sample - real: phishing, c=0.05",Corrected XGBoost,0.832,0.799,0.830,yes
+"Two-sample - real: phishing, c=0.05",Corrected LightGBM,0.818,0.818,0.826,yes
+"Two-sample - real: phishing, c=0.05",Corrected CatBoost,0.850,0.846,0.851,yes
+"Two-sample - real: phishing, c=0.05",RN AdaBoost,0.853,0.884,0.887,yes
+"Two-sample - real: phishing, c=0.05",RN GBM,0.836,0.840,0.832,yes
+"Two-sample - real: phishing, c=0.05",RN XGBoost,0.831,0.832,0.827,yes
+"Two-sample - real: phishing, c=0.05",RN LightGBM,0.823,0.827,0.825,yes
+"Two-sample - real: phishing, c=0.05",RN CatBoost,0.854,0.847,0.846,yes
+"Two-sample - real: phishing, c=0.05",CS AdaBoost,0.866,0.866,0.866,yes
+"Two-sample - real: phishing, c=0.05",CS GBM,0.818,0.794,0.818,yes
+"Two-sample - real: phishing, c=0.05",CS XGBoost,0.830,0.818,0.827,yes
+"Two-sample - real: phishing, c=0.05",CS LightGBM,0.826,0.819,0.829,yes
+"Two-sample - real: phishing, c=0.05",CS CatBoost,0.851,0.850,0.854,yes
+"Two-sample - real: phishing, c=0.05",AdaPU,0.899,0.893,0.899,yes
+"Two-sample - real: phishing, c=0.05",PU gradient boosting,0.500,0.887,0.887,yes
+"Two-sample - real: phishing, c=0.20",Logistic probability correction,0.918,0.918,0.919,yes
+"Two-sample - real: phishing, c=0.20",uPU logistic,0.879,0.878,0.875,yes
+"Two-sample - real: phishing, c=0.20",nnPU logistic,0.924,0.899,0.921,yes
+"Two-sample - real: phishing, c=0.20",Naive AdaBoost,0.923,0.930,0.930,yes
+"Two-sample - real: phishing, c=0.20",Naive GBM,0.933,0.933,0.932,yes
+"Two-sample - real: phishing, c=0.20",Naive XGBoost,0.926,0.922,0.924,yes
+"Two-sample - real: phishing, c=0.20",Naive LightGBM,0.926,0.926,0.921,yes
+"Two-sample - real: phishing, c=0.20",Naive CatBoost,0.921,0.923,0.928,yes
+"Two-sample - real: phishing, c=0.20",Corrected AdaBoost,0.923,0.930,0.930,yes
+"Two-sample - real: phishing, c=0.20",Corrected GBM,0.933,0.933,0.932,yes
+"Two-sample - real: phishing, c=0.20",Corrected XGBoost,0.926,0.922,0.924,yes
+"Two-sample - real: phishing, c=0.20",Corrected LightGBM,0.926,0.926,0.921,yes
+"Two-sample - real: phishing, c=0.20",Corrected CatBoost,0.921,0.923,0.928,yes
+"Two-sample - real: phishing, c=0.20",RN AdaBoost,0.927,0.869,0.921,yes
+"Two-sample - real: phishing, c=0.20",RN GBM,0.926,0.787,0.929,yes
+"Two-sample - real: phishing, c=0.20",RN XGBoost,0.931,0.932,0.921,yes
+"Two-sample - real: phishing, c=0.20",RN LightGBM,0.927,0.890,0.929,yes
+"Two-sample - real: phishing, c=0.20",RN CatBoost,0.929,0.928,0.931,yes
+"Two-sample - real: phishing, c=0.20",CS AdaBoost,0.923,0.930,0.930,yes
+"Two-sample - real: phishing, c=0.20",CS GBM,0.929,0.929,0.931,yes
+"Two-sample - real: phishing, c=0.20",CS XGBoost,0.930,0.927,0.931,yes
+"Two-sample - real: phishing, c=0.20",CS LightGBM,0.926,0.926,0.921,yes
+"Two-sample - real: phishing, c=0.20",CS CatBoost,0.923,0.926,0.926,yes
+"Two-sample - real: phishing, c=0.20",AdaPU,0.916,0.838,0.912,yes
+"Two-sample - real: phishing, c=0.20",PU gradient boosting,0.902,0.908,0.908,yes
+"Two-sample - real: rice, c=0.05",Logistic probability correction,0.926,0.785,0.925,yes
+"Two-sample - real: rice, c=0.05",uPU logistic,0.898,0.833,0.902,yes
+"Two-sample - real: rice, c=0.05",nnPU logistic,0.903,0.829,0.901,yes
+"Two-sample - real: rice, c=0.05",Naive AdaBoost,0.874,0.902,0.874,yes
+"Two-sample - real: rice, c=0.05",Naive GBM,0.864,0.834,0.904,yes
+"Two-sample - real: rice, c=0.05",Naive XGBoost,0.861,0.860,0.861,yes
+"Two-sample - real: rice, c=0.05",Naive LightGBM,0.847,0.756,0.836,yes
+"Two-sample - real: rice, c=0.05",Naive CatBoost,0.898,0.790,0.897,yes
+"Two-sample - real: rice, c=0.05",Corrected AdaBoost,0.874,0.902,0.874,yes
+"Two-sample - real: rice, c=0.05",Corrected GBM,0.864,0.834,0.904,yes
+"Two-sample - real: rice, c=0.05",Corrected XGBoost,0.861,0.860,0.861,yes
+"Two-sample - real: rice, c=0.05",Corrected LightGBM,0.847,0.756,0.836,yes
+"Two-sample - real: rice, c=0.05",Corrected CatBoost,0.898,0.790,0.897,yes
+"Two-sample - real: rice, c=0.05",RN AdaBoost,0.855,0.783,0.898,yes
+"Two-sample - real: rice, c=0.05",RN GBM,0.860,0.728,0.896,yes
+"Two-sample - real: rice, c=0.05",RN XGBoost,0.875,0.797,0.890,yes
+"Two-sample - real: rice, c=0.05",RN LightGBM,0.872,0.785,0.880,yes
+"Two-sample - real: rice, c=0.05",RN CatBoost,0.895,0.798,0.908,yes
+"Two-sample - real: rice, c=0.05",CS AdaBoost,0.874,0.902,0.874,yes
+"Two-sample - real: rice, c=0.05",CS GBM,0.869,0.848,0.854,yes
+"Two-sample - real: rice, c=0.05",CS XGBoost,0.861,0.860,0.861,yes
+"Two-sample - real: rice, c=0.05",CS LightGBM,0.856,0.855,0.847,yes
+"Two-sample - real: rice, c=0.05",CS CatBoost,0.903,0.799,0.902,yes
+"Two-sample - real: rice, c=0.05",AdaPU,0.876,0.806,0.901,yes
+"Two-sample - real: rice, c=0.05",PU gradient boosting,0.861,0.810,0.906,yes
+"Two-sample - real: rice, c=0.20",Logistic probability correction,0.920,0.931,0.921,yes
+"Two-sample - real: rice, c=0.20",uPU logistic,0.924,0.873,0.926,yes
+"Two-sample - real: rice, c=0.20",nnPU logistic,0.924,0.873,0.926,yes
+"Two-sample - real: rice, c=0.20",Naive AdaBoost,0.907,0.918,0.923,yes
+"Two-sample - real: rice, c=0.20",Naive GBM,0.891,0.892,0.887,yes
+"Two-sample - real: rice, c=0.20",Naive XGBoost,0.877,0.894,0.892,yes
+"Two-sample - real: rice, c=0.20",Naive LightGBM,0.870,0.877,0.897,yes
+"Two-sample - real: rice, c=0.20",Naive CatBoost,0.839,0.878,0.836,yes
+"Two-sample - real: rice, c=0.20",Corrected AdaBoost,0.907,0.918,0.923,yes
+"Two-sample - real: rice, c=0.20",Corrected GBM,0.891,0.892,0.887,yes
+"Two-sample - real: rice, c=0.20",Corrected XGBoost,0.877,0.894,0.892,yes
+"Two-sample - real: rice, c=0.20",Corrected LightGBM,0.870,0.877,0.897,yes
+"Two-sample - real: rice, c=0.20",Corrected CatBoost,0.839,0.878,0.836,yes
+"Two-sample - real: rice, c=0.20",RN AdaBoost,0.921,0.907,0.923,yes
+"Two-sample - real: rice, c=0.20",RN GBM,0.923,0.894,0.922,yes
+"Two-sample - real: rice, c=0.20",RN XGBoost,0.908,0.901,0.924,yes
+"Two-sample - real: rice, c=0.20",RN LightGBM,0.898,0.863,0.918,yes
+"Two-sample - real: rice, c=0.20",RN CatBoost,0.910,0.920,0.912,yes
+"Two-sample - real: rice, c=0.20",CS AdaBoost,0.907,0.918,0.923,yes
+"Two-sample - real: rice, c=0.20",CS GBM,0.868,0.865,0.877,yes
+"Two-sample - real: rice, c=0.20",CS XGBoost,0.877,0.894,0.892,yes
+"Two-sample - real: rice, c=0.20",CS LightGBM,0.870,0.877,0.897,yes
+"Two-sample - real: rice, c=0.20",CS CatBoost,0.839,0.878,0.836,yes
+"Two-sample - real: rice, c=0.20",AdaPU,0.900,0.900,0.897,yes
+"Two-sample - real: rice, c=0.20",PU gradient boosting,0.926,0.904,0.925,yes
+"Two-sample - real: spambase, c=0.05",Logistic probability correction,0.803,0.702,0.803,yes
+"Two-sample - real: spambase, c=0.05",uPU logistic,0.847,0.845,0.848,yes
+"Two-sample - real: spambase, c=0.05",nnPU logistic,0.847,0.845,0.848,yes
+"Two-sample - real: spambase, c=0.05",Naive AdaBoost,0.817,0.806,0.838,yes
+"Two-sample - real: spambase, c=0.05",Naive GBM,0.796,0.801,0.809,yes
+"Two-sample - real: spambase, c=0.05",Naive XGBoost,0.807,0.802,0.804,yes
+"Two-sample - real: spambase, c=0.05",Naive LightGBM,0.785,0.796,0.775,yes
+"Two-sample - real: spambase, c=0.05",Naive CatBoost,0.842,0.862,0.860,yes
+"Two-sample - real: spambase, c=0.05",Corrected AdaBoost,0.817,0.806,0.838,yes
+"Two-sample - real: spambase, c=0.05",Corrected GBM,0.796,0.801,0.809,yes
+"Two-sample - real: spambase, c=0.05",Corrected XGBoost,0.807,0.802,0.804,yes
+"Two-sample - real: spambase, c=0.05",Corrected LightGBM,0.785,0.796,0.775,yes
+"Two-sample - real: spambase, c=0.05",Corrected CatBoost,0.842,0.862,0.860,yes
+"Two-sample - real: spambase, c=0.05",RN AdaBoost,0.870,0.770,0.855,yes
+"Two-sample - real: spambase, c=0.05",RN GBM,0.869,0.892,0.890,yes
+"Two-sample - real: spambase, c=0.05",RN XGBoost,0.880,0.825,0.869,yes
+"Two-sample - real: spambase, c=0.05",RN LightGBM,0.862,0.792,0.855,yes
+"Two-sample - real: spambase, c=0.05",RN CatBoost,0.892,0.844,0.898,yes
+"Two-sample - real: spambase, c=0.05",CS AdaBoost,0.823,0.767,0.825,yes
+"Two-sample - real: spambase, c=0.05",CS GBM,0.806,0.772,0.803,yes
+"Two-sample - real: spambase, c=0.05",CS XGBoost,0.833,0.813,0.833,yes
+"Two-sample - real: spambase, c=0.05",CS LightGBM,0.785,0.796,0.775,yes
+"Two-sample - real: spambase, c=0.05",CS CatBoost,0.847,0.855,0.862,yes
+"Two-sample - real: spambase, c=0.05",AdaPU,0.864,0.866,0.870,yes
+"Two-sample - real: spambase, c=0.05",PU gradient boosting,0.791,0.816,0.778,yes
+"Two-sample - real: spambase, c=0.20",Logistic probability correction,0.844,0.847,0.848,yes
+"Two-sample - real: spambase, c=0.20",uPU logistic,0.869,0.879,0.882,yes
+"Two-sample - real: spambase, c=0.20",nnPU logistic,0.869,0.879,0.882,yes
+"Two-sample - real: spambase, c=0.20",Naive AdaBoost,0.886,0.883,0.885,yes
+"Two-sample - real: spambase, c=0.20",Naive GBM,0.844,0.792,0.851,yes
+"Two-sample - real: spambase, c=0.20",Naive XGBoost,0.841,0.795,0.840,yes
+"Two-sample - real: spambase, c=0.20",Naive LightGBM,0.854,0.822,0.859,yes
+"Two-sample - real: spambase, c=0.20",Naive CatBoost,0.853,0.871,0.854,yes
+"Two-sample - real: spambase, c=0.20",Corrected AdaBoost,0.886,0.883,0.885,yes
+"Two-sample - real: spambase, c=0.20",Corrected GBM,0.844,0.792,0.851,yes
+"Two-sample - real: spambase, c=0.20",Corrected XGBoost,0.841,0.795,0.840,yes
+"Two-sample - real: spambase, c=0.20",Corrected LightGBM,0.854,0.822,0.859,yes
+"Two-sample - real: spambase, c=0.20",Corrected CatBoost,0.853,0.871,0.854,yes
+"Two-sample - real: spambase, c=0.20",RN AdaBoost,0.914,0.903,0.908,yes
+"Two-sample - real: spambase, c=0.20",RN GBM,0.927,0.927,0.927,yes
+"Two-sample - real: spambase, c=0.20",RN XGBoost,0.914,0.903,0.909,yes
+"Two-sample - real: spambase, c=0.20",RN LightGBM,0.909,0.903,0.907,yes
+"Two-sample - real: spambase, c=0.20",RN CatBoost,0.931,0.921,0.920,yes
+"Two-sample - real: spambase, c=0.20",CS AdaBoost,0.886,0.869,0.892,yes
+"Two-sample - real: spambase, c=0.20",CS GBM,0.832,0.835,0.830,yes
+"Two-sample - real: spambase, c=0.20",CS XGBoost,0.841,0.795,0.840,yes
+"Two-sample - real: spambase, c=0.20",CS LightGBM,0.823,0.808,0.821,yes
+"Two-sample - real: spambase, c=0.20",CS CatBoost,0.853,0.871,0.854,yes
+"Two-sample - real: spambase, c=0.20",AdaPU,0.881,0.884,0.884,yes
+"Two-sample - real: spambase, c=0.20",PU gradient boosting,0.896,0.894,0.893,yes
+One-sample - simulation: S001,Logistic probability correction,0.630,0.657,0.657,yes
+One-sample - simulation: S001,uPU logistic,0.630,0.657,0.656,yes
+One-sample - simulation: S001,nnPU logistic,0.630,0.657,0.656,yes
+One-sample - simulation: S001,Naive AdaBoost,0.622,0.639,0.640,yes
+One-sample - simulation: S001,Naive GBM,0.620,0.648,0.647,yes
+One-sample - simulation: S001,Naive XGBoost,0.621,0.643,0.643,yes
+One-sample - simulation: S001,Naive LightGBM,0.609,0.630,0.634,yes
+One-sample - simulation: S001,Naive CatBoost,0.625,0.655,0.652,yes
+One-sample - simulation: S001,Corrected AdaBoost,0.622,0.639,0.640,yes
+One-sample - simulation: S001,Corrected GBM,0.620,0.648,0.647,yes
+One-sample - simulation: S001,Corrected XGBoost,0.621,0.643,0.643,yes
+One-sample - simulation: S001,Corrected LightGBM,0.609,0.630,0.634,yes
+One-sample - simulation: S001,Corrected CatBoost,0.625,0.655,0.652,yes
+One-sample - simulation: S001,RN AdaBoost,0.615,0.644,0.644,yes
+One-sample - simulation: S001,RN GBM,0.614,0.651,0.653,yes
+One-sample - simulation: S001,RN XGBoost,0.603,0.646,0.648,yes
+One-sample - simulation: S001,RN LightGBM,0.613,0.648,0.647,yes
+One-sample - simulation: S001,RN CatBoost,0.615,0.652,0.649,yes
+One-sample - simulation: S001,CS AdaBoost,0.620,0.637,0.639,yes
+One-sample - simulation: S001,CS GBM,0.622,0.632,0.633,yes
+One-sample - simulation: S001,CS XGBoost,0.619,0.649,0.649,yes
+One-sample - simulation: S001,CS LightGBM,0.605,0.627,0.626,yes
+One-sample - simulation: S001,CS CatBoost,0.614,0.639,0.640,yes
+One-sample - simulation: S001,AdaPU,0.628,0.649,0.649,yes
+One-sample - simulation: S001,PU gradient boosting,0.601,0.638,0.639,yes
+One-sample - simulation: S002,Logistic probability correction,0.503,0.553,0.561,yes
+One-sample - simulation: S002,uPU logistic,0.503,0.565,0.562,yes
+One-sample - simulation: S002,nnPU logistic,0.503,0.565,0.562,yes
+One-sample - simulation: S002,Naive AdaBoost,0.507,0.577,0.577,yes
+One-sample - simulation: S002,Naive GBM,0.506,0.505,0.512,yes
+One-sample - simulation: S002,Naive XGBoost,0.507,0.543,0.571,yes
+One-sample - simulation: S002,Naive LightGBM,0.499,0.552,0.597,yes
+One-sample - simulation: S002,Naive CatBoost,0.512,0.586,0.580,yes
+One-sample - simulation: S002,Corrected AdaBoost,0.507,0.577,0.577,yes
+One-sample - simulation: S002,Corrected GBM,0.506,0.505,0.512,yes
+One-sample - simulation: S002,Corrected XGBoost,0.507,0.543,0.571,yes
+One-sample - simulation: S002,Corrected LightGBM,0.499,0.552,0.597,yes
+One-sample - simulation: S002,Corrected CatBoost,0.512,0.586,0.580,yes
+One-sample - simulation: S002,RN AdaBoost,0.493,0.545,0.545,yes
+One-sample - simulation: S002,RN GBM,0.497,0.594,0.558,yes
+One-sample - simulation: S002,RN XGBoost,0.512,0.578,0.618,yes
+One-sample - simulation: S002,RN LightGBM,0.512,0.590,0.552,yes
+One-sample - simulation: S002,RN CatBoost,0.503,0.549,0.607,yes
+One-sample - simulation: S002,CS AdaBoost,0.526,0.568,0.553,yes
+One-sample - simulation: S002,CS GBM,0.503,0.545,0.549,yes
+One-sample - simulation: S002,CS XGBoost,0.507,0.590,0.543,yes
+One-sample - simulation: S002,CS LightGBM,0.511,0.579,0.530,yes
+One-sample - simulation: S002,CS CatBoost,0.512,0.586,0.580,yes
+One-sample - simulation: S002,AdaPU,0.495,0.526,0.599,yes
+One-sample - simulation: S002,PU gradient boosting,0.496,0.498,0.498,yes
+One-sample - simulation: S003,Logistic probability correction,0.564,0.641,0.634,yes
+One-sample - simulation: S003,uPU logistic,0.564,0.637,0.636,yes
+One-sample - simulation: S003,nnPU logistic,0.564,0.637,0.636,yes
+One-sample - simulation: S003,Naive AdaBoost,0.540,0.634,0.627,yes
+One-sample - simulation: S003,Naive GBM,0.538,0.611,0.640,yes
+One-sample - simulation: S003,Naive XGBoost,0.550,0.604,0.643,yes
+One-sample - simulation: S003,Naive LightGBM,0.540,0.629,0.630,yes
+One-sample - simulation: S003,Naive CatBoost,0.548,0.645,0.645,yes
+One-sample - simulation: S003,Corrected AdaBoost,0.540,0.634,0.627,yes
+One-sample - simulation: S003,Corrected GBM,0.538,0.611,0.640,yes
+One-sample - simulation: S003,Corrected XGBoost,0.550,0.604,0.643,yes
+One-sample - simulation: S003,Corrected LightGBM,0.540,0.629,0.630,yes
+One-sample - simulation: S003,Corrected CatBoost,0.548,0.645,0.645,yes
+One-sample - simulation: S003,RN AdaBoost,0.546,0.633,0.636,yes
+One-sample - simulation: S003,RN GBM,0.551,0.650,0.650,yes
+One-sample - simulation: S003,RN XGBoost,0.544,0.644,0.641,yes
+One-sample - simulation: S003,RN LightGBM,0.549,0.621,0.622,yes
+One-sample - simulation: S003,RN CatBoost,0.550,0.650,0.646,yes
+One-sample - simulation: S003,CS AdaBoost,0.543,0.629,0.629,yes
+One-sample - simulation: S003,CS GBM,0.531,0.633,0.627,yes
+One-sample - simulation: S003,CS XGBoost,0.546,0.633,0.628,yes
+One-sample - simulation: S003,CS LightGBM,0.545,0.616,0.623,yes
+One-sample - simulation: S003,CS CatBoost,0.548,0.645,0.645,yes
+One-sample - simulation: S003,AdaPU,0.531,0.619,0.627,yes
+One-sample - simulation: S003,PU gradient boosting,0.518,0.574,0.591,yes
+One-sample - simulation: S011,Logistic probability correction,0.674,0.673,0.672,yes
+One-sample - simulation: S011,uPU logistic,0.673,0.673,0.673,yes
+One-sample - simulation: S011,nnPU logistic,0.673,0.673,0.673,yes
+One-sample - simulation: S011,Naive AdaBoost,0.655,0.648,0.655,yes
+One-sample - simulation: S011,Naive GBM,0.660,0.651,0.659,yes
+One-sample - simulation: S011,Naive XGBoost,0.659,0.657,0.661,yes
+One-sample - simulation: S011,Naive LightGBM,0.655,0.657,0.658,yes
+One-sample - simulation: S011,Naive CatBoost,0.663,0.660,0.664,yes
+One-sample - simulation: S011,Corrected AdaBoost,0.655,0.648,0.655,yes
+One-sample - simulation: S011,Corrected GBM,0.660,0.651,0.659,yes
+One-sample - simulation: S011,Corrected XGBoost,0.659,0.657,0.661,yes
+One-sample - simulation: S011,Corrected LightGBM,0.655,0.657,0.658,yes
+One-sample - simulation: S011,Corrected CatBoost,0.663,0.660,0.664,yes
+One-sample - simulation: S011,RN AdaBoost,0.665,0.667,0.666,yes
+One-sample - simulation: S011,RN GBM,0.661,0.659,0.661,yes
+One-sample - simulation: S011,RN XGBoost,0.667,0.665,0.665,yes
+One-sample - simulation: S011,RN LightGBM,0.668,0.665,0.666,yes
+One-sample - simulation: S011,RN CatBoost,0.670,0.663,0.670,yes
+One-sample - simulation: S011,CS AdaBoost,0.661,0.648,0.659,yes
+One-sample - simulation: S011,CS GBM,0.659,0.642,0.661,yes
+One-sample - simulation: S011,CS XGBoost,0.661,0.661,0.657,yes
+One-sample - simulation: S011,CS LightGBM,0.655,0.657,0.658,yes
+One-sample - simulation: S011,CS CatBoost,0.663,0.660,0.664,yes
+One-sample - simulation: S011,AdaPU,0.663,0.655,0.661,yes
+One-sample - simulation: S011,PU gradient boosting,0.654,0.638,0.655,yes
+One-sample - simulation: S026,Logistic probability correction,0.574,0.589,0.590,yes
+One-sample - simulation: S026,uPU logistic,0.566,0.577,0.577,yes
+One-sample - simulation: S026,nnPU logistic,0.566,0.577,0.577,yes
+One-sample - simulation: S026,Naive AdaBoost,0.636,0.659,0.657,yes
+One-sample - simulation: S026,Naive GBM,0.625,0.644,0.647,yes
+One-sample - simulation: S026,Naive XGBoost,0.624,0.649,0.652,yes
+One-sample - simulation: S026,Naive LightGBM,0.618,0.640,0.643,yes
+One-sample - simulation: S026,Naive CatBoost,0.630,0.652,0.652,yes
+One-sample - simulation: S026,Corrected AdaBoost,0.636,0.659,0.657,yes
+One-sample - simulation: S026,Corrected GBM,0.625,0.644,0.647,yes
+One-sample - simulation: S026,Corrected XGBoost,0.624,0.649,0.652,yes
+One-sample - simulation: S026,Corrected LightGBM,0.618,0.640,0.643,yes
+One-sample - simulation: S026,Corrected CatBoost,0.630,0.652,0.652,yes
+One-sample - simulation: S026,RN AdaBoost,0.642,0.662,0.668,yes
+One-sample - simulation: S026,RN GBM,0.636,0.660,0.661,yes
+One-sample - simulation: S026,RN XGBoost,0.633,0.661,0.663,yes
+One-sample - simulation: S026,RN LightGBM,0.632,0.660,0.660,yes
+One-sample - simulation: S026,RN CatBoost,0.632,0.647,0.649,yes
+One-sample - simulation: S026,CS AdaBoost,0.638,0.658,0.662,yes
+One-sample - simulation: S026,CS GBM,0.631,0.639,0.649,yes
+One-sample - simulation: S026,CS XGBoost,0.632,0.652,0.656,yes
+One-sample - simulation: S026,CS LightGBM,0.620,0.640,0.640,yes
+One-sample - simulation: S026,CS CatBoost,0.630,0.652,0.652,yes
+One-sample - simulation: S026,AdaPU,0.631,0.659,0.651,yes
+One-sample - simulation: S026,PU gradient boosting,0.618,0.644,0.649,yes
+One-sample - simulation: S038,Logistic probability correction,0.609,0.628,0.627,yes
+One-sample - simulation: S038,uPU logistic,0.609,0.628,0.628,yes
+One-sample - simulation: S038,nnPU logistic,0.609,0.628,0.628,yes
+One-sample - simulation: S038,Naive AdaBoost,0.606,0.637,0.636,yes
+One-sample - simulation: S038,Naive GBM,0.601,0.633,0.631,yes
+One-sample - simulation: S038,Naive XGBoost,0.610,0.639,0.635,yes
+One-sample - simulation: S038,Naive LightGBM,0.605,0.619,0.624,yes
+One-sample - simulation: S038,Naive CatBoost,0.606,0.635,0.633,yes
+One-sample - simulation: S038,Corrected AdaBoost,0.606,0.637,0.636,yes
+One-sample - simulation: S038,Corrected GBM,0.601,0.633,0.631,yes
+One-sample - simulation: S038,Corrected XGBoost,0.610,0.639,0.635,yes
+One-sample - simulation: S038,Corrected LightGBM,0.605,0.619,0.624,yes
+One-sample - simulation: S038,Corrected CatBoost,0.606,0.635,0.633,yes
+One-sample - simulation: S038,RN AdaBoost,0.599,0.632,0.631,yes
+One-sample - simulation: S038,RN GBM,0.593,0.632,0.632,yes
+One-sample - simulation: S038,RN XGBoost,0.602,0.630,0.630,yes
+One-sample - simulation: S038,RN LightGBM,0.597,0.627,0.627,yes
+One-sample - simulation: S038,RN CatBoost,0.602,0.621,0.625,yes
+One-sample - simulation: S038,CS AdaBoost,0.609,0.639,0.639,yes
+One-sample - simulation: S038,CS GBM,0.604,0.633,0.635,yes
+One-sample - simulation: S038,CS XGBoost,0.607,0.636,0.636,yes
+One-sample - simulation: S038,CS LightGBM,0.604,0.628,0.628,yes
+One-sample - simulation: S038,CS CatBoost,0.601,0.632,0.638,yes
+One-sample - simulation: S038,AdaPU,0.601,0.613,0.623,yes
+One-sample - simulation: S038,PU gradient boosting,0.607,0.626,0.620,yes
+One-sample - simulation: S039,Logistic probability correction,0.582,0.606,0.605,yes
+One-sample - simulation: S039,uPU logistic,0.582,0.606,0.605,yes
+One-sample - simulation: S039,nnPU logistic,0.582,0.606,0.605,yes
+One-sample - simulation: S039,Naive AdaBoost,0.618,0.619,0.619,yes
+One-sample - simulation: S039,Naive GBM,0.589,0.615,0.614,yes
+One-sample - simulation: S039,Naive XGBoost,0.592,0.613,0.614,yes
+One-sample - simulation: S039,Naive LightGBM,0.594,0.625,0.626,yes
+One-sample - simulation: S039,Naive CatBoost,0.616,0.640,0.640,yes
+One-sample - simulation: S039,Corrected AdaBoost,0.618,0.619,0.619,yes
+One-sample - simulation: S039,Corrected GBM,0.589,0.615,0.614,yes
+One-sample - simulation: S039,Corrected XGBoost,0.592,0.613,0.614,yes
+One-sample - simulation: S039,Corrected LightGBM,0.594,0.625,0.626,yes
+One-sample - simulation: S039,Corrected CatBoost,0.616,0.640,0.640,yes
+One-sample - simulation: S039,RN AdaBoost,0.537,0.607,0.612,yes
+One-sample - simulation: S039,RN GBM,0.548,0.602,0.600,yes
+One-sample - simulation: S039,RN XGBoost,0.554,0.604,0.606,yes
+One-sample - simulation: S039,RN LightGBM,0.551,0.615,0.615,yes
+One-sample - simulation: S039,RN CatBoost,0.552,0.598,0.597,yes
+One-sample - simulation: S039,CS AdaBoost,0.618,0.619,0.619,yes
+One-sample - simulation: S039,CS GBM,0.592,0.622,0.622,yes
+One-sample - simulation: S039,CS XGBoost,0.598,0.623,0.619,yes
+One-sample - simulation: S039,CS LightGBM,0.595,0.606,0.622,yes
+One-sample - simulation: S039,CS CatBoost,0.628,0.626,0.651,yes
+One-sample - simulation: S039,AdaPU,0.580,0.605,0.608,yes
+One-sample - simulation: S039,PU gradient boosting,0.591,0.628,0.626,yes
+One-sample - simulation: S040,Logistic probability correction,0.637,0.646,0.646,yes
+One-sample - simulation: S040,uPU logistic,0.637,0.646,0.644,yes
+One-sample - simulation: S040,nnPU logistic,0.637,0.646,0.644,yes
+One-sample - simulation: S040,Naive AdaBoost,0.653,0.663,0.669,yes
+One-sample - simulation: S040,Naive GBM,0.654,0.659,0.663,yes
+One-sample - simulation: S040,Naive XGBoost,0.648,0.657,0.658,yes
+One-sample - simulation: S040,Naive LightGBM,0.638,0.642,0.650,yes
+One-sample - simulation: S040,Naive CatBoost,0.659,0.674,0.670,yes
+One-sample - simulation: S040,Corrected AdaBoost,0.653,0.663,0.669,yes
+One-sample - simulation: S040,Corrected GBM,0.654,0.659,0.663,yes
+One-sample - simulation: S040,Corrected XGBoost,0.648,0.657,0.658,yes
+One-sample - simulation: S040,Corrected LightGBM,0.638,0.642,0.650,yes
+One-sample - simulation: S040,Corrected CatBoost,0.659,0.674,0.670,yes
+One-sample - simulation: S040,RN AdaBoost,0.640,0.641,0.645,yes
+One-sample - simulation: S040,RN GBM,0.629,0.629,0.638,yes
+One-sample - simulation: S040,RN XGBoost,0.623,0.634,0.634,yes
+One-sample - simulation: S040,RN LightGBM,0.609,0.626,0.625,yes
+One-sample - simulation: S040,RN CatBoost,0.627,0.630,0.631,yes
+One-sample - simulation: S040,CS AdaBoost,0.651,0.667,0.668,yes
+One-sample - simulation: S040,CS GBM,0.652,0.666,0.666,yes
+One-sample - simulation: S040,CS XGBoost,0.649,0.656,0.654,yes
+One-sample - simulation: S040,CS LightGBM,0.638,0.642,0.650,yes
+One-sample - simulation: S040,CS CatBoost,0.659,0.666,0.666,yes
+One-sample - simulation: S040,AdaPU,0.667,0.677,0.676,yes
+One-sample - simulation: S040,PU gradient boosting,0.642,0.658,0.658,yes
+Two-sample - simulation: TS001,Logistic probability correction,0.643,0.660,0.670,yes
+Two-sample - simulation: TS001,uPU logistic,0.642,0.663,0.669,yes
+Two-sample - simulation: TS001,nnPU logistic,0.642,0.663,0.669,yes
+Two-sample - simulation: TS001,Naive AdaBoost,0.637,0.658,0.652,yes
+Two-sample - simulation: TS001,Naive GBM,0.632,0.659,0.660,yes
+Two-sample - simulation: TS001,Naive XGBoost,0.632,0.647,0.660,yes
+Two-sample - simulation: TS001,Naive LightGBM,0.629,0.648,0.654,yes
+Two-sample - simulation: TS001,Naive CatBoost,0.634,0.658,0.659,yes
+Two-sample - simulation: TS001,Corrected AdaBoost,0.637,0.658,0.652,yes
+Two-sample - simulation: TS001,Corrected GBM,0.632,0.659,0.660,yes
+Two-sample - simulation: TS001,Corrected XGBoost,0.632,0.647,0.660,yes
+Two-sample - simulation: TS001,Corrected LightGBM,0.629,0.648,0.654,yes
+Two-sample - simulation: TS001,Corrected CatBoost,0.634,0.658,0.659,yes
+Two-sample - simulation: TS001,RN AdaBoost,0.634,0.667,0.666,yes
+Two-sample - simulation: TS001,RN GBM,0.635,0.669,0.669,yes
+Two-sample - simulation: TS001,RN XGBoost,0.634,0.667,0.669,yes
+Two-sample - simulation: TS001,RN LightGBM,0.631,0.670,0.668,yes
+Two-sample - simulation: TS001,RN CatBoost,0.636,0.669,0.671,yes
+Two-sample - simulation: TS001,CS AdaBoost,0.637,0.652,0.658,yes
+Two-sample - simulation: TS001,CS GBM,0.632,0.659,0.660,yes
+Two-sample - simulation: TS001,CS XGBoost,0.632,0.647,0.660,yes
+Two-sample - simulation: TS001,CS LightGBM,0.629,0.648,0.654,yes
+Two-sample - simulation: TS001,CS CatBoost,0.634,0.658,0.659,yes
+Two-sample - simulation: TS001,AdaPU,0.631,0.644,0.648,yes
+Two-sample - simulation: TS001,PU gradient boosting,0.635,0.651,0.651,yes
+Two-sample - simulation: TS002,Logistic probability correction,0.556,0.681,0.683,yes
+Two-sample - simulation: TS002,uPU logistic,0.557,0.670,0.670,yes
+Two-sample - simulation: TS002,nnPU logistic,0.557,0.670,0.670,yes
+Two-sample - simulation: TS002,Naive AdaBoost,0.556,0.688,0.688,yes
+Two-sample - simulation: TS002,Naive GBM,0.568,0.671,0.690,yes
+Two-sample - simulation: TS002,Naive XGBoost,0.557,0.667,0.690,yes
+Two-sample - simulation: TS002,Naive LightGBM,0.545,0.648,0.639,yes
+Two-sample - simulation: TS002,Naive CatBoost,0.551,0.677,0.694,yes
+Two-sample - simulation: TS002,Corrected AdaBoost,0.556,0.688,0.688,yes
+Two-sample - simulation: TS002,Corrected GBM,0.568,0.671,0.690,yes
+Two-sample - simulation: TS002,Corrected XGBoost,0.557,0.667,0.690,yes
+Two-sample - simulation: TS002,Corrected LightGBM,0.545,0.648,0.639,yes
+Two-sample - simulation: TS002,Corrected CatBoost,0.551,0.677,0.694,yes
+Two-sample - simulation: TS002,RN AdaBoost,0.538,0.686,0.667,yes
+Two-sample - simulation: TS002,RN GBM,0.533,0.669,0.663,yes
+Two-sample - simulation: TS002,RN XGBoost,0.528,0.678,0.674,yes
+Two-sample - simulation: TS002,RN LightGBM,0.556,0.677,0.663,yes
+Two-sample - simulation: TS002,RN CatBoost,0.527,0.669,0.670,yes
+Two-sample - simulation: TS002,CS AdaBoost,0.561,0.690,0.688,yes
+Two-sample - simulation: TS002,CS GBM,0.568,0.671,0.690,yes
+Two-sample - simulation: TS002,CS XGBoost,0.574,0.672,0.686,yes
+Two-sample - simulation: TS002,CS LightGBM,0.545,0.648,0.639,yes
+Two-sample - simulation: TS002,CS CatBoost,0.551,0.677,0.694,yes
+Two-sample - simulation: TS002,AdaPU,0.545,0.666,0.641,yes
+Two-sample - simulation: TS002,PU gradient boosting,0.550,0.654,0.654,yes
+Two-sample - simulation: TS003,Logistic probability correction,0.569,0.674,0.678,yes
+Two-sample - simulation: TS003,uPU logistic,0.570,0.675,0.673,yes
+Two-sample - simulation: TS003,nnPU logistic,0.570,0.675,0.673,yes
+Two-sample - simulation: TS003,Naive AdaBoost,0.566,0.651,0.649,yes
+Two-sample - simulation: TS003,Naive GBM,0.563,0.657,0.659,yes
+Two-sample - simulation: TS003,Naive XGBoost,0.571,0.655,0.660,yes
+Two-sample - simulation: TS003,Naive LightGBM,0.576,0.658,0.654,yes
+Two-sample - simulation: TS003,Naive CatBoost,0.564,0.651,0.658,yes
+Two-sample - simulation: TS003,Corrected AdaBoost,0.566,0.651,0.649,yes
+Two-sample - simulation: TS003,Corrected GBM,0.563,0.657,0.659,yes
+Two-sample - simulation: TS003,Corrected XGBoost,0.571,0.655,0.660,yes
+Two-sample - simulation: TS003,Corrected LightGBM,0.576,0.658,0.654,yes
+Two-sample - simulation: TS003,Corrected CatBoost,0.564,0.651,0.658,yes
+Two-sample - simulation: TS003,RN AdaBoost,0.569,0.668,0.659,yes
+Two-sample - simulation: TS003,RN GBM,0.569,0.660,0.663,yes
+Two-sample - simulation: TS003,RN XGBoost,0.564,0.673,0.669,yes
+Two-sample - simulation: TS003,RN LightGBM,0.572,0.676,0.665,yes
+Two-sample - simulation: TS003,RN CatBoost,0.571,0.677,0.667,yes
+Two-sample - simulation: TS003,CS AdaBoost,0.566,0.651,0.649,yes
+Two-sample - simulation: TS003,CS GBM,0.563,0.657,0.659,yes
+Two-sample - simulation: TS003,CS XGBoost,0.569,0.661,0.660,yes
+Two-sample - simulation: TS003,CS LightGBM,0.576,0.658,0.654,yes
+Two-sample - simulation: TS003,CS CatBoost,0.564,0.651,0.658,yes
+Two-sample - simulation: TS003,AdaPU,0.566,0.650,0.649,yes
+Two-sample - simulation: TS003,PU gradient boosting,0.558,0.633,0.633,yes
+Two-sample - simulation: TS011,Logistic probability correction,0.647,0.645,0.648,yes
+Two-sample - simulation: TS011,uPU logistic,0.646,0.644,0.644,yes
+Two-sample - simulation: TS011,nnPU logistic,0.646,0.644,0.644,yes
+Two-sample - simulation: TS011,Naive AdaBoost,0.636,0.641,0.644,yes
+Two-sample - simulation: TS011,Naive GBM,0.648,0.646,0.648,yes
+Two-sample - simulation: TS011,Naive XGBoost,0.648,0.640,0.647,yes
+Two-sample - simulation: TS011,Naive LightGBM,0.618,0.622,0.623,yes
+Two-sample - simulation: TS011,Naive CatBoost,0.647,0.625,0.646,yes
+Two-sample - simulation: TS011,Corrected AdaBoost,0.636,0.641,0.644,yes
+Two-sample - simulation: TS011,Corrected GBM,0.648,0.646,0.648,yes
+Two-sample - simulation: TS011,Corrected XGBoost,0.648,0.640,0.647,yes
+Two-sample - simulation: TS011,Corrected LightGBM,0.618,0.622,0.623,yes
+Two-sample - simulation: TS011,Corrected CatBoost,0.647,0.625,0.646,yes
+Two-sample - simulation: TS011,RN AdaBoost,0.647,0.645,0.645,yes
+Two-sample - simulation: TS011,RN GBM,0.647,0.645,0.645,yes
+Two-sample - simulation: TS011,RN XGBoost,0.644,0.639,0.642,yes
+Two-sample - simulation: TS011,RN LightGBM,0.647,0.647,0.641,yes
+Two-sample - simulation: TS011,RN CatBoost,0.645,0.641,0.646,yes
+Two-sample - simulation: TS011,CS AdaBoost,0.647,0.639,0.647,yes
+Two-sample - simulation: TS011,CS GBM,0.633,0.634,0.633,yes
+Two-sample - simulation: TS011,CS XGBoost,0.648,0.640,0.647,yes
+Two-sample - simulation: TS011,CS LightGBM,0.621,0.625,0.619,yes
+Two-sample - simulation: TS011,CS CatBoost,0.647,0.625,0.646,yes
+Two-sample - simulation: TS011,AdaPU,0.645,0.627,0.642,yes
+Two-sample - simulation: TS011,PU gradient boosting,0.636,0.648,0.649,yes
+Two-sample - simulation: TS026,Logistic probability correction,0.563,0.576,0.587,yes
+Two-sample - simulation: TS026,uPU logistic,0.526,0.533,0.539,yes
+Two-sample - simulation: TS026,nnPU logistic,0.561,0.587,0.589,yes
+Two-sample - simulation: TS026,Naive AdaBoost,0.615,0.643,0.642,yes
+Two-sample - simulation: TS026,Naive GBM,0.615,0.638,0.641,yes
+Two-sample - simulation: TS026,Naive XGBoost,0.620,0.641,0.643,yes
+Two-sample - simulation: TS026,Naive LightGBM,0.603,0.640,0.638,yes
+Two-sample - simulation: TS026,Naive CatBoost,0.614,0.637,0.638,yes
+Two-sample - simulation: TS026,Corrected AdaBoost,0.615,0.643,0.642,yes
+Two-sample - simulation: TS026,Corrected GBM,0.615,0.638,0.641,yes
+Two-sample - simulation: TS026,Corrected XGBoost,0.620,0.641,0.643,yes
+Two-sample - simulation: TS026,Corrected LightGBM,0.603,0.640,0.638,yes
+Two-sample - simulation: TS026,Corrected CatBoost,0.614,0.637,0.638,yes
+Two-sample - simulation: TS026,RN AdaBoost,0.620,0.645,0.646,yes
+Two-sample - simulation: TS026,RN GBM,0.616,0.643,0.651,yes
+Two-sample - simulation: TS026,RN XGBoost,0.619,0.657,0.644,yes
+Two-sample - simulation: TS026,RN LightGBM,0.606,0.640,0.638,yes
+Two-sample - simulation: TS026,RN CatBoost,0.617,0.656,0.657,yes
+Two-sample - simulation: TS026,CS AdaBoost,0.615,0.645,0.641,yes
+Two-sample - simulation: TS026,CS GBM,0.607,0.644,0.645,yes
+Two-sample - simulation: TS026,CS XGBoost,0.617,0.646,0.653,yes
+Two-sample - simulation: TS026,CS LightGBM,0.607,0.642,0.640,yes
+Two-sample - simulation: TS026,CS CatBoost,0.614,0.637,0.638,yes
+Two-sample - simulation: TS026,AdaPU,0.625,0.640,0.642,yes
+Two-sample - simulation: TS026,PU gradient boosting,0.618,0.647,0.648,yes
+Two-sample - simulation: TS038,Logistic probability correction,0.622,0.642,0.642,yes
+Two-sample - simulation: TS038,uPU logistic,0.620,0.641,0.641,yes
+Two-sample - simulation: TS038,nnPU logistic,0.620,0.641,0.641,yes
+Two-sample - simulation: TS038,Naive AdaBoost,0.614,0.644,0.643,yes
+Two-sample - simulation: TS038,Naive GBM,0.615,0.642,0.642,yes
+Two-sample - simulation: TS038,Naive XGBoost,0.614,0.635,0.645,yes
+Two-sample - simulation: TS038,Naive LightGBM,0.599,0.628,0.631,yes
+Two-sample - simulation: TS038,Naive CatBoost,0.623,0.639,0.638,yes
+Two-sample - simulation: TS038,Corrected AdaBoost,0.614,0.644,0.643,yes
+Two-sample - simulation: TS038,Corrected GBM,0.615,0.642,0.642,yes
+Two-sample - simulation: TS038,Corrected XGBoost,0.614,0.635,0.645,yes
+Two-sample - simulation: TS038,Corrected LightGBM,0.599,0.628,0.631,yes
+Two-sample - simulation: TS038,Corrected CatBoost,0.623,0.639,0.638,yes
+Two-sample - simulation: TS038,RN AdaBoost,0.625,0.628,0.636,yes
+Two-sample - simulation: TS038,RN GBM,0.616,0.640,0.639,yes
+Two-sample - simulation: TS038,RN XGBoost,0.614,0.635,0.641,yes
+Two-sample - simulation: TS038,RN LightGBM,0.608,0.632,0.632,yes
+Two-sample - simulation: TS038,RN CatBoost,0.622,0.642,0.643,yes
+Two-sample - simulation: TS038,CS AdaBoost,0.615,0.644,0.643,yes
+Two-sample - simulation: TS038,CS GBM,0.617,0.639,0.636,yes
+Two-sample - simulation: TS038,CS XGBoost,0.616,0.644,0.642,yes
+Two-sample - simulation: TS038,CS LightGBM,0.604,0.631,0.638,yes
+Two-sample - simulation: TS038,CS CatBoost,0.623,0.639,0.638,yes
+Two-sample - simulation: TS038,AdaPU,0.602,0.633,0.636,yes
+Two-sample - simulation: TS038,PU gradient boosting,0.619,0.636,0.639,yes
+Two-sample - simulation: TS039,Logistic probability correction,0.588,0.600,0.605,yes
+Two-sample - simulation: TS039,uPU logistic,0.589,0.599,0.604,yes
+Two-sample - simulation: TS039,nnPU logistic,0.589,0.599,0.604,yes
+Two-sample - simulation: TS039,Naive AdaBoost,0.608,0.590,0.608,yes
+Two-sample - simulation: TS039,Naive GBM,0.579,0.611,0.611,yes
+Two-sample - simulation: TS039,Naive XGBoost,0.593,0.614,0.615,yes
+Two-sample - simulation: TS039,Naive LightGBM,0.590,0.607,0.611,yes
+Two-sample - simulation: TS039,Naive CatBoost,0.620,0.646,0.643,yes
+Two-sample - simulation: TS039,Corrected AdaBoost,0.608,0.590,0.608,yes
+Two-sample - simulation: TS039,Corrected GBM,0.579,0.611,0.611,yes
+Two-sample - simulation: TS039,Corrected XGBoost,0.593,0.614,0.615,yes
+Two-sample - simulation: TS039,Corrected LightGBM,0.590,0.607,0.611,yes
+Two-sample - simulation: TS039,Corrected CatBoost,0.620,0.646,0.643,yes
+Two-sample - simulation: TS039,RN AdaBoost,0.553,0.603,0.601,yes
+Two-sample - simulation: TS039,RN GBM,0.558,0.599,0.598,yes
+Two-sample - simulation: TS039,RN XGBoost,0.546,0.589,0.595,yes
+Two-sample - simulation: TS039,RN LightGBM,0.543,0.594,0.584,yes
+Two-sample - simulation: TS039,RN CatBoost,0.555,0.597,0.596,yes
+Two-sample - simulation: TS039,CS AdaBoost,0.608,0.590,0.608,yes
+Two-sample - simulation: TS039,CS GBM,0.579,0.611,0.611,yes
+Two-sample - simulation: TS039,CS XGBoost,0.597,0.614,0.619,yes
+Two-sample - simulation: TS039,CS LightGBM,0.590,0.607,0.611,yes
+Two-sample - simulation: TS039,CS CatBoost,0.620,0.643,0.643,yes
+Two-sample - simulation: TS039,AdaPU,0.582,0.580,0.599,yes
+Two-sample - simulation: TS039,PU gradient boosting,0.579,0.588,0.606,yes
+Two-sample - simulation: TS040,Logistic probability correction,0.646,0.655,0.657,yes
+Two-sample - simulation: TS040,uPU logistic,0.646,0.657,0.657,yes
+Two-sample - simulation: TS040,nnPU logistic,0.646,0.657,0.657,yes
+Two-sample - simulation: TS040,Naive AdaBoost,0.633,0.641,0.658,yes
+Two-sample - simulation: TS040,Naive GBM,0.634,0.657,0.658,yes
+Two-sample - simulation: TS040,Naive XGBoost,0.635,0.659,0.652,yes
+Two-sample - simulation: TS040,Naive LightGBM,0.621,0.641,0.640,yes
+Two-sample - simulation: TS040,Naive CatBoost,0.639,0.661,0.665,yes
+Two-sample - simulation: TS040,Corrected AdaBoost,0.633,0.641,0.658,yes
+Two-sample - simulation: TS040,Corrected GBM,0.634,0.657,0.658,yes
+Two-sample - simulation: TS040,Corrected XGBoost,0.635,0.659,0.652,yes
+Two-sample - simulation: TS040,Corrected LightGBM,0.621,0.641,0.640,yes
+Two-sample - simulation: TS040,Corrected CatBoost,0.639,0.661,0.665,yes
+Two-sample - simulation: TS040,RN AdaBoost,0.613,0.632,0.639,yes
+Two-sample - simulation: TS040,RN GBM,0.614,0.634,0.636,yes
+Two-sample - simulation: TS040,RN XGBoost,0.603,0.622,0.634,yes
+Two-sample - simulation: TS040,RN LightGBM,0.606,0.626,0.626,yes
+Two-sample - simulation: TS040,RN CatBoost,0.616,0.639,0.641,yes
+Two-sample - simulation: TS040,CS AdaBoost,0.633,0.641,0.658,yes
+Two-sample - simulation: TS040,CS GBM,0.634,0.657,0.658,yes
+Two-sample - simulation: TS040,CS XGBoost,0.638,0.653,0.654,yes
+Two-sample - simulation: TS040,CS LightGBM,0.620,0.624,0.638,yes
+Two-sample - simulation: TS040,CS CatBoost,0.639,0.661,0.665,yes
+Two-sample - simulation: TS040,AdaPU,0.664,0.676,0.676,yes
+Two-sample - simulation: TS040,PU gradient boosting,0.638,0.647,0.658,yes

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the PU Boosting Benchmark repository and the exact commit used."
+title: "PU Boosting Benchmark: source code and processed results"
+type: software
+authors:
+  - name: "draviis"
+repository-code: "https://github.com/draviis/PU-Boosting-Benchmark"
+url: "https://github.com/draviis/PU-Boosting-Benchmark"
+license: MIT
+date-released: 2026-11-02

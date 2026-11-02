@@ -1,0 +1,65 @@
+dataset_id,dataset,risk,selection,metric,difference_pp,n_conditions,n_pairs
+credit_default,Credit Default,nnpu,auc,AP,0.4757938140162562,4,80
+credit_default,Credit Default,nnpu,auc,AUROC,0.83716184934153381,4,80
+credit_default,Credit Default,nnpu,risk,AP,0.12564668098619058,4,80
+credit_default,Credit Default,nnpu,risk,AUROC,0.24011876253754144,4,80
+credit_default,Credit Default,upu,auc,AP,0.78095567408099154,4,80
+credit_default,Credit Default,upu,auc,AUROC,0.95648586921926615,4,80
+credit_default,Credit Default,upu,risk,AP,0.091675107331865596,4,80
+credit_default,Credit Default,upu,risk,AUROC,0.21175508387885039,4,80
+dry_bean,Dry Bean,nnpu,auc,AP,-0.72654306930720636,4,80
+dry_bean,Dry Bean,nnpu,auc,AUROC,-0.2434269217207331,4,80
+dry_bean,Dry Bean,nnpu,risk,AP,-0.088990903509353764,4,80
+dry_bean,Dry Bean,nnpu,risk,AUROC,-0.015951163610719299,4,80
+dry_bean,Dry Bean,upu,auc,AP,-1.0947637591460384,4,80
+dry_bean,Dry Bean,upu,auc,AUROC,-0.38828102961918232,4,80
+dry_bean,Dry Bean,upu,risk,AP,-0.91243598046747121,4,80
+dry_bean,Dry Bean,upu,risk,AUROC,-0.31331188293370937,4,80
+htru2,HTRU2,nnpu,auc,AP,0.56649409514639459,4,80
+htru2,HTRU2,nnpu,auc,AUROC,-0.24324852623526266,4,80
+htru2,HTRU2,nnpu,risk,AP,0.22845501038963767,4,80
+htru2,HTRU2,nnpu,risk,AUROC,-0.10805908840338288,4,80
+htru2,HTRU2,upu,auc,AP,0.089164246858831481,4,80
+htru2,HTRU2,upu,auc,AUROC,-0.63803841163411579,4,80
+htru2,HTRU2,upu,risk,AP,-1.6103930503571193,4,80
+htru2,HTRU2,upu,risk,AUROC,-1.6985554621171197,4,80
+online_shoppers,Online Shoppers,nnpu,auc,AP,0.6019161592115605,4,80
+online_shoppers,Online Shoppers,nnpu,auc,AUROC,0.59974851818984043,4,80
+online_shoppers,Online Shoppers,nnpu,risk,AP,0.83234177488427274,4,80
+online_shoppers,Online Shoppers,nnpu,risk,AUROC,0.83993319458182536,4,80
+online_shoppers,Online Shoppers,upu,auc,AP,0.39359087809507554,4,80
+online_shoppers,Online Shoppers,upu,auc,AUROC,0.30309009227780542,4,80
+online_shoppers,Online Shoppers,upu,risk,AP,0.77026983748274636,4,80
+online_shoppers,Online Shoppers,upu,risk,AUROC,0.72275671995504343,4,80
+optical_digits,Optical Digits,nnpu,auc,AP,4.6720934125558369,4,80
+optical_digits,Optical Digits,nnpu,auc,AUROC,3.9696310046751551,4,80
+optical_digits,Optical Digits,nnpu,risk,AP,3.315999565765309,4,80
+optical_digits,Optical Digits,nnpu,risk,AUROC,2.6965378273785192,4,80
+optical_digits,Optical Digits,upu,auc,AP,4.091023022225885,4,80
+optical_digits,Optical Digits,upu,auc,AUROC,3.6126371329185907,4,80
+optical_digits,Optical Digits,upu,risk,AP,4.0670704269906146,4,80
+optical_digits,Optical Digits,upu,risk,AUROC,3.4136643290892734,4,80
+phishing,Phishing Websites,nnpu,auc,AP,0.77123781227960164,4,80
+phishing,Phishing Websites,nnpu,auc,AUROC,0.96595976347987733,4,80
+phishing,Phishing Websites,nnpu,risk,AP,1.2574465119435136,4,80
+phishing,Phishing Websites,nnpu,risk,AUROC,1.5247171776405413,4,80
+phishing,Phishing Websites,upu,auc,AP,0.57340676782330535,4,80
+phishing,Phishing Websites,upu,auc,AUROC,0.80082097894408877,4,80
+phishing,Phishing Websites,upu,risk,AP,1.9300142561939797,4,80
+phishing,Phishing Websites,upu,risk,AUROC,2.1971113025099713,4,80
+rice,Rice,nnpu,auc,AP,-0.39916158156887971,4,80
+rice,Rice,nnpu,auc,AUROC,-0.1217935639106206,4,80
+rice,Rice,nnpu,risk,AP,-0.27059964853358986,4,80
+rice,Rice,nnpu,risk,AUROC,-0.14285613778353176,4,80
+rice,Rice,upu,auc,AP,-0.59590753160057219,4,80
+rice,Rice,upu,auc,AUROC,-0.33237093347216717,4,80
+rice,Rice,upu,risk,AP,-0.91863492942073166,4,80
+rice,Rice,upu,risk,AUROC,-0.83670305200652884,4,80
+spambase,Spambase,nnpu,auc,AP,1.0029555395809049,4,80
+spambase,Spambase,nnpu,auc,AUROC,0.55220930918529998,4,80
+spambase,Spambase,nnpu,risk,AP,2.4882026859129214,4,80
+spambase,Spambase,nnpu,risk,AUROC,1.6037475665152492,4,80
+spambase,Spambase,upu,auc,AP,1.5629689006599323,4,80
+spambase,Spambase,upu,auc,AUROC,0.92993038758775448,4,80
+spambase,Spambase,upu,risk,AP,2.1906286988884625,4,80
+spambase,Spambase,upu,risk,AUROC,1.0468187717538771,4,80

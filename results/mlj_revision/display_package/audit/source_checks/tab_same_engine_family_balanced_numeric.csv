@@ -1,0 +1,61 @@
+strategy,engine,method_number,naive_number,design,metric,difference_pp,weight
+Probability correction,AdaBoost,11,6,one_sample,AUROC,0,equal_10_family_mean
+Probability correction,AdaBoost,11,6,one_sample,AP,0,equal_10_family_mean
+Probability correction,AdaBoost,11,6,two_sample,AUROC,1.2270352511833948e-07,equal_10_family_mean
+Probability correction,AdaBoost,11,6,two_sample,AP,2.8323210443659264e-08,equal_10_family_mean
+Probability correction,GBM,12,7,one_sample,AUROC,0,equal_10_family_mean
+Probability correction,GBM,12,7,one_sample,AP,0,equal_10_family_mean
+Probability correction,GBM,12,7,two_sample,AUROC,0,equal_10_family_mean
+Probability correction,GBM,12,7,two_sample,AP,0,equal_10_family_mean
+Probability correction,XGBoost,13,8,one_sample,AUROC,0,equal_10_family_mean
+Probability correction,XGBoost,13,8,one_sample,AP,0,equal_10_family_mean
+Probability correction,XGBoost,13,8,two_sample,AUROC,0,equal_10_family_mean
+Probability correction,XGBoost,13,8,two_sample,AP,1.1102230246251565e-14,equal_10_family_mean
+Probability correction,LightGBM,14,9,one_sample,AUROC,0,equal_10_family_mean
+Probability correction,LightGBM,14,9,one_sample,AP,0,equal_10_family_mean
+Probability correction,LightGBM,14,9,two_sample,AUROC,0,equal_10_family_mean
+Probability correction,LightGBM,14,9,two_sample,AP,0,equal_10_family_mean
+Probability correction,CatBoost,15,10,one_sample,AUROC,0,equal_10_family_mean
+Probability correction,CatBoost,15,10,one_sample,AP,0,equal_10_family_mean
+Probability correction,CatBoost,15,10,two_sample,AUROC,0,equal_10_family_mean
+Probability correction,CatBoost,15,10,two_sample,AP,0,equal_10_family_mean
+RN,AdaBoost,16,6,one_sample,AUROC,-0.45932323363918615,equal_10_family_mean
+RN,AdaBoost,16,6,one_sample,AP,-1.1929490269604159,equal_10_family_mean
+RN,AdaBoost,16,6,two_sample,AUROC,-0.35236568062494422,equal_10_family_mean
+RN,AdaBoost,16,6,two_sample,AP,-0.91081065337734746,equal_10_family_mean
+RN,GBM,17,7,one_sample,AUROC,-0.90023733521678029,equal_10_family_mean
+RN,GBM,17,7,one_sample,AP,-2.7352195097128496,equal_10_family_mean
+RN,GBM,17,7,two_sample,AUROC,-0.8112315334299236,equal_10_family_mean
+RN,GBM,17,7,two_sample,AP,-2.329824844861661,equal_10_family_mean
+RN,XGBoost,18,8,one_sample,AUROC,-1.0019280852265666,equal_10_family_mean
+RN,XGBoost,18,8,one_sample,AP,-2.5915803103098045,equal_10_family_mean
+RN,XGBoost,18,8,two_sample,AUROC,-0.92838637766345933,equal_10_family_mean
+RN,XGBoost,18,8,two_sample,AP,-2.3143514382972574,equal_10_family_mean
+RN,LightGBM,19,9,one_sample,AUROC,-0.37100602979968089,equal_10_family_mean
+RN,LightGBM,19,9,one_sample,AP,-1.9577420240219079,equal_10_family_mean
+RN,LightGBM,19,9,two_sample,AUROC,-0.2220572442866775,equal_10_family_mean
+RN,LightGBM,19,9,two_sample,AP,-1.4224764952952829,equal_10_family_mean
+RN,CatBoost,20,10,one_sample,AUROC,-1.1162108081493871,equal_10_family_mean
+RN,CatBoost,20,10,one_sample,AP,-3.0570816113799912,equal_10_family_mean
+RN,CatBoost,20,10,two_sample,AUROC,-1.060694832595499,equal_10_family_mean
+RN,CatBoost,20,10,two_sample,AP,-2.806387368028612,equal_10_family_mean
+CS,AdaBoost,21,6,one_sample,AUROC,0.037221960194500081,equal_10_family_mean
+CS,AdaBoost,21,6,one_sample,AP,0.087412073718273753,equal_10_family_mean
+CS,AdaBoost,21,6,two_sample,AUROC,0.028028565288884533,equal_10_family_mean
+CS,AdaBoost,21,6,two_sample,AP,0.052920465330202893,equal_10_family_mean
+CS,GBM,22,7,one_sample,AUROC,0.064889316590255319,equal_10_family_mean
+CS,GBM,22,7,one_sample,AP,0.40817571714393819,equal_10_family_mean
+CS,GBM,22,7,two_sample,AUROC,0.013571448209670489,equal_10_family_mean
+CS,GBM,22,7,two_sample,AP,0.41757004920831564,equal_10_family_mean
+CS,XGBoost,23,8,one_sample,AUROC,0.017768168365639436,equal_10_family_mean
+CS,XGBoost,23,8,one_sample,AP,0.0010386311276477933,equal_10_family_mean
+CS,XGBoost,23,8,two_sample,AUROC,0.018440786812379262,equal_10_family_mean
+CS,XGBoost,23,8,two_sample,AP,0.010671251980542973,equal_10_family_mean
+CS,LightGBM,24,9,one_sample,AUROC,0.032001972973005888,equal_10_family_mean
+CS,LightGBM,24,9,one_sample,AP,0.21100263630701166,equal_10_family_mean
+CS,LightGBM,24,9,two_sample,AUROC,0.031173138108897547,equal_10_family_mean
+CS,LightGBM,24,9,two_sample,AP,0.26646696326538821,equal_10_family_mean
+CS,CatBoost,25,10,one_sample,AUROC,0.025027870385196938,equal_10_family_mean
+CS,CatBoost,25,10,one_sample,AP,0.0065954886308783323,equal_10_family_mean
+CS,CatBoost,25,10,two_sample,AUROC,0.015144421666968277,equal_10_family_mean
+CS,CatBoost,25,10,two_sample,AP,-0.0093645466704483926,equal_10_family_mean

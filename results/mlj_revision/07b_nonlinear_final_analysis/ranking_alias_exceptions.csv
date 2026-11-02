@@ -1,0 +1,5 @@
+task,design,scenario_id,repetition,engine,metric,naive_value,corrected_value,naive_minus_corrected,decision
+Task2,two_sample,TS001,85,AdaBoost,AP,0.4043730026267138,0.4043731359520795,-1.3332536574761633e-7,Keep both AdaBoost entries in all 40 original two-sample ranking catalogs
+Task2,two_sample,TS001,85,AdaBoost,AUROC,0.7219543384421965,0.7219547654890504,-4.2704685387917607e-7,Keep both AdaBoost entries in all 40 original two-sample ranking catalogs
+Task2,two_sample,TS026,82,AdaBoost,AP,0.3928405572364862,0.39284100695706203,-4.4972057583470004e-7,Keep both AdaBoost entries in all 40 original two-sample ranking catalogs
+Task2,two_sample,TS026,82,AdaBoost,AUROC,0.705327325707762,0.7053297256729072,-0.000002399965145172267,Keep both AdaBoost entries in all 40 original two-sample ranking catalogs

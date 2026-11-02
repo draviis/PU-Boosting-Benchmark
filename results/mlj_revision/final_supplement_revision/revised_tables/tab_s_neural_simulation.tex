@@ -1,0 +1,224 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\caption{Exploratory linear--neural simulation extension: 10 paired repetitions per setting and design. Neural minus matched linear uPU/nnPU is shown separately for risk-based and proxy-AUROC hyperparameter selection. Bars retain the saved pointwise paired t intervals (9 degrees of freedom), not Gaussian large-sample intervals. No BA headline is drawn; these capacity comparisons do not isolate boosting.}\label{tab:s-neural-simulation}\\
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Reference}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Reference}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & -0.32 & [-0.46, -0.19] & -1.16 & [-1.37, -0.94] & 10 \\
+nnPU / risk & -0.34 & [-0.51, -0.18] & -1.06 & [-1.29, -0.84] & 10 \\
+uPU / proxy-AUROC & -0.32 & [-0.46, -0.19] & -1.16 & [-1.37, -0.94] & 10 \\
+uPU / risk & -0.34 & [-0.51, -0.18] & -1.06 & [-1.29, -0.84] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Labeling probability $c=0.05$}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Labeling probability $c=0.05$}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & -2.48 & [-4.28, -0.68] & -3.89 & [-5.93, -1.85] & 10 \\
+nnPU / risk & -2.04 & [-2.75, -1.33] & -3.24 & [-4.24, -2.25] & 10 \\
+uPU / proxy-AUROC & -2.53 & [-4.42, -0.64] & -3.91 & [-5.98, -1.84] & 10 \\
+uPU / risk & -2.04 & [-2.75, -1.33] & -3.24 & [-4.24, -2.25] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - High dimension ($p=500$)}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - High dimension ($p=500$)}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & -0.28 & [-0.44, -0.13] & -0.15 & [-0.32, +0.03] & 10 \\
+nnPU / risk & +6.26 & [+5.19, +7.33] & +4.45 & [+3.80, +5.10] & 10 \\
+uPU / proxy-AUROC & -1.28 & [-1.68, -0.88] & -1.40 & [-1.72, -1.08] & 10 \\
+uPU / risk & +6.26 & [+5.19, +7.33] & +4.45 & [+3.80, +5.10] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Curved boundary}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Curved boundary}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +0.93 & [+0.69, +1.17] & +1.41 & [+0.81, +2.00] & 10 \\
+nnPU / risk & +0.92 & [+0.75, +1.09] & +1.22 & [+0.74, +1.70] & 10 \\
+uPU / proxy-AUROC & +0.93 & [+0.69, +1.17] & +1.41 & [+0.81, +2.00] & 10 \\
+uPU / risk & +0.92 & [+0.75, +1.09] & +1.22 & [+0.74, +1.70] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Feature interaction}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Feature interaction}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +8.32 & [+2.78, +13.86] & +8.69 & [+4.85, +12.52] & 10 \\
+nnPU / risk & +5.88 & [+5.33, +6.43] & +7.08 & [+6.40, +7.76] & 10 \\
+uPU / proxy-AUROC & +8.32 & [+2.78, +13.86] & +8.69 & [+4.85, +12.52] & 10 \\
+uPU / risk & +5.88 & [+5.33, +6.43] & +7.08 & [+6.40, +7.76] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Unequal class covariance}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{One-sample - Unequal class covariance}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +0.13 & [-0.37, +0.63] & -0.19 & [-0.86, +0.49] & 10 \\
+nnPU / risk & +0.27 & [+0.00, +0.54] & -0.01 & [-0.35, +0.32] & 10 \\
+uPU / proxy-AUROC & +0.13 & [-0.37, +0.63] & -0.19 & [-0.86, +0.49] & 10 \\
+uPU / risk & +0.27 & [+0.00, +0.54] & -0.01 & [-0.35, +0.32] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Reference}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Reference}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & -0.33 & [-0.49, -0.17] & -1.16 & [-1.54, -0.78] & 10 \\
+nnPU / risk & -0.35 & [-0.56, -0.14] & -1.04 & [-1.38, -0.70] & 10 \\
+uPU / proxy-AUROC & -0.33 & [-0.49, -0.17] & -1.16 & [-1.54, -0.78] & 10 \\
+uPU / risk & -0.35 & [-0.56, -0.14] & -1.04 & [-1.38, -0.70] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Labeled positives $n_P=50$}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Labeled positives $n_P=50$}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & -1.52 & [-2.09, -0.95] & -2.47 & [-3.58, -1.36] & 10 \\
+nnPU / risk & -1.68 & [-2.21, -1.14] & -2.76 & [-3.54, -1.97] & 10 \\
+uPU / proxy-AUROC & -1.52 & [-2.09, -0.95] & -2.47 & [-3.58, -1.36] & 10 \\
+uPU / risk & -1.68 & [-2.21, -1.14] & -2.76 & [-3.54, -1.97] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - High dimension ($p=500$)}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - High dimension ($p=500$)}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +2.36 & [-1.05, +5.77] & +1.80 & [-0.57, +4.17] & 10 \\
+nnPU / risk & +5.72 & [+4.28, +7.17] & +3.72 & [+2.78, +4.67] & 10 \\
+uPU / proxy-AUROC & +0.81 & [-2.74, +4.36] & +0.16 & [-2.30, +2.61] & 10 \\
+uPU / risk & +5.72 & [+4.28, +7.17] & +3.72 & [+2.78, +4.67] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Curved boundary}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Curved boundary}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +0.96 & [+0.60, +1.32] & +1.00 & [+0.49, +1.51] & 10 \\
+nnPU / risk & +1.01 & [+0.72, +1.30] & +1.17 & [+0.75, +1.58] & 10 \\
+uPU / proxy-AUROC & +0.96 & [+0.60, +1.32] & +1.00 & [+0.49, +1.51] & 10 \\
+uPU / risk & +1.01 & [+0.72, +1.30] & +1.17 & [+0.75, +1.58] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Feature interaction}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Feature interaction}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +5.87 & [+5.16, +6.57] & +7.27 & [+5.71, +8.83] & 10 \\
+nnPU / risk & +5.80 & [+5.16, +6.43] & +7.02 & [+5.62, +8.43] & 10 \\
+uPU / proxy-AUROC & +5.87 & [+5.16, +6.57] & +7.27 & [+5.71, +8.83] & 10 \\
+uPU / risk & +5.80 & [+5.16, +6.43] & +7.02 & [+5.62, +8.43] & 10 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}>{\raggedright\arraybackslash}p{0.907in}@{}}
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Unequal class covariance}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{6}{@{}p{7in}}{\textbf{Two-sample - Unequal class covariance}}\\
+Matched contrast & AUROC (pp) & AUROC interval & AP (pp) & AP interval & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+nnPU / proxy-AUROC & +0.11 & [-0.27, +0.49] & -0.08 & [-0.79, +0.63] & 10 \\
+nnPU / risk & -0.04 & [-0.34, +0.27] & -0.57 & [-1.26, +0.12] & 10 \\
+uPU / proxy-AUROC & +0.11 & [-0.27, +0.49] & -0.08 & [-0.79, +0.63] & 10 \\
+uPU / risk & -0.04 & [-0.34, +0.27] & -0.57 & [-1.26, +0.12] & 10 \\
+\end{longtable}
+\noindent\textit{Note.} Exploratory: 10 paired repetitions per setting. Neural minus linear with matched risk and selection criterion. Intervals are the existing paired t intervals (df=9); they are retained as saved. Proxy-AUROC denotes the PU validation tuning criterion, not test-data selection.
+\par\endgroup

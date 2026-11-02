@@ -1,0 +1,51 @@
+Panel,Selector/control,AUROC,AP,n AUROC,n AP
+One-sample - Reference,Logistic spy,0.726,0.395,100,100
+One-sample - Reference,Nonlinear spy full,0.719,0.381,100,100
+One-sample - Reference,Nonlinear size-matched,0.720,0.385,100,100
+One-sample - Reference,Random size-matched,0.715,0.389,100,100
+One-sample - Reference,Oracle TN size-matched,0.721,0.401,100,100
+One-sample - 500 predictors,Logistic spy,0.719,0.387,100,100
+One-sample - 500 predictors,Nonlinear spy full,0.711,0.369,100,100
+One-sample - 500 predictors,Nonlinear size-matched,0.709,0.363,100,100
+One-sample - 500 predictors,Random size-matched,0.681,0.345,100,100
+One-sample - 500 predictors,Oracle TN size-matched,0.698,0.367,100,100
+One-sample - Curved,Logistic spy,0.695,0.348,100,100
+One-sample - Curved,Nonlinear spy full,0.699,0.355,100,100
+One-sample - Curved,Nonlinear size-matched,0.700,0.357,100,100
+One-sample - Curved,Random size-matched,0.696,0.362,100,100
+One-sample - Curved,Oracle TN size-matched,0.704,0.375,100,100
+One-sample - Interaction,Logistic spy,0.614,0.260,100,100
+One-sample - Interaction,Nonlinear spy full,0.701,0.347,100,100
+One-sample - Interaction,Nonlinear size-matched,0.696,0.338,100,100
+One-sample - Interaction,Random size-matched,0.699,0.369,100,100
+One-sample - Interaction,Oracle TN size-matched,0.709,0.386,100,100
+One-sample - Unequal covariance,Logistic spy,0.688,0.370,100,100
+One-sample - Unequal covariance,Nonlinear spy full,0.690,0.354,100,100
+One-sample - Unequal covariance,Nonlinear size-matched,0.692,0.356,100,100
+One-sample - Unequal covariance,Random size-matched,0.717,0.438,100,100
+One-sample - Unequal covariance,Oracle TN size-matched,0.724,0.457,100,100
+Two-sample - Reference,Logistic spy,0.726,0.393,100,100
+Two-sample - Reference,Nonlinear spy full,0.719,0.378,100,100
+Two-sample - Reference,Nonlinear size-matched,0.720,0.382,100,100
+Two-sample - Reference,Random size-matched,0.715,0.386,100,100
+Two-sample - Reference,Oracle TN size-matched,0.723,0.403,100,100
+Two-sample - 500 predictors,Logistic spy,0.716,0.383,100,100
+Two-sample - 500 predictors,Nonlinear spy full,0.710,0.369,100,100
+Two-sample - 500 predictors,Nonlinear size-matched,0.707,0.362,100,100
+Two-sample - 500 predictors,Random size-matched,0.674,0.336,100,100
+Two-sample - 500 predictors,Oracle TN size-matched,0.698,0.367,100,100
+Two-sample - Curved,Logistic spy,0.696,0.350,100,100
+Two-sample - Curved,Nonlinear spy full,0.700,0.358,100,100
+Two-sample - Curved,Nonlinear size-matched,0.701,0.360,100,100
+Two-sample - Curved,Random size-matched,0.696,0.359,100,100
+Two-sample - Curved,Oracle TN size-matched,0.706,0.377,100,100
+Two-sample - Interaction,Logistic spy,0.614,0.261,100,100
+Two-sample - Interaction,Nonlinear spy full,0.702,0.351,100,100
+Two-sample - Interaction,Nonlinear size-matched,0.699,0.344,100,100
+Two-sample - Interaction,Random size-matched,0.695,0.361,100,100
+Two-sample - Interaction,Oracle TN size-matched,0.710,0.386,100,100
+Two-sample - Unequal covariance,Logistic spy,0.687,0.371,100,100
+Two-sample - Unequal covariance,Nonlinear spy full,0.691,0.357,100,100
+Two-sample - Unequal covariance,Nonlinear size-matched,0.693,0.359,100,100
+Two-sample - Unequal covariance,Random size-matched,0.714,0.432,100,100
+Two-sample - Unequal covariance,Oracle TN size-matched,0.724,0.458,100,100

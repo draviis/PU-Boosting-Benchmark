@@ -1,0 +1,39 @@
+\begin{table*}[t]
+\centering
+\caption{RN-CatBoost real-data diagnostic from the reliable-negative mechanism audit. Ranking differences are RN minus naive CatBoost; each dataset/design value averages 20 splits within each budget and then the two budgets. Selector diagnostics refer to the final train+validation RN set.}
+\label{tab:s-real-rn-diagnostic}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrrrr}
+\toprule
+\multicolumn{6}{l}{\textbf{One-sample}}\\
+Dataset & AUROC pp & AP pp & Purity \% & Neg. recall \% & Selected U \%\\
+\midrule
+Credit Default & -4.228 & -5.166 & 91.84 & 11.59 & 10.15 \\
+Dry Bean & +0.152 & +0.958 & 98.37 & 93.32 & 72.43 \\
+HTRU2 & +0.141 & +2.054 & 99.13 & 82.07 & 76.09 \\
+Online Shoppers & -0.815 & -0.251 & 95.19 & 20.99 & 19.02 \\
+Optical Digits & -0.793 & -0.933 & 92.17 & 53.57 & 31.36 \\
+Phishing Websites & +1.263 & +1.630 & 94.01 & 69.73 & 38.58 \\
+Rice & +0.889 & +2.199 & 94.74 & 87.53 & 56.06 \\
+Spambase & +1.416 & +2.265 & 94.24 & 63.26 & 42.74 \\
+\midrule
+\multicolumn{6}{l}{\textbf{Two-sample}}\\
+Dataset & AUROC pp & AP pp & Purity \% & Neg. recall \% & Selected U \%\\
+\midrule
+Credit Default & -4.481 & -5.906 & 90.98 & 9.29 & 7.98 \\
+Dry Bean & +0.369 & +1.984 & 98.71 & 90.90 & 67.96 \\
+HTRU2 & +0.078 & +1.836 & 99.02 & 82.70 & 75.92 \\
+Online Shoppers & -0.891 & +0.174 & 94.56 & 24.54 & 22.10 \\
+Optical Digits & -0.555 & -0.782 & 91.94 & 57.15 & 31.66 \\
+Phishing Websites & +1.309 & +1.758 & 93.76 & 66.64 & 34.42 \\
+Rice & +0.932 & +2.161 & 93.89 & 86.40 & 52.99 \\
+Spambase & +1.345 & +2.115 & 92.83 & 61.45 & 40.06 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Purity is the true-negative fraction among selected U; negative recall is retained true negatives divided by available true negatives; selected U is the fraction of U retained. RN sets were previously reconstructed from exact archived inputs/code because original indices were unavailable. No selectors are rerun here. These associations do not show that purity causes a performance difference; the selector sensitivity analysis alternative selectors are not substituted for original RN.
+\end{minipage}
+\end{table*}

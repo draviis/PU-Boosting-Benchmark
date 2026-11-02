@@ -1,0 +1,81 @@
+Panel,Scenario,Bayes AUROC,Logistic probability correction,nnPU logistic,Naive CatBoost,CS CatBoost,RN CatBoost,PU gradient boosting
+One-sample,Reference,0.738,0.004,0.004,0.014,0.014,0.012,0.031
+One-sample,Prevalence $\pi=0.01$,0.738,0.035,0.035,0.087,0.084,0.046,0.172
+One-sample,Prevalence $\pi=0.05$,0.738,0.011,0.011,0.032,0.032,0.020,0.097
+One-sample,Prevalence $\pi=0.10$,0.738,0.005,0.005,0.018,0.018,0.014,0.063
+One-sample,Prevalence $\pi=0.15$,0.738,0.003,0.003,0.014,0.013,0.011,0.043
+One-sample,Prevalence $\pi=0.25$,0.738,0.003,0.003,0.012,0.012,0.011,0.024
+One-sample,Prevalence $\pi=0.30$,0.738,0.003,0.003,0.011,0.011,0.010,0.021
+One-sample,Prevalence $\pi=0.35$,0.738,0.004,0.004,0.012,0.012,0.011,0.020
+One-sample,Prevalence $\pi=0.40$,0.738,0.002,0.002,0.010,0.010,0.009,0.017
+One-sample,Prevalence $\pi=0.45$,0.738,0.003,0.004,0.011,0.011,0.010,0.017
+One-sample,Prevalence $\pi=0.50$,0.738,0.004,0.005,0.012,0.013,0.010,0.018
+One-sample,Labeling probability $c=0.05$,0.738,0.020,0.021,0.052,0.050,0.027,0.122
+One-sample,Labeling probability $c=0.10$,0.738,0.012,0.012,0.032,0.031,0.020,0.090
+One-sample,Labeling probability $c=0.15$,0.738,0.008,0.008,0.022,0.022,0.016,0.066
+One-sample,Labeling probability $c=0.20$,0.738,0.005,0.005,0.017,0.017,0.014,0.052
+One-sample,Labeling probability $c=0.25$,0.738,0.005,0.005,0.016,0.015,0.012,0.038
+One-sample,Labeling probability $c=0.35$,0.738,0.003,0.003,0.011,0.011,0.010,0.023
+One-sample,Labeling probability $c=0.40$,0.738,0.003,0.003,0.011,0.011,0.011,0.020
+One-sample,Labeling probability $c=0.45$,0.738,0.003,0.003,0.011,0.011,0.011,0.019
+One-sample,Labeling probability $c=0.50$,0.738,0.003,0.003,0.010,0.009,0.010,0.016
+One-sample,Class separation $\delta=0.50$,0.638,0.007,0.007,0.017,0.018,0.013,0.034
+One-sample,Class separation $\delta=0.70$,0.690,0.003,0.003,0.014,0.014,0.011,0.031
+One-sample,Class separation $\delta=1.20$,0.802,0.003,0.003,0.012,0.011,0.010,0.025
+One-sample,High dimension ($p=50$),0.738,0.016,0.016,0.016,0.017,0.011,0.036
+One-sample,High dimension ($p=100$),0.738,0.033,0.034,0.021,0.021,0.015,0.039
+One-sample,High dimension ($p=500$),0.738,0.095,0.105,0.025,0.025,0.019,0.043
+One-sample,Correlation $\rho=0.30$,0.738,0.003,0.003,0.012,0.012,0.014,0.026
+One-sample,Correlation $\rho=0.60$,0.738,0.003,0.003,0.018,0.017,0.015,0.036
+One-sample,"Prevalence $\pi=0.01$, $c=0.50$",0.738,0.023,0.023,0.065,0.067,0.031,0.146
+One-sample,"Prevalence $\pi=0.05$, $c=0.10$",0.738,0.025,0.025,0.070,0.070,0.034,0.150
+One-sample,"Prevalence $\pi=0.05$, $c=0.50$",0.738,0.006,0.006,0.020,0.019,0.014,0.068
+One-sample,"Prevalence $\pi=0.10$, $c=0.05$",0.738,0.031,0.032,0.080,0.085,0.039,0.151
+One-sample,"Prevalence $\pi=0.10$, $c=0.10$",0.738,0.015,0.015,0.043,0.040,0.022,0.113
+One-sample,"Prevalence $\pi=0.10$, $c=0.50$",0.738,0.003,0.003,0.013,0.012,0.011,0.033
+One-sample,"Prevalence $\pi=0.50$, $c=0.05$",0.738,0.022,0.030,0.051,0.052,0.031,0.088
+One-sample,"Prevalence $\pi=0.50$, $c=0.10$",0.738,0.010,0.012,0.028,0.028,0.019,0.055
+One-sample,"Prevalence $\pi=0.50$, $c=0.50$",0.738,0.002,0.002,0.008,0.008,0.008,0.011
+One-sample,Curved boundary,0.738,0.036,0.036,0.032,0.031,0.043,0.050
+One-sample,Feature interaction,0.739,0.080,0.080,0.026,0.025,0.126,0.087
+One-sample,Unequal class covariance,0.739,0.027,0.027,0.008,0.009,0.052,0.026
+Two-sample,Reference,0.738,0.004,0.004,0.014,0.013,0.012,0.023
+Two-sample,Prevalence $\pi=0.01$,0.738,0.004,0.004,0.011,0.011,0.011,0.078
+Two-sample,Prevalence $\pi=0.05$,0.738,0.002,0.002,0.010,0.010,0.010,0.038
+Two-sample,Prevalence $\pi=0.10$,0.738,0.003,0.003,0.012,0.011,0.010,0.028
+Two-sample,Prevalence $\pi=0.15$,0.738,0.003,0.003,0.013,0.013,0.011,0.025
+Two-sample,Prevalence $\pi=0.25$,0.738,0.005,0.005,0.015,0.016,0.013,0.024
+Two-sample,Prevalence $\pi=0.30$,0.738,0.006,0.006,0.016,0.017,0.014,0.025
+Two-sample,Prevalence $\pi=0.35$,0.738,0.006,0.007,0.018,0.018,0.015,0.028
+Two-sample,Prevalence $\pi=0.40$,0.738,0.009,0.009,0.021,0.022,0.017,0.031
+Two-sample,Prevalence $\pi=0.45$,0.738,0.009,0.011,0.023,0.024,0.017,0.033
+Two-sample,Prevalence $\pi=0.50$,0.738,0.012,0.015,0.028,0.029,0.021,0.038
+Two-sample,Labeled positives $n_P=50$,0.738,0.019,0.020,0.054,0.052,0.026,0.064
+Two-sample,Labeled positives $n_P=100$,0.738,0.011,0.011,0.032,0.032,0.021,0.045
+Two-sample,Labeled positives $n_P=150$,0.738,0.008,0.008,0.023,0.023,0.017,0.034
+Two-sample,Labeled positives $n_P=200$,0.738,0.006,0.006,0.019,0.018,0.014,0.029
+Two-sample,Labeled positives $n_P=250$,0.738,0.006,0.006,0.017,0.017,0.014,0.026
+Two-sample,Labeled positives $n_P=350$,0.738,0.004,0.004,0.013,0.013,0.011,0.023
+Two-sample,Labeled positives $n_P=400$,0.738,0.001,0.002,0.010,0.010,0.009,0.020
+Two-sample,Labeled positives $n_P=450$,0.738,0.003,0.003,0.011,0.011,0.010,0.020
+Two-sample,Labeled positives $n_P=500$,0.738,0.002,0.003,0.010,0.010,0.009,0.020
+Two-sample,Class separation $\delta=0.50$,0.638,0.005,0.005,0.018,0.019,0.014,0.025
+Two-sample,Class separation $\delta=0.70$,0.690,0.004,0.005,0.015,0.015,0.012,0.023
+Two-sample,Class separation $\delta=1.20$,0.802,0.004,0.004,0.013,0.012,0.011,0.024
+Two-sample,High dimension ($p=50$),0.738,0.019,0.020,0.019,0.020,0.013,0.025
+Two-sample,High dimension ($p=100$),0.738,0.036,0.038,0.023,0.023,0.016,0.028
+Two-sample,High dimension ($p=500$),0.738,0.104,0.107,0.030,0.030,0.022,0.035
+Two-sample,Correlation $\rho=0.30$,0.738,0.005,0.005,0.013,0.012,0.014,0.021
+Two-sample,Correlation $\rho=0.60$,0.738,0.004,0.004,0.020,0.019,0.016,0.030
+Two-sample,"Prevalence $\pi=0.01$, $n_P=25$",0.738,0.019,0.020,0.063,0.062,0.029,0.145
+Two-sample,"Prevalence $\pi=0.01$, $n_P=100$",0.738,0.004,0.004,0.022,0.021,0.013,0.103
+Two-sample,"Prevalence $\pi=0.01$, $n_P=500$",0.738,0.000,0.001,0.005,0.005,0.007,0.066
+Two-sample,"Prevalence $\pi=0.10$, $n_P=25$",0.738,0.032,0.033,0.078,0.083,0.040,0.091
+Two-sample,"Prevalence $\pi=0.10$, $n_P=100$",0.738,0.008,0.008,0.027,0.026,0.017,0.043
+Two-sample,"Prevalence $\pi=0.10$, $n_P=500$",0.738,0.003,0.003,0.009,0.009,0.010,0.026
+Two-sample,"Prevalence $\pi=0.50$, $n_P=25$",0.738,0.078,0.110,0.139,0.141,0.086,0.166
+Two-sample,"Prevalence $\pi=0.50$, $n_P=100$",0.738,0.028,0.038,0.060,0.070,0.037,0.068
+Two-sample,"Prevalence $\pi=0.50$, $n_P=500$",0.738,0.007,0.008,0.018,0.019,0.014,0.030
+Two-sample,Curved boundary,0.738,0.035,0.035,0.033,0.032,0.042,0.043
+Two-sample,Feature interaction,0.739,0.080,0.080,0.029,0.027,0.125,0.085
+Two-sample,Unequal class covariance,0.739,0.028,0.028,0.010,0.010,0.052,0.019

@@ -1,0 +1,102 @@
+\begin{table*}[t]
+\centering
+\caption{Secondary threshold-based performance in the nonlinear
+high-dimensional and interaction settings. Values are means over
+100 repetitions under the common same-model prevalence-quantile
+decision rule. Logistic probability correction provides the linear
+reference, while naive and cost-sensitive (CS) CatBoost represent
+flexible boosting. Bold values indicate the highest performance among
+the three displayed methods within each setting and metric.}
+\label{tab:s-secondary-key-nonlinear}
+
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+
+\begin{tabularx}{\textwidth}{
+>{\raggedright\arraybackslash}p{0.13\textwidth}
+>{\raggedright\arraybackslash}p{0.22\textwidth}
+>{\raggedright\arraybackslash}p{0.13\textwidth}
+>{\centering\arraybackslash}X
+>{\centering\arraybackslash}X
+>{\centering\arraybackslash}X}
+\toprule
+Design & Setting & Metric &
+\shortstack{Logistic\\correction} &
+\shortstack{Naive\\CatBoost} &
+\shortstack{CS--\\CatBoost} \\
+\midrule
+
+One-sample
+& Pure XOR (NL03)
+& Balanced accuracy & 0.5174 & 0.7172 & \textbf{0.7179} \\
+&
+& F1                & 0.2276 & 0.5474 & \textbf{0.5486} \\
+&
+& MCC               & 0.0348 & 0.4345 & \textbf{0.4359} \\
+
+\addlinespace[2pt]
+
+One-sample
+& Threshold interaction (NL04)
+& Balanced accuracy & 0.5008 & 0.5659 & \textbf{0.5771} \\
+&
+& F1                & 0.2011 & 0.3049 & \textbf{0.3230} \\
+&
+& MCC               & 0.0017 & 0.1320 & \textbf{0.1543} \\
+
+\addlinespace[2pt]
+
+One-sample
+& Sinusoidal + noise, $p=500$ (NL05)
+& Balanced accuracy & 0.5419 & 0.6257 & \textbf{0.6260} \\
+&
+& F1                & 0.2674 & 0.4012 & \textbf{0.4017} \\
+&
+& MCC               & 0.0838 & 0.2516 & \textbf{0.2521} \\
+
+\midrule
+
+Two-sample
+& Pure XOR (NL03)
+& Balanced accuracy & 0.5175 & 0.7148 & \textbf{0.7154} \\
+&
+& F1                & 0.2276 & 0.5431 & \textbf{0.5441} \\
+&
+& MCC               & 0.0349 & 0.4290 & \textbf{0.4302} \\
+
+\addlinespace[2pt]
+
+Two-sample
+& Threshold interaction (NL04)
+& Balanced accuracy & 0.5014 & 0.5597 & \textbf{0.5710} \\
+&
+& F1                & 0.2025 & 0.2961 & \textbf{0.3140} \\
+&
+& MCC               & 0.0027 & 0.1191 & \textbf{0.1417} \\
+
+\addlinespace[2pt]
+
+Two-sample
+& Sinusoidal + noise, $p=500$ (NL05)
+& Balanced accuracy & 0.5407 & 0.6222 & \textbf{0.6226} \\
+&
+& F1                & 0.2650 & 0.3952 & \textbf{0.3958} \\
+&
+& MCC               & 0.0812 & 0.2439 & \textbf{0.2444} \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{1mm}
+\parbox{\textwidth}{\footnotesize
+\textit{Note.} Thresholds are the empirical
+$(1-\widetilde{\pi})$ quantiles of validation scores from the selected
+training-sample model. The same fitted model is used to score the test
+sample. In the one-sample design the threshold uses the full validation
+sample, while in the two-sample design it uses validation $U$ only.
+All entries average 100 repetitions. These are secondary
+threshold-dependent outcomes and are not used for primary method
+ranking.
+}
+\end{table*}

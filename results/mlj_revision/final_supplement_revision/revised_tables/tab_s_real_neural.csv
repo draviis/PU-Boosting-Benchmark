@@ -1,0 +1,329 @@
+dataset_id,dataset,design,budget,risk,selection,metric,difference_pp,n_pairs,record_type,n_conditions,n_datasets,display
+credit_default,Credit Default,one_sample,0.050000000000000003,nnpu,auc,AP,-0.093172954590602056,20,condition,,,-0.093
+credit_default,Credit Default,one_sample,0.050000000000000003,nnpu,auc,AUROC,-0.11305362685550815,20,condition,,,-0.113
+credit_default,Credit Default,one_sample,0.050000000000000003,nnpu,risk,AP,-0.3563752440794507,20,condition,,,-0.356
+credit_default,Credit Default,one_sample,0.050000000000000003,nnpu,risk,AUROC,-0.6774080596500659,20,condition,,,-0.677
+credit_default,Credit Default,one_sample,0.050000000000000003,upu,auc,AP,0.40488053987869127,20,condition,,,+0.405
+credit_default,Credit Default,one_sample,0.050000000000000003,upu,auc,AUROC,0.013151137012882886,20,condition,,,+0.013
+credit_default,Credit Default,one_sample,0.050000000000000003,upu,risk,AP,-0.49226153869675071,20,condition,,,-0.492
+credit_default,Credit Default,one_sample,0.050000000000000003,upu,risk,AUROC,-0.79086277428483009,20,condition,,,-0.791
+credit_default,Credit Default,one_sample,0.20000000000000001,nnpu,auc,AP,2.1692185561942177,20,condition,,,+2.169
+credit_default,Credit Default,one_sample,0.20000000000000001,nnpu,auc,AUROC,2.700707731350187,20,condition,,,+2.701
+credit_default,Credit Default,one_sample,0.20000000000000001,nnpu,risk,AP,1.2494194991109651,20,condition,,,+1.249
+credit_default,Credit Default,one_sample,0.20000000000000001,nnpu,risk,AUROC,1.8159182290299636,20,condition,,,+1.816
+credit_default,Credit Default,one_sample,0.20000000000000001,upu,auc,AP,2.1692185561942177,20,condition,,,+2.169
+credit_default,Credit Default,one_sample,0.20000000000000001,upu,auc,AUROC,2.700707731350187,20,condition,,,+2.701
+credit_default,Credit Default,one_sample,0.20000000000000001,upu,risk,AP,1.2494194991109651,20,condition,,,+1.249
+credit_default,Credit Default,one_sample,0.20000000000000001,upu,risk,AUROC,1.8159182290299636,20,condition,,,+1.816
+credit_default,Credit Default,two_sample,0.050000000000000003,nnpu,auc,AP,-0.87390718260177958,20,condition,,,-0.874
+credit_default,Credit Default,two_sample,0.050000000000000003,nnpu,auc,AUROC,-0.8313101854720728,20,condition,,,-0.831
+credit_default,Credit Default,two_sample,0.050000000000000003,nnpu,risk,AP,-0.76490200910642958,20,condition,,,-0.765
+credit_default,Credit Default,two_sample,0.050000000000000003,nnpu,risk,AUROC,-0.92427170732482788,20,condition,,,-0.924
+credit_default,Credit Default,two_sample,0.050000000000000003,upu,auc,AP,-0.74639042646517917,20,condition,,,-0.746
+credit_default,Credit Default,two_sample,0.050000000000000003,upu,auc,AUROC,-0.81141517719401046,20,condition,,,-0.811
+credit_default,Credit Default,two_sample,0.050000000000000003,upu,risk,AP,-0.76490200910642958,20,condition,,,-0.765
+credit_default,Credit Default,two_sample,0.050000000000000003,upu,risk,AUROC,-0.92427170732482788,20,condition,,,-0.924
+credit_default,Credit Default,two_sample,0.20000000000000001,nnpu,auc,AP,0.70103683706318898,20,condition,,,+0.701
+credit_default,Credit Default,two_sample,0.20000000000000001,nnpu,auc,AUROC,1.592303478343529,20,condition,,,+1.592
+credit_default,Credit Default,two_sample,0.20000000000000001,nnpu,risk,AP,0.37444447801967762,20,condition,,,+0.374
+credit_default,Credit Default,two_sample,0.20000000000000001,nnpu,risk,AUROC,0.74623658809509608,20,condition,,,+0.746
+credit_default,Credit Default,two_sample,0.20000000000000001,upu,auc,AP,1.2961140267162361,20,condition,,,+1.296
+credit_default,Credit Default,two_sample,0.20000000000000001,upu,auc,AUROC,1.9234997857080049,20,condition,,,+1.923
+credit_default,Credit Default,two_sample,0.20000000000000001,upu,risk,AP,0.37444447801967762,20,condition,,,+0.374
+credit_default,Credit Default,two_sample,0.20000000000000001,upu,risk,AUROC,0.74623658809509608,20,condition,,,+0.746
+dry_bean,Dry Bean,one_sample,0.050000000000000003,nnpu,auc,AP,-0.34089474653259844,20,condition,,,-0.341
+dry_bean,Dry Bean,one_sample,0.050000000000000003,nnpu,auc,AUROC,-0.12994181946403172,20,condition,,,-0.130
+dry_bean,Dry Bean,one_sample,0.050000000000000003,nnpu,risk,AP,0.053557615049816265,20,condition,,,+0.054
+dry_bean,Dry Bean,one_sample,0.050000000000000003,nnpu,risk,AUROC,0.0455853314527499,20,condition,,,+0.046
+dry_bean,Dry Bean,one_sample,0.050000000000000003,upu,auc,AP,-0.89590796897713487,20,condition,,,-0.896
+dry_bean,Dry Bean,one_sample,0.050000000000000003,upu,auc,AUROC,-0.35812411847672754,20,condition,,,-0.358
+dry_bean,Dry Bean,one_sample,0.050000000000000003,upu,risk,AP,-1.2802800104670475,20,condition,,,-1.280
+dry_bean,Dry Bean,one_sample,0.050000000000000003,upu,risk,AUROC,-0.42814527503526156,20,condition,,,-0.428
+dry_bean,Dry Bean,one_sample,0.20000000000000001,nnpu,auc,AP,0.34181229405005953,20,condition,,,+0.342
+dry_bean,Dry Bean,one_sample,0.20000000000000001,nnpu,auc,AUROC,0.15672425952045099,20,condition,,,+0.157
+dry_bean,Dry Bean,one_sample,0.20000000000000001,nnpu,risk,AP,0.03430160807491256,20,condition,,,+0.034
+dry_bean,Dry Bean,one_sample,0.20000000000000001,nnpu,risk,AUROC,0.017330747531731916,20,condition,,,+0.017
+dry_bean,Dry Bean,one_sample,0.20000000000000001,upu,auc,AP,0.11307771019392121,20,condition,,,+0.113
+dry_bean,Dry Bean,one_sample,0.20000000000000001,upu,auc,AUROC,0.077827926657262902,20,condition,,,+0.078
+dry_bean,Dry Bean,one_sample,0.20000000000000001,upu,risk,AP,-0.6870581094200312,20,condition,,,-0.687
+dry_bean,Dry Bean,one_sample,0.20000000000000001,upu,risk,AUROC,-0.22647038081805518,20,condition,,,-0.226
+dry_bean,Dry Bean,two_sample,0.050000000000000003,nnpu,auc,AP,-2.796716898055267,20,condition,,,-2.797
+dry_bean,Dry Bean,two_sample,0.050000000000000003,nnpu,auc,AUROC,-1.0142172073342741,20,condition,,,-1.014
+dry_bean,Dry Bean,two_sample,0.050000000000000003,nnpu,risk,AP,-0.28718333758373182,20,condition,,,-0.287
+dry_bean,Dry Bean,two_sample,0.050000000000000003,nnpu,risk,AUROC,-0.099160789844847663,20,condition,,,-0.099
+dry_bean,Dry Bean,two_sample,0.050000000000000003,upu,auc,AP,-3.0529659451827116,20,condition,,,-3.053
+dry_bean,Dry Bean,two_sample,0.050000000000000003,upu,auc,AUROC,-1.1364315937940783,20,condition,,,-1.136
+dry_bean,Dry Bean,two_sample,0.050000000000000003,upu,risk,AP,-1.2025839552775097,20,condition,,,-1.203
+dry_bean,Dry Bean,two_sample,0.050000000000000003,upu,risk,AUROC,-0.47271509167841563,20,condition,,,-0.473
+dry_bean,Dry Bean,two_sample,0.20000000000000001,nnpu,auc,AP,-0.11037292669101917,20,condition,,,-0.110
+dry_bean,Dry Bean,two_sample,0.20000000000000001,nnpu,auc,AUROC,0.013727080394922431,20,condition,,,+0.014
+dry_bean,Dry Bean,two_sample,0.20000000000000001,nnpu,risk,AP,-0.15663949957841206,20,condition,,,-0.157
+dry_bean,Dry Bean,two_sample,0.20000000000000001,nnpu,risk,AUROC,-0.027559943582511348,20,condition,,,-0.028
+dry_bean,Dry Bean,two_sample,0.20000000000000001,upu,auc,AP,-0.5432588326182286,20,condition,,,-0.543
+dry_bean,Dry Bean,two_sample,0.20000000000000001,upu,auc,AUROC,-0.1363963328631862,20,condition,,,-0.136
+dry_bean,Dry Bean,two_sample,0.20000000000000001,upu,risk,AP,-0.47982184670529621,20,condition,,,-0.480
+dry_bean,Dry Bean,two_sample,0.20000000000000001,upu,risk,AUROC,-0.12591678420310504,20,condition,,,-0.126
+htru2,HTRU2,one_sample,0.050000000000000003,nnpu,auc,AP,1.1807126530433583,20,condition,,,+1.181
+htru2,HTRU2,one_sample,0.050000000000000003,nnpu,auc,AUROC,-0.51752861278612783,20,condition,,,-0.518
+htru2,HTRU2,one_sample,0.050000000000000003,nnpu,risk,AP,0.55258128340885837,20,condition,,,+0.553
+htru2,HTRU2,one_sample,0.050000000000000003,nnpu,risk,AUROC,-0.13088099630996497,20,condition,,,-0.131
+htru2,HTRU2,one_sample,0.050000000000000003,upu,auc,AP,0.47666664698948369,20,condition,,,+0.477
+htru2,HTRU2,one_sample,0.050000000000000003,upu,auc,AUROC,-1.1641335163351614,20,condition,,,-1.164
+htru2,HTRU2,one_sample,0.050000000000000003,upu,risk,AP,-1.7099226041167459,20,condition,,,-1.710
+htru2,HTRU2,one_sample,0.050000000000000003,upu,risk,AUROC,-1.9336740242402399,20,condition,,,-1.934
+htru2,HTRU2,one_sample,0.20000000000000001,nnpu,auc,AP,-0.042626886130879282,20,condition,,,-0.043
+htru2,HTRU2,one_sample,0.20000000000000001,nnpu,auc,AUROC,-0.0867383673836708,20,condition,,,-0.087
+htru2,HTRU2,one_sample,0.20000000000000001,nnpu,risk,AP,-0.12611087238431296,20,condition,,,-0.126
+htru2,HTRU2,one_sample,0.20000000000000001,nnpu,risk,AUROC,-0.16371257462573841,20,condition,,,-0.164
+htru2,HTRU2,one_sample,0.20000000000000001,upu,auc,AP,-0.5954450083217111,20,condition,,,-0.595
+htru2,HTRU2,one_sample,0.20000000000000001,upu,auc,AUROC,-0.33705805808057815,20,condition,,,-0.337
+htru2,HTRU2,one_sample,0.20000000000000001,upu,risk,AP,-2.0733733175231963,20,condition,,,-2.073
+htru2,HTRU2,one_sample,0.20000000000000001,upu,risk,AUROC,-1.594323755737554,20,condition,,,-1.594
+htru2,HTRU2,two_sample,0.050000000000000003,nnpu,auc,AP,0.85823692470582635,20,condition,,,+0.858
+htru2,HTRU2,two_sample,0.050000000000000003,nnpu,auc,AUROC,-0.21992094920949445,20,condition,,,-0.220
+htru2,HTRU2,two_sample,0.050000000000000003,nnpu,risk,AP,0.46545804145376124,20,condition,,,+0.465
+htru2,HTRU2,two_sample,0.050000000000000003,nnpu,risk,AUROC,-0.017925179251792045,20,condition,,,-0.018
+htru2,HTRU2,two_sample,0.050000000000000003,upu,auc,AP,0.46066170023901565,20,condition,,,+0.461
+htru2,HTRU2,two_sample,0.050000000000000003,upu,auc,AUROC,-0.72100330378304045,20,condition,,,-0.721
+htru2,HTRU2,two_sample,0.050000000000000003,upu,risk,AP,-0.31066694303596321,20,condition,,,-0.311
+htru2,HTRU2,two_sample,0.050000000000000003,upu,risk,AUROC,-1.0490589280892793,20,condition,,,-1.049
+htru2,HTRU2,two_sample,0.20000000000000001,nnpu,auc,AP,0.26965368896727293,20,condition,,,+0.270
+htru2,HTRU2,two_sample,0.20000000000000001,nnpu,auc,AUROC,-0.14880617556175757,20,condition,,,-0.149
+htru2,HTRU2,two_sample,0.20000000000000001,nnpu,risk,AP,0.021891589080244023,20,condition,,,+0.022
+htru2,HTRU2,two_sample,0.20000000000000001,nnpu,risk,AUROC,-0.1197176034260361,20,condition,,,-0.120
+htru2,HTRU2,two_sample,0.20000000000000001,upu,auc,AP,0.014773648528537709,20,condition,,,+0.015
+htru2,HTRU2,two_sample,0.20000000000000001,upu,auc,AUROC,-0.32995876833768312,20,condition,,,-0.330
+htru2,HTRU2,two_sample,0.20000000000000001,upu,risk,AP,-2.3476093367525719,20,condition,,,-2.348
+htru2,HTRU2,two_sample,0.20000000000000001,upu,risk,AUROC,-2.2171651404014057,20,condition,,,-2.217
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,nnpu,auc,AP,1.060165201199883,20,condition,,,+1.060
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,nnpu,auc,AUROC,1.3035988089577373,20,condition,,,+1.304
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,nnpu,risk,AP,1.367481734167783,20,condition,,,+1.367
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,nnpu,risk,AUROC,1.6278711263791419,20,condition,,,+1.628
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,upu,auc,AP,0.42507973483731976,20,condition,,,+0.425
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,upu,auc,AUROC,0.45126872446086541,20,condition,,,+0.451
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,upu,risk,AP,1.4428306653551231,20,condition,,,+1.443
+online_shoppers,Online Shoppers,one_sample,0.050000000000000003,upu,risk,AUROC,1.627921982154706,20,condition,,,+1.628
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,nnpu,auc,AP,0.87430671433903551,20,condition,,,+0.874
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,nnpu,auc,AUROC,0.44260099321329677,20,condition,,,+0.443
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,nnpu,risk,AP,0.51732298009337263,20,condition,,,+0.517
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,nnpu,risk,AUROC,0.22266565633192403,20,condition,,,+0.223
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,upu,auc,AP,0.77192635544129151,20,condition,,,+0.772
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,upu,auc,AUROC,0.38942810137590322,20,condition,,,+0.389
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,upu,risk,AP,0.24348307505593336,20,condition,,,+0.243
+online_shoppers,Online Shoppers,one_sample,0.20000000000000001,upu,risk,AUROC,-0.10743918284939816,20,condition,,,-0.107
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,nnpu,auc,AP,0.2313372694278947,20,condition,,,+0.231
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,nnpu,auc,AUROC,0.60532676107194039,20,condition,,,+0.605
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,nnpu,risk,AP,1.0873127223685539,20,condition,,,+1.087
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,nnpu,risk,AUROC,1.5298561544388183,20,condition,,,+1.530
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,upu,auc,AP,0.058394301988761166,20,condition,,,+0.058
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,upu,auc,AUROC,0.22259255115455517,20,condition,,,+0.223
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,upu,risk,AP,1.0531740146793114,20,condition,,,+1.053
+online_shoppers,Online Shoppers,two_sample,0.050000000000000003,upu,risk,AUROC,1.4308145315293079,20,condition,,,+1.431
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,nnpu,auc,AP,0.24185545187942883,20,condition,,,+0.242
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,nnpu,auc,AUROC,0.047467509516387341,20,condition,,,+0.047
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,nnpu,risk,AP,0.35724966290738153,20,condition,,,+0.357
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,nnpu,risk,AUROC,-0.020660158822582986,20,condition,,,-0.021
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,upu,auc,AP,0.31896312011292977,20,condition,,,+0.319
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,upu,auc,AUROC,0.14907099211989794,20,condition,,,+0.149
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,upu,risk,AP,0.34159159484061785,20,condition,,,+0.342
+online_shoppers,Online Shoppers,two_sample,0.20000000000000001,upu,risk,AUROC,-0.06027045101444195,20,condition,,,-0.060
+optical_digits,Optical Digits,one_sample,0.050000000000000003,nnpu,auc,AP,5.0471511517439414,20,condition,,,+5.047
+optical_digits,Optical Digits,one_sample,0.050000000000000003,nnpu,auc,AUROC,4.1210547961835653,20,condition,,,+4.121
+optical_digits,Optical Digits,one_sample,0.050000000000000003,nnpu,risk,AP,3.8633495327537397,20,condition,,,+3.863
+optical_digits,Optical Digits,one_sample,0.050000000000000003,nnpu,risk,AUROC,3.3505647596891146,20,condition,,,+3.351
+optical_digits,Optical Digits,one_sample,0.050000000000000003,upu,auc,AP,4.6492651315331042,20,condition,,,+4.649
+optical_digits,Optical Digits,one_sample,0.050000000000000003,upu,auc,AUROC,4.1163598209220016,20,condition,,,+4.116
+optical_digits,Optical Digits,one_sample,0.050000000000000003,upu,risk,AP,4.4586243109125929,20,condition,,,+4.459
+optical_digits,Optical Digits,one_sample,0.050000000000000003,upu,risk,AUROC,3.3999084541762947,20,condition,,,+3.400
+optical_digits,Optical Digits,one_sample,0.20000000000000001,nnpu,auc,AP,4.5409710171398512,20,condition,,,+4.541
+optical_digits,Optical Digits,one_sample,0.20000000000000001,nnpu,auc,AUROC,3.6703092985285783,20,condition,,,+3.670
+optical_digits,Optical Digits,one_sample,0.20000000000000001,nnpu,risk,AP,2.8296421035488852,20,condition,,,+2.830
+optical_digits,Optical Digits,one_sample,0.20000000000000001,nnpu,risk,AUROC,2.3638395235157588,20,condition,,,+2.364
+optical_digits,Optical Digits,one_sample,0.20000000000000001,upu,auc,AP,4.8138564146601617,20,condition,,,+4.814
+optical_digits,Optical Digits,one_sample,0.20000000000000001,upu,auc,AUROC,3.9214749902755806,20,condition,,,+3.921
+optical_digits,Optical Digits,one_sample,0.20000000000000001,upu,risk,AP,3.9094651611032454,20,condition,,,+3.909
+optical_digits,Optical Digits,one_sample,0.20000000000000001,upu,risk,AUROC,3.078615440646344,20,condition,,,+3.079
+optical_digits,Optical Digits,two_sample,0.050000000000000003,nnpu,auc,AP,4.5960773215827064,20,condition,,,+4.596
+optical_digits,Optical Digits,two_sample,0.050000000000000003,nnpu,auc,AUROC,4.5352624850417387,20,condition,,,+4.535
+optical_digits,Optical Digits,two_sample,0.050000000000000003,nnpu,risk,AP,3.613096731147698,20,condition,,,+3.613
+optical_digits,Optical Digits,two_sample,0.050000000000000003,nnpu,risk,AUROC,2.846331849275189,20,condition,,,+2.846
+optical_digits,Optical Digits,two_sample,0.050000000000000003,upu,auc,AP,2.9868798978161815,20,condition,,,+2.987
+optical_digits,Optical Digits,two_sample,0.050000000000000003,upu,auc,AUROC,3.037107028093049,20,condition,,,+3.037
+optical_digits,Optical Digits,two_sample,0.050000000000000003,upu,risk,AP,4.1533372533696049,20,condition,,,+4.153
+optical_digits,Optical Digits,two_sample,0.050000000000000003,upu,risk,AUROC,3.8089999826570855,20,condition,,,+3.809
+optical_digits,Optical Digits,two_sample,0.20000000000000001,nnpu,auc,AP,4.5041741597568485,20,condition,,,+4.504
+optical_digits,Optical Digits,two_sample,0.20000000000000001,nnpu,auc,AUROC,3.5518974389467379,20,condition,,,+3.552
+optical_digits,Optical Digits,two_sample,0.20000000000000001,nnpu,risk,AP,2.957909895610912,20,condition,,,+2.958
+optical_digits,Optical Digits,two_sample,0.20000000000000001,nnpu,risk,AUROC,2.225415177034014,20,condition,,,+2.225
+optical_digits,Optical Digits,two_sample,0.20000000000000001,upu,auc,AP,3.9140906448940944,20,condition,,,+3.914
+optical_digits,Optical Digits,two_sample,0.20000000000000001,upu,auc,AUROC,3.3756066923837311,20,condition,,,+3.376
+optical_digits,Optical Digits,two_sample,0.20000000000000001,upu,risk,AP,3.7468549825770161,20,condition,,,+3.747
+optical_digits,Optical Digits,two_sample,0.20000000000000001,upu,risk,AUROC,3.3671334388773695,20,condition,,,+3.367
+phishing,Phishing Websites,one_sample,0.050000000000000003,nnpu,auc,AP,-1.8226637142026987,20,condition,,,-1.823
+phishing,Phishing Websites,one_sample,0.050000000000000003,nnpu,auc,AUROC,-1.6886266317261913,20,condition,,,-1.689
+phishing,Phishing Websites,one_sample,0.050000000000000003,nnpu,risk,AP,2.148504754967985,20,condition,,,+2.149
+phishing,Phishing Websites,one_sample,0.050000000000000003,nnpu,risk,AUROC,2.4616693238529819,20,condition,,,+2.462
+phishing,Phishing Websites,one_sample,0.050000000000000003,upu,auc,AP,-0.70727436183967152,20,condition,,,-0.707
+phishing,Phishing Websites,one_sample,0.050000000000000003,upu,auc,AUROC,-0.38121460902710186,20,condition,,,-0.381
+phishing,Phishing Websites,one_sample,0.050000000000000003,upu,risk,AP,3.2170789122382382,20,condition,,,+3.217
+phishing,Phishing Websites,one_sample,0.050000000000000003,upu,risk,AUROC,3.6556317078683263,20,condition,,,+3.656
+phishing,Phishing Websites,one_sample,0.20000000000000001,nnpu,auc,AP,0.58397036706473004,20,condition,,,+0.584
+phishing,Phishing Websites,one_sample,0.20000000000000001,nnpu,auc,AUROC,0.67587213741623797,20,condition,,,+0.676
+phishing,Phishing Websites,one_sample,0.20000000000000001,nnpu,risk,AP,0.45143888861991999,20,condition,,,+0.451
+phishing,Phishing Websites,one_sample,0.20000000000000001,nnpu,risk,AUROC,0.62395010598202794,20,condition,,,+0.624
+phishing,Phishing Websites,one_sample,0.20000000000000001,upu,auc,AP,0.051675276650654522,20,condition,,,+0.052
+phishing,Phishing Websites,one_sample,0.20000000000000001,upu,auc,AUROC,0.26982658041500851,20,condition,,,+0.270
+phishing,Phishing Websites,one_sample,0.20000000000000001,upu,risk,AP,0.223879847466808,20,condition,,,+0.224
+phishing,Phishing Websites,one_sample,0.20000000000000001,upu,risk,AUROC,0.49730616283970519,20,condition,,,+0.497
+phishing,Phishing Websites,two_sample,0.050000000000000003,nnpu,auc,AP,3.6978770520884545,20,condition,,,+3.698
+phishing,Phishing Websites,two_sample,0.050000000000000003,nnpu,auc,AUROC,4.0830111113147307,20,condition,,,+4.083
+phishing,Phishing Websites,two_sample,0.050000000000000003,nnpu,risk,AP,2.0121480447968736,20,condition,,,+2.012
+phishing,Phishing Websites,two_sample,0.050000000000000003,nnpu,risk,AUROC,2.3327194316675532,20,condition,,,+2.333
+phishing,Phishing Websites,two_sample,0.050000000000000003,upu,auc,AP,2.8590515474136557,20,condition,,,+2.859
+phishing,Phishing Websites,two_sample,0.050000000000000003,upu,auc,AUROC,2.9300060473895404,20,condition,,,+2.930
+phishing,Phishing Websites,two_sample,0.050000000000000003,upu,risk,AP,3.5623379785690537,20,condition,,,+3.562
+phishing,Phishing Websites,two_sample,0.050000000000000003,upu,risk,AUROC,3.6138192013780719,20,condition,,,+3.614
+phishing,Phishing Websites,two_sample,0.20000000000000001,nnpu,auc,AP,0.62576754416792058,20,condition,,,+0.626
+phishing,Phishing Websites,two_sample,0.20000000000000001,nnpu,auc,AUROC,0.79358243691473151,20,condition,,,+0.794
+phishing,Phishing Websites,two_sample,0.20000000000000001,nnpu,risk,AP,0.41769435938927568,20,condition,,,+0.418
+phishing,Phishing Websites,two_sample,0.20000000000000001,nnpu,risk,AUROC,0.68052984905960179,20,condition,,,+0.681
+phishing,Phishing Websites,two_sample,0.20000000000000001,upu,auc,AP,0.090174609068582906,20,condition,,,+0.090
+phishing,Phishing Websites,two_sample,0.20000000000000001,upu,auc,AUROC,0.38466589699890807,20,condition,,,+0.385
+phishing,Phishing Websites,two_sample,0.20000000000000001,upu,risk,AP,0.71676028650181911,20,condition,,,+0.717
+phishing,Phishing Websites,two_sample,0.20000000000000001,upu,risk,AUROC,1.0216881379537817,20,condition,,,+1.022
+rice,Rice,one_sample,0.050000000000000003,nnpu,auc,AP,-0.24952694308017492,20,condition,,,-0.250
+rice,Rice,one_sample,0.050000000000000003,nnpu,auc,AUROC,0.25985675690887389,20,condition,,,+0.260
+rice,Rice,one_sample,0.050000000000000003,nnpu,risk,AP,-0.087090475560870906,20,condition,,,-0.087
+rice,Rice,one_sample,0.050000000000000003,nnpu,risk,AUROC,-0.017553610626444005,20,condition,,,-0.018
+rice,Rice,one_sample,0.050000000000000003,upu,auc,AP,-0.29850541447467249,20,condition,,,-0.299
+rice,Rice,one_sample,0.050000000000000003,upu,auc,AUROC,-0.061789412956605359,20,condition,,,-0.062
+rice,Rice,one_sample,0.050000000000000003,upu,risk,AP,-0.77201812459414987,20,condition,,,-0.772
+rice,Rice,one_sample,0.050000000000000003,upu,risk,AUROC,-0.71419274497664387,20,condition,,,-0.714
+rice,Rice,one_sample,0.20000000000000001,nnpu,auc,AP,0.043203567849914304,20,condition,,,+0.043
+rice,Rice,one_sample,0.20000000000000001,nnpu,auc,AUROC,0.1520374852254186,20,condition,,,+0.152
+rice,Rice,one_sample,0.20000000000000001,nnpu,risk,AP,-0.71897733968654842,20,condition,,,-0.719
+rice,Rice,one_sample,0.20000000000000001,nnpu,risk,AUROC,-0.34808211853435966,20,condition,,,-0.348
+rice,Rice,one_sample,0.20000000000000001,upu,auc,AP,0.0067169347671008905,20,condition,,,+0.007
+rice,Rice,one_sample,0.20000000000000001,upu,auc,AUROC,0.11953340462655615,20,condition,,,+0.120
+rice,Rice,one_sample,0.20000000000000001,upu,risk,AP,-1.4768074676455845,20,condition,,,-1.477
+rice,Rice,one_sample,0.20000000000000001,upu,risk,AUROC,-1.2317780154218487,20,condition,,,-1.232
+rice,Rice,two_sample,0.050000000000000003,nnpu,auc,AP,-0.73109703702996909,20,condition,,,-0.731
+rice,Rice,two_sample,0.050000000000000003,nnpu,auc,AUROC,-0.41720605617155238,20,condition,,,-0.417
+rice,Rice,two_sample,0.050000000000000003,nnpu,risk,AP,-0.073787511284292284,20,condition,,,-0.074
+rice,Rice,two_sample,0.050000000000000003,nnpu,risk,AUROC,-0.063354815106660967,20,condition,,,-0.063
+rice,Rice,two_sample,0.050000000000000003,upu,auc,AP,-1.2587566997755173,20,condition,,,-1.259
+rice,Rice,two_sample,0.050000000000000003,upu,auc,AUROC,-0.72831654190352868,20,condition,,,-0.728
+rice,Rice,two_sample,0.050000000000000003,upu,risk,AP,-0.65400322364985941,20,condition,,,-0.654
+rice,Rice,two_sample,0.050000000000000003,upu,risk,AUROC,-0.48179208645241278,20,condition,,,-0.482
+rice,Rice,two_sample,0.20000000000000001,nnpu,auc,AP,-0.65922591401528896,20,condition,,,-0.659
+rice,Rice,two_sample,0.20000000000000001,nnpu,auc,AUROC,-0.48186244160522251,20,condition,,,-0.482
+rice,Rice,two_sample,0.20000000000000001,nnpu,risk,AP,-0.20254326760264788,20,condition,,,-0.203
+rice,Rice,two_sample,0.20000000000000001,nnpu,risk,AUROC,-0.14243400686666241,20,condition,,,-0.142
+rice,Rice,two_sample,0.20000000000000001,upu,auc,AP,-0.83308494691919976,20,condition,,,-0.833
+rice,Rice,two_sample,0.20000000000000001,upu,auc,AUROC,-0.65891118365509094,20,condition,,,-0.659
+rice,Rice,two_sample,0.20000000000000001,upu,risk,AP,-0.77171090179333324,20,condition,,,-0.772
+rice,Rice,two_sample,0.20000000000000001,upu,risk,AUROC,-0.91904936117520974,20,condition,,,-0.919
+spambase,Spambase,one_sample,0.050000000000000003,nnpu,auc,AP,1.0020015542560086,20,condition,,,+1.002
+spambase,Spambase,one_sample,0.050000000000000003,nnpu,auc,AUROC,0.62226417320511818,20,condition,,,+0.622
+spambase,Spambase,one_sample,0.050000000000000003,nnpu,risk,AP,2.5459983404291879,20,condition,,,+2.546
+spambase,Spambase,one_sample,0.050000000000000003,nnpu,risk,AUROC,1.6637071559200005,20,condition,,,+1.664
+spambase,Spambase,one_sample,0.050000000000000003,upu,auc,AP,1.9130881057490978,20,condition,,,+1.913
+spambase,Spambase,one_sample,0.050000000000000003,upu,auc,AUROC,1.3712760309126319,20,condition,,,+1.371
+spambase,Spambase,one_sample,0.050000000000000003,upu,risk,AP,2.2242497939542032,20,condition,,,+2.224
+spambase,Spambase,one_sample,0.050000000000000003,upu,risk,AUROC,0.76847973570880523,20,condition,,,+0.768
+spambase,Spambase,one_sample,0.20000000000000001,nnpu,auc,AP,1.3656809029403867,20,condition,,,+1.366
+spambase,Spambase,one_sample,0.20000000000000001,nnpu,auc,AUROC,0.88608341690755876,20,condition,,,+0.886
+spambase,Spambase,one_sample,0.20000000000000001,nnpu,risk,AP,1.3805720493739311,20,condition,,,+1.381
+spambase,Spambase,one_sample,0.20000000000000001,nnpu,risk,AUROC,0.91286649755176419,20,condition,,,+0.913
+spambase,Spambase,one_sample,0.20000000000000001,upu,auc,AP,1.5152931318976492,20,condition,,,+1.515
+spambase,Spambase,one_sample,0.20000000000000001,upu,auc,AUROC,0.86213202760899343,20,condition,,,+0.862
+spambase,Spambase,one_sample,0.20000000000000001,upu,risk,AP,1.0972184874678503,20,condition,,,+1.097
+spambase,Spambase,one_sample,0.20000000000000001,upu,risk,AUROC,0.61925550115037586,20,condition,,,+0.619
+spambase,Spambase,two_sample,0.050000000000000003,nnpu,auc,AP,0.41657323654852763,20,condition,,,+0.417
+spambase,Spambase,two_sample,0.050000000000000003,nnpu,auc,AUROC,0.2106660374019253,20,condition,,,+0.211
+spambase,Spambase,two_sample,0.050000000000000003,nnpu,risk,AP,3.9287633731478868,20,condition,,,+3.929
+spambase,Spambase,two_sample,0.050000000000000003,nnpu,risk,AUROC,2.6294613887086329,20,condition,,,+2.629
+spambase,Spambase,two_sample,0.050000000000000003,upu,auc,AP,1.2226560999305034,20,condition,,,+1.223
+spambase,Spambase,two_sample,0.050000000000000003,upu,auc,AUROC,0.66382514305940599,20,condition,,,+0.664
+spambase,Spambase,two_sample,0.050000000000000003,upu,risk,AP,3.3388560694325151,20,condition,,,+3.339
+spambase,Spambase,two_sample,0.050000000000000003,upu,risk,AUROC,1.5174325998466109,20,condition,,,+1.517
+spambase,Spambase,two_sample,0.20000000000000001,nnpu,auc,AP,1.2275664645786961,20,condition,,,+1.228
+spambase,Spambase,two_sample,0.20000000000000001,nnpu,auc,AUROC,0.48982360922659784,20,condition,,,+0.490
+spambase,Spambase,two_sample,0.20000000000000001,nnpu,risk,AP,2.0974769807006792,20,condition,,,+2.097
+spambase,Spambase,two_sample,0.20000000000000001,nnpu,risk,AUROC,1.2089552238805985,20,condition,,,+1.209
+spambase,Spambase,two_sample,0.20000000000000001,upu,auc,AP,1.6008382650624786,20,condition,,,+1.601
+spambase,Spambase,two_sample,0.20000000000000001,upu,auc,AUROC,0.82248834876998633,20,condition,,,+0.822
+spambase,Spambase,two_sample,0.20000000000000001,upu,risk,AP,2.1021904446992812,20,condition,,,+2.102
+spambase,Spambase,two_sample,0.20000000000000001,upu,risk,AUROC,1.2821072503097164,20,condition,,,+1.282
+credit_default,Credit Default,,,nnpu,auc,AP,0.4757938140162562,80,dataset_equal_four_conditions,4,,+0.476
+credit_default,Credit Default,,,nnpu,auc,AUROC,0.83716184934153381,80,dataset_equal_four_conditions,4,,+0.837
+credit_default,Credit Default,,,nnpu,risk,AP,0.12564668098619058,80,dataset_equal_four_conditions,4,,+0.126
+credit_default,Credit Default,,,nnpu,risk,AUROC,0.24011876253754144,80,dataset_equal_four_conditions,4,,+0.240
+credit_default,Credit Default,,,upu,auc,AP,0.78095567408099154,80,dataset_equal_four_conditions,4,,+0.781
+credit_default,Credit Default,,,upu,auc,AUROC,0.95648586921926615,80,dataset_equal_four_conditions,4,,+0.956
+credit_default,Credit Default,,,upu,risk,AP,0.091675107331865596,80,dataset_equal_four_conditions,4,,+0.092
+credit_default,Credit Default,,,upu,risk,AUROC,0.21175508387885039,80,dataset_equal_four_conditions,4,,+0.212
+dry_bean,Dry Bean,,,nnpu,auc,AP,-0.72654306930720636,80,dataset_equal_four_conditions,4,,-0.727
+dry_bean,Dry Bean,,,nnpu,auc,AUROC,-0.2434269217207331,80,dataset_equal_four_conditions,4,,-0.243
+dry_bean,Dry Bean,,,nnpu,risk,AP,-0.088990903509353764,80,dataset_equal_four_conditions,4,,-0.089
+dry_bean,Dry Bean,,,nnpu,risk,AUROC,-0.015951163610719299,80,dataset_equal_four_conditions,4,,-0.016
+dry_bean,Dry Bean,,,upu,auc,AP,-1.0947637591460384,80,dataset_equal_four_conditions,4,,-1.095
+dry_bean,Dry Bean,,,upu,auc,AUROC,-0.38828102961918232,80,dataset_equal_four_conditions,4,,-0.388
+dry_bean,Dry Bean,,,upu,risk,AP,-0.91243598046747121,80,dataset_equal_four_conditions,4,,-0.912
+dry_bean,Dry Bean,,,upu,risk,AUROC,-0.31331188293370937,80,dataset_equal_four_conditions,4,,-0.313
+htru2,HTRU2,,,nnpu,auc,AP,0.56649409514639459,80,dataset_equal_four_conditions,4,,+0.566
+htru2,HTRU2,,,nnpu,auc,AUROC,-0.24324852623526266,80,dataset_equal_four_conditions,4,,-0.243
+htru2,HTRU2,,,nnpu,risk,AP,0.22845501038963767,80,dataset_equal_four_conditions,4,,+0.228
+htru2,HTRU2,,,nnpu,risk,AUROC,-0.10805908840338288,80,dataset_equal_four_conditions,4,,-0.108
+htru2,HTRU2,,,upu,auc,AP,0.089164246858831481,80,dataset_equal_four_conditions,4,,+0.089
+htru2,HTRU2,,,upu,auc,AUROC,-0.63803841163411579,80,dataset_equal_four_conditions,4,,-0.638
+htru2,HTRU2,,,upu,risk,AP,-1.6103930503571193,80,dataset_equal_four_conditions,4,,-1.610
+htru2,HTRU2,,,upu,risk,AUROC,-1.6985554621171197,80,dataset_equal_four_conditions,4,,-1.699
+online_shoppers,Online Shoppers,,,nnpu,auc,AP,0.6019161592115605,80,dataset_equal_four_conditions,4,,+0.602
+online_shoppers,Online Shoppers,,,nnpu,auc,AUROC,0.59974851818984043,80,dataset_equal_four_conditions,4,,+0.600
+online_shoppers,Online Shoppers,,,nnpu,risk,AP,0.83234177488427274,80,dataset_equal_four_conditions,4,,+0.832
+online_shoppers,Online Shoppers,,,nnpu,risk,AUROC,0.83993319458182536,80,dataset_equal_four_conditions,4,,+0.840
+online_shoppers,Online Shoppers,,,upu,auc,AP,0.39359087809507554,80,dataset_equal_four_conditions,4,,+0.394
+online_shoppers,Online Shoppers,,,upu,auc,AUROC,0.30309009227780542,80,dataset_equal_four_conditions,4,,+0.303
+online_shoppers,Online Shoppers,,,upu,risk,AP,0.77026983748274636,80,dataset_equal_four_conditions,4,,+0.770
+online_shoppers,Online Shoppers,,,upu,risk,AUROC,0.72275671995504343,80,dataset_equal_four_conditions,4,,+0.723
+optical_digits,Optical Digits,,,nnpu,auc,AP,4.6720934125558369,80,dataset_equal_four_conditions,4,,+4.672
+optical_digits,Optical Digits,,,nnpu,auc,AUROC,3.9696310046751551,80,dataset_equal_four_conditions,4,,+3.970
+optical_digits,Optical Digits,,,nnpu,risk,AP,3.315999565765309,80,dataset_equal_four_conditions,4,,+3.316
+optical_digits,Optical Digits,,,nnpu,risk,AUROC,2.6965378273785192,80,dataset_equal_four_conditions,4,,+2.697
+optical_digits,Optical Digits,,,upu,auc,AP,4.091023022225885,80,dataset_equal_four_conditions,4,,+4.091
+optical_digits,Optical Digits,,,upu,auc,AUROC,3.6126371329185907,80,dataset_equal_four_conditions,4,,+3.613
+optical_digits,Optical Digits,,,upu,risk,AP,4.0670704269906146,80,dataset_equal_four_conditions,4,,+4.067
+optical_digits,Optical Digits,,,upu,risk,AUROC,3.4136643290892734,80,dataset_equal_four_conditions,4,,+3.414
+phishing,Phishing Websites,,,nnpu,auc,AP,0.77123781227960164,80,dataset_equal_four_conditions,4,,+0.771
+phishing,Phishing Websites,,,nnpu,auc,AUROC,0.96595976347987733,80,dataset_equal_four_conditions,4,,+0.966
+phishing,Phishing Websites,,,nnpu,risk,AP,1.2574465119435136,80,dataset_equal_four_conditions,4,,+1.257
+phishing,Phishing Websites,,,nnpu,risk,AUROC,1.5247171776405413,80,dataset_equal_four_conditions,4,,+1.525
+phishing,Phishing Websites,,,upu,auc,AP,0.57340676782330535,80,dataset_equal_four_conditions,4,,+0.573
+phishing,Phishing Websites,,,upu,auc,AUROC,0.80082097894408877,80,dataset_equal_four_conditions,4,,+0.801
+phishing,Phishing Websites,,,upu,risk,AP,1.9300142561939797,80,dataset_equal_four_conditions,4,,+1.930
+phishing,Phishing Websites,,,upu,risk,AUROC,2.1971113025099713,80,dataset_equal_four_conditions,4,,+2.197
+rice,Rice,,,nnpu,auc,AP,-0.39916158156887971,80,dataset_equal_four_conditions,4,,-0.399
+rice,Rice,,,nnpu,auc,AUROC,-0.1217935639106206,80,dataset_equal_four_conditions,4,,-0.122
+rice,Rice,,,nnpu,risk,AP,-0.27059964853358986,80,dataset_equal_four_conditions,4,,-0.271
+rice,Rice,,,nnpu,risk,AUROC,-0.14285613778353176,80,dataset_equal_four_conditions,4,,-0.143
+rice,Rice,,,upu,auc,AP,-0.59590753160057219,80,dataset_equal_four_conditions,4,,-0.596
+rice,Rice,,,upu,auc,AUROC,-0.33237093347216717,80,dataset_equal_four_conditions,4,,-0.332
+rice,Rice,,,upu,risk,AP,-0.91863492942073166,80,dataset_equal_four_conditions,4,,-0.919
+rice,Rice,,,upu,risk,AUROC,-0.83670305200652884,80,dataset_equal_four_conditions,4,,-0.837
+spambase,Spambase,,,nnpu,auc,AP,1.0029555395809049,80,dataset_equal_four_conditions,4,,+1.003
+spambase,Spambase,,,nnpu,auc,AUROC,0.55220930918529998,80,dataset_equal_four_conditions,4,,+0.552
+spambase,Spambase,,,nnpu,risk,AP,2.4882026859129214,80,dataset_equal_four_conditions,4,,+2.488
+spambase,Spambase,,,nnpu,risk,AUROC,1.6037475665152492,80,dataset_equal_four_conditions,4,,+1.604
+spambase,Spambase,,,upu,auc,AP,1.5629689006599323,80,dataset_equal_four_conditions,4,,+1.563
+spambase,Spambase,,,upu,auc,AUROC,0.92993038758775448,80,dataset_equal_four_conditions,4,,+0.930
+spambase,Spambase,,,upu,risk,AP,2.1906286988884625,80,dataset_equal_four_conditions,4,,+2.191
+spambase,Spambase,,,upu,risk,AUROC,1.0468187717538771,80,dataset_equal_four_conditions,4,,+1.047
+,Equal-dataset mean,,,nnpu,auc,AP,0.87059827273930857,,equal_dataset,,8,+0.871
+,Equal-dataset mean,,,nnpu,auc,AUROC,0.78953017912563628,,equal_dataset,,8,+0.790
+,Equal-dataset mean,,,nnpu,risk,AP,0.98606270972986265,,equal_dataset,,8,+0.986
+,Equal-dataset mean,,,nnpu,risk,AUROC,0.82977351735700533,,equal_dataset,,8,+0.830
+,Equal-dataset mean,,,upu,auc,AP,0.72505477487467629,,equal_dataset,,8,+0.725
+,Equal-dataset mean,,,upu,auc,AUROC,0.65553426077775501,,equal_dataset,,8,+0.656
+,Equal-dataset mean,,,upu,risk,AP,0.70102429583029335,,equal_dataset,,8,+0.701
+,Equal-dataset mean,,,upu,risk,AUROC,0.59294197626620726,,equal_dataset,,8,+0.593

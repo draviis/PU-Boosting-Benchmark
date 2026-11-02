@@ -1,0 +1,217 @@
+dataset_id,dataset,design,number,method_id,method_name,difference_pp,metric,record_type,low_n,high_n,n_datasets,n_positive,n_negative,n_zero,display
+spambase,Spambase,one_sample,3,M003,Logistic probability correction,5.6958586514070042,AUROC,dataset,20,20,,,,,+5.696
+spambase,Spambase,one_sample,5,M005,nnPU logistic,2.6859477316972358,AUROC,dataset,20,20,,,,,+2.686
+spambase,Spambase,one_sample,10,M010,Naive CatBoost,4.0316058049672643,AUROC,dataset,20,20,,,,,+4.032
+spambase,Spambase,one_sample,20,M020,RN CatBoost,2.5875464574361406,AUROC,dataset,20,20,,,,,+2.588
+spambase,Spambase,one_sample,25,M025,CS CatBoost,5.5873547283346152,AUROC,dataset,20,20,,,,,+5.587
+spambase,Spambase,one_sample,27,M027,PU gradient boosting,16.478039643678834,AUROC,dataset,20,20,,,,,+16.478
+spambase,Spambase,two_sample,3,M003,Logistic probability correction,5.4946905787268907,AUROC,dataset,20,20,,,,,+5.495
+spambase,Spambase,two_sample,5,M005,nnPU logistic,3.0548345230369978,AUROC,dataset,20,20,,,,,+3.055
+spambase,Spambase,two_sample,10,M010,Naive CatBoost,3.2578461447702156,AUROC,dataset,20,20,,,,,+3.258
+spambase,Spambase,two_sample,20,M020,RN CatBoost,2.358916878060302,AUROC,dataset,20,20,,,,,+2.359
+spambase,Spambase,two_sample,25,M025,CS CatBoost,3.5947289245472192,AUROC,dataset,20,20,,,,,+3.595
+spambase,Spambase,two_sample,27,M027,PU gradient boosting,7.8840776355377233,AUROC,dataset,20,20,,,,,+7.884
+htru2,HTRU2,one_sample,3,M003,Logistic probability correction,0.21325057000568526,AUROC,dataset,20,20,,,,,+0.213
+htru2,HTRU2,one_sample,5,M005,nnPU logistic,0.52496774967750737,AUROC,dataset,20,20,,,,,+0.525
+htru2,HTRU2,one_sample,10,M010,Naive CatBoost,0.72047126721267452,AUROC,dataset,20,20,,,,,+0.720
+htru2,HTRU2,one_sample,20,M020,RN CatBoost,0.53966555290553275,AUROC,dataset,20,20,,,,,+0.540
+htru2,HTRU2,one_sample,25,M025,CS CatBoost,1.1165455404553937,AUROC,dataset,20,20,,,,,+1.117
+htru2,HTRU2,one_sample,27,M027,PU gradient boosting,1.8702374523745235,AUROC,dataset,20,20,,,,,+1.870
+htru2,HTRU2,two_sample,3,M003,Logistic probability correction,0.51920675456753607,AUROC,dataset,20,20,,,,,+0.519
+htru2,HTRU2,two_sample,5,M005,nnPU logistic,0.58744806198063326,AUROC,dataset,20,20,,,,,+0.587
+htru2,HTRU2,two_sample,10,M010,Naive CatBoost,0.63197741352413184,AUROC,dataset,20,20,,,,,+0.632
+htru2,HTRU2,two_sample,20,M020,RN CatBoost,0.68673030480305153,AUROC,dataset,20,20,,,,,+0.687
+htru2,HTRU2,two_sample,25,M025,CS CatBoost,0.93789375393754648,AUROC,dataset,20,20,,,,,+0.938
+htru2,HTRU2,two_sample,27,M027,PU gradient boosting,2.1265923596735958,AUROC,dataset,20,20,,,,,+2.127
+rice,Rice,one_sample,3,M003,Logistic probability correction,0.37576687116563923,AUROC,dataset,20,20,,,,,+0.376
+rice,Rice,one_sample,5,M005,nnPU logistic,0.85492063938763518,AUROC,dataset,20,20,,,,,+0.855
+rice,Rice,one_sample,10,M010,Naive CatBoost,1.4352451173524017,AUROC,dataset,20,20,,,,,+1.435
+rice,Rice,one_sample,20,M020,RN CatBoost,-0.061455225980755479,AUROC,dataset,20,20,,,,,-0.061
+rice,Rice,one_sample,25,M025,CS CatBoost,1.6857446389373365,AUROC,dataset,20,20,,,,,+1.686
+rice,Rice,one_sample,27,M027,PU gradient boosting,2.5081963753025294,AUROC,dataset,20,20,,,,,+2.508
+rice,Rice,two_sample,3,M003,Logistic probability correction,0.47897788033995914,AUROC,dataset,20,20,,,,,+0.479
+rice,Rice,two_sample,5,M005,nnPU logistic,0.4981848370574693,AUROC,dataset,20,20,,,,,+0.498
+rice,Rice,two_sample,10,M010,Naive CatBoost,1.3944039511453732,AUROC,dataset,20,20,,,,,+1.394
+rice,Rice,two_sample,20,M020,RN CatBoost,0.30562278381268682,AUROC,dataset,20,20,,,,,+0.306
+rice,Rice,two_sample,25,M025,CS CatBoost,1.5610753081555684,AUROC,dataset,20,20,,,,,+1.561
+rice,Rice,two_sample,27,M027,PU gradient boosting,1.8896690493611756,AUROC,dataset,20,20,,,,,+1.890
+phishing,Phishing Websites,one_sample,3,M003,Logistic probability correction,3.949372965114506,AUROC,dataset,20,20,,,,,+3.949
+phishing,Phishing Websites,one_sample,5,M005,nnPU logistic,2.702969329350613,AUROC,dataset,20,20,,,,,+2.703
+phishing,Phishing Websites,one_sample,10,M010,Naive CatBoost,3.4998961559371322,AUROC,dataset,20,20,,,,,+3.500
+phishing,Phishing Websites,one_sample,20,M020,RN CatBoost,1.9223750358872804,AUROC,dataset,20,20,,,,,+1.922
+phishing,Phishing Websites,one_sample,25,M025,CS CatBoost,3.2956135046149693,AUROC,dataset,20,20,,,,,+3.296
+phishing,Phishing Websites,one_sample,27,M027,PU gradient boosting,3.281907615434887,AUROC,dataset,20,20,,,,,+3.282
+phishing,Phishing Websites,two_sample,3,M003,Logistic probability correction,3.9669959134307042,AUROC,dataset,20,20,,,,,+3.967
+phishing,Phishing Websites,two_sample,5,M005,nnPU logistic,3.229977948407825,AUROC,dataset,20,20,,,,,+3.230
+phishing,Phishing Websites,two_sample,10,M010,Naive CatBoost,3.020075500742192,AUROC,dataset,20,20,,,,,+3.020
+phishing,Phishing Websites,two_sample,20,M020,RN CatBoost,2.166973617499568,AUROC,dataset,20,20,,,,,+2.167
+phishing,Phishing Websites,two_sample,25,M025,CS CatBoost,2.8371725094223144,AUROC,dataset,20,20,,,,,+2.837
+phishing,Phishing Websites,two_sample,27,M027,PU gradient boosting,1.7216658420226238,AUROC,dataset,20,20,,,,,+1.722
+credit_default,Credit Default,one_sample,3,M003,Logistic probability correction,1.7748762832781151,AUROC,dataset,20,20,,,,,+1.775
+credit_default,Credit Default,one_sample,5,M005,nnPU logistic,1.491490531408457,AUROC,dataset,20,20,,,,,+1.491
+credit_default,Credit Default,one_sample,10,M010,Naive CatBoost,1.6626491649101016,AUROC,dataset,20,20,,,,,+1.663
+credit_default,Credit Default,one_sample,20,M020,RN CatBoost,1.0557818608072256,AUROC,dataset,20,20,,,,,+1.056
+credit_default,Credit Default,one_sample,25,M025,CS CatBoost,2.3321620002056842,AUROC,dataset,20,20,,,,,+2.332
+credit_default,Credit Default,one_sample,27,M027,PU gradient boosting,4.4510608832593608,AUROC,dataset,20,20,,,,,+4.451
+credit_default,Credit Default,two_sample,3,M003,Logistic probability correction,1.6130322949877707,AUROC,dataset,20,20,,,,,+1.613
+credit_default,Credit Default,two_sample,5,M005,nnPU logistic,1.2390631595237567,AUROC,dataset,20,20,,,,,+1.239
+credit_default,Credit Default,two_sample,10,M010,Naive CatBoost,1.6036608729422031,AUROC,dataset,20,20,,,,,+1.604
+credit_default,Credit Default,two_sample,20,M020,RN CatBoost,0.24381027063732352,AUROC,dataset,20,20,,,,,+0.244
+credit_default,Credit Default,two_sample,25,M025,CS CatBoost,1.9445891352498856,AUROC,dataset,20,20,,,,,+1.945
+credit_default,Credit Default,two_sample,27,M027,PU gradient boosting,1.2492765009118445,AUROC,dataset,20,20,,,,,+1.249
+dry_bean,Dry Bean,one_sample,3,M003,Logistic probability correction,0.42928067700988004,AUROC,dataset,20,20,,,,,+0.429
+dry_bean,Dry Bean,one_sample,5,M005,nnPU logistic,0.53775916784203348,AUROC,dataset,20,20,,,,,+0.538
+dry_bean,Dry Bean,one_sample,10,M010,Naive CatBoost,0.36656205923837337,AUROC,dataset,20,20,,,,,+0.367
+dry_bean,Dry Bean,one_sample,20,M020,RN CatBoost,0.25553949224258465,AUROC,dataset,20,20,,,,,+0.256
+dry_bean,Dry Bean,one_sample,25,M025,CS CatBoost,0.53179478138224434,AUROC,dataset,20,20,,,,,+0.532
+dry_bean,Dry Bean,one_sample,27,M027,PU gradient boosting,2.612492947813827,AUROC,dataset,20,20,,,,,+2.612
+dry_bean,Dry Bean,two_sample,3,M003,Logistic probability correction,0.47964739069109585,AUROC,dataset,20,20,,,,,+0.480
+dry_bean,Dry Bean,two_sample,5,M005,nnPU logistic,0.53819816643161378,AUROC,dataset,20,20,,,,,+0.538
+dry_bean,Dry Bean,two_sample,10,M010,Naive CatBoost,0.81495063469674278,AUROC,dataset,20,20,,,,,+0.815
+dry_bean,Dry Bean,two_sample,20,M020,RN CatBoost,0.13401622002821023,AUROC,dataset,20,20,,,,,+0.134
+dry_bean,Dry Bean,two_sample,25,M025,CS CatBoost,1.1098801128349711,AUROC,dataset,20,20,,,,,+1.110
+dry_bean,Dry Bean,two_sample,27,M027,PU gradient boosting,1.2681488011283548,AUROC,dataset,20,20,,,,,+1.268
+optical_digits,Optical Digits,one_sample,3,M003,Logistic probability correction,5.0063673279272969,AUROC,dataset,20,20,,,,,+5.006
+optical_digits,Optical Digits,one_sample,5,M005,nnPU logistic,3.5489243675410065,AUROC,dataset,20,20,,,,,+3.549
+optical_digits,Optical Digits,one_sample,10,M010,Naive CatBoost,4.2472616773573391,AUROC,dataset,20,20,,,,,+4.247
+optical_digits,Optical Digits,one_sample,20,M020,RN CatBoost,3.6880764971272573,AUROC,dataset,20,20,,,,,+3.688
+optical_digits,Optical Digits,one_sample,25,M025,CS CatBoost,4.8414609672887803,AUROC,dataset,20,20,,,,,+4.841
+optical_digits,Optical Digits,one_sample,27,M027,PU gradient boosting,9.820240670130298,AUROC,dataset,20,20,,,,,+9.820
+optical_digits,Optical Digits,two_sample,3,M003,Logistic probability correction,3.9016173508447216,AUROC,dataset,20,20,,,,,+3.902
+optical_digits,Optical Digits,two_sample,5,M005,nnPU logistic,3.108234664526055,AUROC,dataset,20,20,,,,,+3.108
+optical_digits,Optical Digits,two_sample,10,M010,Naive CatBoost,4.0011533039494784,AUROC,dataset,20,20,,,,,+4.001
+optical_digits,Optical Digits,two_sample,20,M020,RN CatBoost,3.0619166895840877,AUROC,dataset,20,20,,,,,+3.062
+optical_digits,Optical Digits,two_sample,25,M025,CS CatBoost,4.1243809198187265,AUROC,dataset,20,20,,,,,+4.124
+optical_digits,Optical Digits,two_sample,27,M027,PU gradient boosting,6.6307761202904718,AUROC,dataset,20,20,,,,,+6.631
+online_shoppers,Online Shoppers,one_sample,3,M003,Logistic probability correction,6.3118565155148243,AUROC,dataset,20,20,,,,,+6.312
+online_shoppers,Online Shoppers,one_sample,5,M005,nnPU logistic,6.6394058519741002,AUROC,dataset,20,20,,,,,+6.639
+online_shoppers,Online Shoppers,one_sample,10,M010,Naive CatBoost,3.8217511423478623,AUROC,dataset,20,20,,,,,+3.822
+online_shoppers,Online Shoppers,one_sample,20,M020,RN CatBoost,3.5425147926737233,AUROC,dataset,20,20,,,,,+3.543
+online_shoppers,Online Shoppers,one_sample,25,M025,CS CatBoost,4.7275211115038296,AUROC,dataset,20,20,,,,,+4.728
+online_shoppers,Online Shoppers,one_sample,27,M027,PU gradient boosting,6.6353755317607011,AUROC,dataset,20,20,,,,,+6.635
+online_shoppers,Online Shoppers,two_sample,3,M003,Logistic probability correction,5.5070257253940653,AUROC,dataset,20,20,,,,,+5.507
+online_shoppers,Online Shoppers,two_sample,5,M005,nnPU logistic,5.5033450386376748,AUROC,dataset,20,20,,,,,+5.503
+online_shoppers,Online Shoppers,two_sample,10,M010,Naive CatBoost,2.8954004765186059,AUROC,dataset,20,20,,,,,+2.895
+online_shoppers,Online Shoppers,two_sample,20,M020,RN CatBoost,2.9794046822912645,AUROC,dataset,20,20,,,,,+2.979
+online_shoppers,Online Shoppers,two_sample,25,M025,CS CatBoost,3.8683699961095219,AUROC,dataset,20,20,,,,,+3.868
+online_shoppers,Online Shoppers,two_sample,27,M027,PU gradient boosting,3.0868915424302368,AUROC,dataset,20,20,,,,,+3.087
+spambase,Spambase,one_sample,3,M003,Logistic probability correction,7.998762756203992,AP,dataset,20,20,,,,,+7.999
+spambase,Spambase,one_sample,5,M005,nnPU logistic,4.2627371026874528,AP,dataset,20,20,,,,,+4.263
+spambase,Spambase,one_sample,10,M010,Naive CatBoost,5.7514600674125944,AP,dataset,20,20,,,,,+5.751
+spambase,Spambase,one_sample,20,M020,RN CatBoost,3.4844245441651656,AP,dataset,20,20,,,,,+3.484
+spambase,Spambase,one_sample,25,M025,CS CatBoost,7.606098173805087,AP,dataset,20,20,,,,,+7.606
+spambase,Spambase,one_sample,27,M027,PU gradient boosting,21.59633811708418,AP,dataset,20,20,,,,,+21.596
+spambase,Spambase,two_sample,3,M003,Logistic probability correction,7.6220406067918578,AP,dataset,20,20,,,,,+7.622
+spambase,Spambase,two_sample,5,M005,nnPU logistic,4.3134598886247826,AP,dataset,20,20,,,,,+4.313
+spambase,Spambase,two_sample,10,M010,Naive CatBoost,3.9038000736179468,AP,dataset,20,20,,,,,+3.904
+spambase,Spambase,two_sample,20,M020,RN CatBoost,2.8660090269409855,AP,dataset,20,20,,,,,+2.866
+spambase,Spambase,two_sample,25,M025,CS CatBoost,4.2604577588135957,AP,dataset,20,20,,,,,+4.260
+spambase,Spambase,two_sample,27,M027,PU gradient boosting,11.754277785034873,AP,dataset,20,20,,,,,+11.754
+htru2,HTRU2,one_sample,3,M003,Logistic probability correction,1.2829782914287269,AP,dataset,20,20,,,,,+1.283
+htru2,HTRU2,one_sample,5,M005,nnPU logistic,1.4010255385178416,AP,dataset,20,20,,,,,+1.401
+htru2,HTRU2,one_sample,10,M010,Naive CatBoost,3.8200488664562493,AP,dataset,20,20,,,,,+3.820
+htru2,HTRU2,one_sample,20,M020,RN CatBoost,0.41454589677677456,AP,dataset,20,20,,,,,+0.415
+htru2,HTRU2,one_sample,25,M025,CS CatBoost,5.2057905524755199,AP,dataset,20,20,,,,,+5.206
+htru2,HTRU2,one_sample,27,M027,PU gradient boosting,4.8076431962696065,AP,dataset,20,20,,,,,+4.808
+htru2,HTRU2,two_sample,3,M003,Logistic probability correction,1.9482496340626043,AP,dataset,20,20,,,,,+1.948
+htru2,HTRU2,two_sample,5,M005,nnPU logistic,1.2544093635161624,AP,dataset,20,20,,,,,+1.254
+htru2,HTRU2,two_sample,10,M010,Naive CatBoost,1.6727649502542574,AP,dataset,20,20,,,,,+1.673
+htru2,HTRU2,two_sample,20,M020,RN CatBoost,1.0580091546547488,AP,dataset,20,20,,,,,+1.058
+htru2,HTRU2,two_sample,25,M025,CS CatBoost,3.333439927471793,AP,dataset,20,20,,,,,+3.333
+htru2,HTRU2,two_sample,27,M027,PU gradient boosting,2.0810782865677724,AP,dataset,20,20,,,,,+2.081
+rice,Rice,one_sample,3,M003,Logistic probability correction,0.53450202874166797,AP,dataset,20,20,,,,,+0.535
+rice,Rice,one_sample,5,M005,nnPU logistic,1.0097751778457953,AP,dataset,20,20,,,,,+1.010
+rice,Rice,one_sample,10,M010,Naive CatBoost,2.6191330979554062,AP,dataset,20,20,,,,,+2.619
+rice,Rice,one_sample,20,M020,RN CatBoost,-0.5253524259910658,AP,dataset,20,20,,,,,-0.525
+rice,Rice,one_sample,25,M025,CS CatBoost,3.0722065000057586,AP,dataset,20,20,,,,,+3.072
+rice,Rice,one_sample,27,M027,PU gradient boosting,3.8904953213766746,AP,dataset,20,20,,,,,+3.890
+rice,Rice,two_sample,3,M003,Logistic probability correction,0.54412653041365777,AP,dataset,20,20,,,,,+0.544
+rice,Rice,two_sample,5,M005,nnPU logistic,0.63420678071605119,AP,dataset,20,20,,,,,+0.634
+rice,Rice,two_sample,10,M010,Naive CatBoost,2.2436342917681706,AP,dataset,20,20,,,,,+2.244
+rice,Rice,two_sample,20,M020,RN CatBoost,-0.037281474870298759,AP,dataset,20,20,,,,,-0.037
+rice,Rice,two_sample,25,M025,CS CatBoost,2.3029761236701973,AP,dataset,20,20,,,,,+2.303
+rice,Rice,two_sample,27,M027,PU gradient boosting,2.1295413523330864,AP,dataset,20,20,,,,,+2.130
+phishing,Phishing Websites,one_sample,3,M003,Logistic probability correction,3.7685824745150032,AP,dataset,20,20,,,,,+3.769
+phishing,Phishing Websites,one_sample,5,M005,nnPU logistic,2.5660874021212199,AP,dataset,20,20,,,,,+2.566
+phishing,Phishing Websites,one_sample,10,M010,Naive CatBoost,3.7598587670151118,AP,dataset,20,20,,,,,+3.760
+phishing,Phishing Websites,one_sample,20,M020,RN CatBoost,1.6865146987650736,AP,dataset,20,20,,,,,+1.687
+phishing,Phishing Websites,one_sample,25,M025,CS CatBoost,3.4831409356782417,AP,dataset,20,20,,,,,+3.483
+phishing,Phishing Websites,one_sample,27,M027,PU gradient boosting,3.9288887167726272,AP,dataset,20,20,,,,,+3.929
+phishing,Phishing Websites,two_sample,3,M003,Logistic probability correction,3.8034698862199567,AP,dataset,20,20,,,,,+3.803
+phishing,Phishing Websites,two_sample,5,M005,nnPU logistic,3.1186050751486505,AP,dataset,20,20,,,,,+3.119
+phishing,Phishing Websites,two_sample,10,M010,Naive CatBoost,3.1946220531349545,AP,dataset,20,20,,,,,+3.195
+phishing,Phishing Websites,two_sample,20,M020,RN CatBoost,1.9603729757504018,AP,dataset,20,20,,,,,+1.960
+phishing,Phishing Websites,two_sample,25,M025,CS CatBoost,2.8791064423170809,AP,dataset,20,20,,,,,+2.879
+phishing,Phishing Websites,two_sample,27,M027,PU gradient boosting,2.1748902163455264,AP,dataset,20,20,,,,,+2.175
+credit_default,Credit Default,one_sample,3,M003,Logistic probability correction,3.8417347702044911,AP,dataset,20,20,,,,,+3.842
+credit_default,Credit Default,one_sample,5,M005,nnPU logistic,3.4218675705070476,AP,dataset,20,20,,,,,+3.422
+credit_default,Credit Default,one_sample,10,M010,Naive CatBoost,2.86128585719293,AP,dataset,20,20,,,,,+2.861
+credit_default,Credit Default,one_sample,20,M020,RN CatBoost,2.1373535045599024,AP,dataset,20,20,,,,,+2.137
+credit_default,Credit Default,one_sample,25,M025,CS CatBoost,4.0639891592059163,AP,dataset,20,20,,,,,+4.064
+credit_default,Credit Default,one_sample,27,M027,PU gradient boosting,8.4342246489870938,AP,dataset,20,20,,,,,+8.434
+credit_default,Credit Default,two_sample,3,M003,Logistic probability correction,3.2142382750813936,AP,dataset,20,20,,,,,+3.214
+credit_default,Credit Default,two_sample,5,M005,nnPU logistic,2.6029787308601948,AP,dataset,20,20,,,,,+2.603
+credit_default,Credit Default,two_sample,10,M010,Naive CatBoost,2.5360137975877994,AP,dataset,20,20,,,,,+2.536
+credit_default,Credit Default,two_sample,20,M020,RN CatBoost,1.1244748149563666,AP,dataset,20,20,,,,,+1.124
+credit_default,Credit Default,two_sample,25,M025,CS CatBoost,2.9003839441193446,AP,dataset,20,20,,,,,+2.900
+credit_default,Credit Default,two_sample,27,M027,PU gradient boosting,2.7610823519153782,AP,dataset,20,20,,,,,+2.761
+dry_bean,Dry Bean,one_sample,3,M003,Logistic probability correction,0.94988089612126902,AP,dataset,20,20,,,,,+0.950
+dry_bean,Dry Bean,one_sample,5,M005,nnPU logistic,1.1773113019794779,AP,dataset,20,20,,,,,+1.177
+dry_bean,Dry Bean,one_sample,10,M010,Naive CatBoost,1.2358967840408464,AP,dataset,20,20,,,,,+1.236
+dry_bean,Dry Bean,one_sample,20,M020,RN CatBoost,0.52616318016343033,AP,dataset,20,20,,,,,+0.526
+dry_bean,Dry Bean,one_sample,25,M025,CS CatBoost,2.2430158609686446,AP,dataset,20,20,,,,,+2.243
+dry_bean,Dry Bean,one_sample,27,M027,PU gradient boosting,5.8948230721592392,AP,dataset,20,20,,,,,+5.895
+dry_bean,Dry Bean,two_sample,3,M003,Logistic probability correction,1.1296199627056858,AP,dataset,20,20,,,,,+1.130
+dry_bean,Dry Bean,two_sample,5,M005,nnPU logistic,1.2690159776029053,AP,dataset,20,20,,,,,+1.269
+dry_bean,Dry Bean,two_sample,10,M010,Naive CatBoost,3.2133009638962484,AP,dataset,20,20,,,,,+3.213
+dry_bean,Dry Bean,two_sample,20,M020,RN CatBoost,0.42090507824633638,AP,dataset,20,20,,,,,+0.421
+dry_bean,Dry Bean,two_sample,25,M025,CS CatBoost,4.5686771338276699,AP,dataset,20,20,,,,,+4.569
+dry_bean,Dry Bean,two_sample,27,M027,PU gradient boosting,3.12012808497516,AP,dataset,20,20,,,,,+3.120
+optical_digits,Optical Digits,one_sample,3,M003,Logistic probability correction,5.2379385413284467,AP,dataset,20,20,,,,,+5.238
+optical_digits,Optical Digits,one_sample,5,M005,nnPU logistic,3.8147084975902912,AP,dataset,20,20,,,,,+3.815
+optical_digits,Optical Digits,one_sample,10,M010,Naive CatBoost,4.2872175881130792,AP,dataset,20,20,,,,,+4.287
+optical_digits,Optical Digits,one_sample,20,M020,RN CatBoost,3.895858219639925,AP,dataset,20,20,,,,,+3.896
+optical_digits,Optical Digits,one_sample,25,M025,CS CatBoost,4.7265218024724165,AP,dataset,20,20,,,,,+4.727
+optical_digits,Optical Digits,one_sample,27,M027,PU gradient boosting,13.252884828674883,AP,dataset,20,20,,,,,+13.253
+optical_digits,Optical Digits,two_sample,3,M003,Logistic probability correction,3.991354920030743,AP,dataset,20,20,,,,,+3.991
+optical_digits,Optical Digits,two_sample,5,M005,nnPU logistic,2.8019608190223644,AP,dataset,20,20,,,,,+2.802
+optical_digits,Optical Digits,two_sample,10,M010,Naive CatBoost,4.014749854180744,AP,dataset,20,20,,,,,+4.015
+optical_digits,Optical Digits,two_sample,20,M020,RN CatBoost,3.2238952649764618,AP,dataset,20,20,,,,,+3.224
+optical_digits,Optical Digits,two_sample,25,M025,CS CatBoost,4.0542220493187902,AP,dataset,20,20,,,,,+4.054
+optical_digits,Optical Digits,two_sample,27,M027,PU gradient boosting,9.5714245062848313,AP,dataset,20,20,,,,,+9.571
+online_shoppers,Online Shoppers,one_sample,3,M003,Logistic probability correction,4.8571023052197511,AP,dataset,20,20,,,,,+4.857
+online_shoppers,Online Shoppers,one_sample,5,M005,nnPU logistic,5.0718078179890105,AP,dataset,20,20,,,,,+5.072
+online_shoppers,Online Shoppers,one_sample,10,M010,Naive CatBoost,4.6825590094157432,AP,dataset,20,20,,,,,+4.683
+online_shoppers,Online Shoppers,one_sample,20,M020,RN CatBoost,3.6049613934952984,AP,dataset,20,20,,,,,+3.605
+online_shoppers,Online Shoppers,one_sample,25,M025,CS CatBoost,5.2469058703035865,AP,dataset,20,20,,,,,+5.247
+online_shoppers,Online Shoppers,one_sample,27,M027,PU gradient boosting,5.2185746639048931,AP,dataset,20,20,,,,,+5.219
+online_shoppers,Online Shoppers,two_sample,3,M003,Logistic probability correction,3.6788553089914107,AP,dataset,20,20,,,,,+3.679
+online_shoppers,Online Shoppers,two_sample,5,M005,nnPU logistic,3.6370453766435995,AP,dataset,20,20,,,,,+3.637
+online_shoppers,Online Shoppers,two_sample,10,M010,Naive CatBoost,3.7485133728079378,AP,dataset,20,20,,,,,+3.749
+online_shoppers,Online Shoppers,two_sample,20,M020,RN CatBoost,3.0836322770942615,AP,dataset,20,20,,,,,+3.084
+online_shoppers,Online Shoppers,two_sample,25,M025,CS CatBoost,4.2531586713245195,AP,dataset,20,20,,,,,+4.253
+online_shoppers,Online Shoppers,two_sample,27,M027,PU gradient boosting,4.1603966034328979,AP,dataset,20,20,,,,,+4.160
+,Equal-dataset mean,one_sample,3,M003,Logistic probability correction,3.5589352579704183,AP,equal_dataset,,,8,8,0,0,+3.559
+,Equal-dataset mean,one_sample,3,M003,Logistic probability correction,2.9695787326778689,AUROC,equal_dataset,,,8,8,0,0,+2.970
+,Equal-dataset mean,one_sample,5,M005,nnPU logistic,2.8406650511547671,AP,equal_dataset,,,8,8,0,0,+2.841
+,Equal-dataset mean,one_sample,5,M005,nnPU logistic,2.3732981711098233,AUROC,equal_dataset,,,8,8,0,0,+2.373
+,Equal-dataset mean,one_sample,10,M010,Naive CatBoost,3.6271825047002451,AP,equal_dataset,,,8,8,0,0,+3.627
+,Equal-dataset mean,one_sample,10,M010,Naive CatBoost,2.4731802986653939,AUROC,equal_dataset,,,8,8,0,0,+2.473
+,Equal-dataset mean,one_sample,20,M020,RN CatBoost,1.903058626446813,AP,equal_dataset,,,8,7,1,0,+1.903
+,Equal-dataset mean,one_sample,20,M020,RN CatBoost,1.6912555578873736,AUROC,equal_dataset,,,8,7,1,0,+1.691
+,Equal-dataset mean,one_sample,25,M025,CS CatBoost,4.4559586068643959,AP,equal_dataset,,,8,8,0,0,+4.456
+,Equal-dataset mean,one_sample,25,M025,CS CatBoost,3.0147746590903566,AUROC,equal_dataset,,,8,8,0,0,+3.015
+,Equal-dataset mean,one_sample,27,M027,PU gradient boosting,8.3779840706536497,AP,equal_dataset,,,8,8,0,0,+8.378
+,Equal-dataset mean,one_sample,27,M027,PU gradient boosting,5.9571938899693695,AUROC,equal_dataset,,,8,8,0,0,+5.957
+,Equal-dataset mean,two_sample,3,M003,Logistic probability correction,3.2414943905371638,AP,equal_dataset,,,8,8,0,0,+3.241
+,Equal-dataset mean,two_sample,3,M003,Logistic probability correction,2.7451492361228427,AUROC,equal_dataset,,,8,8,0,0,+2.745
+,Equal-dataset mean,two_sample,5,M005,nnPU logistic,2.4539602515168388,AP,equal_dataset,,,8,8,0,0,+2.454
+,Equal-dataset mean,two_sample,5,M005,nnPU logistic,2.2199107999502532,AUROC,equal_dataset,,,8,8,0,0,+2.220
+,Equal-dataset mean,two_sample,10,M010,Naive CatBoost,3.0659249196560072,AP,equal_dataset,,,8,8,0,0,+3.066
+,Equal-dataset mean,two_sample,10,M010,Naive CatBoost,2.2024335372861179,AUROC,equal_dataset,,,8,8,0,0,+2.202
+,Equal-dataset mean,two_sample,20,M020,RN CatBoost,1.7125021397186579,AP,equal_dataset,,,8,7,1,0,+1.713
+,Equal-dataset mean,two_sample,20,M020,RN CatBoost,1.4921739308395618,AUROC,equal_dataset,,,8,8,0,0,+1.492
+,Equal-dataset mean,two_sample,25,M025,CS CatBoost,3.5690527563578738,AP,equal_dataset,,,8,8,0,0,+3.569
+,Equal-dataset mean,two_sample,25,M025,CS CatBoost,2.4972613325094692,AUROC,equal_dataset,,,8,8,0,0,+2.497
+,Equal-dataset mean,two_sample,27,M027,PU gradient boosting,4.7191023983611906,AP,equal_dataset,,,8,8,0,0,+4.719
+,Equal-dataset mean,two_sample,27,M027,PU gradient boosting,3.2321372314195034,AUROC,equal_dataset,,,8,8,0,0,+3.232

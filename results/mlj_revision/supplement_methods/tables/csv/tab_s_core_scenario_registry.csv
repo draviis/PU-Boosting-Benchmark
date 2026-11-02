@@ -1,0 +1,41 @@
+scenario_id,scenario_family,one_sample_varied_setting,two_sample_varied_setting,fixed_default_parameters,sample_sizes,test_size,notes,os_pi,os_c,ts_pi,ts_nP,ts_nU,p,delta,rho,source
+S001 / TS001,reference,Reference values,Reference values,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,0.9,0.0,OSREG;TSREG
+S002 / TS002,prevalence,pi=0.01,pi=0.01,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.01,0.3,0.01,300,4700,10,0.9,0.0,OSREG;TSREG
+S003 / TS003,prevalence,pi=0.05,pi=0.05,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.05,0.3,0.05,300,4700,10,0.9,0.0,OSREG;TSREG
+S004 / TS004,prevalence,pi=0.1,pi=0.1,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.1,0.3,0.1,300,4700,10,0.9,0.0,OSREG;TSREG
+S005 / TS005,prevalence,pi=0.15,pi=0.15,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.15,0.3,0.15,300,4700,10,0.9,0.0,OSREG;TSREG
+S006 / TS006,prevalence,pi=0.25,pi=0.25,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.25,0.3,0.25,300,4700,10,0.9,0.0,OSREG;TSREG
+S007 / TS007,prevalence,pi=0.3,pi=0.3,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.3,0.3,0.3,300,4700,10,0.9,0.0,OSREG;TSREG
+S008 / TS008,prevalence,pi=0.35,pi=0.35,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.35,0.3,0.35,300,4700,10,0.9,0.0,OSREG;TSREG
+S009 / TS009,prevalence,pi=0.4,pi=0.4,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.4,0.3,0.4,300,4700,10,0.9,0.0,OSREG;TSREG
+S010 / TS010,prevalence,pi=0.45,pi=0.45,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.45,0.3,0.45,300,4700,10,0.9,0.0,OSREG;TSREG
+S011 / TS011,prevalence,pi=0.5,pi=0.5,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.5,0.3,0.5,300,4700,10,0.9,0.0,OSREG;TSREG
+S012 / TS012,positive-label availability,c=0.05,nP=50,D unless varied,OS 5000/5000; TS 50+4700 each,10000,Shared-covariance Gaussian.,0.2,0.05,0.2,50,4700,10,0.9,0.0,OSREG;TSREG
+S013 / TS013,positive-label availability,c=0.1,nP=100,D unless varied,OS 5000/5000; TS 100+4700 each,10000,Shared-covariance Gaussian.,0.2,0.1,0.2,100,4700,10,0.9,0.0,OSREG;TSREG
+S014 / TS014,positive-label availability,c=0.15,nP=150,D unless varied,OS 5000/5000; TS 150+4700 each,10000,Shared-covariance Gaussian.,0.2,0.15,0.2,150,4700,10,0.9,0.0,OSREG;TSREG
+S015 / TS015,positive-label availability,c=0.2,nP=200,D unless varied,OS 5000/5000; TS 200+4700 each,10000,Shared-covariance Gaussian.,0.2,0.2,0.2,200,4700,10,0.9,0.0,OSREG;TSREG
+S016 / TS016,positive-label availability,c=0.25,nP=250,D unless varied,OS 5000/5000; TS 250+4700 each,10000,Shared-covariance Gaussian.,0.2,0.25,0.2,250,4700,10,0.9,0.0,OSREG;TSREG
+S017 / TS017,positive-label availability,c=0.35,nP=350,D unless varied,OS 5000/5000; TS 350+4700 each,10000,Shared-covariance Gaussian.,0.2,0.35,0.2,350,4700,10,0.9,0.0,OSREG;TSREG
+S018 / TS018,positive-label availability,c=0.4,nP=400,D unless varied,OS 5000/5000; TS 400+4700 each,10000,Shared-covariance Gaussian.,0.2,0.4,0.2,400,4700,10,0.9,0.0,OSREG;TSREG
+S019 / TS019,positive-label availability,c=0.45,nP=450,D unless varied,OS 5000/5000; TS 450+4700 each,10000,Shared-covariance Gaussian.,0.2,0.45,0.2,450,4700,10,0.9,0.0,OSREG;TSREG
+S020 / TS020,positive-label availability,c=0.5,nP=500,D unless varied,OS 5000/5000; TS 500+4700 each,10000,Shared-covariance Gaussian.,0.2,0.5,0.2,500,4700,10,0.9,0.0,OSREG;TSREG
+S021 / TS021,class separation,delta=0.5,delta=0.5,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,0.5,0.0,OSREG;TSREG
+S022 / TS022,class separation,delta=0.7,delta=0.7,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,0.7,0.0,OSREG;TSREG
+S023 / TS023,class separation,delta=1.2,delta=1.2,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,1.2,0.0,OSREG;TSREG
+S024 / TS024,dimensionality,p=50,p=50,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,50,0.9,0.0,OSREG;TSREG
+S025 / TS025,dimensionality,p=100,p=100,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,100,0.9,0.0,OSREG;TSREG
+S026 / TS026,dimensionality,p=500,p=500,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,500,0.9,0.0,OSREG;TSREG
+S027 / TS027,predictor correlation,rho=0.3,rho=0.3,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,0.9,0.3,OSREG;TSREG
+S028 / TS028,predictor correlation,rho=0.6,rho=0.6,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Shared-covariance Gaussian.,0.2,0.3,0.2,300,4700,10,0.9,0.6,OSREG;TSREG
+S029 / TS029,joint prevalence-label availability,"pi=0.01, c=0.5","pi=0.01, nP=25",D unless varied,OS 5000/5000; TS 25+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.01,0.5,0.01,25,4700,10,0.9,0.0,OSREG;TSREG
+S030 / TS030,joint prevalence-label availability,"pi=0.05, c=0.1","pi=0.01, nP=100",D unless varied,OS 5000/5000; TS 100+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.05,0.1,0.01,100,4700,10,0.9,0.0,OSREG;TSREG
+S031 / TS031,joint prevalence-label availability,"pi=0.05, c=0.5","pi=0.01, nP=500",D unless varied,OS 5000/5000; TS 500+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.05,0.5,0.01,500,4700,10,0.9,0.0,OSREG;TSREG
+S032 / TS032,joint prevalence-label availability,"pi=0.1, c=0.05","pi=0.1, nP=25",D unless varied,OS 5000/5000; TS 25+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.1,0.05,0.1,25,4700,10,0.9,0.0,OSREG;TSREG
+S033 / TS033,joint prevalence-label availability,"pi=0.1, c=0.1","pi=0.1, nP=100",D unless varied,OS 5000/5000; TS 100+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.1,0.1,0.1,100,4700,10,0.9,0.0,OSREG;TSREG
+S034 / TS034,joint prevalence-label availability,"pi=0.1, c=0.5","pi=0.1, nP=500",D unless varied,OS 5000/5000; TS 500+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.1,0.5,0.1,500,4700,10,0.9,0.0,OSREG;TSREG
+S035 / TS035,joint prevalence-label availability,"pi=0.5, c=0.05","pi=0.5, nP=25",D unless varied,OS 5000/5000; TS 25+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.5,0.05,0.5,25,4700,10,0.9,0.0,OSREG;TSREG
+S036 / TS036,joint prevalence-label availability,"pi=0.5, c=0.1","pi=0.5, nP=100",D unless varied,OS 5000/5000; TS 100+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.5,0.1,0.5,100,4700,10,0.9,0.0,OSREG;TSREG
+S037 / TS037,joint prevalence-label availability,"pi=0.5, c=0.5","pi=0.5, nP=500",D unless varied,OS 5000/5000; TS 500+4700 each,10000,Joint grids differ between designs; IDs do not imply matched label information.,0.5,0.5,0.5,500,4700,10,0.9,0.0,OSREG;TSREG
+S038 / TS038,curved boundary,Reference values,Reference values,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Quadratic shear=1.5; signal coordinates 2-4.,0.2,0.3,0.2,300,4700,10,0.9,0.0,OSREG;TSREG
+S039 / TS039,feature interaction,Reference values,Reference values,D unless varied,OS 5000/5000; TS 300+4700 each,10000,XOR amplitude=0.67; main shift=0.60.,0.2,0.3,0.2,300,4700,10,0.9,0.0,OSREG;TSREG
+S040 / TS040,unequal class covariance,Reference values,Reference values,D unless varied,OS 5000/5000; TS 300+4700 each,10000,Positive active-coordinate variance multiplier=1.5.,0.2,0.3,0.2,300,4700,10,0.9,0.0,OSREG;TSREG

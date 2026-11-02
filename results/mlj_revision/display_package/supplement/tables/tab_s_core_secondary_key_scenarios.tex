@@ -1,0 +1,111 @@
+\begin{table*}[t]
+\centering
+\caption{Key original scenarios: balanced accuracy for six prespecified fixed PU configurations. \textbf{Available one-repetition same-model pilot only; these are not 100-repetition benchmark means.}}
+\label{tab:s-core-secondary-key-scenarios}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.18\textwidth}*{6}{>{\centering\arraybackslash}X}r}
+\toprule
+\multicolumn{8}{l}{\textbf{Panel A: One-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.6299 & 0.6296 & 0.6251 & 0.6139 & 0.6153 & 0.6007 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.5029 & 0.5034 & 0.5118 & 0.5118 & 0.5028 & 0.4956 & 1 \\
+Low label availability ($c=0.05$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.5743 & 0.5657 & 0.6302 & 0.6302 & 0.6320 & 0.6179 & 1 \\
+Feature interaction & 0.5817 & 0.5822 & 0.6155 & 0.6282 & 0.5519 & 0.5905 & 1 \\
+Unequal covariance & 0.6370 & 0.6369 & 0.6588 & 0.6593 & 0.6271 & 0.6416 & 1 \\
+\midrule
+\multicolumn{8}{l}{\textbf{Panel B: Two-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.6426 & 0.6422 & 0.6342 & 0.6342 & 0.6358 & 0.6347 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.5565 & 0.5565 & 0.5509 & 0.5509 & 0.5274 & 0.5502 & 1 \\
+Low label availability ($n_P=50$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.5633 & 0.5610 & 0.6144 & 0.6144 & 0.6166 & 0.6185 & 1 \\
+Feature interaction & 0.5876 & 0.5895 & 0.6197 & 0.6197 & 0.5550 & 0.5792 & 1 \\
+Unequal covariance & 0.6457 & 0.6462 & 0.6394 & 0.6394 & 0.6165 & 0.6379 & 1 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Entries are absolute metric values to four decimals; $n$ is the valid repetition count for \emph{each} method in that row. The threshold is the empirical $(1-\widetilde{\pi})$ quantile of selected-model validation raw scores: all validation observations for OS, validation U only for TS. The same selected model supplies test raw scores; prediction is score $\geq$ threshold. Source: Task 1B A\_same\_model, repetition 1. S012/TS012 have no verified same-model scores and appear as -- with $n=0$. The associated CSV includes paired percentage-point contrasts; MCSE and intervals are undefined for one pair. No refit-transfer or fixed-0.5 results are used. The other available pilot settings remain in the all-method CSV.
+\end{minipage}
+\end{table*}
+\clearpage
+
+\begin{table*}[t]
+\ContinuedFloat
+\centering
+\caption{Key original scenarios: F1 for six prespecified fixed PU configurations. \textbf{Available one-repetition same-model pilot only; these are not 100-repetition benchmark means.}}
+\label{tab:s-core-secondary-key-scenarios-f1}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.18\textwidth}*{6}{>{\centering\arraybackslash}X}r}
+\toprule
+\multicolumn{8}{l}{\textbf{Panel A: One-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.4127 & 0.4122 & 0.4050 & 0.3870 & 0.3891 & 0.3657 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.0175 & 0.0183 & 0.0360 & 0.0360 & 0.0173 & 0.0000 & 1 \\
+Low label availability ($c=0.05$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.3151 & 0.3022 & 0.4030 & 0.4030 & 0.4060 & 0.3840 & 1 \\
+Feature interaction & 0.3329 & 0.3338 & 0.3891 & 0.4095 & 0.2873 & 0.3467 & 1 \\
+Unequal covariance & 0.4180 & 0.4178 & 0.4517 & 0.4526 & 0.4023 & 0.4245 & 1 \\
+\midrule
+\multicolumn{8}{l}{\textbf{Panel B: Two-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.4292 & 0.4286 & 0.4154 & 0.4154 & 0.4182 & 0.4162 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.1140 & 0.1146 & 0.1042 & 0.1042 & 0.0561 & 0.0971 & 1 \\
+Low label availability ($n_P=50$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.3006 & 0.2980 & 0.3826 & 0.3826 & 0.3859 & 0.3889 & 1 \\
+Feature interaction & 0.3406 & 0.3434 & 0.3921 & 0.3923 & 0.2888 & 0.3264 & 1 \\
+Unequal covariance & 0.4374 & 0.4381 & 0.4271 & 0.4271 & 0.3900 & 0.4246 & 1 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Entries are absolute metric values to four decimals; $n$ is the valid repetition count for \emph{each} method in that row. The threshold is the empirical $(1-\widetilde{\pi})$ quantile of selected-model validation raw scores: all validation observations for OS, validation U only for TS. The same selected model supplies test raw scores; prediction is score $\geq$ threshold. Source: Task 1B A\_same\_model, repetition 1. S012/TS012 have no verified same-model scores and appear as -- with $n=0$. The associated CSV includes paired percentage-point contrasts; MCSE and intervals are undefined for one pair. No refit-transfer or fixed-0.5 results are used. The other available pilot settings remain in the all-method CSV.
+\end{minipage}
+\end{table*}
+\clearpage
+
+\begin{table*}[t]
+\ContinuedFloat
+\centering
+\caption{Key original scenarios: Matthews correlation coefficient for six prespecified fixed PU configurations. \textbf{Available one-repetition same-model pilot only; these are not 100-repetition benchmark means.}}
+\label{tab:s-core-secondary-key-scenarios-mcc}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.18\textwidth}*{6}{>{\centering\arraybackslash}X}r}
+\toprule
+\multicolumn{8}{l}{\textbf{Panel A: One-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.2661 & 0.2655 & 0.2551 & 0.2300 & 0.2344 & 0.2038 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.0061 & 0.0075 & 0.0253 & 0.0253 & 0.0058 & -0.0103 & 1 \\
+Low label availability ($c=0.05$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.1461 & 0.1285 & 0.2527 & 0.2527 & 0.2579 & 0.2289 & 1 \\
+Feature interaction & 0.1678 & 0.1687 & 0.2323 & 0.2570 & 0.1044 & 0.1877 & 1 \\
+Unequal covariance & 0.2739 & 0.2735 & 0.3120 & 0.3134 & 0.2582 & 0.2766 & 1 \\
+\midrule
+\multicolumn{8}{l}{\textbf{Panel B: Two-sample}} \\
+Setting & \shortstack{Logistic\\correction} & \shortstack{nnPU\\logistic} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} & $n$ \\
+\midrule
+Reference & 0.2870 & 0.2868 & 0.2653 & 0.2653 & 0.2729 & 0.2674 & 1 \\
+Low prevalence ($\pi=0.01$) & 0.1056 & 0.1062 & 0.0957 & 0.0957 & 0.0467 & 0.0886 & 1 \\
+Low label availability ($n_P=50$) & -- & -- & -- & -- & -- & -- & 0 \\
+High dimension ($p=500$) & 0.1266 & 0.1210 & 0.2265 & 0.2265 & 0.2334 & 0.2365 & 1 \\
+Feature interaction & 0.1761 & 0.1799 & 0.2402 & 0.2388 & 0.1100 & 0.1600 & 1 \\
+Unequal covariance & 0.2950 & 0.2949 & 0.2793 & 0.2793 & 0.2375 & 0.2752 & 1 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Entries are absolute metric values to four decimals; $n$ is the valid repetition count for \emph{each} method in that row. The threshold is the empirical $(1-\widetilde{\pi})$ quantile of selected-model validation raw scores: all validation observations for OS, validation U only for TS. The same selected model supplies test raw scores; prediction is score $\geq$ threshold. Source: Task 1B A\_same\_model, repetition 1. S012/TS012 have no verified same-model scores and appear as -- with $n=0$. The associated CSV includes paired percentage-point contrasts; MCSE and intervals are undefined for one pair. No refit-transfer or fixed-0.5 results are used. The other available pilot settings remain in the all-method CSV.
+\end{minipage}
+\end{table*}

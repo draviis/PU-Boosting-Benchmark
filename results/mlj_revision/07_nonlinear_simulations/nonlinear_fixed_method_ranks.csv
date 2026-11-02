@@ -1,0 +1,301 @@
+scenario_id,design,method_id,method,family,AUROC_n,AP_n,BA_n,AUROC_rank,AP_rank,BA_rank
+NL01,one_sample,M003,Block1 | Elkan-Noto known-c,sinusoidal,100,100,100,24,24,25
+NL01,one_sample,M004,Block1 | uPU logistic,sinusoidal,100,100,100,22.5,22.5,23.5
+NL01,one_sample,M005,Block1 | nnPU logistic,sinusoidal,100,100,100,22.5,22.5,23.5
+NL01,one_sample,M006,Block2 | Naive + AdaBoost,sinusoidal,100,100,100,9.5,7.5,5.5
+NL01,one_sample,M007,Block2 | Naive + GBM,sinusoidal,100,100,100,6.5,14.5,9.5
+NL01,one_sample,M008,Block2 | Naive + XGBoost,sinusoidal,100,100,100,2.5,2.5,3.5
+NL01,one_sample,M009,Block2 | Naive + LightGBM,sinusoidal,100,100,100,12.5,12.5,15.5
+NL01,one_sample,M010,Block2 | Naive + CatBoost,sinusoidal,100,100,100,14.5,10.5,11.5
+NL01,one_sample,M011,Block2 | ProbCorrection + AdaBoost,sinusoidal,100,100,100,9.5,7.5,5.5
+NL01,one_sample,M012,Block2 | ProbCorrection + GBM,sinusoidal,100,100,100,6.5,14.5,9.5
+NL01,one_sample,M013,Block2 | ProbCorrection + XGBoost,sinusoidal,100,100,100,2.5,2.5,3.5
+NL01,one_sample,M014,Block2 | ProbCorrection + LightGBM,sinusoidal,100,100,100,12.5,12.5,15.5
+NL01,one_sample,M015,Block2 | ProbCorrection + CatBoost,sinusoidal,100,100,100,14.5,10.5,11.5
+NL01,one_sample,M016,Block2 | RN + AdaBoost,sinusoidal,100,100,100,18,19,17
+NL01,one_sample,M017,Block2 | RN + GBM,sinusoidal,100,100,100,21,20,21
+NL01,one_sample,M018,Block2 | RN + XGBoost,sinusoidal,100,100,100,19,18,18
+NL01,one_sample,M019,Block2 | RN + LightGBM,sinusoidal,100,100,100,25,25,22
+NL01,one_sample,M020,Block2 | RN + CatBoost,sinusoidal,100,100,100,20,21,19
+NL01,one_sample,M021,Block2 | CostSensitive + AdaBoost,sinusoidal,100,100,100,11,6,2
+NL01,one_sample,M022,Block2 | CostSensitive + GBM,sinusoidal,100,100,100,4,4,7
+NL01,one_sample,M023,Block2 | CostSensitive + XGBoost,sinusoidal,100,100,100,1,1,1
+NL01,one_sample,M024,Block2 | CostSensitive + LightGBM,sinusoidal,100,100,100,8,9,14
+NL01,one_sample,M025,Block2 | CostSensitive + CatBoost,sinusoidal,100,100,100,5,5,8
+NL01,one_sample,M026,Block3 | AdaPU,sinusoidal,100,100,100,17,17,20
+NL01,one_sample,M027,Block3 | PU Gradient Boosting,sinusoidal,100,100,100,16,16,13
+NL01,two_sample,M003,Block1 | CaseControl density-ratio known-pi,sinusoidal,100,100,100,23,25,25
+NL01,two_sample,M004,Block1 | uPU logistic,sinusoidal,100,100,100,24.5,23.5,23.5
+NL01,two_sample,M005,Block1 | nnPU logistic,sinusoidal,100,100,100,24.5,23.5,23.5
+NL01,two_sample,M006,Block2 | Naive + AdaBoost,sinusoidal,100,100,100,9.5,7.5,5.5
+NL01,two_sample,M007,Block2 | Naive + GBM,sinusoidal,100,100,100,6.5,12.5,10.5
+NL01,two_sample,M008,Block2 | Naive + XGBoost,sinusoidal,100,100,100,1.5,2.5,3.5
+NL01,two_sample,M009,Block2 | Naive + LightGBM,sinusoidal,100,100,100,12.5,14.5,15.5
+NL01,two_sample,M010,Block2 | Naive + CatBoost,sinusoidal,100,100,100,14.5,10.5,12.5
+NL01,two_sample,M011,Block2 | ProbCorrection + AdaBoost,sinusoidal,100,100,100,9.5,7.5,5.5
+NL01,two_sample,M012,Block2 | ProbCorrection + GBM,sinusoidal,100,100,100,6.5,12.5,10.5
+NL01,two_sample,M013,Block2 | ProbCorrection + XGBoost,sinusoidal,100,100,100,1.5,2.5,3.5
+NL01,two_sample,M014,Block2 | ProbCorrection + LightGBM,sinusoidal,100,100,100,12.5,14.5,15.5
+NL01,two_sample,M015,Block2 | ProbCorrection + CatBoost,sinusoidal,100,100,100,14.5,10.5,12.5
+NL01,two_sample,M016,Block2 | RN + AdaBoost,sinusoidal,100,100,100,18,19,17
+NL01,two_sample,M017,Block2 | RN + GBM,sinusoidal,100,100,100,21,20,21
+NL01,two_sample,M018,Block2 | RN + XGBoost,sinusoidal,100,100,100,19,18,18
+NL01,two_sample,M019,Block2 | RN + LightGBM,sinusoidal,100,100,100,22,22,22
+NL01,two_sample,M020,Block2 | RN + CatBoost,sinusoidal,100,100,100,20,21,20
+NL01,two_sample,M021,Block2 | CostSensitive + AdaBoost,sinusoidal,100,100,100,8,6,2
+NL01,two_sample,M022,Block2 | CostSensitive + GBM,sinusoidal,100,100,100,4,4,7
+NL01,two_sample,M023,Block2 | CostSensitive + XGBoost,sinusoidal,100,100,100,3,1,1
+NL01,two_sample,M024,Block2 | CostSensitive + LightGBM,sinusoidal,100,100,100,11,9,14
+NL01,two_sample,M025,Block2 | CostSensitive + CatBoost,sinusoidal,100,100,100,5,5,8
+NL01,two_sample,M026,Block3 | AdaPU repaired,sinusoidal,100,100,100,17,17,19
+NL01,two_sample,M027,Block3 | PU Gradient Boosting repaired,sinusoidal,100,100,100,16,16,9
+NL02,one_sample,M003,Block1 | Elkan-Noto known-c,radial,100,100,100,20,20,20
+NL02,one_sample,M004,Block1 | uPU logistic,radial,100,100,100,18.5,18.5,18.5
+NL02,one_sample,M005,Block1 | nnPU logistic,radial,100,100,100,18.5,18.5,18.5
+NL02,one_sample,M006,Block2 | Naive + AdaBoost,radial,100,100,100,15.5,15.5,9.5
+NL02,one_sample,M007,Block2 | Naive + GBM,radial,100,100,100,9.5,9.5,11.5
+NL02,one_sample,M008,Block2 | Naive + XGBoost,radial,100,100,100,6.5,5.5,7.5
+NL02,one_sample,M009,Block2 | Naive + LightGBM,radial,100,100,100,12.5,12.5,15.5
+NL02,one_sample,M010,Block2 | Naive + CatBoost,radial,100,100,100,1.5,1.5,2.5
+NL02,one_sample,M011,Block2 | ProbCorrection + AdaBoost,radial,100,100,100,15.5,15.5,9.5
+NL02,one_sample,M012,Block2 | ProbCorrection + GBM,radial,100,100,100,9.5,9.5,11.5
+NL02,one_sample,M013,Block2 | ProbCorrection + XGBoost,radial,100,100,100,6.5,5.5,7.5
+NL02,one_sample,M014,Block2 | ProbCorrection + LightGBM,radial,100,100,100,12.5,12.5,15.5
+NL02,one_sample,M015,Block2 | ProbCorrection + CatBoost,radial,100,100,100,1.5,1.5,2.5
+NL02,one_sample,M016,Block2 | RN + AdaBoost,radial,100,100,100,21,21,21
+NL02,one_sample,M017,Block2 | RN + GBM,radial,99,99,100,25,25,25
+NL02,one_sample,M018,Block2 | RN + XGBoost,radial,100,100,100,24,24,23
+NL02,one_sample,M019,Block2 | RN + LightGBM,radial,100,100,100,22,22,22
+NL02,one_sample,M020,Block2 | RN + CatBoost,radial,100,100,100,23,23,24
+NL02,one_sample,M021,Block2 | CostSensitive + AdaBoost,radial,100,100,100,11,14,6
+NL02,one_sample,M022,Block2 | CostSensitive + GBM,radial,100,100,100,8,8,13
+NL02,one_sample,M023,Block2 | CostSensitive + XGBoost,radial,100,100,100,5,7,5
+NL02,one_sample,M024,Block2 | CostSensitive + LightGBM,radial,100,100,100,14,11,14
+NL02,one_sample,M025,Block2 | CostSensitive + CatBoost,radial,100,100,100,3,3,1
+NL02,one_sample,M026,Block3 | AdaPU,radial,100,100,100,4,4,4
+NL02,one_sample,M027,Block3 | PU Gradient Boosting,radial,100,100,100,17,17,17
+NL02,two_sample,M003,Block1 | CaseControl density-ratio known-pi,radial,100,100,100,18,20,20
+NL02,two_sample,M004,Block1 | uPU logistic,radial,100,100,100,19.5,18.5,18.5
+NL02,two_sample,M005,Block1 | nnPU logistic,radial,100,100,100,19.5,18.5,18.5
+NL02,two_sample,M006,Block2 | Naive + AdaBoost,radial,100,100,100,14.5,15.5,11.5
+NL02,two_sample,M007,Block2 | Naive + GBM,radial,100,100,100,9.5,9.5,9.5
+NL02,two_sample,M008,Block2 | Naive + XGBoost,radial,100,100,100,6.5,5.5,7.5
+NL02,two_sample,M009,Block2 | Naive + LightGBM,radial,100,100,100,12.5,12.5,15.5
+NL02,two_sample,M010,Block2 | Naive + CatBoost,radial,100,100,100,1.5,1.5,1.5
+NL02,two_sample,M011,Block2 | ProbCorrection + AdaBoost,radial,100,100,100,14.5,15.5,11.5
+NL02,two_sample,M012,Block2 | ProbCorrection + GBM,radial,100,100,100,9.5,9.5,9.5
+NL02,two_sample,M013,Block2 | ProbCorrection + XGBoost,radial,100,100,100,6.5,5.5,7.5
+NL02,two_sample,M014,Block2 | ProbCorrection + LightGBM,radial,100,100,100,12.5,12.5,15.5
+NL02,two_sample,M015,Block2 | ProbCorrection + CatBoost,radial,100,100,100,1.5,1.5,1.5
+NL02,two_sample,M016,Block2 | RN + AdaBoost,radial,99,99,100,21,21,21
+NL02,two_sample,M017,Block2 | RN + GBM,radial,99,99,100,25,25,25
+NL02,two_sample,M018,Block2 | RN + XGBoost,radial,100,100,100,24,24,23
+NL02,two_sample,M019,Block2 | RN + LightGBM,radial,100,100,100,22,22,22
+NL02,two_sample,M020,Block2 | RN + CatBoost,radial,99,99,100,23,23,24
+NL02,two_sample,M021,Block2 | CostSensitive + AdaBoost,radial,100,100,100,11,14,5
+NL02,two_sample,M022,Block2 | CostSensitive + GBM,radial,100,100,100,8,8,13
+NL02,two_sample,M023,Block2 | CostSensitive + XGBoost,radial,100,100,100,5,7,6
+NL02,two_sample,M024,Block2 | CostSensitive + LightGBM,radial,100,100,100,16,11,14
+NL02,two_sample,M025,Block2 | CostSensitive + CatBoost,radial,100,100,100,3,3,3
+NL02,two_sample,M026,Block3 | AdaPU repaired,radial,100,100,100,4,4,4
+NL02,two_sample,M027,Block3 | PU Gradient Boosting repaired,radial,100,100,100,17,17,17
+NL03,one_sample,M003,Block1 | Elkan-Noto known-c,XOR,100,100,100,22,21,22
+NL03,one_sample,M004,Block1 | uPU logistic,XOR,100,100,100,23.5,22.5,23.5
+NL03,one_sample,M005,Block1 | nnPU logistic,XOR,100,100,100,23.5,22.5,23.5
+NL03,one_sample,M006,Block2 | Naive + AdaBoost,XOR,100,100,100,16.5,15.5,16.5
+NL03,one_sample,M007,Block2 | Naive + GBM,XOR,100,100,100,11.5,11.5,11.5
+NL03,one_sample,M008,Block2 | Naive + XGBoost,XOR,100,100,100,5.5,4.5,5.5
+NL03,one_sample,M009,Block2 | Naive + LightGBM,XOR,100,100,100,8.5,8.5,8.5
+NL03,one_sample,M010,Block2 | Naive + CatBoost,XOR,100,100,100,2.5,1.5,2.5
+NL03,one_sample,M011,Block2 | ProbCorrection + AdaBoost,XOR,100,100,100,16.5,15.5,16.5
+NL03,one_sample,M012,Block2 | ProbCorrection + GBM,XOR,100,100,100,11.5,11.5,11.5
+NL03,one_sample,M013,Block2 | ProbCorrection + XGBoost,XOR,100,100,100,5.5,4.5,5.5
+NL03,one_sample,M014,Block2 | ProbCorrection + LightGBM,XOR,100,100,100,8.5,8.5,8.5
+NL03,one_sample,M015,Block2 | ProbCorrection + CatBoost,XOR,100,100,100,2.5,1.5,2.5
+NL03,one_sample,M016,Block2 | RN + AdaBoost,XOR,100,100,100,21,20,19
+NL03,one_sample,M017,Block2 | RN + GBM,XOR,100,100,100,20,24,20
+NL03,one_sample,M018,Block2 | RN + XGBoost,XOR,100,100,100,19,19,21
+NL03,one_sample,M019,Block2 | RN + LightGBM,XOR,100,100,100,18,18,18
+NL03,one_sample,M020,Block2 | RN + CatBoost,XOR,100,100,100,15,17,14
+NL03,one_sample,M021,Block2 | CostSensitive + AdaBoost,XOR,100,100,100,14,14,15
+NL03,one_sample,M022,Block2 | CostSensitive + GBM,XOR,100,100,100,10,10,10
+NL03,one_sample,M023,Block2 | CostSensitive + XGBoost,XOR,100,100,100,4,6,4
+NL03,one_sample,M024,Block2 | CostSensitive + LightGBM,XOR,100,100,100,7,7,7
+NL03,one_sample,M025,Block2 | CostSensitive + CatBoost,XOR,100,100,100,1,3,1
+NL03,one_sample,M026,Block3 | AdaPU,XOR,100,100,100,25,25,25
+NL03,one_sample,M027,Block3 | PU Gradient Boosting,XOR,100,100,100,13,13,13
+NL03,two_sample,M003,Block1 | CaseControl density-ratio known-pi,XOR,100,100,100,24,24,24
+NL03,two_sample,M004,Block1 | uPU logistic,XOR,100,100,100,22.5,19.5,22.5
+NL03,two_sample,M005,Block1 | nnPU logistic,XOR,100,100,100,22.5,19.5,22.5
+NL03,two_sample,M006,Block2 | Naive + AdaBoost,XOR,100,100,100,17.5,16.5,17.5
+NL03,two_sample,M007,Block2 | Naive + GBM,XOR,100,100,100,11.5,11.5,11.5
+NL03,two_sample,M008,Block2 | Naive + XGBoost,XOR,100,100,100,5.5,4.5,6.5
+NL03,two_sample,M009,Block2 | Naive + LightGBM,XOR,100,100,100,8.5,8.5,9.5
+NL03,two_sample,M010,Block2 | Naive + CatBoost,XOR,100,100,100,1.5,1.5,2.5
+NL03,two_sample,M011,Block2 | ProbCorrection + AdaBoost,XOR,100,100,100,17.5,16.5,17.5
+NL03,two_sample,M012,Block2 | ProbCorrection + GBM,XOR,100,100,100,11.5,11.5,11.5
+NL03,two_sample,M013,Block2 | ProbCorrection + XGBoost,XOR,100,100,100,5.5,4.5,6.5
+NL03,two_sample,M014,Block2 | ProbCorrection + LightGBM,XOR,100,100,100,8.5,8.5,9.5
+NL03,two_sample,M015,Block2 | ProbCorrection + CatBoost,XOR,100,100,100,1.5,1.5,2.5
+NL03,two_sample,M016,Block2 | RN + AdaBoost,XOR,99,99,100,21,23,19
+NL03,two_sample,M017,Block2 | RN + GBM,XOR,99,99,100,20,22,21
+NL03,two_sample,M018,Block2 | RN + XGBoost,XOR,100,100,100,19,21,20
+NL03,two_sample,M019,Block2 | RN + LightGBM,XOR,100,100,100,16,18,16
+NL03,two_sample,M020,Block2 | RN + CatBoost,XOR,100,100,100,15,15,14
+NL03,two_sample,M021,Block2 | CostSensitive + AdaBoost,XOR,100,100,100,14,14,15
+NL03,two_sample,M022,Block2 | CostSensitive + GBM,XOR,100,100,100,10,10,8
+NL03,two_sample,M023,Block2 | CostSensitive + XGBoost,XOR,100,100,100,4,6,4
+NL03,two_sample,M024,Block2 | CostSensitive + LightGBM,XOR,100,100,100,7,7,5
+NL03,two_sample,M025,Block2 | CostSensitive + CatBoost,XOR,100,100,100,3,3,1
+NL03,two_sample,M026,Block3 | AdaPU repaired,XOR,100,100,100,25,25,25
+NL03,two_sample,M027,Block3 | PU Gradient Boosting repaired,XOR,100,100,100,13,13,13
+NL04,one_sample,M003,Block1 | Elkan-Noto known-c,threshold_interaction,100,100,100,18,16,16
+NL04,one_sample,M004,Block1 | uPU logistic,threshold_interaction,100,100,100,16.5,17.5,17.5
+NL04,one_sample,M005,Block1 | nnPU logistic,threshold_interaction,100,100,100,16.5,17.5,17.5
+NL04,one_sample,M006,Block2 | Naive + AdaBoost,threshold_interaction,100,100,100,23.5,23.5,24.5
+NL04,one_sample,M007,Block2 | Naive + GBM,threshold_interaction,100,100,100,11.5,11.5,11.5
+NL04,one_sample,M008,Block2 | Naive + XGBoost,threshold_interaction,100,100,100,8.5,8.5,8.5
+NL04,one_sample,M009,Block2 | Naive + LightGBM,threshold_interaction,100,100,100,5.5,5.5,5.5
+NL04,one_sample,M010,Block2 | Naive + CatBoost,threshold_interaction,100,100,100,2.5,2.5,2.5
+NL04,one_sample,M011,Block2 | ProbCorrection + AdaBoost,threshold_interaction,100,100,100,23.5,23.5,24.5
+NL04,one_sample,M012,Block2 | ProbCorrection + GBM,threshold_interaction,100,100,100,11.5,11.5,11.5
+NL04,one_sample,M013,Block2 | ProbCorrection + XGBoost,threshold_interaction,100,100,100,8.5,8.5,8.5
+NL04,one_sample,M014,Block2 | ProbCorrection + LightGBM,threshold_interaction,100,100,100,5.5,5.5,5.5
+NL04,one_sample,M015,Block2 | ProbCorrection + CatBoost,threshold_interaction,100,100,100,2.5,2.5,2.5
+NL04,one_sample,M016,Block2 | RN + AdaBoost,threshold_interaction,100,100,100,20,22,14
+NL04,one_sample,M017,Block2 | RN + GBM,threshold_interaction,100,100,100,15,19,19
+NL04,one_sample,M018,Block2 | RN + XGBoost,threshold_interaction,100,100,100,19,20,20
+NL04,one_sample,M019,Block2 | RN + LightGBM,threshold_interaction,100,100,100,14,15,15
+NL04,one_sample,M020,Block2 | RN + CatBoost,threshold_interaction,100,100,100,13,13,13
+NL04,one_sample,M021,Block2 | CostSensitive + AdaBoost,threshold_interaction,100,100,100,25,25,23
+NL04,one_sample,M022,Block2 | CostSensitive + GBM,threshold_interaction,100,100,100,10,10,10
+NL04,one_sample,M023,Block2 | CostSensitive + XGBoost,threshold_interaction,100,100,100,7,7,7
+NL04,one_sample,M024,Block2 | CostSensitive + LightGBM,threshold_interaction,100,100,100,4,4,4
+NL04,one_sample,M025,Block2 | CostSensitive + CatBoost,threshold_interaction,100,100,100,1,1,1
+NL04,one_sample,M026,Block3 | AdaPU,threshold_interaction,100,100,100,21,21,22
+NL04,one_sample,M027,Block3 | PU Gradient Boosting,threshold_interaction,100,100,100,22,14,21
+NL04,two_sample,M003,Block1 | CaseControl density-ratio known-pi,threshold_interaction,100,100,100,18,16,14
+NL04,two_sample,M004,Block1 | uPU logistic,threshold_interaction,100,100,100,19.5,17.5,15.5
+NL04,two_sample,M005,Block1 | nnPU logistic,threshold_interaction,100,100,100,19.5,17.5,15.5
+NL04,two_sample,M006,Block2 | Naive + AdaBoost,threshold_interaction,100,100,100,24.5,24.5,19.5
+NL04,two_sample,M007,Block2 | Naive + GBM,threshold_interaction,100,100,100,11.5,11.5,11.5
+NL04,two_sample,M008,Block2 | Naive + XGBoost,threshold_interaction,100,100,100,7.5,7.5,8.5
+NL04,two_sample,M009,Block2 | Naive + LightGBM,threshold_interaction,100,100,100,5.5,5.5,5.5
+NL04,two_sample,M010,Block2 | Naive + CatBoost,threshold_interaction,100,100,100,2.5,2.5,2.5
+NL04,two_sample,M011,Block2 | ProbCorrection + AdaBoost,threshold_interaction,100,100,100,24.5,24.5,19.5
+NL04,two_sample,M012,Block2 | ProbCorrection + GBM,threshold_interaction,100,100,100,11.5,11.5,11.5
+NL04,two_sample,M013,Block2 | ProbCorrection + XGBoost,threshold_interaction,100,100,100,7.5,7.5,8.5
+NL04,two_sample,M014,Block2 | ProbCorrection + LightGBM,threshold_interaction,100,100,100,5.5,5.5,5.5
+NL04,two_sample,M015,Block2 | ProbCorrection + CatBoost,threshold_interaction,100,100,100,2.5,2.5,2.5
+NL04,two_sample,M016,Block2 | RN + AdaBoost,threshold_interaction,100,100,100,22,22,24
+NL04,two_sample,M017,Block2 | RN + GBM,threshold_interaction,100,100,100,16,20,22
+NL04,two_sample,M018,Block2 | RN + XGBoost,threshold_interaction,100,100,100,17,19,21
+NL04,two_sample,M019,Block2 | RN + LightGBM,threshold_interaction,100,100,100,14,15,18
+NL04,two_sample,M020,Block2 | RN + CatBoost,threshold_interaction,100,100,100,13,13,13
+NL04,two_sample,M021,Block2 | CostSensitive + AdaBoost,threshold_interaction,100,100,100,21,23,23
+NL04,two_sample,M022,Block2 | CostSensitive + GBM,threshold_interaction,100,100,100,10,10,10
+NL04,two_sample,M023,Block2 | CostSensitive + XGBoost,threshold_interaction,100,100,100,9,9,7
+NL04,two_sample,M024,Block2 | CostSensitive + LightGBM,threshold_interaction,100,100,100,4,4,4
+NL04,two_sample,M025,Block2 | CostSensitive + CatBoost,threshold_interaction,100,100,100,1,1,1
+NL04,two_sample,M026,Block3 | AdaPU repaired,threshold_interaction,100,100,100,23,21,25
+NL04,two_sample,M027,Block3 | PU Gradient Boosting repaired,threshold_interaction,100,100,100,15,14,17
+NL05,one_sample,M003,Block1 | Elkan-Noto known-c,sinusoidal,100,100,100,25,25,25
+NL05,one_sample,M004,Block1 | uPU logistic,sinusoidal,100,100,100,23.5,23.5,23.5
+NL05,one_sample,M005,Block1 | nnPU logistic,sinusoidal,100,100,100,23.5,23.5,23.5
+NL05,one_sample,M006,Block2 | Naive + AdaBoost,sinusoidal,100,100,100,6.5,10.5,1.5
+NL05,one_sample,M007,Block2 | Naive + GBM,sinusoidal,100,100,100,8.5,15.5,7.5
+NL05,one_sample,M008,Block2 | Naive + XGBoost,sinusoidal,100,100,100,2.5,2.5,10.5
+NL05,one_sample,M009,Block2 | Naive + LightGBM,sinusoidal,100,100,100,12.5,12.5,20.5
+NL05,one_sample,M010,Block2 | Naive + CatBoost,sinusoidal,100,100,100,14.5,8.5,13.5
+NL05,one_sample,M011,Block2 | ProbCorrection + AdaBoost,sinusoidal,100,100,100,6.5,10.5,1.5
+NL05,one_sample,M012,Block2 | ProbCorrection + GBM,sinusoidal,100,100,100,8.5,15.5,7.5
+NL05,one_sample,M013,Block2 | ProbCorrection + XGBoost,sinusoidal,100,100,100,2.5,2.5,10.5
+NL05,one_sample,M014,Block2 | ProbCorrection + LightGBM,sinusoidal,100,100,100,12.5,12.5,20.5
+NL05,one_sample,M015,Block2 | ProbCorrection + CatBoost,sinusoidal,100,100,100,14.5,8.5,13.5
+NL05,one_sample,M016,Block2 | RN + AdaBoost,sinusoidal,100,100,100,16,14,5
+NL05,one_sample,M017,Block2 | RN + GBM,sinusoidal,100,100,100,19,19,19
+NL05,one_sample,M018,Block2 | RN + XGBoost,sinusoidal,100,100,100,18,18,17
+NL05,one_sample,M019,Block2 | RN + LightGBM,sinusoidal,100,100,100,22,22,22
+NL05,one_sample,M020,Block2 | RN + CatBoost,sinusoidal,100,100,100,17,17,15
+NL05,one_sample,M021,Block2 | CostSensitive + AdaBoost,sinusoidal,100,100,100,5,7,3
+NL05,one_sample,M022,Block2 | CostSensitive + GBM,sinusoidal,100,100,100,4,4,6
+NL05,one_sample,M023,Block2 | CostSensitive + XGBoost,sinusoidal,100,100,100,1,1,9
+NL05,one_sample,M024,Block2 | CostSensitive + LightGBM,sinusoidal,100,100,100,10,5,18
+NL05,one_sample,M025,Block2 | CostSensitive + CatBoost,sinusoidal,100,100,100,11,6,12
+NL05,one_sample,M026,Block3 | AdaPU,sinusoidal,100,100,100,20,20,16
+NL05,one_sample,M027,Block3 | PU Gradient Boosting,sinusoidal,100,100,100,21,21,4
+NL05,two_sample,M003,Block1 | CaseControl density-ratio known-pi,sinusoidal,100,100,100,24,24,24
+NL05,two_sample,M004,Block1 | uPU logistic,sinusoidal,100,100,100,25,25,25
+NL05,two_sample,M005,Block1 | nnPU logistic,sinusoidal,100,100,100,23,23,23
+NL05,two_sample,M006,Block2 | Naive + AdaBoost,sinusoidal,100,100,100,3.5,5.5,1.5
+NL05,two_sample,M007,Block2 | Naive + GBM,sinusoidal,100,100,100,8.5,16.5,7.5
+NL05,two_sample,M008,Block2 | Naive + XGBoost,sinusoidal,100,100,100,5.5,2.5,14.5
+NL05,two_sample,M009,Block2 | Naive + LightGBM,sinusoidal,100,100,100,15.5,13.5,20.5
+NL05,two_sample,M010,Block2 | Naive + CatBoost,sinusoidal,100,100,100,13.5,10.5,11.5
+NL05,two_sample,M011,Block2 | ProbCorrection + AdaBoost,sinusoidal,100,100,100,3.5,5.5,1.5
+NL05,two_sample,M012,Block2 | ProbCorrection + GBM,sinusoidal,100,100,100,8.5,16.5,7.5
+NL05,two_sample,M013,Block2 | ProbCorrection + XGBoost,sinusoidal,100,100,100,5.5,2.5,14.5
+NL05,two_sample,M014,Block2 | ProbCorrection + LightGBM,sinusoidal,100,100,100,15.5,13.5,20.5
+NL05,two_sample,M015,Block2 | ProbCorrection + CatBoost,sinusoidal,100,100,100,13.5,10.5,11.5
+NL05,two_sample,M016,Block2 | RN + AdaBoost,sinusoidal,100,100,100,12,12,5
+NL05,two_sample,M017,Block2 | RN + GBM,sinusoidal,100,100,100,21,21,18
+NL05,two_sample,M018,Block2 | RN + XGBoost,sinusoidal,100,100,100,18,19,17
+NL05,two_sample,M019,Block2 | RN + LightGBM,sinusoidal,100,100,100,22,22,22
+NL05,two_sample,M020,Block2 | RN + CatBoost,sinusoidal,100,100,100,19,15,16
+NL05,two_sample,M021,Block2 | CostSensitive + AdaBoost,sinusoidal,100,100,100,2,4,3
+NL05,two_sample,M022,Block2 | CostSensitive + GBM,sinusoidal,100,100,100,7,7,6
+NL05,two_sample,M023,Block2 | CostSensitive + XGBoost,sinusoidal,100,100,100,1,1,9
+NL05,two_sample,M024,Block2 | CostSensitive + LightGBM,sinusoidal,100,100,100,10,9,19
+NL05,two_sample,M025,Block2 | CostSensitive + CatBoost,sinusoidal,100,100,100,11,8,10
+NL05,two_sample,M026,Block3 | AdaPU repaired,sinusoidal,100,100,100,20,18,13
+NL05,two_sample,M027,Block3 | PU Gradient Boosting repaired,sinusoidal,100,100,100,17,20,4
+NL06,one_sample,M003,Block1 | Elkan-Noto known-c,heterogeneous_nonlinear,100,100,100,25,20,21
+NL06,one_sample,M004,Block1 | uPU logistic,heterogeneous_nonlinear,100,100,100,23.5,22.5,22.5
+NL06,one_sample,M005,Block1 | nnPU logistic,heterogeneous_nonlinear,100,100,100,23.5,22.5,22.5
+NL06,one_sample,M006,Block2 | Naive + AdaBoost,heterogeneous_nonlinear,100,100,100,13.5,14.5,15.5
+NL06,one_sample,M007,Block2 | Naive + GBM,heterogeneous_nonlinear,100,100,100,11.5,11.5,11.5
+NL06,one_sample,M008,Block2 | Naive + XGBoost,heterogeneous_nonlinear,100,100,100,5.5,5.5,5.5
+NL06,one_sample,M009,Block2 | Naive + LightGBM,heterogeneous_nonlinear,100,100,100,8.5,8.5,8.5
+NL06,one_sample,M010,Block2 | Naive + CatBoost,heterogeneous_nonlinear,100,100,100,2.5,1.5,2.5
+NL06,one_sample,M011,Block2 | ProbCorrection + AdaBoost,heterogeneous_nonlinear,100,100,100,13.5,14.5,15.5
+NL06,one_sample,M012,Block2 | ProbCorrection + GBM,heterogeneous_nonlinear,100,100,100,11.5,11.5,11.5
+NL06,one_sample,M013,Block2 | ProbCorrection + XGBoost,heterogeneous_nonlinear,100,100,100,5.5,5.5,5.5
+NL06,one_sample,M014,Block2 | ProbCorrection + LightGBM,heterogeneous_nonlinear,100,100,100,8.5,8.5,8.5
+NL06,one_sample,M015,Block2 | ProbCorrection + CatBoost,heterogeneous_nonlinear,100,100,100,2.5,1.5,2.5
+NL06,one_sample,M016,Block2 | RN + AdaBoost,heterogeneous_nonlinear,100,100,100,21,24,20
+NL06,one_sample,M017,Block2 | RN + GBM,heterogeneous_nonlinear,100,100,100,20,25,19
+NL06,one_sample,M018,Block2 | RN + XGBoost,heterogeneous_nonlinear,100,100,100,19,19,24
+NL06,one_sample,M019,Block2 | RN + LightGBM,heterogeneous_nonlinear,100,100,100,18,18,18
+NL06,one_sample,M020,Block2 | RN + CatBoost,heterogeneous_nonlinear,100,100,100,17,17,17
+NL06,one_sample,M021,Block2 | CostSensitive + AdaBoost,heterogeneous_nonlinear,100,100,100,15,16,14
+NL06,one_sample,M022,Block2 | CostSensitive + GBM,heterogeneous_nonlinear,100,100,100,10,10,10
+NL06,one_sample,M023,Block2 | CostSensitive + XGBoost,heterogeneous_nonlinear,100,100,100,4,4,4
+NL06,one_sample,M024,Block2 | CostSensitive + LightGBM,heterogeneous_nonlinear,100,100,100,7,7,7
+NL06,one_sample,M025,Block2 | CostSensitive + CatBoost,heterogeneous_nonlinear,100,100,100,1,3,1
+NL06,one_sample,M026,Block3 | AdaPU,heterogeneous_nonlinear,100,100,100,22,21,25
+NL06,one_sample,M027,Block3 | PU Gradient Boosting,heterogeneous_nonlinear,100,100,100,16,13,13
+NL06,two_sample,M003,Block1 | CaseControl density-ratio known-pi,heterogeneous_nonlinear,100,100,100,23,24,25
+NL06,two_sample,M004,Block1 | uPU logistic,heterogeneous_nonlinear,100,100,100,24.5,21.5,22.5
+NL06,two_sample,M005,Block1 | nnPU logistic,heterogeneous_nonlinear,100,100,100,24.5,21.5,22.5
+NL06,two_sample,M006,Block2 | Naive + AdaBoost,heterogeneous_nonlinear,100,100,100,15.5,14.5,15.5
+NL06,two_sample,M007,Block2 | Naive + GBM,heterogeneous_nonlinear,100,100,100,11.5,11.5,11.5
+NL06,two_sample,M008,Block2 | Naive + XGBoost,heterogeneous_nonlinear,100,100,100,5.5,5.5,5.5
+NL06,two_sample,M009,Block2 | Naive + LightGBM,heterogeneous_nonlinear,100,100,100,8.5,8.5,8.5
+NL06,two_sample,M010,Block2 | Naive + CatBoost,heterogeneous_nonlinear,100,100,100,2.5,2.5,2.5
+NL06,two_sample,M011,Block2 | ProbCorrection + AdaBoost,heterogeneous_nonlinear,100,100,100,15.5,14.5,15.5
+NL06,two_sample,M012,Block2 | ProbCorrection + GBM,heterogeneous_nonlinear,100,100,100,11.5,11.5,11.5
+NL06,two_sample,M013,Block2 | ProbCorrection + XGBoost,heterogeneous_nonlinear,100,100,100,5.5,5.5,5.5
+NL06,two_sample,M014,Block2 | ProbCorrection + LightGBM,heterogeneous_nonlinear,100,100,100,8.5,8.5,8.5
+NL06,two_sample,M015,Block2 | ProbCorrection + CatBoost,heterogeneous_nonlinear,100,100,100,2.5,2.5,2.5
+NL06,two_sample,M016,Block2 | RN + AdaBoost,heterogeneous_nonlinear,100,100,100,22,25,20
+NL06,two_sample,M017,Block2 | RN + GBM,heterogeneous_nonlinear,100,100,100,19,23,19
+NL06,two_sample,M018,Block2 | RN + XGBoost,heterogeneous_nonlinear,100,100,100,20,19,21
+NL06,two_sample,M019,Block2 | RN + LightGBM,heterogeneous_nonlinear,100,100,100,18,18,18
+NL06,two_sample,M020,Block2 | RN + CatBoost,heterogeneous_nonlinear,100,100,100,17,17,17
+NL06,two_sample,M021,Block2 | CostSensitive + AdaBoost,heterogeneous_nonlinear,100,100,100,14,16,14
+NL06,two_sample,M022,Block2 | CostSensitive + GBM,heterogeneous_nonlinear,100,100,100,10,10,10
+NL06,two_sample,M023,Block2 | CostSensitive + XGBoost,heterogeneous_nonlinear,100,100,100,4,4,4
+NL06,two_sample,M024,Block2 | CostSensitive + LightGBM,heterogeneous_nonlinear,100,100,100,7,7,7
+NL06,two_sample,M025,Block2 | CostSensitive + CatBoost,heterogeneous_nonlinear,100,100,100,1,1,1
+NL06,two_sample,M026,Block3 | AdaPU repaired,heterogeneous_nonlinear,100,100,100,21,20,24
+NL06,two_sample,M027,Block3 | PU Gradient Boosting repaired,heterogeneous_nonlinear,100,100,100,13,13,13

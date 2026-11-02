@@ -1,0 +1,218 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\caption{Diagnostic fixed-parameter CatBoost analysis in five prespecified scenarios. Original logistic spy, full CatBoost nonlinear spy, size-matched nonlinear spy, random size-matched and oracle true-negative size-matched controls are compared. Random/oracle draws are first averaged within each repetition; repetitions are then equally weighted (100 per setting/design). Oracle controls use hidden truth and are not practical PU methods. Nonlinear-spy RN is not added to the benchmark catalog. Plotted absolute AUROC/AP scales are 0 to 1.}\label{tab:tab-s-rn-selector-sensitivity}\\
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Reference}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Reference}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.726 & 0.395 & 100 & 100 \\
+Nonlinear spy full & 0.719 & 0.381 & 100 & 100 \\
+Nonlinear size-matched & 0.720 & 0.385 & 100 & 100 \\
+Random size-matched & 0.715 & 0.389 & 100 & 100 \\
+Oracle TN size-matched & 0.721 & 0.401 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - 500 predictors}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - 500 predictors}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.719 & 0.387 & 100 & 100 \\
+Nonlinear spy full & 0.711 & 0.369 & 100 & 100 \\
+Nonlinear size-matched & 0.709 & 0.363 & 100 & 100 \\
+Random size-matched & 0.681 & 0.345 & 100 & 100 \\
+Oracle TN size-matched & 0.698 & 0.367 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Curved}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Curved}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.695 & 0.348 & 100 & 100 \\
+Nonlinear spy full & 0.699 & 0.355 & 100 & 100 \\
+Nonlinear size-matched & 0.700 & 0.357 & 100 & 100 \\
+Random size-matched & 0.696 & 0.362 & 100 & 100 \\
+Oracle TN size-matched & 0.704 & 0.375 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Interaction}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Interaction}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.614 & 0.260 & 100 & 100 \\
+Nonlinear spy full & 0.701 & 0.347 & 100 & 100 \\
+Nonlinear size-matched & 0.696 & 0.338 & 100 & 100 \\
+Random size-matched & 0.699 & 0.369 & 100 & 100 \\
+Oracle TN size-matched & 0.709 & 0.386 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Unequal covariance}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{One-sample - Unequal covariance}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.688 & 0.370 & 100 & 100 \\
+Nonlinear spy full & 0.690 & 0.354 & 100 & 100 \\
+Nonlinear size-matched & 0.692 & 0.356 & 100 & 100 \\
+Random size-matched & 0.717 & 0.438 & 100 & 100 \\
+Oracle TN size-matched & 0.724 & 0.457 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Reference}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Reference}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.726 & 0.393 & 100 & 100 \\
+Nonlinear spy full & 0.719 & 0.378 & 100 & 100 \\
+Nonlinear size-matched & 0.720 & 0.382 & 100 & 100 \\
+Random size-matched & 0.715 & 0.386 & 100 & 100 \\
+Oracle TN size-matched & 0.723 & 0.403 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - 500 predictors}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - 500 predictors}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.716 & 0.383 & 100 & 100 \\
+Nonlinear spy full & 0.710 & 0.369 & 100 & 100 \\
+Nonlinear size-matched & 0.707 & 0.362 & 100 & 100 \\
+Random size-matched & 0.674 & 0.336 & 100 & 100 \\
+Oracle TN size-matched & 0.698 & 0.367 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Curved}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Curved}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.696 & 0.350 & 100 & 100 \\
+Nonlinear spy full & 0.700 & 0.358 & 100 & 100 \\
+Nonlinear size-matched & 0.701 & 0.360 & 100 & 100 \\
+Random size-matched & 0.696 & 0.359 & 100 & 100 \\
+Oracle TN size-matched & 0.706 & 0.377 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Interaction}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Interaction}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.614 & 0.261 & 100 & 100 \\
+Nonlinear spy full & 0.702 & 0.351 & 100 & 100 \\
+Nonlinear size-matched & 0.699 & 0.344 & 100 & 100 \\
+Random size-matched & 0.695 & 0.361 & 100 & 100 \\
+Oracle TN size-matched & 0.710 & 0.386 & 100 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}>{\centering\arraybackslash}p{1.154in}@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Unequal covariance}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{5}{@{}l}{\textbf{Two-sample - Unequal covariance}}\\
+\addlinespace[3pt]
+Selector/control & AUROC & AP & n AUROC & n AP \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Logistic spy & 0.687 & 0.371 & 100 & 100 \\
+Nonlinear spy full & 0.691 & 0.357 & 100 & 100 \\
+Nonlinear size-matched & 0.693 & 0.359 & 100 & 100 \\
+Random size-matched & 0.714 & 0.432 & 100 & 100 \\
+Oracle TN size-matched & 0.724 & 0.458 & 100 & 100 \\
+\end{longtable}
+\noindent\textit{Note.} Fixed CatBoost final-refit parameters. Multiple random/oracle draws are first averaged within repetition. Absolute means are conditional on the original Task-4 protocol; these controls are diagnostics, not additional benchmark configurations.
+\par\endgroup

@@ -1,0 +1,13 @@
+{
+  "reason": "An unfittable one-class RN tuning candidate aborted the entire grid and downstream CS cell.",
+  "training_policy": "Skip only candidates with one observed/pseudo-label class during RN training; retain all original grid values and validation selection among feasible candidates.",
+  "refit_policy": "No fallback or reselection. A selected refit that still has no RN remains a recorded failure pending user direction.",
+  "scope": "Recover incomplete Task 7 cells only; preserve completed results and original S001--S040.",
+  "original_worker_sha256": "743f49b6c2f67b32f4a9d46b3fa031a121618c8ef8f5d0065b0bb07c2b66b6fd",
+  "execution_manifest_sha256": "c51ed1389f8618e747b3cc3a3a02bc7fd1f3d091364f9f819f08761e83f72e78",
+  "script_hashes": {
+    "worker_rn_recovery.py": "7ce2269ebf243e3285c2790fe4ed4a9c1c7565747eccc872d7f3293066d52159",
+    "case_runner_rn_recovery.py": "79e4f1aa3c7600c4a984aeddaa6111d8e579a3c79c48b658127d56fd203760be",
+    "test_rn_recovery.py": "520b8fabc9e67f56fc7859929ed7d37c548408b809a51bcf3a73a9885caa0697"
+  }
+}

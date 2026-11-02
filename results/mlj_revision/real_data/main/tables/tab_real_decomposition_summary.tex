@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\caption{Real-data learner and strategy decomposition. Entries are equal-dataset mean paired differences in percentage points; the 20 paired split differences are first averaged within each dataset and condition. These are descriptive pipeline contrasts, not population inference.}
+\label{tab:real-decomposition-summary}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{llr*{3}{>{\centering\arraybackslash}X}}
+\toprule
+Metric & Design & Budget & Learner gain & CS addition & RN addition \\
+\midrule
+AUROC & OS & 0.05 & +2.540 & -0.701 & +0.144 \\
+AUROC & OS & 0.20 & +2.043 & -0.159 & -0.638 \\
+AUROC & TS & 0.05 & +2.585 & -0.448 & +0.118 \\
+AUROC & TS & 0.20 & +2.042 & -0.153 & -0.592 \\
+\midrule
+AP & OS & 0.05 & +2.188 & -1.113 & +1.207 \\
+AP & OS & 0.20 & +2.256 & -0.285 & -0.518 \\
+AP & TS & 0.05 & +2.240 & -0.707 & +1.094 \\
+AP & TS & 0.20 & +2.064 & -0.204 & -0.259 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Learner gain: naive CatBoost minus logistic probability correction. CS/RN additions: the respective CatBoost strategy minus naive CatBoost. Positive values favour the first named method. Strategy-specific tuning is retained; no test-selected representative or group maximum is used.
+\end{minipage}
+\end{table*}

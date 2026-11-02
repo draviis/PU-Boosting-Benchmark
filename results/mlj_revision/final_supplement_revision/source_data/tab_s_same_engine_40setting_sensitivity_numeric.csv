@@ -1,0 +1,61 @@
+strategy,engine,method_number,naive_number,design,metric,difference_pp,weight
+Probability correction,AdaBoost,11,6,one_sample,AUROC,0,original_40_setting_mean
+Probability correction,AdaBoost,11,6,one_sample,AP,0,original_40_setting_mean
+Probability correction,AdaBoost,11,6,two_sample,AUROC,7.0675298946554221e-08,original_40_setting_mean
+Probability correction,AdaBoost,11,6,two_sample,AP,1.4576151396994419e-08,original_40_setting_mean
+Probability correction,GBM,12,7,one_sample,AUROC,0,original_40_setting_mean
+Probability correction,GBM,12,7,one_sample,AP,0,original_40_setting_mean
+Probability correction,GBM,12,7,two_sample,AUROC,0,original_40_setting_mean
+Probability correction,GBM,12,7,two_sample,AP,0,original_40_setting_mean
+Probability correction,XGBoost,13,8,one_sample,AUROC,0,original_40_setting_mean
+Probability correction,XGBoost,13,8,one_sample,AP,0,original_40_setting_mean
+Probability correction,XGBoost,13,8,two_sample,AUROC,0,original_40_setting_mean
+Probability correction,XGBoost,13,8,two_sample,AP,0,original_40_setting_mean
+Probability correction,LightGBM,14,9,one_sample,AUROC,0,original_40_setting_mean
+Probability correction,LightGBM,14,9,one_sample,AP,0,original_40_setting_mean
+Probability correction,LightGBM,14,9,two_sample,AUROC,0,original_40_setting_mean
+Probability correction,LightGBM,14,9,two_sample,AP,0,original_40_setting_mean
+Probability correction,CatBoost,15,10,one_sample,AUROC,0,original_40_setting_mean
+Probability correction,CatBoost,15,10,one_sample,AP,0,original_40_setting_mean
+Probability correction,CatBoost,15,10,two_sample,AUROC,0,original_40_setting_mean
+Probability correction,CatBoost,15,10,two_sample,AP,0,original_40_setting_mean
+RN,AdaBoost,16,6,one_sample,AUROC,0.70667418033029117,original_40_setting_mean
+RN,AdaBoost,16,6,one_sample,AP,0.14555904359186966,original_40_setting_mean
+RN,AdaBoost,16,6,two_sample,AUROC,0.73018911767925854,original_40_setting_mean
+RN,AdaBoost,16,6,two_sample,AP,0.35060605048988225,original_40_setting_mean
+RN,GBM,17,7,one_sample,AUROC,0.57274496479520209,original_40_setting_mean
+RN,GBM,17,7,one_sample,AP,-0.83929479328521683,original_40_setting_mean
+RN,GBM,17,7,two_sample,AUROC,0.51052752330744688,original_40_setting_mean
+RN,GBM,17,7,two_sample,AP,-0.55355129706278206,original_40_setting_mean
+RN,XGBoost,18,8,one_sample,AUROC,0.30315718168101302,original_40_setting_mean
+RN,XGBoost,18,8,one_sample,AP,-0.91610011831799176,original_40_setting_mean
+RN,XGBoost,18,8,two_sample,AUROC,0.31639465137014433,original_40_setting_mean
+RN,XGBoost,18,8,two_sample,AP,-0.66738025450427396,original_40_setting_mean
+RN,LightGBM,19,9,one_sample,AUROC,1.2949900217622545,original_40_setting_mean
+RN,LightGBM,19,9,one_sample,AP,-0.19164005271103401,original_40_setting_mean
+RN,LightGBM,19,9,two_sample,AUROC,1.2330551223798003,original_40_setting_mean
+RN,LightGBM,19,9,two_sample,AP,0.1866490630796136,original_40_setting_mean
+RN,CatBoost,20,10,one_sample,AUROC,0.4013476512568559,original_40_setting_mean
+RN,CatBoost,20,10,one_sample,AP,-1.1192272986200291,original_40_setting_mean
+RN,CatBoost,20,10,two_sample,AUROC,0.36157459873852327,original_40_setting_mean
+RN,CatBoost,20,10,two_sample,AP,-0.9362448999719053,original_40_setting_mean
+CS,AdaBoost,21,6,one_sample,AUROC,0.04690086464269605,original_40_setting_mean
+CS,AdaBoost,21,6,one_sample,AP,0.086496909014188716,original_40_setting_mean
+CS,AdaBoost,21,6,two_sample,AUROC,0.042371307215538501,original_40_setting_mean
+CS,AdaBoost,21,6,two_sample,AP,0.067942532890469254,original_40_setting_mean
+CS,GBM,22,7,one_sample,AUROC,0.095075716048775849,original_40_setting_mean
+CS,GBM,22,7,one_sample,AP,0.34622521581982313,original_40_setting_mean
+CS,GBM,22,7,two_sample,AUROC,0.011340042769047987,original_40_setting_mean
+CS,GBM,22,7,two_sample,AP,0.3561021588161184,original_40_setting_mean
+CS,XGBoost,23,8,one_sample,AUROC,-6.9761519183586529e-05,original_40_setting_mean
+CS,XGBoost,23,8,one_sample,AP,-0.013934788676689402,original_40_setting_mean
+CS,XGBoost,23,8,two_sample,AUROC,0.018559121157279979,original_40_setting_mean
+CS,XGBoost,23,8,two_sample,AP,0.014014464353279132,original_40_setting_mean
+CS,LightGBM,24,9,one_sample,AUROC,0.056487102851865423,original_40_setting_mean
+CS,LightGBM,24,9,one_sample,AP,0.21844816995240102,original_40_setting_mean
+CS,LightGBM,24,9,two_sample,AUROC,0.042710796510236904,original_40_setting_mean
+CS,LightGBM,24,9,two_sample,AP,0.24926273014297395,original_40_setting_mean
+CS,CatBoost,25,10,one_sample,AUROC,0.012579132739243271,original_40_setting_mean
+CS,CatBoost,25,10,one_sample,AP,-0.016902235877236382,original_40_setting_mean
+CS,CatBoost,25,10,two_sample,AUROC,-0.016276006648996422,original_40_setting_mean
+CS,CatBoost,25,10,two_sample,AP,-0.058510563086089373,original_40_setting_mean

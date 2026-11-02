@@ -1,0 +1,101 @@
+design,method_id,method_number,method_name,method_group,practical_PU,metric,policy,summary_type,family_id,family,settings_expected,settings_complete,settings_observed,repetitions_available,mean_value,observed_setting_mean,complete,original_setting_weight,equal_family_weight,family_balanced_minus_original_pp,families_expected,families_complete,preferred
+one_sample,M003,3,Corrected logistic,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39736981573424668,,True,,,-0.5536544221624029,10,10,True
+one_sample,M003,3,Corrected logistic,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71195644259415736,,True,,,-0.91664615324065224,10,10,True
+one_sample,M004,4,uPU linear,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3967209157914407,,True,,,-0.54762100567675165,10,10,True
+one_sample,M004,4,uPU linear,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71141181911085694,,True,,,-0.90592747498593484,10,10,True
+one_sample,M005,5,nnPU linear,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3967209157914407,,True,,,-0.54762100567675165,10,10,True
+one_sample,M005,5,nnPU linear,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71141181911085694,,True,,,-0.90592747498593484,10,10,True
+one_sample,M006,6,Naive AdaBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38002032461501167,,True,,,-0.0721479539100566,10,10,True
+one_sample,M006,6,Naive AdaBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70384628377493796,,True,,,-0.097977583569441806,10,10,True
+one_sample,M007,7,Naive GBM,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3797136338270744,,True,,,0.25391839005142192,10,10,True
+one_sample,M007,7,Naive GBM,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70557545464781413,,True,,,0.10454559063617359,10,10,True
+one_sample,M008,8,Naive XGBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39177903245715062,,True,,,0.36467472932625311,10,10,True
+one_sample,M008,8,Naive XGBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70990909687635817,,True,,,0.075406574507508303,10,10,True
+one_sample,M009,9,Naive LightGBM,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37551233566858028,,True,,,0.50006600151779601,10,10,True
+one_sample,M009,9,Naive LightGBM,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70000670926204811,,True,,,0.41071578093081479,10,10,True
+one_sample,M010,10,Naive CatBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39728775057948701,,True,,,0.62746123339937898,10,10,True
+one_sample,M010,10,Naive CatBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71378634223403792,,True,,,0.29447771390179728,10,10,True
+one_sample,M011,11,Corrected AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38002032461501167,,True,,,-0.0721479539100566,10,10,True
+one_sample,M011,11,Corrected AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70384628377493796,,True,,,-0.097977583569441806,10,10,True
+one_sample,M012,12,Corrected GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3797136338270744,,True,,,0.25391839005142192,10,10,True
+one_sample,M012,12,Corrected GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70557545464781413,,True,,,0.10454559063617359,10,10,True
+one_sample,M013,13,Corrected XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39177903245715062,,True,,,0.36467472932625311,10,10,True
+one_sample,M013,13,Corrected XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70990909687635817,,True,,,0.075406574507508303,10,10,True
+one_sample,M014,14,Corrected LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37551233566858028,,True,,,0.50006600151779601,10,10,True
+one_sample,M014,14,Corrected LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70000670926204811,,True,,,0.41071578093081479,10,10,True
+one_sample,M015,15,Corrected CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39728775057948701,,True,,,0.62746123339937898,10,10,True
+one_sample,M015,15,Corrected CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71378634223403792,,True,,,0.29447771390179728,10,10,True
+one_sample,M016,16,RN AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36809083434540751,,True,,,-1.4106560244623478,10,10,True
+one_sample,M016,16,RN AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.6992530514385461,,True,,,-1.2639749975389192,10,10,True
+one_sample,M017,17,RN GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.35236143872994591,,True,,,-1.6420063263762108,10,10,True
+one_sample,M017,17,RN GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69657308129564632,,True,,,-1.3684367093758087,10,10,True
+one_sample,M018,18,RN XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36586322935405258,,True,,,-1.3108054626655652,10,10,True
+one_sample,M018,18,RN XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.6998898160240925,,True,,,-1.2296786924000711,10,10,True
+one_sample,M019,19,RN LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3559349154283612,,True,,,-1.2660359697930781,10,10,True
+one_sample,M019,19,RN LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.6962966489640513,,True,,,-1.2552802706311206,10,10,True
+one_sample,M020,20,RN CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36671693446568709,,True,,,-1.3103930793605945,10,10,True
+one_sample,M020,20,RN CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70262423415254405,,True,,,-1.2230807455044457,10,10,True
+one_sample,M021,21,CS AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38089444535219441,,True,,,-0.071232789205971606,10,10,True
+one_sample,M021,21,CS AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70421850337688296,,True,,,-0.1076564880176378,10,10,True
+one_sample,M022,22,CS GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38379539099851379,,True,,,0.31586889137553142,10,10,True
+one_sample,M022,22,CS GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70622434781371668,,True,,,0.074359191177653106,10,10,True
+one_sample,M023,23,CS XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3917894187684271,,True,,,0.37964814913059031,10,10,True
+one_sample,M023,23,CS XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71008677856001456,,True,,,0.093244504392331298,10,10,True
+one_sample,M024,24,CS LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37762236203165039,,True,,,0.4926204678724066,10,10,True
+one_sample,M024,24,CS LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70032672899177817,,True,,,0.38623065105195531,10,10,True
+one_sample,M025,25,CS CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39735370546579579,,True,,,0.6509589579074937,10,10,True
+one_sample,M025,25,CS CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71403662093788989,,True,,,0.306926451547751,10,10,True
+one_sample,M026,26,AdaPU,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38237514273934847,,True,,,-0.15529889331927221,10,10,True
+one_sample,M026,26,AdaPU,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69322920013388534,,True,,,-0.40180418380471039,10,10,True
+one_sample,M027,27,PU gradient boosting,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36622131642091788,,True,,,0.38577500490064032,10,10,True
+one_sample,M027,27,PU gradient boosting,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.68699569889801027,,True,,,0.66846847691395261,10,10,True
+two_sample,TM003,3,Corrected logistic,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39355959861635542,,True,,,-0.1569368565020712,10,10,True
+two_sample,TM003,3,Corrected logistic,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71114067261026881,,True,,,-0.89240472752535327,10,10,True
+two_sample,TM004,4,uPU linear,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39204233000139033,,True,,,-0.10611756224216951,10,10,True
+two_sample,TM004,4,uPU linear,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70965618827090471,,True,,,-0.83961502054062942,10,10,True
+two_sample,TM005,5,nnPU linear,nonboosting_PU,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39257107920729911,,True,,,-0.0928988320944346,10,10,True
+two_sample,TM005,5,nnPU linear,nonboosting_PU,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.7102413975403663,,True,,,-0.82498478880408399,10,10,True
+two_sample,TM006,6,Naive AdaBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37474189709572669,,True,,,0.31785413803988583,10,10,True
+two_sample,TM006,6,Naive AdaBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70293835455444487,,True,,,-0.11636667089868211,10,10,True
+two_sample,TM007,7,Naive GBM,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37257317557902703,,True,,,0.57191617726704003,10,10,True
+two_sample,TM007,7,Naive GBM,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70479250143871408,,True,,,0.0050922168903233004,10,10,True
+two_sample,TM008,8,Naive XGBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38512305181480527,,True,,,0.71402995586725138,10,10,True
+two_sample,TM008,8,Naive XGBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.7085657333680323,,True,,,0.0303971276585435,10,10,True
+two_sample,TM009,9,Naive LightGBM,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36686882270899451,,True,,,0.79956993051913949,10,10,True
+two_sample,TM009,9,Naive LightGBM,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69857738580846607,,True,,,0.27484850612692341,10,10,True
+two_sample,TM010,10,Naive CatBoost,naive_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3914671242926801,,True,,,0.97106069462766242,10,10,True
+two_sample,TM010,10,Naive CatBoost,naive_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71276748948270452,,True,,,0.2408881250523742,10,10,True
+two_sample,TM011,11,Corrected AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3747418973789588,,True,,,0.31785415178695597,10,10,True
+two_sample,TM011,11,Corrected AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70293835578148012,,True,,,-0.11636661887045591,10,10,True
+two_sample,TM012,12,Corrected GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37257317557902703,,True,,,0.57191617726704003,10,10,True
+two_sample,TM012,12,Corrected GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70479250143871408,,True,,,0.0050922168903233004,10,10,True
+two_sample,TM013,13,Corrected XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38512305181480538,,True,,,0.71402995586725693,10,10,True
+two_sample,TM013,13,Corrected XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.7085657333680323,,True,,,0.0303971276585435,10,10,True
+two_sample,TM014,14,Corrected LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36686882270899451,,True,,,0.79956993051913949,10,10,True
+two_sample,TM014,14,Corrected LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69857738580846607,,True,,,0.27484850612692341,10,10,True
+two_sample,TM015,15,Corrected CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3914671242926801,,True,,,0.97106069462765676,10,10,True
+two_sample,TM015,15,Corrected CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.71276748948270452,,True,,,0.2408881250523742,10,10,True
+two_sample,TM016,16,RN AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36563379056195322,,True,,,-0.94356256582733844,10,10,True
+two_sample,TM016,16,RN AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69941469774819542,,True,,,-1.1989214692028849,10,10,True
+two_sample,TM017,17,RN GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.34927492713041042,,True,,,-1.2043573705318444,10,10,True
+two_sample,TM017,17,RN GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69668018610441484,,True,,,-1.3166668398470471,10,10,True
+two_sample,TM018,18,RN XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3619795374318327,,True,,,-0.93294122792573198,10,10,True
+two_sample,TM018,18,RN XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69928186959139771,,True,,,-1.2143839013750599,10,10,True
+two_sample,TM019,19,RN LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.35264405775604168,,True,,,-0.80955562785575697,10,10,True
+two_sample,TM019,19,RN LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69635681336559929,,True,,,-1.1802638605395543,10,10,True
+two_sample,TM020,20,RN CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.36340325061239398,,True,,,-0.89908177342903906,10,10,True
+two_sample,TM020,20,RN CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70216054115674953,,True,,,-1.1813813062816481,10,10,True
+two_sample,TM021,21,CS AdaBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37527110174902872,,True,,,0.30283207047962502,10,10,True
+two_sample,TM021,21,CS AdaBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70321864020733371,,True,,,-0.1307094128253361,10,10,True
+two_sample,TM022,22,CS GBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37674887607111018,,True,,,0.63338406765923727,10,10,True
+two_sample,TM022,22,CS GBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70492821592081079,,True,,,0.0073236223309458004,10,10,True
+two_sample,TM023,23,CS XGBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3852297643346107,,True,,,0.71068674349450967,10,10,True
+two_sample,TM023,23,CS XGBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.70875014123615609,,True,,,0.030278793313642801,10,10,True
+two_sample,TM024,24,CS LightGBM,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.3695334923416484,,True,,,0.81677416364154265,10,10,True
+two_sample,TM024,24,CS LightGBM,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69888911718955504,,True,,,0.26331084772558411,10,10,True
+two_sample,TM025,25,CS CatBoost,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.39137347882597562,,True,,,1.0202067110432975,10,10,True
+two_sample,TM025,25,CS CatBoost,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.7129189336993742,,True,,,0.27230855336833892,10,10,True
+two_sample,TM026,26,AdaPU,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.38059800204369121,,True,,,0.19911005493067341,10,10,True
+two_sample,TM026,26,AdaPU,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69447999267521343,,True,,,-0.4666926267187676,10,10,True
+two_sample,TM027,27,PU gradient boosting,PU_aware_boosting,True,AP,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.37027045459590913,,True,,,0.53079968665038502,10,10,True
+two_sample,TM027,27,PU gradient boosting,PU_aware_boosting,True,AUROC,ranking_archive,equal_10_family_mean,,ALL,40,40,40,4000,0.69563073465816161,,True,,,0.3507542633030325,10,10,True

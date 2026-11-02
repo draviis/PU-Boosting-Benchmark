@@ -1,0 +1,26 @@
+Panel,Method,AUROC OS,AUROC TS,AP OS,AP TS
+Block 1: nonboosting PU,Logistic probability correction,0.712,0.711,0.397,0.394
+Block 1: nonboosting PU,uPU logistic,0.711,0.710,0.397,0.392
+Block 1: nonboosting PU,nnPU logistic,0.711,0.710,0.397,0.393
+Block 2: boosting,Naive AdaBoost,0.704,0.703,0.380,0.375
+Block 2: boosting,Naive GBM,0.706,0.705,0.380,0.373
+Block 2: boosting,Naive XGBoost,0.710,0.709,0.392,0.385
+Block 2: boosting,Naive LightGBM,0.700,0.699,0.376,0.367
+Block 2: boosting,Naive CatBoost,0.714,0.713,0.397,0.391
+Block 2: boosting,Corrected AdaBoost,0.704,0.703,0.380,0.375
+Block 2: boosting,Corrected GBM,0.706,0.705,0.380,0.373
+Block 2: boosting,Corrected XGBoost,0.710,0.709,0.392,0.385
+Block 2: boosting,Corrected LightGBM,0.700,0.699,0.376,0.367
+Block 2: boosting,Corrected CatBoost,0.714,0.713,0.397,0.391
+Block 2: boosting,RN AdaBoost,0.699,0.699,0.368,0.366
+Block 2: boosting,RN GBM,0.697,0.697,0.352,0.349
+Block 2: boosting,RN XGBoost,0.700,0.699,0.366,0.362
+Block 2: boosting,RN LightGBM,0.696,0.696,0.356,0.353
+Block 2: boosting,RN CatBoost,0.703,0.702,0.367,0.363
+Block 2: boosting,CS AdaBoost,0.704,0.703,0.381,0.375
+Block 2: boosting,CS GBM,0.706,0.705,0.384,0.377
+Block 2: boosting,CS XGBoost,0.710,0.709,0.392,0.385
+Block 2: boosting,CS LightGBM,0.700,0.699,0.378,0.370
+Block 2: boosting,CS CatBoost,0.714,0.713,0.397,0.391
+Block 3: native PU,AdaPU,0.693,0.694,0.382,0.381
+Block 3: native PU,PU gradient boosting,0.687,0.696,0.366,0.370

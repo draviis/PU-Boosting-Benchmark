@@ -1,0 +1,28 @@
+method_id,method_name,method_group,min,max
+M001,Supervised logistic regression,Supervised references,3,3
+M002,Supervised CatBoost,Supervised references,4,4
+M003,Logistic probability correction,Nonboosting PU,3,3
+M004,uPU logistic,Nonboosting PU,4,4
+M005,nnPU logistic,Nonboosting PU,4,4
+M006,Naive AdaBoost,Naive boosting,4,4
+M007,Naive GBM,Naive boosting,4,4
+M008,Naive XGBoost,Naive boosting,4,4
+M009,Naive LightGBM,Naive boosting,4,4
+M010,Naive CatBoost,Naive boosting,4,4
+M011,Corrected AdaBoost,Probability-corrected boosting,4,4
+M012,Corrected GBM,Probability-corrected boosting,4,4
+M013,Corrected XGBoost,Probability-corrected boosting,4,4
+M014,Corrected LightGBM,Probability-corrected boosting,4,4
+M015,Corrected CatBoost,Probability-corrected boosting,4,4
+M016,RN AdaBoost,Reliable-negative boosting,16,16
+M017,RN GBM,Reliable-negative boosting,16,16
+M018,RN XGBoost,Reliable-negative boosting,16,16
+M019,RN LightGBM,Reliable-negative boosting,16,16
+M020,RN CatBoost,Reliable-negative boosting,16,16
+M021,CS AdaBoost,Cost-sensitive boosting,16,16
+M022,CS GBM,Cost-sensitive boosting,16,16
+M023,CS XGBoost,Cost-sensitive boosting,16,16
+M024,CS LightGBM,Cost-sensitive boosting,16,16
+M025,CS CatBoost,Cost-sensitive boosting,16,16
+M026,AdaPU,Native PU boosting,20,20
+M027,PU gradient boosting,Native PU boosting,5,5

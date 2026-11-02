@@ -1,0 +1,9 @@
+{
+  "policy": "Record unavailable final RN refit; retain valid same-selected-model hard metrics. No imputation, constant-score fallback or reselection.",
+  "decision": "Conservative default preserves the approved statistical procedure while the optional fallback question is unanswered.",
+  "base_recovery_protocol_sha256": "dd9d46ccfbf4da1bdfe66e9fda9e9e08ca49c94574aebbbd1801d6b7f091307d",
+  "script_hashes": {
+    "worker_rn_empty_refit.py": "56159a749e995fd52e3db0e680c7cabcfc52422c712554cf7b2355ae4421e940",
+    "case_runner_rn_empty_refit.py": "0a8f6316c63552a747dcb5ce90943c4445322f7db1780e7b794916214fda2856"
+  }
+}

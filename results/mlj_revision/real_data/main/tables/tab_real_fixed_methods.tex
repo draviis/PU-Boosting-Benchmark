@@ -1,0 +1,35 @@
+\begin{table*}[t]
+\centering
+\caption{Fixed-method real-data ranking performance. Repeated splits are first averaged within dataset; each of the eight datasets then receives equal weight. Representative methods were selected for conceptual coverage, not by outcome. Bold marks the highest displayed fixed-method value in each column at full precision and does not indicate significance.}
+\label{tab:real-fixed-methods}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrrr}
+\toprule
+\multicolumn{5}{l}{\textbf{Panel A: AUROC}} \\
+Method & OS 0.05 & OS 0.20 & TS 0.05 & TS 0.20 \\
+\midrule
+Logistic probability correction & 0.8694 & 0.8991 & 0.8702 & 0.8977 \\
+nnPU logistic & 0.8766 & 0.9003 & 0.8758 & 0.8980 \\
+Naive CatBoost & 0.8948 & \textbf{0.9196} & 0.8961 & \textbf{0.9181} \\
+CS CatBoost & 0.8878 & 0.9180 & 0.8916 & 0.9166 \\
+RN CatBoost & \textbf{0.8963} & 0.9132 & \textbf{0.8973} & 0.9122 \\
+PU gradient boosting & 0.8372 & 0.8967 & 0.8672 & 0.8995 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Panel B: AP}} \\
+Method & OS 0.05 & OS 0.20 & TS 0.05 & TS 0.20 \\
+\midrule
+Logistic probability correction & 0.7623 & 0.7979 & 0.7641 & 0.7965 \\
+nnPU logistic & 0.7742 & 0.8026 & 0.7741 & 0.7986 \\
+Naive CatBoost & 0.7841 & \textbf{0.8204} & 0.7865 & \textbf{0.8171} \\
+CS CatBoost & 0.7730 & 0.8176 & 0.7794 & 0.8151 \\
+RN CatBoost & \textbf{0.7962} & 0.8152 & \textbf{0.7974} & 0.8145 \\
+PU gradient boosting & 0.7090 & 0.7928 & 0.7464 & 0.7936 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+OS and TS denote one- and two-sample sampling. Entries use final train+validation refits, 20 repeated splits per dataset/condition, and the original supplied training-background prior. Supervised references are reported separately. AP denotes average precision.
+\end{minipage}
+\end{table*}

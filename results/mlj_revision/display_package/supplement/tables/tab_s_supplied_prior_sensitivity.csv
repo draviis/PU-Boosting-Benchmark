@@ -1,0 +1,129 @@
+Panel,Method,0.80,0.90,1.00,1.10,1.20,n
+One-sample - S001 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S001 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S001 / AP,AdaPU,-0.11,-0.04,+0.00,+0.02,+0.07,100
+One-sample - S001 / AP,PU gradient boosting,-1.40,-0.59,+0.00,+0.31,+0.58,100
+One-sample - S001 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S001 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S001 / AUROC,AdaPU,-0.10,-0.05,+0.00,+0.03,+0.10,100
+One-sample - S001 / AUROC,PU gradient boosting,-0.94,-0.42,+0.00,+0.21,+0.39,100
+One-sample - S002 / AP,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S002 / AP,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S002 / AP,AdaPU,-0.01,-0.02,+0.00,+0.05,+0.02,100
+One-sample - S002 / AP,PU gradient boosting,+0.01,+0.03,+0.00,+0.00,+0.03,100
+One-sample - S002 / AUROC,uPU logistic,-0.02,-0.01,+0.00,+0.01,+0.01,100
+One-sample - S002 / AUROC,nnPU logistic,-0.02,-0.01,+0.00,+0.01,+0.01,100
+One-sample - S002 / AUROC,AdaPU,+0.05,-0.03,+0.00,+0.04,-0.08,100
+One-sample - S002 / AUROC,PU gradient boosting,-0.13,+0.18,+0.00,+0.32,+0.54,100
+One-sample - S003 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S003 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S003 / AP,AdaPU,+0.01,-0.05,+0.00,+0.00,+0.05,100
+One-sample - S003 / AP,PU gradient boosting,-0.23,-0.10,+0.00,+0.28,+0.39,100
+One-sample - S003 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S003 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S003 / AUROC,AdaPU,+0.06,+0.00,+0.00,+0.02,+0.11,100
+One-sample - S003 / AUROC,PU gradient boosting,-0.53,-0.18,+0.00,+0.66,+0.91,100
+One-sample - S011 / AP,uPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - S011 / AP,nnPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - S011 / AP,AdaPU,-0.73,-0.47,+0.00,+0.32,+0.29,100
+One-sample - S011 / AP,PU gradient boosting,-0.32,-0.19,+0.00,+0.18,+0.29,100
+One-sample - S011 / AUROC,uPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - S011 / AUROC,nnPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - S011 / AUROC,AdaPU,-0.92,-0.58,+0.00,+0.55,+0.81,100
+One-sample - S011 / AUROC,PU gradient boosting,-0.28,-0.15,+0.00,+0.13,+0.21,100
+One-sample - S026 / AP,uPU logistic,+0.06,+0.04,+0.00,-0.03,-0.08,100
+One-sample - S026 / AP,nnPU logistic,+0.06,+0.04,+0.00,-0.03,+0.01,100
+One-sample - S026 / AP,AdaPU,-0.15,-0.09,+0.00,+0.07,+0.20,100
+One-sample - S026 / AP,PU gradient boosting,-1.78,-0.73,+0.00,+0.44,+1.01,100
+One-sample - S026 / AUROC,uPU logistic,+0.06,+0.04,+0.00,-0.04,-0.08,100
+One-sample - S026 / AUROC,nnPU logistic,+0.06,+0.04,+0.00,-0.04,+0.00,100
+One-sample - S026 / AUROC,AdaPU,-0.14,-0.10,+0.00,+0.08,+0.20,100
+One-sample - S026 / AUROC,PU gradient boosting,-1.19,-0.50,+0.00,+0.29,+0.63,100
+One-sample - S038 / AP,uPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+One-sample - S038 / AP,nnPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+One-sample - S038 / AP,AdaPU,-0.07,-0.04,+0.00,+0.02,+0.16,100
+One-sample - S038 / AP,PU gradient boosting,-1.18,-0.51,+0.00,+0.55,+0.82,100
+One-sample - S038 / AUROC,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S038 / AUROC,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S038 / AUROC,AdaPU,-0.07,-0.03,+0.00,+0.05,+0.14,100
+One-sample - S038 / AUROC,PU gradient boosting,-0.86,-0.32,+0.00,+0.43,+0.62,100
+One-sample - S039 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S039 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S039 / AP,AdaPU,-0.21,-0.03,+0.00,+0.11,+0.11,100
+One-sample - S039 / AP,PU gradient boosting,-0.53,-0.29,+0.00,+0.37,+0.65,100
+One-sample - S039 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S039 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S039 / AUROC,AdaPU,-0.15,-0.06,+0.00,+0.11,+0.16,100
+One-sample - S039 / AUROC,PU gradient boosting,-0.31,-0.10,+0.00,+0.22,+0.42,100
+One-sample - S040 / AP,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+One-sample - S040 / AP,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+One-sample - S040 / AP,AdaPU,+0.01,-0.07,+0.00,-0.19,-0.28,100
+One-sample - S040 / AP,PU gradient boosting,-1.46,-0.92,+0.00,+0.29,+0.71,100
+One-sample - S040 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S040 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - S040 / AUROC,AdaPU,-0.06,-0.06,+0.00,-0.05,-0.05,100
+One-sample - S040 / AUROC,PU gradient boosting,-0.94,-0.60,+0.00,+0.23,+0.50,100
+Two-sample - TS001 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS001 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS001 / AP,AdaPU,-0.12,-0.13,+0.00,+0.02,+0.14,100
+Two-sample - TS001 / AP,PU gradient boosting,-0.15,-0.09,+0.00,+0.07,+0.09,100
+Two-sample - TS001 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS001 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS001 / AUROC,AdaPU,-0.12,-0.08,+0.00,+0.04,+0.12,100
+Two-sample - TS001 / AUROC,PU gradient boosting,-0.11,-0.06,+0.00,+0.06,+0.10,100
+Two-sample - TS002 / AP,uPU logistic,+0.01,+0.00,+0.00,+0.00,-0.01,100
+Two-sample - TS002 / AP,nnPU logistic,+0.01,+0.00,+0.00,+0.00,-0.01,100
+Two-sample - TS002 / AP,AdaPU,+0.01,+0.02,+0.00,+0.01,+0.02,100
+Two-sample - TS002 / AP,PU gradient boosting,-0.06,-0.04,+0.00,+0.05,+0.06,100
+Two-sample - TS002 / AUROC,uPU logistic,-0.01,-0.01,+0.00,+0.00,+0.01,100
+Two-sample - TS002 / AUROC,nnPU logistic,-0.01,-0.01,+0.00,+0.00,+0.01,100
+Two-sample - TS002 / AUROC,AdaPU,-0.01,+0.03,+0.00,+0.06,+0.07,100
+Two-sample - TS002 / AUROC,PU gradient boosting,-0.31,-0.16,+0.00,+0.39,+0.52,100
+Two-sample - TS003 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS003 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS003 / AP,AdaPU,-0.08,-0.05,+0.00,-0.02,-0.01,100
+Two-sample - TS003 / AP,PU gradient boosting,-0.37,-0.18,+0.00,+0.16,+0.26,100
+Two-sample - TS003 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS003 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS003 / AUROC,AdaPU,-0.06,-0.04,+0.00,-0.04,-0.01,100
+Two-sample - TS003 / AUROC,PU gradient boosting,-0.46,-0.23,+0.00,+0.19,+0.33,100
+Two-sample - TS011 / AP,uPU logistic,+0.13,+0.10,+0.00,+0.01,+0.03,100
+Two-sample - TS011 / AP,nnPU logistic,+0.13,+0.10,+0.00,+0.01,+0.03,100
+Two-sample - TS011 / AP,AdaPU,-0.84,-0.17,+0.00,-0.78,-1.50,100
+Two-sample - TS011 / AP,PU gradient boosting,+0.02,+0.02,+0.00,+0.01,-0.06,100
+Two-sample - TS011 / AUROC,uPU logistic,+0.13,+0.10,+0.00,+0.02,+0.04,100
+Two-sample - TS011 / AUROC,nnPU logistic,+0.13,+0.10,+0.00,+0.02,+0.04,100
+Two-sample - TS011 / AUROC,AdaPU,-1.30,-0.43,+0.00,-0.38,-0.81,100
+Two-sample - TS011 / AUROC,PU gradient boosting,-0.01,-0.01,+0.00,+0.03,-0.02,100
+Two-sample - TS026 / AP,uPU logistic,+0.39,+0.35,+0.00,-3.53,-4.78,100
+Two-sample - TS026 / AP,nnPU logistic,-1.05,-0.48,+0.00,+0.15,+0.21,100
+Two-sample - TS026 / AP,AdaPU,-0.39,-0.16,+0.00,+0.07,+0.19,100
+Two-sample - TS026 / AP,PU gradient boosting,-0.06,-0.07,+0.00,+0.07,+0.11,100
+Two-sample - TS026 / AUROC,uPU logistic,+0.48,+0.44,+0.00,-4.43,-6.06,100
+Two-sample - TS026 / AUROC,nnPU logistic,-1.10,-0.51,+0.00,+0.16,+0.22,100
+Two-sample - TS026 / AUROC,AdaPU,-0.31,-0.12,+0.00,+0.10,+0.22,100
+Two-sample - TS026 / AUROC,PU gradient boosting,-0.07,-0.05,+0.00,+0.06,+0.09,100
+Two-sample - TS038 / AP,uPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+Two-sample - TS038 / AP,nnPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+Two-sample - TS038 / AP,AdaPU,-0.08,-0.13,+0.00,-0.09,+0.07,100
+Two-sample - TS038 / AP,PU gradient boosting,-0.19,-0.14,+0.00,-0.03,+0.03,100
+Two-sample - TS038 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS038 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS038 / AUROC,AdaPU,-0.12,-0.11,+0.00,-0.05,+0.07,100
+Two-sample - TS038 / AUROC,PU gradient boosting,-0.12,-0.11,+0.00,+0.00,+0.06,100
+Two-sample - TS039 / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS039 / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS039 / AP,AdaPU,-0.19,+0.04,+0.00,+0.13,+0.24,100
+Two-sample - TS039 / AP,PU gradient boosting,+0.01,+0.01,+0.00,+0.08,+0.14,100
+Two-sample - TS039 / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS039 / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - TS039 / AUROC,AdaPU,-0.17,-0.07,+0.00,+0.17,+0.30,100
+Two-sample - TS039 / AUROC,PU gradient boosting,+0.01,+0.00,+0.00,+0.07,+0.10,100
+Two-sample - TS040 / AP,uPU logistic,-0.01,-0.01,+0.00,+0.01,+0.01,100
+Two-sample - TS040 / AP,nnPU logistic,-0.01,-0.01,+0.00,+0.01,+0.01,100
+Two-sample - TS040 / AP,AdaPU,+0.18,+0.01,+0.00,+0.01,-0.04,100
+Two-sample - TS040 / AP,PU gradient boosting,-0.18,-0.08,+0.00,+0.09,+0.00,100
+Two-sample - TS040 / AUROC,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+Two-sample - TS040 / AUROC,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+Two-sample - TS040 / AUROC,AdaPU,+0.01,-0.04,+0.00,+0.04,+0.07,100
+Two-sample - TS040 / AUROC,PU gradient boosting,-0.11,-0.04,+0.00,+0.05,+0.01,100

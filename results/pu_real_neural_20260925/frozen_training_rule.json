@@ -1,0 +1,39 @@
+{
+  "status": "frozen_after_validation_review",
+  "date": "2026-09-26",
+  "test_scores_used_for_rule": false,
+  "fit_settings": {
+    "max_epochs": 3000,
+    "learning_rates": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "widths": [
+      32,
+      128
+    ],
+    "decays": [
+      0.0001,
+      0.01
+    ],
+    "check_every": 10,
+    "patience": 10
+  },
+  "first_stage_gate": {
+    "max_overall_cap_fraction": 0.1,
+    "max_method_cap_fraction": 0.25
+  },
+  "evidence": {
+    "audit_sha256": "b1b8ce4a88e70b27925cc5297733052af2087c28f74bce9245b0c00f410e0b54",
+    "diagnostic_jobs": [
+      3884919,
+      3884920,
+      3884921
+    ],
+    "selected_at_cap": 4,
+    "selected_configurations": 96
+  },
+  "rationale": "Retain all three rates because each wins validation selection in some settings; preserve both capacities, PU losses and selection rules. Use a fixed 3000-epoch allowance, report capped fits explicitly. No test scores used to choose this grid.",
+  "gate_interpretation": "Review thresholds chosen before observing real-data extension results; operational triggers, not convergence or significance criteria."
+}

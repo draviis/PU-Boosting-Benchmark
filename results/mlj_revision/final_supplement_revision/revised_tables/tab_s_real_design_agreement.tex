@@ -1,0 +1,55 @@
+\begin{table*}[t]
+\centering
+\caption{Agreement of fixed-method performance patterns between sampling designs. Pearson correlations compare the six prespecified method means; sign agreement compares each prespecified paired contrast. Results are descriptive and do not identify a causal effect of sampling design.}
+\label{tab:s-real-design-agreement}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrrrr}
+\toprule
+\multicolumn{6}{l}{\textbf{AUROC}}\\
+Dataset & Budget & Correlation & Learner & CS & RN \\
+\midrule
+Credit Default & 0.05 & 0.635 & Yes & Yes & Yes \\
+Credit Default & 0.20 & 0.940 & Yes & Yes & Yes \\
+Dry Bean & 0.05 & 0.746 & No & Yes & Yes \\
+Dry Bean & 0.20 & 0.859 & Yes & No & Yes \\
+HTRU2 & 0.05 & 0.998 & Yes & Yes & Yes \\
+HTRU2 & 0.20 & 0.997 & Yes & Yes & Yes \\
+Online Shoppers & 0.05 & 0.729 & Yes & Yes & Yes \\
+Online Shoppers & 0.20 & 0.812 & Yes & Yes & Yes \\
+Optical Digits & 0.05 & 0.997 & Yes & Yes & Yes \\
+Optical Digits & 0.20 & 0.971 & Yes & Yes & Yes \\
+Phishing Websites & 0.05 & 0.794 & Yes & Yes & Yes \\
+Phishing Websites & 0.20 & 0.979 & Yes & No & Yes \\
+Rice & 0.05 & 0.975 & Yes & Yes & Yes \\
+Rice & 0.20 & 0.977 & Yes & Yes & Yes \\
+Spambase & 0.05 & 0.922 & Yes & Yes & Yes \\
+Spambase & 0.20 & 0.991 & Yes & Yes & Yes \\
+\midrule
+\multicolumn{6}{l}{\textbf{AP}}\\
+Dataset & Budget & Correlation & Learner & CS & RN \\
+\midrule
+Credit Default & 0.05 & 0.532 & Yes & Yes & Yes \\
+Credit Default & 0.20 & 0.961 & Yes & No & Yes \\
+Dry Bean & 0.05 & 0.626 & Yes & Yes & Yes \\
+Dry Bean & 0.20 & 0.856 & Yes & No & Yes \\
+HTRU2 & 0.05 & 0.994 & Yes & Yes & Yes \\
+HTRU2 & 0.20 & 0.967 & Yes & No & Yes \\
+Online Shoppers & 0.05 & 0.809 & Yes & Yes & Yes \\
+Online Shoppers & 0.20 & 0.729 & Yes & Yes & Yes \\
+Optical Digits & 0.05 & 0.997 & Yes & Yes & Yes \\
+Optical Digits & 0.20 & 0.956 & Yes & Yes & Yes \\
+Phishing Websites & 0.05 & 0.829 & Yes & Yes & Yes \\
+Phishing Websites & 0.20 & 0.959 & Yes & No & Yes \\
+Rice & 0.05 & 0.985 & Yes & Yes & Yes \\
+Rice & 0.20 & 0.981 & Yes & Yes & Yes \\
+Spambase & 0.05 & 0.929 & Yes & Yes & Yes \\
+Spambase & 0.20 & 0.991 & Yes & Yes & Yes \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+Learner, CS and RN columns indicate whether the respective contrast has the same sign in both designs. Values within $10^{-12}$ percentage points of zero are numerical ties; two zero signs agree. CSV files retain the signed contrasts. Each method mean uses 20 splits; the comparison unit for this diagnostic is the six fixed configurations, not independent datasets.
+\end{minipage}
+\end{table*}

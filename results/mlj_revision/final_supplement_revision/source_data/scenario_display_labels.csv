@@ -1,0 +1,93 @@
+study,design,scenario_id,scenario_family,parameter_name,parameter_value,short_display_label,long_display_label
+core,one_sample,S001,reference,reference,Reference values,Reference,Reference
+core,one_sample,S002,prevalence,prevalence,pi=0.01,Prevalence $\pi=0.01$,Prevalence $\pi=0.01$
+core,one_sample,S003,prevalence,prevalence,pi=0.05,Prevalence $\pi=0.05$,Prevalence $\pi=0.05$
+core,one_sample,S004,prevalence,prevalence,pi=0.1,Prevalence $\pi=0.10$,Prevalence $\pi=0.10$
+core,one_sample,S005,prevalence,prevalence,pi=0.15,Prevalence $\pi=0.15$,Prevalence $\pi=0.15$
+core,one_sample,S006,prevalence,prevalence,pi=0.25,Prevalence $\pi=0.25$,Prevalence $\pi=0.25$
+core,one_sample,S007,prevalence,prevalence,pi=0.3,Prevalence $\pi=0.30$,Prevalence $\pi=0.30$
+core,one_sample,S008,prevalence,prevalence,pi=0.35,Prevalence $\pi=0.35$,Prevalence $\pi=0.35$
+core,one_sample,S009,prevalence,prevalence,pi=0.4,Prevalence $\pi=0.40$,Prevalence $\pi=0.40$
+core,one_sample,S010,prevalence,prevalence,pi=0.45,Prevalence $\pi=0.45$,Prevalence $\pi=0.45$
+core,one_sample,S011,prevalence,prevalence,pi=0.5,Prevalence $\pi=0.50$,Prevalence $\pi=0.50$
+core,one_sample,S012,positive-label availability,positive-label availability,c=0.05,Labeling probability $c=0.05$,Labeling probability $c=0.05$
+core,one_sample,S013,positive-label availability,positive-label availability,c=0.1,Labeling probability $c=0.10$,Labeling probability $c=0.10$
+core,one_sample,S014,positive-label availability,positive-label availability,c=0.15,Labeling probability $c=0.15$,Labeling probability $c=0.15$
+core,one_sample,S015,positive-label availability,positive-label availability,c=0.2,Labeling probability $c=0.20$,Labeling probability $c=0.20$
+core,one_sample,S016,positive-label availability,positive-label availability,c=0.25,Labeling probability $c=0.25$,Labeling probability $c=0.25$
+core,one_sample,S017,positive-label availability,positive-label availability,c=0.35,Labeling probability $c=0.35$,Labeling probability $c=0.35$
+core,one_sample,S018,positive-label availability,positive-label availability,c=0.4,Labeling probability $c=0.40$,Labeling probability $c=0.40$
+core,one_sample,S019,positive-label availability,positive-label availability,c=0.45,Labeling probability $c=0.45$,Labeling probability $c=0.45$
+core,one_sample,S020,positive-label availability,positive-label availability,c=0.5,Labeling probability $c=0.50$,Labeling probability $c=0.50$
+core,one_sample,S021,class separation,class separation,delta=0.5,Class separation $\delta=0.50$,Class separation $\delta=0.50$
+core,one_sample,S022,class separation,class separation,delta=0.7,Class separation $\delta=0.70$,Class separation $\delta=0.70$
+core,one_sample,S023,class separation,class separation,delta=1.2,Class separation $\delta=1.20$,Class separation $\delta=1.20$
+core,one_sample,S024,dimensionality,dimensionality,p=50,High dimension ($p=50$),High dimension ($p=50$)
+core,one_sample,S025,dimensionality,dimensionality,p=100,High dimension ($p=100$),High dimension ($p=100$)
+core,one_sample,S026,dimensionality,dimensionality,p=500,High dimension ($p=500$),High dimension ($p=500$)
+core,one_sample,S027,predictor correlation,predictor correlation,rho=0.3,Correlation $\rho=0.30$,Correlation $\rho=0.30$
+core,one_sample,S028,predictor correlation,predictor correlation,rho=0.6,Correlation $\rho=0.60$,Correlation $\rho=0.60$
+core,one_sample,S029,joint prevalence-label availability,joint prevalence-label availability,"pi=0.01, c=0.5","Prevalence $\pi=0.01$, $c=0.50$","Prevalence $\pi=0.01$, $c=0.50$"
+core,one_sample,S030,joint prevalence-label availability,joint prevalence-label availability,"pi=0.05, c=0.1","Prevalence $\pi=0.05$, $c=0.10$","Prevalence $\pi=0.05$, $c=0.10$"
+core,one_sample,S031,joint prevalence-label availability,joint prevalence-label availability,"pi=0.05, c=0.5","Prevalence $\pi=0.05$, $c=0.50$","Prevalence $\pi=0.05$, $c=0.50$"
+core,one_sample,S032,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, c=0.05","Prevalence $\pi=0.10$, $c=0.05$","Prevalence $\pi=0.10$, $c=0.05$"
+core,one_sample,S033,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, c=0.1","Prevalence $\pi=0.10$, $c=0.10$","Prevalence $\pi=0.10$, $c=0.10$"
+core,one_sample,S034,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, c=0.5","Prevalence $\pi=0.10$, $c=0.50$","Prevalence $\pi=0.10$, $c=0.50$"
+core,one_sample,S035,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, c=0.05","Prevalence $\pi=0.50$, $c=0.05$","Prevalence $\pi=0.50$, $c=0.05$"
+core,one_sample,S036,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, c=0.1","Prevalence $\pi=0.50$, $c=0.10$","Prevalence $\pi=0.50$, $c=0.10$"
+core,one_sample,S037,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, c=0.5","Prevalence $\pi=0.50$, $c=0.50$","Prevalence $\pi=0.50$, $c=0.50$"
+core,one_sample,S038,curved boundary,curved boundary,Reference values,Curved boundary,Curved boundary
+core,one_sample,S039,feature interaction,feature interaction,Reference values,Feature interaction,Feature interaction
+core,one_sample,S040,unequal class covariance,unequal class covariance,Reference values,Unequal class covariance,Unequal class covariance
+nonlinear,one_sample,NL01,sinusoidal,frozen nonlinear mechanism,unchanged approved calibration,Additive sinusoidal,Additive sinusoidal
+nonlinear,one_sample,NL02,radial,frozen nonlinear mechanism,unchanged approved calibration,Radial / concentric,Radial / concentric
+nonlinear,one_sample,NL03,XOR,frozen nonlinear mechanism,unchanged approved calibration,Pure XOR interaction,Pure XOR interaction
+nonlinear,one_sample,NL04,threshold interaction,frozen nonlinear mechanism,unchanged approved calibration,Threshold interaction,Threshold interaction
+nonlinear,one_sample,NL05,sinusoidal,frozen nonlinear mechanism,unchanged approved calibration,Sinusoidal + 497 noise predictors ($p=500$),Sinusoidal + 497 noise predictors ($p=500$)
+nonlinear,one_sample,NL06,heterogeneous covariance,frozen nonlinear mechanism,unchanged approved calibration,Nonlinear heterogeneous covariance,Nonlinear heterogeneous covariance
+core,two_sample,TS001,reference,reference,Reference values,Reference,Reference
+core,two_sample,TS002,prevalence,prevalence,pi=0.01,Prevalence $\pi=0.01$,Prevalence $\pi=0.01$
+core,two_sample,TS003,prevalence,prevalence,pi=0.05,Prevalence $\pi=0.05$,Prevalence $\pi=0.05$
+core,two_sample,TS004,prevalence,prevalence,pi=0.1,Prevalence $\pi=0.10$,Prevalence $\pi=0.10$
+core,two_sample,TS005,prevalence,prevalence,pi=0.15,Prevalence $\pi=0.15$,Prevalence $\pi=0.15$
+core,two_sample,TS006,prevalence,prevalence,pi=0.25,Prevalence $\pi=0.25$,Prevalence $\pi=0.25$
+core,two_sample,TS007,prevalence,prevalence,pi=0.3,Prevalence $\pi=0.30$,Prevalence $\pi=0.30$
+core,two_sample,TS008,prevalence,prevalence,pi=0.35,Prevalence $\pi=0.35$,Prevalence $\pi=0.35$
+core,two_sample,TS009,prevalence,prevalence,pi=0.4,Prevalence $\pi=0.40$,Prevalence $\pi=0.40$
+core,two_sample,TS010,prevalence,prevalence,pi=0.45,Prevalence $\pi=0.45$,Prevalence $\pi=0.45$
+core,two_sample,TS011,prevalence,prevalence,pi=0.5,Prevalence $\pi=0.50$,Prevalence $\pi=0.50$
+core,two_sample,TS012,positive-label availability,positive-label availability,nP=50,Labeled positives $n_P=50$,Labeled positives $n_P=50$
+core,two_sample,TS013,positive-label availability,positive-label availability,nP=100,Labeled positives $n_P=100$,Labeled positives $n_P=100$
+core,two_sample,TS014,positive-label availability,positive-label availability,nP=150,Labeled positives $n_P=150$,Labeled positives $n_P=150$
+core,two_sample,TS015,positive-label availability,positive-label availability,nP=200,Labeled positives $n_P=200$,Labeled positives $n_P=200$
+core,two_sample,TS016,positive-label availability,positive-label availability,nP=250,Labeled positives $n_P=250$,Labeled positives $n_P=250$
+core,two_sample,TS017,positive-label availability,positive-label availability,nP=350,Labeled positives $n_P=350$,Labeled positives $n_P=350$
+core,two_sample,TS018,positive-label availability,positive-label availability,nP=400,Labeled positives $n_P=400$,Labeled positives $n_P=400$
+core,two_sample,TS019,positive-label availability,positive-label availability,nP=450,Labeled positives $n_P=450$,Labeled positives $n_P=450$
+core,two_sample,TS020,positive-label availability,positive-label availability,nP=500,Labeled positives $n_P=500$,Labeled positives $n_P=500$
+core,two_sample,TS021,class separation,class separation,delta=0.5,Class separation $\delta=0.50$,Class separation $\delta=0.50$
+core,two_sample,TS022,class separation,class separation,delta=0.7,Class separation $\delta=0.70$,Class separation $\delta=0.70$
+core,two_sample,TS023,class separation,class separation,delta=1.2,Class separation $\delta=1.20$,Class separation $\delta=1.20$
+core,two_sample,TS024,dimensionality,dimensionality,p=50,High dimension ($p=50$),High dimension ($p=50$)
+core,two_sample,TS025,dimensionality,dimensionality,p=100,High dimension ($p=100$),High dimension ($p=100$)
+core,two_sample,TS026,dimensionality,dimensionality,p=500,High dimension ($p=500$),High dimension ($p=500$)
+core,two_sample,TS027,predictor correlation,predictor correlation,rho=0.3,Correlation $\rho=0.30$,Correlation $\rho=0.30$
+core,two_sample,TS028,predictor correlation,predictor correlation,rho=0.6,Correlation $\rho=0.60$,Correlation $\rho=0.60$
+core,two_sample,TS029,joint prevalence-label availability,joint prevalence-label availability,"pi=0.01, nP=25","Prevalence $\pi=0.01$, $n_P=25$","Prevalence $\pi=0.01$, $n_P=25$"
+core,two_sample,TS030,joint prevalence-label availability,joint prevalence-label availability,"pi=0.01, nP=100","Prevalence $\pi=0.01$, $n_P=100$","Prevalence $\pi=0.01$, $n_P=100$"
+core,two_sample,TS031,joint prevalence-label availability,joint prevalence-label availability,"pi=0.01, nP=500","Prevalence $\pi=0.01$, $n_P=500$","Prevalence $\pi=0.01$, $n_P=500$"
+core,two_sample,TS032,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, nP=25","Prevalence $\pi=0.10$, $n_P=25$","Prevalence $\pi=0.10$, $n_P=25$"
+core,two_sample,TS033,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, nP=100","Prevalence $\pi=0.10$, $n_P=100$","Prevalence $\pi=0.10$, $n_P=100$"
+core,two_sample,TS034,joint prevalence-label availability,joint prevalence-label availability,"pi=0.1, nP=500","Prevalence $\pi=0.10$, $n_P=500$","Prevalence $\pi=0.10$, $n_P=500$"
+core,two_sample,TS035,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, nP=25","Prevalence $\pi=0.50$, $n_P=25$","Prevalence $\pi=0.50$, $n_P=25$"
+core,two_sample,TS036,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, nP=100","Prevalence $\pi=0.50$, $n_P=100$","Prevalence $\pi=0.50$, $n_P=100$"
+core,two_sample,TS037,joint prevalence-label availability,joint prevalence-label availability,"pi=0.5, nP=500","Prevalence $\pi=0.50$, $n_P=500$","Prevalence $\pi=0.50$, $n_P=500$"
+core,two_sample,TS038,curved boundary,curved boundary,Reference values,Curved boundary,Curved boundary
+core,two_sample,TS039,feature interaction,feature interaction,Reference values,Feature interaction,Feature interaction
+core,two_sample,TS040,unequal class covariance,unequal class covariance,Reference values,Unequal class covariance,Unequal class covariance
+nonlinear,two_sample,NL01,sinusoidal,frozen nonlinear mechanism,unchanged approved calibration,Additive sinusoidal,Additive sinusoidal
+nonlinear,two_sample,NL02,radial,frozen nonlinear mechanism,unchanged approved calibration,Radial / concentric,Radial / concentric
+nonlinear,two_sample,NL03,XOR,frozen nonlinear mechanism,unchanged approved calibration,Pure XOR interaction,Pure XOR interaction
+nonlinear,two_sample,NL04,threshold interaction,frozen nonlinear mechanism,unchanged approved calibration,Threshold interaction,Threshold interaction
+nonlinear,two_sample,NL05,sinusoidal,frozen nonlinear mechanism,unchanged approved calibration,Sinusoidal + 497 noise predictors ($p=500$),Sinusoidal + 497 noise predictors ($p=500$)
+nonlinear,two_sample,NL06,heterogeneous covariance,frozen nonlinear mechanism,unchanged approved calibration,Nonlinear heterogeneous covariance,Nonlinear heterogeneous covariance

@@ -1,0 +1,4 @@
+# Preserve frozen source bytes and CSV precision; manifests are byte based.
+* -text
+*.pdf binary
+*.gz binary

@@ -1,0 +1,129 @@
+Panel,Method,0.80,0.90,1.00,1.10,1.20,n
+One-sample - Reference / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Reference / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Reference / AP,AdaPU,-0.11,-0.04,+0.00,+0.02,+0.07,100
+One-sample - Reference / AP,PU gradient boosting,-1.40,-0.59,+0.00,+0.31,+0.58,100
+One-sample - Reference / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Reference / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Reference / AUROC,AdaPU,-0.10,-0.05,+0.00,+0.03,+0.10,100
+One-sample - Reference / AUROC,PU gradient boosting,-0.94,-0.42,+0.00,+0.21,+0.39,100
+One-sample - Prevalence $\pi=0.01$ / AP,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.01$ / AP,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.01$ / AP,AdaPU,-0.01,-0.02,+0.00,+0.05,+0.02,100
+One-sample - Prevalence $\pi=0.01$ / AP,PU gradient boosting,+0.01,+0.03,+0.00,+0.00,+0.03,100
+One-sample - Prevalence $\pi=0.01$ / AUROC,uPU logistic,-0.02,-0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.01$ / AUROC,nnPU logistic,-0.02,-0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.01$ / AUROC,AdaPU,+0.05,-0.03,+0.00,+0.04,-0.08,100
+One-sample - Prevalence $\pi=0.01$ / AUROC,PU gradient boosting,-0.13,+0.18,+0.00,+0.32,+0.54,100
+One-sample - Prevalence $\pi=0.05$ / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.05$ / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.05$ / AP,AdaPU,+0.01,-0.05,+0.00,+0.00,+0.05,100
+One-sample - Prevalence $\pi=0.05$ / AP,PU gradient boosting,-0.23,-0.10,+0.00,+0.28,+0.39,100
+One-sample - Prevalence $\pi=0.05$ / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.05$ / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Prevalence $\pi=0.05$ / AUROC,AdaPU,+0.06,+0.00,+0.00,+0.02,+0.11,100
+One-sample - Prevalence $\pi=0.05$ / AUROC,PU gradient boosting,-0.53,-0.18,+0.00,+0.66,+0.91,100
+One-sample - Prevalence $\pi=0.50$ / AP,uPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.50$ / AP,nnPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.50$ / AP,AdaPU,-0.73,-0.47,+0.00,+0.32,+0.29,100
+One-sample - Prevalence $\pi=0.50$ / AP,PU gradient boosting,-0.32,-0.19,+0.00,+0.18,+0.29,100
+One-sample - Prevalence $\pi=0.50$ / AUROC,uPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.50$ / AUROC,nnPU logistic,+0.01,+0.01,+0.00,+0.01,+0.01,100
+One-sample - Prevalence $\pi=0.50$ / AUROC,AdaPU,-0.92,-0.58,+0.00,+0.55,+0.81,100
+One-sample - Prevalence $\pi=0.50$ / AUROC,PU gradient boosting,-0.28,-0.15,+0.00,+0.13,+0.21,100
+One-sample - High dimension ($p=500$) / AP,uPU logistic,+0.06,+0.04,+0.00,-0.03,-0.08,100
+One-sample - High dimension ($p=500$) / AP,nnPU logistic,+0.06,+0.04,+0.00,-0.03,+0.01,100
+One-sample - High dimension ($p=500$) / AP,AdaPU,-0.15,-0.09,+0.00,+0.07,+0.20,100
+One-sample - High dimension ($p=500$) / AP,PU gradient boosting,-1.78,-0.73,+0.00,+0.44,+1.01,100
+One-sample - High dimension ($p=500$) / AUROC,uPU logistic,+0.06,+0.04,+0.00,-0.04,-0.08,100
+One-sample - High dimension ($p=500$) / AUROC,nnPU logistic,+0.06,+0.04,+0.00,-0.04,+0.00,100
+One-sample - High dimension ($p=500$) / AUROC,AdaPU,-0.14,-0.10,+0.00,+0.08,+0.20,100
+One-sample - High dimension ($p=500$) / AUROC,PU gradient boosting,-1.19,-0.50,+0.00,+0.29,+0.63,100
+One-sample - Curved boundary / AP,uPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+One-sample - Curved boundary / AP,nnPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+One-sample - Curved boundary / AP,AdaPU,-0.07,-0.04,+0.00,+0.02,+0.16,100
+One-sample - Curved boundary / AP,PU gradient boosting,-1.18,-0.51,+0.00,+0.55,+0.82,100
+One-sample - Curved boundary / AUROC,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Curved boundary / AUROC,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Curved boundary / AUROC,AdaPU,-0.07,-0.03,+0.00,+0.05,+0.14,100
+One-sample - Curved boundary / AUROC,PU gradient boosting,-0.86,-0.32,+0.00,+0.43,+0.62,100
+One-sample - Feature interaction / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Feature interaction / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Feature interaction / AP,AdaPU,-0.21,-0.03,+0.00,+0.11,+0.11,100
+One-sample - Feature interaction / AP,PU gradient boosting,-0.53,-0.29,+0.00,+0.37,+0.65,100
+One-sample - Feature interaction / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Feature interaction / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Feature interaction / AUROC,AdaPU,-0.15,-0.06,+0.00,+0.11,+0.16,100
+One-sample - Feature interaction / AUROC,PU gradient boosting,-0.31,-0.10,+0.00,+0.22,+0.42,100
+One-sample - Unequal class covariance / AP,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+One-sample - Unequal class covariance / AP,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+One-sample - Unequal class covariance / AP,AdaPU,+0.01,-0.07,+0.00,-0.19,-0.28,100
+One-sample - Unequal class covariance / AP,PU gradient boosting,-1.46,-0.92,+0.00,+0.29,+0.71,100
+One-sample - Unequal class covariance / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Unequal class covariance / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+One-sample - Unequal class covariance / AUROC,AdaPU,-0.06,-0.06,+0.00,-0.05,-0.05,100
+One-sample - Unequal class covariance / AUROC,PU gradient boosting,-0.94,-0.60,+0.00,+0.23,+0.50,100
+Two-sample - Reference / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Reference / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Reference / AP,AdaPU,-0.12,-0.13,+0.00,+0.02,+0.14,100
+Two-sample - Reference / AP,PU gradient boosting,-0.15,-0.09,+0.00,+0.07,+0.09,100
+Two-sample - Reference / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Reference / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Reference / AUROC,AdaPU,-0.12,-0.08,+0.00,+0.04,+0.12,100
+Two-sample - Reference / AUROC,PU gradient boosting,-0.11,-0.06,+0.00,+0.06,+0.10,100
+Two-sample - Prevalence $\pi=0.01$ / AP,uPU logistic,+0.01,+0.00,+0.00,+0.00,-0.01,100
+Two-sample - Prevalence $\pi=0.01$ / AP,nnPU logistic,+0.01,+0.00,+0.00,+0.00,-0.01,100
+Two-sample - Prevalence $\pi=0.01$ / AP,AdaPU,+0.01,+0.02,+0.00,+0.01,+0.02,100
+Two-sample - Prevalence $\pi=0.01$ / AP,PU gradient boosting,-0.06,-0.04,+0.00,+0.05,+0.06,100
+Two-sample - Prevalence $\pi=0.01$ / AUROC,uPU logistic,-0.01,-0.01,+0.00,+0.00,+0.01,100
+Two-sample - Prevalence $\pi=0.01$ / AUROC,nnPU logistic,-0.01,-0.01,+0.00,+0.00,+0.01,100
+Two-sample - Prevalence $\pi=0.01$ / AUROC,AdaPU,-0.01,+0.03,+0.00,+0.06,+0.07,100
+Two-sample - Prevalence $\pi=0.01$ / AUROC,PU gradient boosting,-0.31,-0.16,+0.00,+0.39,+0.52,100
+Two-sample - Prevalence $\pi=0.05$ / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Prevalence $\pi=0.05$ / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Prevalence $\pi=0.05$ / AP,AdaPU,-0.08,-0.05,+0.00,-0.02,-0.01,100
+Two-sample - Prevalence $\pi=0.05$ / AP,PU gradient boosting,-0.37,-0.18,+0.00,+0.16,+0.26,100
+Two-sample - Prevalence $\pi=0.05$ / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Prevalence $\pi=0.05$ / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Prevalence $\pi=0.05$ / AUROC,AdaPU,-0.06,-0.04,+0.00,-0.04,-0.01,100
+Two-sample - Prevalence $\pi=0.05$ / AUROC,PU gradient boosting,-0.46,-0.23,+0.00,+0.19,+0.33,100
+Two-sample - Prevalence $\pi=0.50$ / AP,uPU logistic,+0.13,+0.10,+0.00,+0.01,+0.03,100
+Two-sample - Prevalence $\pi=0.50$ / AP,nnPU logistic,+0.13,+0.10,+0.00,+0.01,+0.03,100
+Two-sample - Prevalence $\pi=0.50$ / AP,AdaPU,-0.84,-0.17,+0.00,-0.78,-1.50,100
+Two-sample - Prevalence $\pi=0.50$ / AP,PU gradient boosting,+0.02,+0.02,+0.00,+0.01,-0.06,100
+Two-sample - Prevalence $\pi=0.50$ / AUROC,uPU logistic,+0.13,+0.10,+0.00,+0.02,+0.04,100
+Two-sample - Prevalence $\pi=0.50$ / AUROC,nnPU logistic,+0.13,+0.10,+0.00,+0.02,+0.04,100
+Two-sample - Prevalence $\pi=0.50$ / AUROC,AdaPU,-1.30,-0.43,+0.00,-0.38,-0.81,100
+Two-sample - Prevalence $\pi=0.50$ / AUROC,PU gradient boosting,-0.01,-0.01,+0.00,+0.03,-0.02,100
+Two-sample - High dimension ($p=500$) / AP,uPU logistic,+0.39,+0.35,+0.00,-3.53,-4.78,100
+Two-sample - High dimension ($p=500$) / AP,nnPU logistic,-1.05,-0.48,+0.00,+0.15,+0.21,100
+Two-sample - High dimension ($p=500$) / AP,AdaPU,-0.39,-0.16,+0.00,+0.07,+0.19,100
+Two-sample - High dimension ($p=500$) / AP,PU gradient boosting,-0.06,-0.07,+0.00,+0.07,+0.11,100
+Two-sample - High dimension ($p=500$) / AUROC,uPU logistic,+0.48,+0.44,+0.00,-4.43,-6.06,100
+Two-sample - High dimension ($p=500$) / AUROC,nnPU logistic,-1.10,-0.51,+0.00,+0.16,+0.22,100
+Two-sample - High dimension ($p=500$) / AUROC,AdaPU,-0.31,-0.12,+0.00,+0.10,+0.22,100
+Two-sample - High dimension ($p=500$) / AUROC,PU gradient boosting,-0.07,-0.05,+0.00,+0.06,+0.09,100
+Two-sample - Curved boundary / AP,uPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+Two-sample - Curved boundary / AP,nnPU logistic,+0.02,+0.01,+0.00,-0.01,-0.02,100
+Two-sample - Curved boundary / AP,AdaPU,-0.08,-0.13,+0.00,-0.09,+0.07,100
+Two-sample - Curved boundary / AP,PU gradient boosting,-0.19,-0.14,+0.00,-0.03,+0.03,100
+Two-sample - Curved boundary / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Curved boundary / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Curved boundary / AUROC,AdaPU,-0.12,-0.11,+0.00,-0.05,+0.07,100
+Two-sample - Curved boundary / AUROC,PU gradient boosting,-0.12,-0.11,+0.00,+0.00,+0.06,100
+Two-sample - Feature interaction / AP,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Feature interaction / AP,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Feature interaction / AP,AdaPU,-0.19,+0.04,+0.00,+0.13,+0.24,100
+Two-sample - Feature interaction / AP,PU gradient boosting,+0.01,+0.01,+0.00,+0.08,+0.14,100
+Two-sample - Feature interaction / AUROC,uPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Feature interaction / AUROC,nnPU logistic,+0.00,+0.00,+0.00,+0.00,+0.00,100
+Two-sample - Feature interaction / AUROC,AdaPU,-0.17,-0.07,+0.00,+0.17,+0.30,100
+Two-sample - Feature interaction / AUROC,PU gradient boosting,+0.01,+0.00,+0.00,+0.07,+0.10,100
+Two-sample - Unequal class covariance / AP,uPU logistic,-0.01,-0.01,+0.00,+0.01,+0.01,100
+Two-sample - Unequal class covariance / AP,nnPU logistic,-0.01,-0.01,+0.00,+0.01,+0.01,100
+Two-sample - Unequal class covariance / AP,AdaPU,+0.18,+0.01,+0.00,+0.01,-0.04,100
+Two-sample - Unequal class covariance / AP,PU gradient boosting,-0.18,-0.08,+0.00,+0.09,+0.00,100
+Two-sample - Unequal class covariance / AUROC,uPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+Two-sample - Unequal class covariance / AUROC,nnPU logistic,-0.01,+0.00,+0.00,+0.00,+0.01,100
+Two-sample - Unequal class covariance / AUROC,AdaPU,+0.01,-0.04,+0.00,+0.04,+0.07,100
+Two-sample - Unequal class covariance / AUROC,PU gradient boosting,-0.11,-0.04,+0.00,+0.05,+0.01,100

@@ -1,0 +1,116 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}@{}}
+\caption{Bayes AUROC minus fixed-method AUROC for the six conceptual representatives in all 40 original settings with validated Bayes references. Lower regret is better.}\label{tab:s-bayes-regret}\\
+\toprule
+\multicolumn{8}{@{}p{7in}}{\textbf{One-sample}}\\
+Scenario & Bayes AUROC & Logistic correction & nnPU logistic & Naive CatBoost & CS CatBoost & RN CatBoost & PU gradient boosting \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}p{7in}}{\textbf{One-sample}}\\
+Scenario & Bayes AUROC & Logistic correction & nnPU logistic & Naive CatBoost & CS CatBoost & RN CatBoost & PU gradient boosting \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.738 & 0.004 & 0.004 & 0.014 & 0.014 & 0.012 & 0.031 \\
+Prevalence $\pi=0.01$ & 0.738 & 0.035 & 0.035 & 0.087 & 0.084 & 0.046 & 0.172 \\
+Prevalence $\pi=0.05$ & 0.738 & 0.011 & 0.011 & 0.032 & 0.032 & 0.020 & 0.097 \\
+Prevalence $\pi=0.10$ & 0.738 & 0.005 & 0.005 & 0.018 & 0.018 & 0.014 & 0.063 \\
+Prevalence $\pi=0.15$ & 0.738 & 0.003 & 0.003 & 0.014 & 0.013 & 0.011 & 0.043 \\
+Prevalence $\pi=0.25$ & 0.738 & 0.003 & 0.003 & 0.012 & 0.012 & 0.011 & 0.024 \\
+Prevalence $\pi=0.30$ & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.021 \\
+Prevalence $\pi=0.35$ & 0.738 & 0.004 & 0.004 & 0.012 & 0.012 & 0.011 & 0.020 \\
+Prevalence $\pi=0.40$ & 0.738 & 0.002 & 0.002 & 0.010 & 0.010 & 0.009 & 0.017 \\
+Prevalence $\pi=0.45$ & 0.738 & 0.003 & 0.004 & 0.011 & 0.011 & 0.010 & 0.017 \\
+Prevalence $\pi=0.50$ & 0.738 & 0.004 & 0.005 & 0.012 & 0.013 & 0.010 & 0.018 \\
+Labeling probability $c=0.05$ & 0.738 & 0.020 & 0.021 & 0.052 & 0.050 & 0.027 & 0.122 \\
+Labeling probability $c=0.10$ & 0.738 & 0.012 & 0.012 & 0.032 & 0.031 & 0.020 & 0.090 \\
+Labeling probability $c=0.15$ & 0.738 & 0.008 & 0.008 & 0.022 & 0.022 & 0.016 & 0.066 \\
+Labeling probability $c=0.20$ & 0.738 & 0.005 & 0.005 & 0.017 & 0.017 & 0.014 & 0.052 \\
+Labeling probability $c=0.25$ & 0.738 & 0.005 & 0.005 & 0.016 & 0.015 & 0.012 & 0.038 \\
+Labeling probability $c=0.35$ & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.023 \\
+Labeling probability $c=0.40$ & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.011 & 0.020 \\
+Labeling probability $c=0.45$ & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.011 & 0.019 \\
+Labeling probability $c=0.50$ & 0.738 & 0.003 & 0.003 & 0.010 & 0.009 & 0.010 & 0.016 \\
+Class separation $\delta=0.50$ & 0.638 & 0.007 & 0.007 & 0.017 & 0.018 & 0.013 & 0.034 \\
+Class separation $\delta=0.70$ & 0.690 & 0.003 & 0.003 & 0.014 & 0.014 & 0.011 & 0.031 \\
+Class separation $\delta=1.20$ & 0.802 & 0.003 & 0.003 & 0.012 & 0.011 & 0.010 & 0.025 \\
+High dimension ($p=50$) & 0.738 & 0.016 & 0.016 & 0.016 & 0.017 & 0.011 & 0.036 \\
+High dimension ($p=100$) & 0.738 & 0.033 & 0.034 & 0.021 & 0.021 & 0.015 & 0.039 \\
+High dimension ($p=500$) & 0.738 & 0.095 & 0.105 & 0.025 & 0.025 & 0.019 & 0.043 \\
+Correlation $\rho=0.30$ & 0.738 & 0.003 & 0.003 & 0.012 & 0.012 & 0.014 & 0.026 \\
+Correlation $\rho=0.60$ & 0.738 & 0.003 & 0.003 & 0.018 & 0.017 & 0.015 & 0.036 \\
+Prevalence $\pi=0.01$, $c=0.50$ & 0.738 & 0.023 & 0.023 & 0.065 & 0.067 & 0.031 & 0.146 \\
+Prevalence $\pi=0.05$, $c=0.10$ & 0.738 & 0.025 & 0.025 & 0.070 & 0.070 & 0.034 & 0.150 \\
+Prevalence $\pi=0.05$, $c=0.50$ & 0.738 & 0.006 & 0.006 & 0.020 & 0.019 & 0.014 & 0.068 \\
+Prevalence $\pi=0.10$, $c=0.05$ & 0.738 & 0.031 & 0.032 & 0.080 & 0.085 & 0.039 & 0.151 \\
+Prevalence $\pi=0.10$, $c=0.10$ & 0.738 & 0.015 & 0.015 & 0.043 & 0.040 & 0.022 & 0.113 \\
+Prevalence $\pi=0.10$, $c=0.50$ & 0.738 & 0.003 & 0.003 & 0.013 & 0.012 & 0.011 & 0.033 \\
+Prevalence $\pi=0.50$, $c=0.05$ & 0.738 & 0.022 & 0.030 & 0.051 & 0.052 & 0.031 & 0.088 \\
+Prevalence $\pi=0.50$, $c=0.10$ & 0.738 & 0.010 & 0.012 & 0.028 & 0.028 & 0.019 & 0.055 \\
+Prevalence $\pi=0.50$, $c=0.50$ & 0.738 & 0.002 & 0.002 & 0.008 & 0.008 & 0.008 & 0.011 \\
+Curved boundary & 0.738 & 0.036 & 0.036 & 0.032 & 0.031 & 0.043 & 0.050 \\
+Feature interaction & 0.739 & 0.080 & 0.080 & 0.026 & 0.025 & 0.126 & 0.087 \\
+Unequal class covariance & 0.739 & 0.027 & 0.027 & 0.008 & 0.009 & 0.052 & 0.026 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.050in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}>{\raggedright\arraybackslash}p{0.624in}@{}}
+\toprule
+\multicolumn{8}{@{}p{7in}}{\textbf{Two-sample}}\\
+Scenario & Bayes AUROC & Logistic correction & nnPU logistic & Naive CatBoost & CS CatBoost & RN CatBoost & PU gradient boosting \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{8}{@{}p{7in}}{\textbf{Two-sample}}\\
+Scenario & Bayes AUROC & Logistic correction & nnPU logistic & Naive CatBoost & CS CatBoost & RN CatBoost & PU gradient boosting \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Reference & 0.738 & 0.004 & 0.004 & 0.014 & 0.013 & 0.012 & 0.023 \\
+Prevalence $\pi=0.01$ & 0.738 & 0.004 & 0.004 & 0.011 & 0.011 & 0.011 & 0.078 \\
+Prevalence $\pi=0.05$ & 0.738 & 0.002 & 0.002 & 0.010 & 0.010 & 0.010 & 0.038 \\
+Prevalence $\pi=0.10$ & 0.738 & 0.003 & 0.003 & 0.012 & 0.011 & 0.010 & 0.028 \\
+Prevalence $\pi=0.15$ & 0.738 & 0.003 & 0.003 & 0.013 & 0.013 & 0.011 & 0.025 \\
+Prevalence $\pi=0.25$ & 0.738 & 0.005 & 0.005 & 0.015 & 0.016 & 0.013 & 0.024 \\
+Prevalence $\pi=0.30$ & 0.738 & 0.006 & 0.006 & 0.016 & 0.017 & 0.014 & 0.025 \\
+Prevalence $\pi=0.35$ & 0.738 & 0.006 & 0.007 & 0.018 & 0.018 & 0.015 & 0.028 \\
+Prevalence $\pi=0.40$ & 0.738 & 0.009 & 0.009 & 0.021 & 0.022 & 0.017 & 0.031 \\
+Prevalence $\pi=0.45$ & 0.738 & 0.009 & 0.011 & 0.023 & 0.024 & 0.017 & 0.033 \\
+Prevalence $\pi=0.50$ & 0.738 & 0.012 & 0.015 & 0.028 & 0.029 & 0.021 & 0.038 \\
+Labeled positives $n_P=50$ & 0.738 & 0.019 & 0.020 & 0.054 & 0.052 & 0.026 & 0.064 \\
+Labeled positives $n_P=100$ & 0.738 & 0.011 & 0.011 & 0.032 & 0.032 & 0.021 & 0.045 \\
+Labeled positives $n_P=150$ & 0.738 & 0.008 & 0.008 & 0.023 & 0.023 & 0.017 & 0.034 \\
+Labeled positives $n_P=200$ & 0.738 & 0.006 & 0.006 & 0.019 & 0.018 & 0.014 & 0.029 \\
+Labeled positives $n_P=250$ & 0.738 & 0.006 & 0.006 & 0.017 & 0.017 & 0.014 & 0.026 \\
+Labeled positives $n_P=350$ & 0.738 & 0.004 & 0.004 & 0.013 & 0.013 & 0.011 & 0.023 \\
+Labeled positives $n_P=400$ & 0.738 & 0.001 & 0.002 & 0.010 & 0.010 & 0.009 & 0.020 \\
+Labeled positives $n_P=450$ & 0.738 & 0.003 & 0.003 & 0.011 & 0.011 & 0.010 & 0.020 \\
+Labeled positives $n_P=500$ & 0.738 & 0.002 & 0.003 & 0.010 & 0.010 & 0.009 & 0.020 \\
+Class separation $\delta=0.50$ & 0.638 & 0.005 & 0.005 & 0.018 & 0.019 & 0.014 & 0.025 \\
+Class separation $\delta=0.70$ & 0.690 & 0.004 & 0.005 & 0.015 & 0.015 & 0.012 & 0.023 \\
+Class separation $\delta=1.20$ & 0.802 & 0.004 & 0.004 & 0.013 & 0.012 & 0.011 & 0.024 \\
+High dimension ($p=50$) & 0.738 & 0.019 & 0.020 & 0.019 & 0.020 & 0.013 & 0.025 \\
+High dimension ($p=100$) & 0.738 & 0.036 & 0.038 & 0.023 & 0.023 & 0.016 & 0.028 \\
+High dimension ($p=500$) & 0.738 & 0.104 & 0.107 & 0.030 & 0.030 & 0.022 & 0.035 \\
+Correlation $\rho=0.30$ & 0.738 & 0.005 & 0.005 & 0.013 & 0.012 & 0.014 & 0.021 \\
+Correlation $\rho=0.60$ & 0.738 & 0.004 & 0.004 & 0.020 & 0.019 & 0.016 & 0.030 \\
+Prevalence $\pi=0.01$, $n_P=25$ & 0.738 & 0.019 & 0.020 & 0.063 & 0.062 & 0.029 & 0.145 \\
+Prevalence $\pi=0.01$, $n_P=100$ & 0.738 & 0.004 & 0.004 & 0.022 & 0.021 & 0.013 & 0.103 \\
+Prevalence $\pi=0.01$, $n_P=500$ & 0.738 & 0.000 & 0.001 & 0.005 & 0.005 & 0.007 & 0.066 \\
+Prevalence $\pi=0.10$, $n_P=25$ & 0.738 & 0.032 & 0.033 & 0.078 & 0.083 & 0.040 & 0.091 \\
+Prevalence $\pi=0.10$, $n_P=100$ & 0.738 & 0.008 & 0.008 & 0.027 & 0.026 & 0.017 & 0.043 \\
+Prevalence $\pi=0.10$, $n_P=500$ & 0.738 & 0.003 & 0.003 & 0.009 & 0.009 & 0.010 & 0.026 \\
+Prevalence $\pi=0.50$, $n_P=25$ & 0.738 & 0.078 & 0.110 & 0.139 & 0.141 & 0.086 & 0.166 \\
+Prevalence $\pi=0.50$, $n_P=100$ & 0.738 & 0.028 & 0.038 & 0.060 & 0.070 & 0.037 & 0.068 \\
+Prevalence $\pi=0.50$, $n_P=500$ & 0.738 & 0.007 & 0.008 & 0.018 & 0.019 & 0.014 & 0.030 \\
+Curved boundary & 0.738 & 0.035 & 0.035 & 0.033 & 0.032 & 0.042 & 0.043 \\
+Feature interaction & 0.739 & 0.080 & 0.080 & 0.029 & 0.027 & 0.125 & 0.085 \\
+Unequal class covariance & 0.739 & 0.028 & 0.028 & 0.010 & 0.010 & 0.052 & 0.019 \\
+\end{longtable}
+\noindent\textit{Note.} Method cells show Bayes AUROC minus observed AUROC; lower regret is better. Bayes references are the existing original benchmark analytic or exact-likelihood-ratio Monte Carlo values; Monte Carlo reference uncertainty is retained in original benchmark. All means use 100 repetitions. No new Bayes approximation is introduced.
+\par\endgroup

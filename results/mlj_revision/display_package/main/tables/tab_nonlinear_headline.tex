@@ -1,0 +1,64 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.480in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}@{}}
+\caption{Nonlinear-extension AUROC for prespecified representative PU configurations.}\label{tab:tab-nonlinear-headline}\\
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Panel A: One-sample}}\\
+\addlinespace[3pt]
+DGP & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Panel A: One-sample}}\\
+\addlinespace[3pt]
+DGP & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+NL01 sinusoidal & 0.778 & 0.701 & 0.751 & 0.754 & 0.711 & 0.739 \\
+\addlinespace[2pt]
+NL02 radial & 0.800 & 0.501 & 0.789 & 0.789 & 0.474 & 0.768 \\
+\addlinespace[2pt]
+NL03 pure XOR & 0.839 & 0.500 & 0.829 & 0.829 & 0.543 & 0.580 \\
+\addlinespace[2pt]
+NL04 threshold interaction & 0.761 & 0.501 & 0.669 & 0.679 & 0.503 & 0.500 \\
+\addlinespace[2pt]
+NL05 sinusoidal + noise (p=500) & 0.779 & 0.609 & 0.734 & 0.735 & 0.726 & 0.721 \\
+\addlinespace[2pt]
+NL06 heterogeneous nonlinear & 0.861 & 0.499 & 0.819 & 0.820 & 0.527 & 0.560 \\
+\addlinespace[2pt]
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.480in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}>{\centering\arraybackslash}p{0.828in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Panel B: Two-sample}}\\
+\addlinespace[3pt]
+DGP & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Panel B: Two-sample}}\\
+\addlinespace[3pt]
+DGP & \shortstack{Bayes\\AUROC} & \shortstack{Logistic\\correction} & \shortstack{Naive\\CatBoost} & \shortstack{CS\\CatBoost} & \shortstack{RN\\CatBoost} & \shortstack{PU gradient\\boosting} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+NL01 sinusoidal & 0.778 & 0.703 & 0.749 & 0.753 & 0.712 & 0.743 \\
+\addlinespace[2pt]
+NL02 radial & 0.800 & 0.499 & 0.789 & 0.789 & 0.473* & 0.764 \\
+\addlinespace[2pt]
+NL03 pure XOR & 0.839 & 0.501 & 0.829 & 0.829 & 0.541 & 0.581 \\
+\addlinespace[2pt]
+NL04 threshold interaction & 0.761 & 0.501 & 0.656 & 0.669 & 0.505 & 0.503 \\
+\addlinespace[2pt]
+NL05 sinusoidal + noise (p=500) & 0.779 & 0.604 & 0.729 & 0.730 & 0.723 & 0.724 \\
+\addlinespace[2pt]
+NL06 heterogeneous nonlinear & 0.861 & 0.501 & 0.814 & 0.816 & 0.526 & 0.595 \\
+\addlinespace[2pt]
+\end{longtable}
+\noindent\textit{Note.} AUROC means from final train+validation refits. * NL02 two-sample RN CatBoost uses n=99; one refit produced zero reliable negatives and remains unavailable. All other entries use n=100. Bayes values are the frozen million-observation calibration estimates. NL01 and NL05 have identical true Bayes information; their displayed estimates differ only by calibration Monte Carlo error.
+\par\endgroup

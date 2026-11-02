@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Family-balanced secondary threshold-based performance for representative fixed PU configurations under the common same-model prevalence-quantile decision rule. Results are first averaged within each of the ten scenario families and the family means are then weighted equally. Balanced accuracy, F1, and MCC are secondary threshold-dependent measures.}
+\label{tab:s-core-secondary-metrics}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X*{6}{r}}
+\toprule
+Method & BA OS & BA TS & F1 OS & F1 TS & MCC OS & MCC TS \\
+\midrule
+Logistic probability correction & -- & -- & -- & -- & -- & -- \\
+nnPU logistic & -- & -- & -- & -- & -- & -- \\
+Naive CatBoost & -- & -- & -- & -- & -- & -- \\
+CS CatBoost & -- & -- & -- & -- & -- & -- \\
+RN CatBoost & -- & -- & -- & -- & -- & -- \\
+PU gradient boosting & -- & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{minipage}{\textwidth}\small
+\textbf{Coverage limitation: the requested ten-family estimates are unavailable.} The saved same-model audit covers only 8 of 40 settings and one repetition per setting in each design; only 6 of 10 families are represented, with partial coverage within the larger families. Thus every summary cell is -- (unavailable), not zero. No eight-setting or six-family mean is substituted. OS and TS denote one- and two-sample designs. See the key-scenario pilot table for verified available values.
+\end{minipage}
+\end{table*}

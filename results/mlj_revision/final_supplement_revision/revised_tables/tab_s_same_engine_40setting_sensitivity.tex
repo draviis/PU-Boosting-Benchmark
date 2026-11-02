@@ -1,0 +1,37 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\LTpre}{4pt}\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.350in}>{\raggedright\arraybackslash}p{1.000in}>{\raggedright\arraybackslash}p{1.059in}>{\raggedright\arraybackslash}p{1.059in}>{\raggedright\arraybackslash}p{1.059in}>{\raggedright\arraybackslash}p{1.059in}@{}}
+\caption{Unweighted 40-setting sensitivity summary. Same-engine PU-minus-naive differences in percentage points.}\label{tab:s-same-engine-40setting-sensitivity}\\
+\toprule
+
+Strategy & Engine & AUROC OS & AUROC TS & AP OS & AP TS \\
+\midrule
+\endfirsthead
+\toprule
+
+Strategy & Engine & AUROC OS & AUROC TS & AP OS & AP TS \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Probability correction & AdaBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & GBM & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & XGBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & LightGBM & +0.00 & +0.00 & +0.00 & +0.00 \\
+Probability correction & CatBoost & +0.00 & +0.00 & +0.00 & +0.00 \\
+RN & AdaBoost & +0.71 & +0.73 & +0.15 & +0.35 \\
+RN & GBM & +0.57 & +0.51 & -0.84 & -0.55 \\
+RN & XGBoost & +0.30 & +0.32 & -0.92 & -0.67 \\
+RN & LightGBM & +1.29 & +1.23 & -0.19 & +0.19 \\
+RN & CatBoost & +0.40 & +0.36 & -1.12 & -0.94 \\
+CS & AdaBoost & +0.05 & +0.04 & +0.09 & +0.07 \\
+CS & GBM & +0.10 & +0.01 & +0.35 & +0.36 \\
+CS & XGBoost & +0.00 & +0.02 & -0.01 & +0.01 \\
+CS & LightGBM & +0.06 & +0.04 & +0.22 & +0.25 \\
+CS & CatBoost & +0.01 & -0.02 & -0.02 & -0.06 \\
+\end{longtable}
+\noindent\textit{Note.} Unweighted 40-setting sensitivity summary. This is not the headline weighting scheme. Entries are signed percentage-point differences. OS: one-sample; TS: two-sample. No BA comparison is included.
+\par\endgroup

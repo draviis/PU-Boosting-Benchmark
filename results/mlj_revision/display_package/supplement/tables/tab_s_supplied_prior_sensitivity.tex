@@ -1,0 +1,648 @@
+% Requires booktabs, array, longtable. Compile from repository root.
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\caption{Supplied-minus-correct-prior AUROC/AP changes for uPU logistic, nnPU logistic, AdaPU and PU gradient boosting. Eight prespecified settings are averaged equally; each setting has 100 paired repetitions. Table rows retain each setting and pointwise 95\% Monte Carlo intervals. The ratio-one point compares each archived correct-prior result with itself, so its difference is identically zero; it is not an imputation. One-sample labeling probability remains as in the archived sensitivity protocol.}\label{tab:tab-s-supplied-prior-sensitivity}\\
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S001 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S001 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.11 & -0.04 & +0.00 & +0.02 & +0.07 & 100 \\
+PU gradient boosting & -1.40 & -0.59 & +0.00 & +0.31 & +0.58 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S001 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S001 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.10 & -0.05 & +0.00 & +0.03 & +0.10 & 100 \\
+PU gradient boosting & -0.94 & -0.42 & +0.00 & +0.21 & +0.39 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S002 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S002 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.01 & -0.02 & +0.00 & +0.05 & +0.02 & 100 \\
+PU gradient boosting & +0.01 & +0.03 & +0.00 & +0.00 & +0.03 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S002 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S002 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.02 & -0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+nnPU logistic & -0.02 & -0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+AdaPU & +0.05 & -0.03 & +0.00 & +0.04 & -0.08 & 100 \\
+PU gradient boosting & -0.13 & +0.18 & +0.00 & +0.32 & +0.54 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S003 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S003 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & +0.01 & -0.05 & +0.00 & +0.00 & +0.05 & 100 \\
+PU gradient boosting & -0.23 & -0.10 & +0.00 & +0.28 & +0.39 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S003 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S003 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & +0.06 & +0.00 & +0.00 & +0.02 & +0.11 & 100 \\
+PU gradient boosting & -0.53 & -0.18 & +0.00 & +0.66 & +0.91 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S011 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S011 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.01 & +0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+nnPU logistic & +0.01 & +0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+AdaPU & -0.73 & -0.47 & +0.00 & +0.32 & +0.29 & 100 \\
+PU gradient boosting & -0.32 & -0.19 & +0.00 & +0.18 & +0.29 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S011 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S011 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.01 & +0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+nnPU logistic & +0.01 & +0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+AdaPU & -0.92 & -0.58 & +0.00 & +0.55 & +0.81 & 100 \\
+PU gradient boosting & -0.28 & -0.15 & +0.00 & +0.13 & +0.21 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S026 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S026 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.06 & +0.04 & +0.00 & -0.03 & -0.08 & 100 \\
+nnPU logistic & +0.06 & +0.04 & +0.00 & -0.03 & +0.01 & 100 \\
+AdaPU & -0.15 & -0.09 & +0.00 & +0.07 & +0.20 & 100 \\
+PU gradient boosting & -1.78 & -0.73 & +0.00 & +0.44 & +1.01 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S026 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S026 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.06 & +0.04 & +0.00 & -0.04 & -0.08 & 100 \\
+nnPU logistic & +0.06 & +0.04 & +0.00 & -0.04 & +0.00 & 100 \\
+AdaPU & -0.14 & -0.10 & +0.00 & +0.08 & +0.20 & 100 \\
+PU gradient boosting & -1.19 & -0.50 & +0.00 & +0.29 & +0.63 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S038 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S038 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.02 & +0.01 & +0.00 & -0.01 & -0.02 & 100 \\
+nnPU logistic & +0.02 & +0.01 & +0.00 & -0.01 & -0.02 & 100 \\
+AdaPU & -0.07 & -0.04 & +0.00 & +0.02 & +0.16 & 100 \\
+PU gradient boosting & -1.18 & -0.51 & +0.00 & +0.55 & +0.82 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S038 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S038 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.07 & -0.03 & +0.00 & +0.05 & +0.14 & 100 \\
+PU gradient boosting & -0.86 & -0.32 & +0.00 & +0.43 & +0.62 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S039 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S039 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.21 & -0.03 & +0.00 & +0.11 & +0.11 & 100 \\
+PU gradient boosting & -0.53 & -0.29 & +0.00 & +0.37 & +0.65 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S039 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S039 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.15 & -0.06 & +0.00 & +0.11 & +0.16 & 100 \\
+PU gradient boosting & -0.31 & -0.10 & +0.00 & +0.22 & +0.42 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S040 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S040 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.01 & 100 \\
+nnPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.01 & 100 \\
+AdaPU & +0.01 & -0.07 & +0.00 & -0.19 & -0.28 & 100 \\
+PU gradient boosting & -1.46 & -0.92 & +0.00 & +0.29 & +0.71 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S040 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{One-sample - S040 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.06 & -0.06 & +0.00 & -0.05 & -0.05 & 100 \\
+PU gradient boosting & -0.94 & -0.60 & +0.00 & +0.23 & +0.50 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS001 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS001 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.12 & -0.13 & +0.00 & +0.02 & +0.14 & 100 \\
+PU gradient boosting & -0.15 & -0.09 & +0.00 & +0.07 & +0.09 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS001 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS001 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.12 & -0.08 & +0.00 & +0.04 & +0.12 & 100 \\
+PU gradient boosting & -0.11 & -0.06 & +0.00 & +0.06 & +0.10 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS002 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS002 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.01 & +0.00 & +0.00 & +0.00 & -0.01 & 100 \\
+nnPU logistic & +0.01 & +0.00 & +0.00 & +0.00 & -0.01 & 100 \\
+AdaPU & +0.01 & +0.02 & +0.00 & +0.01 & +0.02 & 100 \\
+PU gradient boosting & -0.06 & -0.04 & +0.00 & +0.05 & +0.06 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS002 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS002 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & -0.01 & +0.00 & +0.00 & +0.01 & 100 \\
+nnPU logistic & -0.01 & -0.01 & +0.00 & +0.00 & +0.01 & 100 \\
+AdaPU & -0.01 & +0.03 & +0.00 & +0.06 & +0.07 & 100 \\
+PU gradient boosting & -0.31 & -0.16 & +0.00 & +0.39 & +0.52 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS003 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS003 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.08 & -0.05 & +0.00 & -0.02 & -0.01 & 100 \\
+PU gradient boosting & -0.37 & -0.18 & +0.00 & +0.16 & +0.26 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS003 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS003 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.06 & -0.04 & +0.00 & -0.04 & -0.01 & 100 \\
+PU gradient boosting & -0.46 & -0.23 & +0.00 & +0.19 & +0.33 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS011 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS011 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.13 & +0.10 & +0.00 & +0.01 & +0.03 & 100 \\
+nnPU logistic & +0.13 & +0.10 & +0.00 & +0.01 & +0.03 & 100 \\
+AdaPU & -0.84 & -0.17 & +0.00 & -0.78 & -1.50 & 100 \\
+PU gradient boosting & +0.02 & +0.02 & +0.00 & +0.01 & -0.06 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS011 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS011 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.13 & +0.10 & +0.00 & +0.02 & +0.04 & 100 \\
+nnPU logistic & +0.13 & +0.10 & +0.00 & +0.02 & +0.04 & 100 \\
+AdaPU & -1.30 & -0.43 & +0.00 & -0.38 & -0.81 & 100 \\
+PU gradient boosting & -0.01 & -0.01 & +0.00 & +0.03 & -0.02 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS026 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS026 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.39 & +0.35 & +0.00 & -3.53 & -4.78 & 100 \\
+nnPU logistic & -1.05 & -0.48 & +0.00 & +0.15 & +0.21 & 100 \\
+AdaPU & -0.39 & -0.16 & +0.00 & +0.07 & +0.19 & 100 \\
+PU gradient boosting & -0.06 & -0.07 & +0.00 & +0.07 & +0.11 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS026 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS026 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.48 & +0.44 & +0.00 & -4.43 & -6.06 & 100 \\
+nnPU logistic & -1.10 & -0.51 & +0.00 & +0.16 & +0.22 & 100 \\
+AdaPU & -0.31 & -0.12 & +0.00 & +0.10 & +0.22 & 100 \\
+PU gradient boosting & -0.07 & -0.05 & +0.00 & +0.06 & +0.09 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS038 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS038 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.02 & +0.01 & +0.00 & -0.01 & -0.02 & 100 \\
+nnPU logistic & +0.02 & +0.01 & +0.00 & -0.01 & -0.02 & 100 \\
+AdaPU & -0.08 & -0.13 & +0.00 & -0.09 & +0.07 & 100 \\
+PU gradient boosting & -0.19 & -0.14 & +0.00 & -0.03 & +0.03 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS038 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS038 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.12 & -0.11 & +0.00 & -0.05 & +0.07 & 100 \\
+PU gradient boosting & -0.12 & -0.11 & +0.00 & +0.00 & +0.06 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS039 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS039 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.19 & +0.04 & +0.00 & +0.13 & +0.24 & 100 \\
+PU gradient boosting & +0.01 & +0.01 & +0.00 & +0.08 & +0.14 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS039 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS039 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+nnPU logistic & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & 100 \\
+AdaPU & -0.17 & -0.07 & +0.00 & +0.17 & +0.30 & 100 \\
+PU gradient boosting & +0.01 & +0.00 & +0.00 & +0.07 & +0.10 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS040 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS040 / AP}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & -0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+nnPU logistic & -0.01 & -0.01 & +0.00 & +0.01 & +0.01 & 100 \\
+AdaPU & +0.18 & +0.01 & +0.00 & +0.01 & -0.04 & 100 \\
+PU gradient boosting & -0.18 & -0.08 & +0.00 & +0.09 & +0.00 & 100 \\
+\end{longtable}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.650in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}>{\centering\arraybackslash}p{0.800in}@{}}
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS040 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endfirsthead
+\toprule
+\multicolumn{7}{@{}l}{\textbf{Two-sample - TS040 / AUROC}}\\
+\addlinespace[3pt]
+Method & 0.80 & 0.90 & 1.00 & 1.10 & 1.20 & n \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+uPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.01 & 100 \\
+nnPU logistic & -0.01 & +0.00 & +0.00 & +0.00 & +0.01 & 100 \\
+AdaPU & +0.01 & -0.04 & +0.00 & +0.04 & +0.07 & 100 \\
+PU gradient boosting & -0.11 & -0.04 & +0.00 & +0.05 & +0.01 & 100 \\
+\end{longtable}
+\noindent\textit{Note.} Columns are supplied/true prior ratios; entries are paired mean changes from the correct supplied prior in percentage points. All cells use 100 pairs. The ratio-one difference is the observed baseline compared with itself. Full-precision MCSE and 95\% Monte Carlo intervals are in the accompanying numeric audit CSV; the figure gives an equally weighted eight-setting summary.
+\par\endgroup
